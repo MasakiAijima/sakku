@@ -12,6 +12,7 @@ export type RecordView = {
   id: string; scene_text: string; haiku_text: string; record_date: string;
   event_text: string; emotion_text: string; status: RecordStatus; revision: number;
   photo_id: string;
+  generation_job_id: string | null; selected_candidate_index: number | null;
   created_at: string; updated_at: string;
 };
 export type RecordPage = {records: RecordView[]; nextCursor: string | null};

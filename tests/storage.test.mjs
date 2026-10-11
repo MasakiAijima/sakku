@@ -96,12 +96,25 @@ test("情景変更後は再選択するまで完成保存できない",()=>{
  assert.equal(canCompleteScene("情景","",null),false);
 });
 import {getPreferences,savePreferences} from "../.sites-runtime/test-lib/lib/preferences.js";
-import {generateHaiku} from "../.sites-runtime/test-lib/lib/haiku-provider.js";
+import {generateHaiku,listGenerationHistory} from "../.sites-runtime/test-lib/lib/haiku-provider.js";
+import {translateHaiku} from "../.sites-runtime/test-lib/lib/haiku-translation.js";
 import {photoType} from "../.sites-runtime/test-lib/shared/photo.js";
 test("設定を本人別に保存し、他人の設定を返さない",async()=>{
- const db=database();await savePreferences(db,'alice',{name:'A',style:'自由詩に近いHaiku',expression:'simple words'});
- assert.equal((await getPreferences(db,'alice')).name,'A');assert.equal((await getPreferences(db,'bob')).name,'');
+ const db=database();await savePreferences(db,'alice',{name:'A',style:'自由詩に近いHaiku',expression:'simple words',appLanguage:'English'});
+ assert.equal((await getPreferences(db,'alice')).appLanguage,'English');assert.equal((await getPreferences(db,'bob')).appLanguage,'日本語');
  await assert.rejects(()=>savePreferences(db,'alice',{name:'A',style:'invalid',expression:''}),e=>e.status===422);db.sql.close();
+});
+test("翻訳は3行・語句・ニュアンスを検証し、Groq形式を受け取る",async()=>{
+ const body={title:'After Rain',lines:['a leaf lets go','one clear drop','the phone stays still'],targetLanguage:'日本語'};let request;
+ const transport=async(url,init)=>{request={url,payload:JSON.parse(init.body)};return new Response(JSON.stringify({choices:[{message:{content:JSON.stringify({title:'雨のあと',lines:['葉が手放す','澄んだ雫ひとつ','電話は静かなまま'],keyTerms:[{term:'lets go',meaning:'手放す'}],nuance:'ためらいを静けさとして残す。'})}}]}),{status:200})};
+ const result=await translateHaiku(body,{provider:'groq',key:'fixture',model:'fixture'},transport);
+ assert.equal(result.lines.length,3);assert.equal(result.keyTerms[0].term,'lets go');assert.equal(request.url,'https://api.groq.com/openai/v1/chat/completions');assert.equal(request.payload.response_format.type,'json_schema');
+});
+test("翻訳は不正入力、外部失敗、不正応答を拒否する",async()=>{
+ const config={provider:'groq',key:'fixture',model:'fixture'},body={title:'Title',lines:['one','two','three'],targetLanguage:'日本語'};
+ await assert.rejects(()=>translateHaiku({...body,lines:['one','two']},config),e=>e.status===422);
+ await assert.rejects(()=>translateHaiku(body,config,async()=>new Response('',{status:500})),e=>e.status===502);
+ await assert.rejects(()=>translateHaiku(body,config,async()=>new Response(JSON.stringify({choices:[{message:{content:'{"title":"bad"}'}}]}),{status:200})),e=>e.status===502);
 });
 test("他人の写真を記録に紐づけられない",async()=>{
  const db=database(),photo=crypto.randomUUID();db.sql.prepare('INSERT INTO attachments VALUES(?,?,?,?,?,?)').run(photo,'alice','photos/'+photo,'image/jpeg',10,'now');
@@ -136,6 +149,19 @@ test("生成の試用上限を超えると外部呼出しを行わない",async(
  const transport=async()=>{calls++;return responseFixture()};
  for(let i=0;i<20;i++)await generateHaiku(db,'alice',{sceneText:'情景',requestKey:crypto.randomUUID()},config,transport);
  await assert.rejects(()=>generateHaiku(db,'alice',{sceneText:'情景',requestKey:crypto.randomUUID()},config,transport),e=>e.status===429);assert.equal(calls,20);db.sql.close();
+});
+test("Groq互換APIへJSON Schemaで送り、providerとモデルを履歴に残す",async()=>{
+ const db=database(),request={sceneText:'夜の風',requestKey:crypto.randomUUID()};let seen;
+ const transport=async(url,init)=>{seen={url,body:JSON.parse(init.body)};return new Response(JSON.stringify({choices:[{message:{content:JSON.stringify({candidates:Array.from({length:3},(_,i)=>({title:'Groq '+i,lines:['night','wind','home']}))})}}],usage:{prompt_tokens:12,completion_tokens:18}}),{status:200})};
+ const result=await generateHaiku(db,'alice',request,{provider:'groq',key:'fixture',model:'openai/gpt-oss-20b'},transport);
+ assert.equal(seen.url,'https://api.groq.com/openai/v1/chat/completions');assert.equal(seen.body.response_format.type,'json_schema');assert.ok(result.jobId);
+ const [job]=await listGenerationHistory(db,'alice');assert.equal(job.provider,'groq');assert.equal(job.model,'openai/gpt-oss-20b');assert.equal(job.usage.completion_tokens,18);assert.equal((await listGenerationHistory(db,'bob')).length,0);db.sql.close();
+});
+test("サービス上限と有料予算は外部APIを呼ぶ前に停止する",async()=>{
+ const db=database();let calls=0,transport=async()=>{calls++;return responseFixture()};
+ await assert.rejects(()=>generateHaiku(db,'alice',{sceneText:'情景',requestKey:crypto.randomUUID()},{key:'fixture',model:'paid',paidMode:true},transport),e=>e.status===503);
+ await assert.rejects(()=>generateHaiku(db,'alice',{sceneText:'情景',requestKey:crypto.randomUUID()},{key:'fixture',model:'paid',serviceDailyLimit:1,serviceDailyTokenLimit:1},transport),e=>e.status===429);
+ assert.equal(calls,0);db.sql.close();
 });
 import {boundedBody} from "../.sites-runtime/test-lib/lib/bounded-body.js";
 test("リクエスト本文を読み込み中に上限で拒否する",async()=>{

@@ -23,13 +23,25 @@ Corepackが未導入の場合は、先に `npm install --global corepack` を実
 プロジェクト直下に `.env.local` を作成済みです。キーの値は空です。Codexのファイル一覧で開いて、ご自身のPC上で記入してください。
 
 ```dotenv
-OPENAI_API_KEY=
-HAIKU_MODEL=
+AI_PROVIDER=groq
+HAIKU_MODEL=openai/gpt-oss-20b
+GROQ_API_KEY=
+HAIKU_USER_DAILY_LIMIT=20
+HAIKU_SERVICE_DAILY_LIMIT=1000
+HAIKU_SERVICE_DAILY_TOKEN_LIMIT=1000000
+HAIKU_MAX_OUTPUT_TOKENS=1800
+HAIKU_PAID_MODE=false
 ```
 
-`OPENAI_API_KEY=` の右側に保存済みのキーを記入します。`HAIKU_MODEL=` の右側には、利用するResponses APIとStructured Outputs対応モデルのIDを指定します。モデルはまだ選定していません。両方を保存して開発サーバーを再起動すると生成が有効になります。未設定の間は生成APIが503を返します。
+`GROQ_API_KEY=` の右側に保存済みのキーを記入します。`AI_PROVIDER=groq` と `HAIKU_MODEL=openai/gpt-oss-20b` を保存して開発サーバーを再起動すると生成が有効になります。未設定の間は生成APIが503を返します。OpenAI APIを使う場合は `AI_PROVIDER=openai` と `OPENAI_API_KEY` に切り替えられます。
 このファイルはGitの管理対象外です。チャットへの貼り付けや配布ZIPへの再同梱は避けてください。
 本番サイトの環境変数とは別の設定です。このファイルを編集しても、公開済みSakkuの設定は変更されません。
+
+Groq は OpenAI 互換の Chat Completions API と JSON Schema Structured Outputs を使います。キーはサーバー環境だけで読み、ブラウザーへの応答やログには含めません。生成は UTC 日ごとに本人20回、サービス全体1,000回／予約トークン100万を既定上限として、外部APIを呼ぶ前に原子的に枠を予約します。同じ `requestKey` の再送は保存済み結果を返し、失敗・429・45秒タイムアウトを同じキーで自動再試行しません。
+
+無料運用から有料モデルへ自動切替はしません。有料利用を明示的に有効にする場合だけ `HAIKU_PAID_MODE=true`、`HAIKU_DAILY_BUDGET_MICRO_USD`（1 USD = 1,000,000）、1回分の最大予約額 `HAIKU_RESERVE_MICRO_USD` を設定してください。いずれかが未設定、または日次予約額が予算を超える場合は外部APIを呼ばず停止します。
+
+生成履歴には、情景文と補助条件、3候補、provider/model、プロンプト版、使用量、状態、日時を保存します。完成記録には生成ジョブ、選択候補番号、実際に保存した編集稿を関連付けます。候補履歴は認証済みの本人だけが最新50件を再閲覧できます。現時点では自動削除を行わず記録と同期間保持します。削除機能を導入するまでは D1 管理者による本人単位の削除を運用手順とし、候補だけを先に消す場合は完成記録側の編集稿を残します。
 
 ## ローカル保存
 

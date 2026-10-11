@@ -11,13 +11,14 @@ if(sceneText.length>10000||haikuText.length>1000)throw new InputError("文章が
 if(v.status!=="draft"&&v.status!=="completed")throw new InputError("保存形式を確認してください。");
 const eventText=optionalNote(v.eventText),emotionText=optionalNote(v.emotionText);
 const photoId=v.photoId;if(photoId!==undefined&&(typeof photoId!=="string"||(photoId!==""&&!UUID.test(photoId))))throw new InputError("写真を確認してください。");
+const generationJobId=v.generationJobId;if(generationJobId!==undefined&&generationJobId!==""&&(typeof generationJobId!=="string"||!UUID.test(generationJobId)))throw new InputError("生成履歴を確認してください。");
+const selectedCandidateIndex=v.selectedCandidateIndex;if(selectedCandidateIndex!==undefined&&selectedCandidateIndex!==null&&(!Number.isInteger(selectedCandidateIndex)||Number(selectedCandidateIndex)<0||Number(selectedCandidateIndex)>2))throw new InputError("選択した候補を確認してください。");
 if(!sceneText&&!haikuText&&!eventText?.trim()&&!emotionText?.trim())throw new InputError("情景文をひとこと書いてください。");
 if(v.status==="completed"){
 if(!sceneText||!haikuText)throw new InputError("完成記録には情景文とHaikuが必要です。");
 const lines=haikuText.split("\n");if(lines.length!==3||lines.some(l=>!l.trim()))throw new InputError("Haikuは空行のない3行で入力してください。");}
 const date=v.recordDate;
 if(!validDate(date))throw new InputError("有効な記録日を選んでください。");
-return {sceneText,haikuText,recordDate:date,status:v.status,eventText,emotionText,photoId:photoId as string|undefined};
+return {sceneText,haikuText,recordDate:date,status:v.status,eventText,emotionText,photoId:photoId as string|undefined,generationJobId:generationJobId as string|undefined,selectedCandidateIndex:selectedCandidateIndex as number|undefined};
 }
 export function parseRevision(v:unknown){if(!Number.isInteger(v)||Number(v)<1)throw new InputError("編集版を確認してください。");return Number(v);}
-
