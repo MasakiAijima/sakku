@@ -138,6 +138,11 @@ test("前後空白のある生成履歴から保存・更新でき、別の情�
  assert.equal(JSON.parse(db.sql.prepare('SELECT input_json FROM generation_jobs WHERE id=?').get(generated.jobId).input_json).sceneText,sceneText);
  await assert.rejects(()=>createRecord(db,'alice',{...value,createKey:crypto.randomUUID(),sceneText:'別の情景'}),e=>e.status===409);
  await assert.rejects(()=>createRecord(db,'bob',{...value,createKey:crypto.randomUUID()}),e=>e.status===404);
+ const retained=await updateRecord(db,'alice',record.id,input({revision:2,haikuText:value.haikuText}));
+ assert.equal(retained.generation_job_id,generated.jobId);
+ const detached=await updateRecord(db,'alice',record.id,{...value,revision:3,sceneText:'新しい情景',generationJobId:'',selectedCandidateIndex:null,status:'draft'});
+ assert.equal(detached.generation_job_id,null);assert.equal(detached.selected_candidate_index,null);
+ assert.equal((await getRecord(db,'alice',record.id)).scene_text,'新しい情景');
  db.sql.close();
 });
 test("AI未設定なら外部リクエストと履歴を作らない",async()=>{
