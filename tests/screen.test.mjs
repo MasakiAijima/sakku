@@ -28,7 +28,7 @@ await page.route('**/api/**',async route=>{
    data={records:paginate&&!url.searchParams.has('cursor')?scoped.slice(0,1):paginate?scoped.slice(1):scoped,nextCursor:paginate&&!url.searchParams.has('cursor')?'fixture + cursor':null};
   }else{
    const input=req.postDataJSON();saves.push(input);
-   const r={id:'00000000-0000-4000-8000-000000000002',record_date:input.recordDate,scene_text:input.sceneText,haiku_text:input.haikuText,event_text:input.eventText,emotion_text:input.emotionText,status:input.status,revision:2};
+   const r={id:'00000000-0000-4000-8000-000000000002',record_date:input.recordDate,scene_text:input.sceneText,haiku_text:input.haikuText,generation_job_id:input.generationJobId||null,selected_candidate_index:input.selectedCandidateIndex??null,event_text:input.eventText,emotion_text:input.emotionText,status:input.status,revision:2};
    rows=rows.filter(x=>x.id!==r.id).concat(r);data={record:r};
   }
  }else throw Error('Unexpected fixture request '+url.pathname);
@@ -67,11 +67,14 @@ try{
  await page.locator('[data-candidate="0"]').click();assert.equal(await page.locator('#poem').inputValue(),edited);
  await page.locator('[data-candidate="0"]').click();assert.equal(await page.locator('#poem').inputValue(),edited);
  failGeneration=true;await page.locator('#regenerate').click();await page.waitForFunction(()=>!document.querySelector('#regenerate').disabled);assert.equal(await page.locator('#poem').inputValue(),edited);failGeneration=false;
+ await page.locator('main [data-go=edit]').click();await page.locator('#scene').fill('  My own scene  ');await page.locator('#to-result').click();assert.equal(await page.locator('#save').isDisabled(),false,'surrounding whitespace does not stale the selection');assert.equal(await page.locator('[data-candidate="0"]').isDisabled(),false);
  await page.locator('main [data-go=edit]').click();await page.locator('#scene').fill('Changed scene');await page.locator('#to-result').click();assert.equal(await page.locator('#save').isDisabled(),true);
- await page.locator('[data-candidate="0"]').click();assert.equal(await page.locator('#poem').inputValue(),edited);
- await page.locator('#draft-save').click();await page.waitForFunction(()=>!document.querySelector('#draft-save').disabled);assert.equal(saves.at(-1).status,'draft');
- await page.locator('#save').click();await page.locator('#share-record').waitFor();assert.equal(saves.at(-1).status,'completed');assert.equal(saves.at(-1).haikuText,edited);
- await home();assert.equal(await page.locator('[data-detail]').count(),0,'out-of-range save must not appear in scoped archive');
+ assert.equal(await page.locator('[data-candidate="0"]').isDisabled(),true);assert.equal(await page.locator('#poem').getAttribute('readonly'),'');assert.equal(await page.locator('#refine-send').isDisabled(),true);
+ await page.locator('#draft-save').click();await page.waitForFunction(()=>!document.querySelector('#draft-save').disabled);assert.equal(saves.at(-1).status,'draft');assert.equal(saves.at(-1).generationJobId,'');assert.equal(saves.at(-1).haikuText,'','stale poem is not reintroduced when a draft is reopened');assert.equal(saves.at(-1).selectedCandidateIndex,undefined);assert.equal(await page.locator('#save').isDisabled(),true);
+ await home();await page.locator('#period-kind').selectOption('all');await page.waitForFunction(()=>!document.querySelector('#period-kind').disabled);await page.locator('[data-detail="00000000-0000-4000-8000-000000000002"]').click();await page.locator('#to-result').click();await page.locator('[data-candidate="2"]').waitFor();assert.equal(await page.locator('#save').isDisabled(),true,'reopened stale draft requires a new candidate selection');await page.locator('[data-candidate="2"]').click();await page.waitForFunction(()=>!document.querySelector('#save').disabled);await page.locator('#poem').fill(edited);
+ await page.locator('#save').click();await page.locator('#share-record').waitFor();assert.equal(saves.at(-1).status,'completed');assert.equal(saves.at(-1).haikuText,edited);assert.equal(saves.at(-1).selectedCandidateIndex,2);assert.equal(saves.at(-1).sceneText,'Changed scene');
+ await page.locator('#edit-record').click();await page.locator('#to-result').click();await page.locator('#save').click();await page.locator('#share-record').waitFor();assert.equal(saves.at(-1).selectedCandidateIndex,2,'reopening a saved record preserves its original candidate index');assert.equal(saves.at(-1).generationJobId,'00000000-0000-4000-8000-000000000003');
+ await home();await page.locator('#period-kind').selectOption('sekki');await page.locator('#period-from').fill('2025-01-01');await page.locator('#period-to').fill('2025-02-01');await submit();assert.equal(await page.locator('[data-detail]').count(),0,'out-of-range save must not appear in scoped archive');
  await page.locator('#period-kind').selectOption('kou');const unreadyQueries=queries.length;await page.locator('#new').click();await page.locator('#scene').fill('Unready period draft');await page.locator('#draft-save').click();await page.waitForFunction(()=>!document.querySelector('#draft-save').disabled);await home();assert.equal(queries.length,unreadyQueries);assert.equal(await page.locator('[data-detail]').count(),0);assert.equal(await page.locator('.empty').count(),0);
  await page.locator('#period-kind').selectOption('all');await page.waitForFunction(()=>!document.querySelector('#period-kind').disabled);
  await page.locator('.visual-comparison summary').click();assert.equal(await page.locator('.visual-sample').count(),6);
