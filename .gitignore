@@ -27,6 +27,7 @@ node_modules/
 .sites-runtime/
 dist/
 coverage/
+.test-artifacts/
 
 # Logs and local editor/OS files
 *.log

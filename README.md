@@ -80,6 +80,8 @@ PLAYWRIGHT_MODULE=/path/to/playwright/index.mjs pnpm test:screen
 
 `TEST_BASE_URL` の既定値は `http://127.0.0.1:5173`、`BROWSER_CHANNEL` は `chrome`。`SCREENSHOT_DIR` を指定すると画面を保存します。試験はAPIを固定応答に置き換え、実AI・本番データを使いません。
 
+GitHub Actionsの `Verify Sakku` はPRとmainへのpushで、型・lint・保存と期間のテスト・ビルド・Chrome画面試験を実行します。Node.js 24とロックファイルの依存を使い、ブラウザー試験用のPlaywrightは一時フォルダーへインストールします。実行結果のArtifactsからスクリーンショットとサーバーログを7日間取得できます。実機・実AIの品質評価は含みません。
+
 ## 引き継ぎ
 
 公開中のSakkuのコミット `7fa78ebd5d50388df006e5c2a2aa3277791e9d45` から作成し、ローカル設定を追加したコピーです。本番サイトは変更していません。Git履歴・依存パッケージ・認証情報・本番データ・ビルド済みファイルを含みません。

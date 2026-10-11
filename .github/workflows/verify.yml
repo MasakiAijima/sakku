@@ -1,0 +1,82 @@
+name: Verify Sakku
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verify-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      CI: 'true'
+      WRANGLER_SEND_METRICS: 'false'
+      CLOUDFLARE_CF_FETCH_ENABLED: 'false'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Install dependencies from lockfile
+        run: |
+          npm install --global pnpm@11.25.0
+          pnpm install --frozen-lockfile
+      - name: Typecheck
+        run: pnpm typecheck
+      - name: Lint
+        run: pnpm lint
+      - name: Test storage and periods
+        run: pnpm test
+      - name: Build
+        run: pnpm build
+      - name: Install browser test tools
+        run: |
+          npm install --prefix "$RUNNER_TEMP/browser-test" --package-lock=false --ignore-scripts playwright@1.64.0
+          node "$RUNNER_TEMP/browser-test/node_modules/playwright/cli.js" install --with-deps chrome
+      - name: Start local app
+        run: |
+          pnpm dev > "$RUNNER_TEMP/sakku-dev.log" 2>&1 &
+          echo "$!" > "$RUNNER_TEMP/sakku-dev.pid"
+          for attempt in {1..60}; do
+            if curl --fail --silent http://127.0.0.1:5173/ > /dev/null; then
+              exit 0
+            fi
+            if ! kill -0 "$(cat "$RUNNER_TEMP/sakku-dev.pid")" 2>/dev/null; then
+              cat "$RUNNER_TEMP/sakku-dev.log"
+              exit 1
+            fi
+            sleep 1
+          done
+          cat "$RUNNER_TEMP/sakku-dev.log"
+          exit 1
+      - name: Test screen interactions in Chrome
+        run: pnpm test:screen
+        env:
+          PLAYWRIGHT_MODULE: ${{ runner.temp }}/browser-test/node_modules/playwright/index.mjs
+          SCREENSHOT_DIR: .test-artifacts
+      - name: Stop local app
+        if: always()
+        run: |
+          if [[ -f "$RUNNER_TEMP/sakku-dev.pid" ]]; then
+            kill "$(cat "$RUNNER_TEMP/sakku-dev.pid")" 2>/dev/null || true
+          fi
+      - name: Upload screenshots and server log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: screen-verification-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            .test-artifacts/
+            ${{ runner.temp }}/sakku-dev.log
+          if-no-files-found: ignore
+          retention-days: 7
