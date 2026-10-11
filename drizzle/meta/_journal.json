@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1791644930535,
+      "tag": "0000_careless_night_nurse",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1791677105760,
+      "tag": "0001_adorable_emma_frost",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1791679343612,
+      "tag": "0002_unique_albert_cleary",
+      "breakpoints": true
+    }
+  ]
+}

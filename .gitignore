@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local databases and Cloudflare state
+.wrangler/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Build and test output
+.next/
+dist/
+coverage/
+
+# Logs and local editor/OS files
+*.log
+.DS_Store
+.idea/
+.vscode/
+
+# TypeScript incremental cache
+*.tsbuildinfo
