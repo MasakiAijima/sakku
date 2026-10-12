@@ -22,7 +22,7 @@ async function checkGeneration(db:D1Database,owner:string,input:ReturnType<typeo
  if(!input.generationJobId)return;
  const job=await db.prepare("SELECT input_json,status,output_json FROM generation_jobs WHERE id=? AND owner_id=?").bind(input.generationJobId,owner).first<{input_json:string;status:string;output_json:string|null}>();
  if(!job||job.status!=="succeeded")throw new InputError("生成履歴が見つかりません。",404);
- if(JSON.parse(job.input_json).sceneText!==input.sceneText)throw new InputError("情景と生成履歴が一致しません。",409);
+ if(JSON.parse(job.input_json).sceneText.trim()!==input.sceneText)throw new InputError("情景と生成履歴が一致しません。",409);
  if(input.selectedCandidateIndex===undefined||!JSON.parse(job.output_json!).candidates[input.selectedCandidateIndex])throw new InputError("選択した候補が見つかりません。",409);
 }
 export async function createRecord(db:D1Database,owner:string,body:unknown){
@@ -38,6 +38,6 @@ return row;}
 export async function updateRecord(db:D1Database,owner:string,id:string,body:unknown){
 const input=parseRecord(body),revision=parseRevision((body as {revision?:unknown}).revision);
 await getRecord(db,owner,id);await checkPhoto(db,owner,input.photoId);await checkGeneration(db,owner,input);
-const result=await db.prepare("UPDATE records SET scene_text=?,haiku_text=?,record_date=?,status=?,event_text=COALESCE(?,event_text),emotion_text=COALESCE(?,emotion_text),photo_id=COALESCE(?,photo_id),generation_job_id=COALESCE(?,generation_job_id),selected_candidate_index=COALESCE(?,selected_candidate_index),revision=revision+1,updated_at=? WHERE id=? AND owner_id=? AND revision=?").bind(input.sceneText,input.haikuText,input.recordDate,input.status,input.eventText??null,input.emotionText??null,input.photoId??null,input.generationJobId||null,input.selectedCandidateIndex??null,new Date().toISOString(),id,owner,revision).run();
+const result=await db.prepare("UPDATE records SET scene_text=?,haiku_text=?,record_date=?,status=?,event_text=COALESCE(?,event_text),emotion_text=COALESCE(?,emotion_text),photo_id=COALESCE(?,photo_id),generation_job_id=CASE WHEN ? THEN ? ELSE generation_job_id END,selected_candidate_index=CASE WHEN ? THEN NULL ELSE COALESCE(?,selected_candidate_index) END,revision=revision+1,updated_at=? WHERE id=? AND owner_id=? AND revision=?").bind(input.sceneText,input.haikuText,input.recordDate,input.status,input.eventText??null,input.emotionText??null,input.photoId??null,input.generationJobId!==undefined?1:0,input.generationJobId||null,input.generationJobId===""?1:0,input.selectedCandidateIndex??null,new Date().toISOString(),id,owner,revision).run();
 if(!result.meta.changes)throw new InputError("別の編集で更新されています。内容を控えてから記録を読み直してください。",409);
 return getRecord(db,owner,id);}

@@ -59,16 +59,28 @@ DBはD1のローカルエミュレーション、写真はR2のローカルエ�
 
 ## 未完了
 
-APIキーの記入・モデル選定・実生成の確認、ローカルブラウザーでの操作確認は未完了です。スマートフォンの実装・認証、二十四節気・七十二候の暦と閲覧、生成画像の検証は今後の工程です。画像生成は独立した工程3Bとして扱います。
+実生成の品質評価、スマートフォンの実装・認証、正式な二十四節気・七十二候の暦、生成画像の検証は未完了です。Issue #6の期間閲覧は日付・暦年・手入力期間による試作です。工程3Bの比較欄はCSS図形で、最終採用ではありません。
 
 ## 確認コマンド
 
 ```bash
 pnpm typecheck
+pnpm test
 pnpm build
 ```
 
 API仕様は `docs/record-api.md`、構成方針は `docs/architecture.md` を参照してください。
+工程2・3Bの確定した方向、試作、未検証事項は `docs/issue-6-design-spec.md`、検証結果は `docs/issue-6-verification.md` に記録しています。
+
+画面試験は `pnpm dev` で起動したローカル画面を使います。PlaywrightとChromeが別途必要です。Playwrightがプロジェクトの依存パッケージにない場合は、インストール済みモジュールの絶対パスを `PLAYWRIGHT_MODULE` に指定します。
+
+```bash
+PLAYWRIGHT_MODULE=/path/to/playwright/index.mjs pnpm test:screen
+```
+
+`TEST_BASE_URL` の既定値は `http://127.0.0.1:5173`、`BROWSER_CHANNEL` は `chrome`。`SCREENSHOT_DIR` を指定すると画面を保存します。試験はAPIを固定応答に置き換え、実AI・本番データを使いません。
+
+GitHub Actionsの `Verify Sakku` はPRとmainへのpushで、型・lint・保存と期間のテスト・ビルド・Chrome画面試験を実行します。Node.js 24とロックファイルの依存を使い、ブラウザー試験用のPlaywrightは一時フォルダーへインストールします。実行結果のArtifactsからスクリーンショットとサーバーログを7日間取得できます。実機・実AIの品質評価は含みません。
 
 ## 引き継ぎ
 
