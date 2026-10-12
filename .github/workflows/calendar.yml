@@ -1,14 +1,8 @@
-name: Calendar data
+name: Calendar data issue 11 isolated operations test
 on:
-  push:
-    paths: ['data/calendar/**', 'shared/calendar.mjs', 'scripts/calendar*.mjs', 'tests/calendar.test.mjs', '.github/workflows/calendar.yml']
-  pull_request:
-    paths: ['data/calendar/**', 'shared/calendar.mjs', 'scripts/calendar*.mjs', 'tests/calendar.test.mjs', '.github/workflows/calendar.yml']
-  schedule:
-    - cron: '0 0 1 10 *'
   workflow_dispatch:
 concurrency:
-  group: calendar-data-${{ github.event_name == 'pull_request' && github.event.pull_request.number || 'maintenance' }}
+  group: calendar-data-issue11-test-${{ github.event_name == 'pull_request' && github.event.pull_request.number || 'maintenance' }}
   cancel-in-progress: false
 permissions:
   contents: read
@@ -37,9 +31,10 @@ jobs:
         if: github.event_name == 'workflow_dispatch'
         uses: peter-evans/create-pull-request@v7
         with:
-          branch: codex/calendar-data-update
+          base: codex/issue11-ops
+          branch: codex/issue11-ops-generated
           commit-message: 'Update normalized calendar data'
-          title: '暦データの正規化結果を更新'
+          title: '[TEST #11] 暦データ運用検証、マージ禁止'
           body: '#11 の手動更新です。取り込み済みの原典 CSV を検証し、内容が変わった場合のみ生成データを更新しました。検証はこの workflow のログを参照してください。'
           add-paths: |
             data/calendar/current.json
@@ -49,7 +44,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
-        run: gh workflow run verify.yml --ref codex/calendar-data-update
+        run: gh workflow run verify.yml --ref codex/issue11-ops-generated
       - name: Report annual data maintenance failure
         if: failure() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
         env:
@@ -57,7 +52,7 @@ jobs:
           GH_REPO: ${{ github.repository }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
-          title='暦データの年次確認に失敗しました'
+          title='[TEST #11] 暦データ運用失敗通知の隔離検証'
           existing=$(gh issue list --state open --search "$title in:title" --json number --jq '.[0].number // empty')
           if [ -z "$existing" ]; then
             printf '暦データの検証または今年・翌年の収録確認に失敗しました。実行ログ: %s\n\n原典 CSV と manifest を更新し、calendar:generate、test:calendar、calendar:check を実行してください。自動取得や日付の推定は行いません。\n' "$RUN_URL" > /tmp/calendar-issue.md
