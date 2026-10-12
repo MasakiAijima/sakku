@@ -1,6 +1,6 @@
 'use strict';
 (async()=>{
-const {periodRange,recordsQuery}=await import('/archive.js');
+const {periodRange,recordsQuery,recordDateToday}=await import('/archive.js');
 let period={kind:'all',date:'',year:'',from:'',to:''},archiveRange={},periodReady=true,periodError='';
 const $=s=>document.querySelector(s),escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let records=[],settings={name:'',style:'自由詩に近いHaiku',expression:'平易な英語に、気の利いた単語や表現をひとつ',appLanguage:'日本語'},draft=null,screen='home',current=null,savedDetail=null,filter='すべて',selected=-1,candidates=[],candidateScene=null,chosenForScene=null,error='',busy=false,dirty=false,nextCursor=null,loadError='',generationKey=null,generationJobId=null,history=[],settingsLoaded=false,translations={},translatedCandidate=-1,translatingCandidate=-1;
@@ -50,7 +50,7 @@ const english={
 function translateText(value){if(settings.appLanguage!=='English')return value;const lead=value.match(/^\s*/)?.[0]||'',trail=value.match(/\s*$/)?.[0]||'',core=value.slice(lead.length,value.length-trail.length);let out=english[core]||core;out=out.replace(/^(\d{4} \/ \d{2} \/ \d{2}) · (春|夏|秋|冬)$/,(_,d,s)=>d+' · '+(english[s]||s)).replace(/^(春|夏|秋|冬)の記録を見る →$/,(_,s)=>'View '+(english[s]||s)+' records →').replace(/^(春|夏|秋|冬)の記録$/,(_,s)=>(english[s]||s)+' records').replace(/^(出来事|気持ち) · /,(_,s)=>(english[s]||s)+' · ');out=out.replace(/^表示期間 (\d{4}-\d{2}-\d{2}) から (\d{4}-\d{2}-\d{2}) の前日まで$/,(_,from,to)=>'Displayed period: '+from+' up to, excluding, '+to);return lead+out+trail;}
 function localize(root=document){document.documentElement.lang=settings.appLanguage==='English'?'en':'ja';const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);nodes.forEach(n=>{if(!['SCRIPT','STYLE','TEXTAREA'].includes(n.parentElement?.tagName))n.nodeValue=translateText(n.nodeValue)});root.querySelectorAll?.('[placeholder],[aria-label],[alt]').forEach(el=>['placeholder','aria-label','alt'].forEach(a=>{if(el.hasAttribute(a))el.setAttribute(a,translateText(el.getAttribute(a)))}));}
 function resetChrome(){const labels={home:'記録',edit:'書く ＋',setting:'設定'};document.querySelectorAll('nav button[data-go]').forEach(b=>b.textContent=labels[b.dataset.go]);document.querySelector('nav').setAttribute('aria-label','メインメニュー');$('#signout').textContent='ログアウト';document.querySelector('footer span').textContent='自分らしいペースで、自分の痕跡を。';}
-const today=()=>new Date().toLocaleDateString('sv-SE');
+const today=()=>recordDateToday();
 const fromRow=r=>({id:r.id,date:r.record_date,scene:r.scene_text,event:r.event_text,feeling:r.emotion_text,poem:r.haiku_text,photoId:r.photo_id,generationJobId:r.generation_job_id,selectedCandidateIndex:r.selected_candidate_index,photo:r.photo_id?'/api/photos/'+r.photo_id:'',status:r.status,revision:r.revision,tone:'green'});
 async function api(url,options={}){const r=await fetch(url,{...options,cache:'no-store'});const d=await r.json();if(!r.ok)throw Error(d.error||'処理できませんでした。もう一度お試しください。');return d;}
 function toast(t){$('#toast').textContent=translateText(t);$('#toast').style.display='block';clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>$('#toast').style.display='none',3200)}
