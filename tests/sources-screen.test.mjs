@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {readFile} from 'node:fs/promises';
+import {readFile,mkdir} from 'node:fs/promises';
 import {createServer} from 'node:http';
 const {chromium}=await import(process.env.PLAYWRIGHT_MODULE || 'playwright');
 const manifest=JSON.parse(await readFile(new URL('../data/calendar/manifest.json',import.meta.url)));
@@ -20,6 +20,6 @@ try{
  const years=manifest.coverage.calendarYears;assert.ok(text.includes(`暦年${years[0]}年〜${years.at(-1)}年`));assert.deepEqual(manifest.coverage.seasonalYears,years);
  assert.deepEqual(await page.locator('main a').evaluateAll(nodes=>nodes.map(n=>[n.href,n.target,n.rel])),[['https://koyomi8.com/sub/72kou.html','_blank','noopener noreferrer'],['https://eco.mtk.nao.ac.jp/koyomi/faq/24sekki.html','_blank','noopener noreferrer']]);
  for(const fontSize of ['100%','200%']){await page.addStyleTag({content:`html{font-size:${fontSize}}`});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);}
- assert.ok(text.includes(`季節年${years[0]}年〜${years.at(-1)}年`));await page.reload();await page.locator('main h1').waitFor();assert.equal(await page.locator('main h1').innerText(),'暦の出典');await page.locator('[data-go=setting].back').click();await page.locator('#save-settings').waitFor();assert.equal(await page.locator('#save-settings').isDisabled(),false);assert.deepEqual(errors,[]);await page.locator('[data-go=sources]').click();await page.screenshot({path:'/tmp/sakku-issue11-sources-320.png',fullPage:true});
+ assert.ok(text.includes(`季節年${years[0]}年〜${years.at(-1)}年`));await page.reload();await page.locator('main h1').waitFor();assert.equal(await page.locator('main h1').innerText(),'暦の出典');await page.locator('[data-go=setting].back').click();await page.locator('#save-settings').waitFor();assert.equal(await page.locator('#save-settings').isDisabled(),false);assert.deepEqual(errors,[]);await page.locator('[data-go=sources]').click();const screenshotDir=process.env.SCREENSHOT_DIR || '/tmp';await mkdir(screenshotDir,{recursive:true});await page.screenshot({path:screenshotDir+'/sakku-issue11-sources-320.png',fullPage:true});
  console.log('PASS sources: settings round trip, adopted edition, manifest coverage, external links, 320px and 200% text. API fixtures.');
 }finally{await browser.close();await new Promise(resolve=>server.close(resolve));}
