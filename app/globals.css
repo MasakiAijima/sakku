@@ -10,3 +10,12 @@ button,a,summary,input,select{min-height:44px}a{display:inline-flex;align-items:
 @media(prefers-reduced-motion:reduce){.card{transition:none}.card:hover{transform:none}}
 
 .source-reference{margin-top:20px}
+
+.seasonal-orbit{box-sizing:border-box;max-width:900px;margin:24px auto 0;padding:24px;background:#faf6ec;border:1px solid #d8cdbb;border-radius:20px;overflow-wrap:anywhere}
+.orbit-heading{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.orbit-heading h2{margin:0 0 8px}.orbit-heading label{display:grid;gap:6px;min-width:0;max-width:100%}
+.seasonal-orbit select{box-sizing:border-box;min-height:48px;max-width:100%;width:100%;white-space:normal;font:inherit;background:#fffdf7;color:#292b29;border:1px solid #b6b5aa;border-radius:8px;padding:10px}
+.orbit-svg{display:block;width:100%;height:auto;max-height:75vh;aspect-ratio:1;overflow:visible;margin:8px auto}
+.orbit-svg [role=button]{cursor:pointer}.orbit-detail{min-height:3em}.orbit-select-label{display:block;margin-bottom:8px}
+.seasonal-orbit summary{cursor:pointer;padding:12px 0;min-height:44px}.seasonal-orbit details label{display:flex;align-items:center;gap:10px}.seasonal-orbit input[type=checkbox]{width:24px;height:24px;flex-shrink:0}
+@media(max-width:600px){.seasonal-orbit{margin:16px 12px;padding:16px}.orbit-heading{display:block}.orbit-heading label{margin-top:16px}.orbit-svg{max-height:none}}

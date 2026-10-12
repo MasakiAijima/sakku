@@ -63,6 +63,7 @@ jobs:
         run: |
           pnpm test:screen
           node tests/sources-screen.test.mjs
+          node tests/orbit-screen.test.mjs
         env:
           PLAYWRIGHT_MODULE: ${{ runner.temp }}/browser-test/node_modules/playwright/index.mjs
           SCREENSHOT_DIR: .test-artifacts
