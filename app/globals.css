@@ -8,3 +8,5 @@ button,a,summary,input,select{min-height:44px}a{display:inline-flex;align-items:
 @media(max-width:760px){.visual-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.period-fields{grid-template-columns:1fr}.row{flex-wrap:wrap}.steps{gap:12px}.candidate{padding:18px}.candidate.selected{padding:17px}.detail-poem{font-size:1.8rem}.share-card .poem{font-size:1.75rem}}
 @media(max-width:420px){header{padding-inline:16px}nav{width:100%;gap:4px}nav button,nav a{padding:8px}.visual-grid{grid-template-columns:1fr}main{padding-inline:16px}.primary,.secondary{padding-inline:16px}.panel{padding:18px}.top .toolbar{width:100%}.toolbar button{flex-basis:100%}}
 @media(prefers-reduced-motion:reduce){.card{transition:none}.card:hover{transform:none}}
+
+.source-reference{margin-top:20px}
