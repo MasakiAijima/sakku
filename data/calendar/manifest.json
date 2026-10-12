@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "normalizerVersion": "1",
+  "sourceTimeZone": "Asia/Tokyo",
+  "sourceUrl": "https://koyomi8.com/sub/72kou.html",
+  "policyUrl": "https://koyomi8.com/policy.html",
+  "policyCheckedAt": "2026-10-12T00:26:53Z",
+  "sources": [
+    {
+      "path": "data/calendar/raw/kou72_2023.csv",
+      "url": "https://koyomi8.com/sub/72kou.html",
+      "requestedYear": 2023,
+      "retrievedAt": "2026-10-12T00:31:16Z",
+      "receivedAt": "2026-10-12T00:31:16Z",
+      "acquisition": "manual-page-csv-export",
+      "sha256": "f83d75c5a733ec8640e4cee3febe989da7c2eb2b1676a42d193ce9eea3c76162",
+      "rowCount": 78,
+      "firstDate": "2022-12-22",
+      "lastDate": "2024-01-16"
+    },
+    {
+      "path": "data/calendar/raw/kou72_2024.csv",
+      "url": "https://koyomi8.com/sub/72kou.html",
+      "requestedYear": 2024,
+      "retrievedAt": "2026-10-12T00:26:53Z",
+      "receivedAt": "2026-10-12T00:26:53Z",
+      "acquisition": "manual-page-csv-export",
+      "sha256": "6d18a97c43ac7e838254a884c9b9b9f81605cce6b2f8af10c59c2c836efd3ebb",
+      "rowCount": 78,
+      "firstDate": "2023-12-22",
+      "lastDate": "2025-01-15"
+    },
+    {
+      "path": "data/calendar/raw/kou72_2025.csv",
+      "url": "https://koyomi8.com/sub/72kou.html",
+      "requestedYear": 2025,
+      "retrievedAt": "2026-10-12T00:26:53Z",
+      "receivedAt": "2026-10-12T00:26:53Z",
+      "acquisition": "manual-page-csv-export",
+      "sha256": "badf3c9d8ea5af2492dc379039349487eb3a1609e804d87c5e3dc59d48bce080",
+      "rowCount": 78,
+      "firstDate": "2024-12-21",
+      "lastDate": "2026-01-15"
+    },
+    {
+      "path": "data/calendar/raw/kou72_2026.csv",
+      "url": "https://koyomi8.com/sub/72kou.html",
+      "requestedYear": 2026,
+      "retrievedAt": null,
+      "receivedAt": "2026-10-12T00:26:53Z",
+      "acquisition": "user-provided",
+      "sha256": "641aa0fa15dee9cc23ad2a3004440f50a475bc0a30f161a4bc334a4c9d9310fd",
+      "rowCount": 78,
+      "firstDate": "2025-12-22",
+      "lastDate": "2027-01-15"
+    },
+    {
+      "path": "data/calendar/raw/kou72_2027.csv",
+      "url": "https://koyomi8.com/sub/72kou.html",
+      "requestedYear": 2027,
+      "retrievedAt": "2026-10-12T00:26:53Z",
+      "receivedAt": "2026-10-12T00:26:53Z",
+      "acquisition": "manual-page-csv-export",
+      "sha256": "02b2d5d14480b8fd328000b71ab26fa4ba093a7ac8fb9c33e810c7304e0f0fb9",
+      "rowCount": 78,
+      "firstDate": "2026-12-22",
+      "lastDate": "2028-01-16"
+    },
+    {
+      "path": "data/calendar/raw/kou72_2028.csv",
+      "url": "https://koyomi8.com/sub/72kou.html",
+      "requestedYear": 2028,
+      "retrievedAt": "2026-10-12T00:26:53Z",
+      "receivedAt": "2026-10-12T00:26:53Z",
+      "acquisition": "manual-page-csv-export",
+      "sha256": "5371fa5f08cc5584bb7d31cb35a4b91a030a5a2904b6d82b130234d0f5c9f3d8",
+      "rowCount": 78,
+      "firstDate": "2027-12-22",
+      "lastDate": "2029-01-15"
+    }
+  ],
+  "coverage": {
+    "calendarYears": [
+      2024,
+      2025,
+      2026,
+      2027
+    ],
+    "seasonalYears": [
+      2024,
+      2025,
+      2026,
+      2027
+    ]
+  }
+}

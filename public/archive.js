@@ -1,3 +1,9 @@
+export function recordDateToday(now = new Date()) {
+  if (!Number.isFinite(now.getTime())) throw Error('有効な日時を指定してください。');
+  const parts = new Intl.DateTimeFormat('en', {timeZone:'Asia/Tokyo',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(now);
+  return ['year','month','day'].map(type => parts.find(part => part.type === type).value).join('-');
+}
+
 export function validDate(value) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
   const date = new Date(value + 'T00:00:00Z');

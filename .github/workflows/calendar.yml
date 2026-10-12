@@ -1,0 +1,65 @@
+name: Calendar data
+on:
+  push:
+    paths: ['data/calendar/**', 'shared/calendar.mjs', 'scripts/calendar*.mjs', 'tests/calendar.test.mjs', '.github/workflows/calendar.yml']
+  pull_request:
+    paths: ['data/calendar/**', 'shared/calendar.mjs', 'scripts/calendar*.mjs', 'tests/calendar.test.mjs', '.github/workflows/calendar.yml']
+  schedule:
+    - cron: '0 0 1 10 *'
+  workflow_dispatch:
+concurrency:
+  group: calendar-data-${{ github.event_name == 'pull_request' && github.event.pull_request.number || 'maintenance' }}
+  cancel-in-progress: false
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      actions: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Normalize manually imported sources
+        if: github.event_name == 'workflow_dispatch'
+        run: node scripts/calendar.mjs
+      - run: node --test tests/calendar.test.mjs
+      - run: node scripts/calendar.mjs --check
+      - name: Check current and next calendar years
+        run: node scripts/calendar.mjs --check --require-year="$(TZ=Asia/Tokyo date +%Y)"
+      - name: Open or update calendar data PR only when changed
+        id: update
+        if: github.event_name == 'workflow_dispatch'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: codex/calendar-data-update
+          commit-message: 'Update normalized calendar data'
+          title: '暦データの正規化結果を更新'
+          body: '#11 の手動更新です。取り込み済みの原典 CSV を検証し、内容が変わった場合のみ生成データを更新しました。検証はこの workflow のログを参照してください。'
+          add-paths: |
+            data/calendar/current.json
+            data/calendar/versions/*.json
+      - name: Verify the generated branch explicitly
+        if: steps.update.outputs.pull-request-operation == 'created' || steps.update.outputs.pull-request-operation == 'updated'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: gh workflow run verify.yml --ref codex/calendar-data-update
+      - name: Report annual data maintenance failure
+        if: failure() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          title='暦データの年次確認に失敗しました'
+          existing=$(gh issue list --state open --search "$title in:title" --json number --jq '.[0].number // empty')
+          if [ -z "$existing" ]; then
+            printf '暦データの検証または今年・翌年の収録確認に失敗しました。実行ログ: %s\n\n原典 CSV と manifest を更新し、calendar:generate、test:calendar、calendar:check を実行してください。自動取得や日付の推定は行いません。\n' "$RUN_URL" > /tmp/calendar-issue.md
+            gh issue create --title "$title" --body-file /tmp/calendar-issue.md
+          fi

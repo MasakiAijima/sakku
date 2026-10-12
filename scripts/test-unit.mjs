@@ -7,7 +7,7 @@ for (const args of [
   ['node_modules/typescript/bin/tsc', '--outDir', '.sites-runtime/test-lib',
     '--noEmit', 'false', '--module', 'nodenext', '--moduleResolution', 'nodenext',
     '--target', 'es2022', '--skipLibCheck', '--types', 'node,@cloudflare/workers-types', ...source],
-  ['--test', 'tests/archive.test.mjs', 'tests/storage.test.mjs', 'tests/seasonal-orbit.test.mjs'],
+  ['--test', 'tests/archive.test.mjs', 'tests/storage.test.mjs', 'tests/seasonal-orbit.test.mjs', 'tests/calendar.test.mjs'],
 ]) {
   const result = spawnSync(process.execPath, args, {stdio:'inherit'});
   if (result.error) throw result.error;
