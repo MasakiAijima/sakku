@@ -19,7 +19,8 @@ try{
  const text=await page.locator('main').innerText();assert.match(text,/本朝七十二候・伊勢神宮略本暦準拠/);
  const years=manifest.coverage.calendarYears;assert.ok(text.includes(`暦年${years[0]}年〜${years.at(-1)}年`));assert.deepEqual(manifest.coverage.seasonalYears,years);
  assert.deepEqual(await page.locator('main a').evaluateAll(nodes=>nodes.map(n=>[n.href,n.target,n.rel])),[['https://koyomi8.com/sub/72kou.html','_blank','noopener noreferrer'],['https://eco.mtk.nao.ac.jp/koyomi/faq/24sekki.html','_blank','noopener noreferrer']]);
- for(const fontSize of ['100%','200%']){await page.addStyleTag({content:`html{font-size:${fontSize}}`});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);}
+ assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+ await page.evaluate(()=>{const sizes=[...document.querySelectorAll('body *')].map(n=>[n,parseFloat(getComputedStyle(n).fontSize)]);for(const [node,size] of sizes)node.style.fontSize=size*2+'px'});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
  assert.ok(text.includes(`季節年${years[0]}年〜${years.at(-1)}年`));await page.reload();await page.locator('main h1').waitFor();assert.equal(await page.locator('main h1').innerText(),'暦の出典');await page.locator('[data-go=setting].back').click();await page.locator('#save-settings').waitFor();assert.equal(await page.locator('#save-settings').isDisabled(),false);assert.deepEqual(errors,[]);await page.locator('[data-go=sources]').click();const screenshotDir=process.env.SCREENSHOT_DIR || '/tmp';await mkdir(screenshotDir,{recursive:true});await page.screenshot({path:screenshotDir+'/sakku-issue11-sources-320.png',fullPage:true});
  console.log('PASS sources: settings round trip, adopted edition, manifest coverage, external links, 320px and 200% text. API fixtures.');
 }finally{await browser.close();await new Promise(resolve=>server.close(resolve));}
