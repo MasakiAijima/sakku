@@ -1,0 +1,37 @@
+import assert from 'node:assert/strict';
+import {createServer} from 'node:http';
+import {readFile} from 'node:fs/promises';
+import {resolve,extname} from 'node:path';
+const {chromium}=await import(process.env.PLAYWRIGHT_MODULE||'/Users/aijimamasaki/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs');
+const root=resolve('public');
+assert.equal(await readFile(root+'/seasonal-assets/seasonal-art-runtime.js','utf8'),await readFile(resolve('shared/seasonal-art-runtime.js'),'utf8'),'offline renderer must be a byte-identical copy');
+const server=createServer(async(req,res)=>{try{const url=new URL(req.url,'http://localhost');if(url.pathname==='/'){res.setHeader('Content-Type','text/html');res.end('<html><body><h1>PRIVATE ONLINE HOME</h1></body></html>');return;}const file=resolve(root,'.'+url.pathname);if(!file.startsWith(root+'/'))throw Error();res.setHeader('Content-Type',({'.html':'text/html','.js':'text/javascript','.json':'application/json','.png':'image/png','.webp':'image/webp'})[extname(file)]||'application/octet-stream');res.end(await readFile(file));}catch{res.writeHead(404).end();}});await new Promise(r=>server.listen(0,'127.0.0.1',r));const origin=`http://127.0.0.1:${server.address().port}`;
+const browser=await chromium.launch({headless:true,channel:'chrome'});
+try{const context=await browser.newContext({locale:"ja-JP"});const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto(origin+'/');
+await page.evaluate(async()=>{const registration=await navigator.serviceWorker.register('/seasonal-art-worker.js',{scope:'/',type:'module'});const worker=registration.installing||registration.waiting||registration.active;if(worker.state!=='activated')await new Promise(resolve=>worker.addEventListener('statechange',()=>{if(worker.state==='activated')resolve();}));await new Promise((resolve,reject)=>{navigator.serviceWorker.addEventListener('message',function receive(event){if(event.data.type==='offline-ready'){navigator.serviceWorker.removeEventListener('message',receive);resolve();}else if(event.data.type==='offline-error'){reject(Error('prepare failed'));}});registration.active.postMessage({type:'prepare-current'});});});
+assert.match(await page.locator('h1').textContent(),/PRIVATE ONLINE/);
+const transitionPath=await page.evaluate(async()=>{const pointer=await(await fetch('/seasonal-assets/current.json')).json();const manifest=await(await fetch('/seasonal-assets/'+pointer.manifest)).json();const path='/seasonal-assets/releases/'+pointer.version+'/'+manifest.assets[0].transition;const response=await fetch(path);if(!response.ok)throw Error('transition');await response.arrayBuffer();return path;});
+await page.evaluate(async()=>{const registration=await navigator.serviceWorker.getRegistration('/');await new Promise((resolve,reject)=>{navigator.serviceWorker.addEventListener('message',function receive(event){if(event.data.type==='offline-ready'){navigator.serviceWorker.removeEventListener('message',receive);resolve();}else if(event.data.type==='offline-error')reject(Error('prepare failed'));});registration.active.postMessage({type:'prepare-current'});});});
+assert.equal((await page.evaluate(()=>caches.keys())).filter(key=>key.startsWith('sakku-seasonal-release-')&&key!=='sakku-seasonal-release-selection-v1').length,2);
+assert.equal(await page.evaluate(async path=>{const meta=await caches.open('sakku-seasonal-release-selection-v1');const selection=await(await meta.match('/seasonal-assets/offline-selection')).json();return Boolean(await(await caches.open(selection.name)).match(path));},transitionPath),true,'verified on-demand transition survives re-prepare');
+const keys=await page.evaluate(async()=>{const names=await caches.keys();return(await Promise.all(names.map(async name=>(await(await caches.open(name)).keys()).map(request=>new URL(request.url).pathname)))).flat();});assert.equal(keys.some(path=>path==='/'||path.startsWith('/api/')),false);assert.ok(keys.includes('/seasonal-assets/offline-calendar.json'));
+await context.setOffline(true);await page.reload();await page.waitForSelector('body[data-ready=true]',{timeout:60000});assert.equal(await page.locator('g[data-orbit-id]').count(),72);assert.match(await page.locator('h1').textContent(),/季節の庭/);
+await page.emulateMedia({reducedMotion:'reduce'});await page.waitForTimeout(30);
+const check=await page.evaluate(async()=>{const calendar=await(await fetch('/seasonal-assets/offline-calendar.json')).json();const parts=new Intl.DateTimeFormat('en',{timeZone:'Asia/Tokyo',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());const part=type=>parts.find(item=>item.type===type).value;const day=`${part('year')}-${part('month')}-${part('day')}`;return {day,years:calendar.years};});
+for(const year of check.years){await page.selectOption('#seasonal-year',String(year.year));const visited=year.entries.filter(entry=>entry.date<=check.day).length;assert.equal(await page.locator('g[data-phase=full]').count(),visited);assert.equal(await page.locator('g[data-phase=prime]').count(),72-visited);}
+await page.selectOption('#seasonal-year','current');
+await page.clock.install({time:new Date('2026-10-14T12:00:00+09:00')});
+await page.evaluate(()=>window.dispatchEvent(new Event('focus')));
+assert.equal(await page.locator('#seasonal-orbit').getAttribute('data-year'),'2026');
+const boundary=check.years.find(year=>year.year===2026).nextRisshunDate;
+await page.clock.setFixedTime(new Date(boundary+'T00:00:00+09:00'));
+await page.evaluate(()=>window.dispatchEvent(new Event('focus')));
+assert.equal(await page.locator('#seasonal-orbit').getAttribute('data-year'),'2027');
+await page.clock.setFixedTime(new Date('2035-10-14T12:00:00+09:00'));
+await page.evaluate(()=>window.dispatchEvent(new Event('focus')));
+assert.equal(await page.locator('#seasonal-orbit').getAttribute('data-year'),'unavailable');
+assert.equal(await page.locator('#seasonal-orbit').isVisible(),false);
+await page.locator('#language').click();assert.equal(await page.locator('h1').textContent(),'Seasonal garden');assert.match(await page.locator('#seasonal-status').textContent(),/current seasonal year is unavailable/);
+await page.selectOption('#seasonal-year','2026');assert.equal(await page.locator('#seasonal-orbit').isVisible(),true);assert.equal(await page.locator('[aria-current=step]').count(),0);
+await page.locator('#language').click();
+await page.locator('g[data-orbit-id=kou-01]').click();assert.match(await page.locator('#seasonal-detail').textContent(),/東風凍を解く/);await page.setViewportSize({width:320,height:800});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);assert.deepEqual(errors,[]);await page.reload();await page.waitForSelector('body[data-ready=true]');assert.equal(await page.locator('g[data-orbit-id]').count(),72);console.log(JSON.stringify({passed:true,rootOfflineHardReload:true,all72:true,actualCalendarYears:check.years.map(y=>y.year),currentYearBoundary:true,outsideCalendarHidden:true,englishToggle:true,cacheVersions:2,onDemandTransitionPreserved:true,privateCacheKeys:0,mobile:true,runtimeBytecopy:true}));await context.close();}finally{await browser.close();await new Promise(r=>server.close(r));}
