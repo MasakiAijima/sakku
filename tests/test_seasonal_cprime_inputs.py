@@ -1,6 +1,7 @@
 import contextlib,importlib.util,io,json,tempfile,unittest
 from pathlib import Path
 from unittest.mock import patch
+from PIL import Image
 ROOT=Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location('cprime_input',ROOT/'scripts/extract-seasonal-cprime.py')
 extract=importlib.util.module_from_spec(spec);spec.loader.exec_module(extract)
@@ -23,6 +24,9 @@ class CprimeInputs(unittest.TestCase):
    manifest=json.loads((base/'next-prime/manifest.json').read_text());self.assertEqual(len(manifest['entries']),72)
    for entry in manifest['entries']:
     self.assertTrue(entry['sourceImage'].startswith('../source-copy/'))
-    self.assertEqual((base/'next-prime'/entry['image']).read_bytes(),(shipped/entry['id']/'initial.png').read_bytes())
+    with Image.open(base/'next-prime'/entry['image']) as actual,Image.open(shipped/entry['id']/'initial.png') as expected:
+     self.assertEqual(actual.size,expected.size,entry['id'])
+     self.assertEqual(actual.mode,expected.mode,entry['id'])
+     self.assertEqual(actual.convert('RGBA').tobytes(),expected.convert('RGBA').tobytes(),entry['id'])
    layout=json.loads((base/'next-prime/layout.json').read_text());source=json.loads((base/'source-copy/layout.json').read_text());self.assertEqual(layout['entries'],source['entries']);self.assertEqual(layout['commonVisibleLongEdge'],source['commonVisibleLongEdge'])
 if __name__=='__main__':unittest.main()
