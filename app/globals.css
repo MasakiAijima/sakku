@@ -19,3 +19,5 @@ button,a,summary,input,select{min-height:44px}a{display:inline-flex;align-items:
 .orbit-svg [role=button]{cursor:pointer}.orbit-detail{min-height:3em}.orbit-select-label{display:block;margin-bottom:8px}
 .seasonal-orbit summary{cursor:pointer;padding:12px 0;min-height:44px}.seasonal-orbit details label{display:flex;align-items:center;gap:10px}.seasonal-orbit input[type=checkbox]{width:24px;height:24px;flex-shrink:0}
 @media(max-width:600px){.seasonal-orbit{margin:16px 12px;padding:16px}.orbit-heading{display:block}.orbit-heading label{margin-top:16px}.orbit-svg{max-height:none}}
+.orbit-svg [data-orbit-id]:focus-visible { outline: 2px solid #514c43; outline-offset: 3px; }
+.orbit-progress { font-size: .9rem; color: #514c43; }

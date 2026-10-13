@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-08",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "ea2098ab1773f4cc4dc8c95503f22efcaf277a9afd3c2b0dcbd299018074a765",
+  "generation": {
+    "id": "kou-08",
+    "hash": "10cf15d9c8997a8feb1d22d3ace1d4482791f5dcc7ec5448f67a57f6f6c391de",
+    "reference_sha256": "7f1074ba4137841eae740cf3367ab6b863fe52191e8834975833978884eba94d",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the short small brown BRANCH under the pink peach flower only; preserve pink petals and vermilion bud to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:48:15.549924+00:00",
+    "completed_sha256": "1a826e68a9686f39111068db7cb0e02411db9587b37c6f466381b326f105b4e6"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 510.374,
+      "y": 172.541,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      112,
+      103,
+      400,
+      409
+    ],
+    "precursorBounds": [
+      280,
+      363,
+      349,
+      409
+    ]
+  },
+  "sourceHashes": {
+    "C": "1a826e68a9686f39111068db7cb0e02411db9587b37c6f466381b326f105b4e6",
+    "Cprime": "490a5c9da4e1510942e4d8d7c458c7f9047502c1b6ae58bd8e473261b78a7ac2",
+    "generation": "1736c8cd33e0dcea1d3436e77272a23b360abce07d6af62e1bdda5e9b7f1d0c9"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the short small brown BRANCH under the pink peach flower only; preserve pink petals and vermilion bud to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:48:15.549924+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "kou-52",
+  "hash": "e592862abe5d6bb2f7949a8f1038739e0c8231ccb5cf3af5cef73c770ced4bd6",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/revision-12/kou-52/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-52/reference.png",
+  "reference_sha256": "0194e5d56f233d16bda4bf8000afca4eba1fb26a2fcc0b54d06d043c670adf78",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small pale-blue COLD SHADOW beneath the ivory frosted grass tuft only; preserve ivory frost and ochre ground to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:07:01.183268+00:00",
+  "image_sha256": "68f16306f625448157133342db58a6611c4d716dc6d1e7d8c14e0cf911e9c1db",
+  "completed_sha256": "6c29c5c54b42afa2970f539a391e367fe2f46c7adb6481e72408e94852f72550",
+  "cutout_sha256": "4d192b3f149615c300cbef1a320e1dded5320013209bf295c2fe9ffd931f5f3f"
+}

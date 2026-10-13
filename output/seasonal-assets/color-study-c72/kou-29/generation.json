@@ -1,0 +1,23 @@
+{
+  "id": "kou-29",
+  "hash": "abd24374657f999aa0190e399d6b904b1902df5221081cc4ebc6abffdb2c6278",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-29/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-29/reference.png",
+  "reference_sha256": "39ed70c7b47d03dd333e902c1172c03b9aa6fcb3eb054d90f4f2623a23d24269",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small narrow olive LEAF under the blue iris only; preserve dark-blue and pale-blue flower planes to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:56:55.248069+00:00",
+  "image_sha256": "d7643e337ab53a60b2e7dfcec57c45070e9fa3ddb4235ed2dd90dd8f43ed3f90",
+  "completed_sha256": "6d73bde6f4213cc7886dea3844b73fe9c8e4ccacc4ccf4b75f7d1c24c6699802",
+  "cutout_sha256": "c548c4c51e88f5ed6bc577575117171816d43d056cac31c67c209285bbb80a5d"
+}

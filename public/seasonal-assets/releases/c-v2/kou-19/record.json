@@ -1,0 +1,64 @@
+{
+  "fingerprint": "30d1129fae3356674112253e35d14ae6ecaf58c04086154c03a5a05df0aaa61b",
+  "asset": {
+    "kouId": "kou-19",
+    "name": "蛙始めて鳴く",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 592.111,
+      "y": 363.503,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      127,
+      409,
+      385
+    ],
+    "precursorBounds": [
+      167,
+      332,
+      317,
+      385
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 127,
+      "width": 306,
+      "height": 258
+    },
+    "animation": {
+      "seed": [
+        242.0,
+        358.5
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-19/initial.png",
+    "completed": "kou-19/completed.png",
+    "transition": "kou-19/transition.webp",
+    "idle": "kou-19/idle.png",
+    "provenance": "kou-19/provenance.json",
+    "hashes": {
+      "initial": "6f14a59ed358c7198311b0fa01e84932f0918af30cf75e5265c2a7367d2e4d2e",
+      "completed": "6eb5d96f51b2b671cd27b730f7871c8aeb7e21719a6250dbbb2ddd36b20b7d84",
+      "transition": "837ddec3deb6f0d71d0e0bf2f3e5df6aa0b5f8142acd388d809051f4b59cd822",
+      "idle": "6eb5d96f51b2b671cd27b730f7871c8aeb7e21719a6250dbbb2ddd36b20b7d84",
+      "provenance": "9f471b31d0730633b85c8ce535763e3a46ed565ab451caff91666460e36971fd"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "kou-34",
+  "hash": "104ff206a90a6ee8140b96d46e27c36b7fd6ccc5d70ec7e28481bf7bab36d066",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-34/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-34/reference.png",
+  "reference_sha256": "4e05396f6a896d41c0176d47d5093fb01ef145512eff2da091d8ab58f3ef75fa",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the narrow golden-yellow FACE STRIP on the large olive paulownia seed capsule only; preserve olive capsule and brown branch to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:59:41.579249+00:00",
+  "image_sha256": "de88084fc9df2309616ee82d4140c9ee37f5b1897310e11322414b4f0aacdfc3",
+  "completed_sha256": "9ac6895e802626b20ebaa8beb8c4382c490eb314cc5270261d0c565288cd9c06",
+  "cutout_sha256": "5eb2321f0ef521315547259392e46c2b4a7ad8a411f9ebb8b80318fed3e8f82a"
+}

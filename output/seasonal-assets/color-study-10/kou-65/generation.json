@@ -1,0 +1,23 @@
+{
+  "id": "kou-65",
+  "hash": "b3f818abe08c1dd27840531924da7e21bb25970910f7ce034efc5336162d7f7a",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-65/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-10/kou-65/reference.png",
+  "reference_sha256": "7ad7b9bd2f2361e4ce51942d27540b11f1410e72a396cc13c4b90da89b163d7a",
+  "prompt": "Use case: precise-object-edit. Make a COLOR-ONLY variant of the attached finished Japanese seasonal cut-paper illustration. Keep the exact subject, composition, contour, proportions, pose, number of parts, overlaps, size and position of EVERY shape. Do not redraw, redesign, simplify, add, remove or move any part. Change ONLY the warm-brown DEER ANTLER only, preserving the small olive leaf to saturated #155DD8. This single intentionally unnatural strong color echoes bold Japanese screen-print vermilion, cobalt and orange. Keep every OTHER color exactly as in the attached image, including their muted tones. Preserve existing restrained print mottling and organic cut-paper edges. Use one newly introduced accent hue only, with slight existing ink mottling, no additional accent colors. Keep all artwork complete in the same central area with ample clean margins. Render on solid chromakey magenta #FF00FF background so it can be removed. Magenta must appear ONLY in the background. No shadows, gradients, outlines, faces, eyes, writing or new decorative marks. Output square1024. The only intended difference is the specified color substitution.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:05:50.750877+00:00",
+  "image_sha256": "f826edfce47150224825de98c3f64aee59c19b2210c799f893ebdac57d1ce9ed",
+  "completed_sha256": "fb67e23f06d043606316364bdbd23567708d5658d25b491531b271b24934938c",
+  "cutout_sha256": "d585470a4054e64475793af2c17dd7b84f6eeec149bda6a4940e491a80591f21"
+}

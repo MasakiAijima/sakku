@@ -1,0 +1,4414 @@
+{
+  "schemaVersion": 2,
+  "version": "c-v2",
+  "status": "approved",
+  "layout": {
+    "viewBox": [
+      0,
+      0,
+      700,
+      700
+    ],
+    "commonVisibleLongEdge": 43.24
+  },
+  "animation": {
+    "kind": "organic-growth",
+    "durationMs": 720,
+    "staggerMs": 45,
+    "idle": "static"
+  },
+  "assets": [
+    {
+      "kouId": "kou-01",
+      "name": "東風凍を解く",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 351.792,
+        "y": 160.16,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        116,
+        103,
+        396,
+        409
+      ],
+      "precursorBounds": [
+        337,
+        340,
+        368,
+        397
+      ],
+      "motionBounds": {
+        "x": 116,
+        "y": 103,
+        "width": 280,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          352.5,
+          368.5
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-01/initial.png",
+      "completed": "kou-01/completed.png",
+      "transition": "kou-01/transition.webp",
+      "idle": "kou-01/idle.png",
+      "provenance": "kou-01/provenance.json",
+      "hashes": {
+        "initial": "b14b2cad4412cdf5bb333be9734df09bd7f591b0941cbfe071e9d648c55e244f",
+        "completed": "1264b493129b1595ad492425f0ab5f179d6579f2c67d578b08a16501ba740d24",
+        "transition": "71fcc7fda08165a184e5f635e1be9c0b0afec97833499cd799a26c29685a03e8",
+        "idle": "1264b493129b1595ad492425f0ab5f179d6579f2c67d578b08a16501ba740d24",
+        "provenance": "ec55d55cff7b26bc969363446173036954d7b099a452937b7f6e59747dc5bf2b"
+      }
+    },
+    {
+      "kouId": "kou-02",
+      "name": "うぐいす鳴く",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 400.633,
+        "y": 110.74,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        104,
+        409,
+        408
+      ],
+      "precursorBounds": [
+        136,
+        242,
+        245,
+        335
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 104,
+        "width": 306,
+        "height": 304
+      },
+      "animation": {
+        "seed": [
+          190.5,
+          288.5
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-02/initial.png",
+      "completed": "kou-02/completed.png",
+      "transition": "kou-02/transition.webp",
+      "idle": "kou-02/idle.png",
+      "provenance": "kou-02/provenance.json",
+      "hashes": {
+        "initial": "0f4a53e86daf23352df053d471f3ab6e4d2799c965c54997b2eeca582fa66c55",
+        "completed": "492794a5d8ed3e4f2ca5ef8af24770f8236d1aa6a0591624b69271c08d826859",
+        "transition": "faf34c3e89e2938e7714179670c8f6c7f6bc5f52413c93fd836585e7d3232ec6",
+        "idle": "492794a5d8ed3e4f2ca5ef8af24770f8236d1aa6a0591624b69271c08d826859",
+        "provenance": "f86e2ae1e39d0291ff04cf4d2bba4cd9ba7a4826d5809036cf1e2a2394e52391"
+      }
+    },
+    {
+      "kouId": "kou-03",
+      "name": "魚氷を上る",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 410.808,
+        "y": 156.573,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        158,
+        409,
+        354
+      ],
+      "precursorBounds": [
+        103,
+        282,
+        306,
+        354
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 158,
+        "width": 306,
+        "height": 196
+      },
+      "animation": {
+        "seed": [
+          204.5,
+          318
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-03/initial.png",
+      "completed": "kou-03/completed.png",
+      "transition": "kou-03/transition.webp",
+      "idle": "kou-03/idle.png",
+      "provenance": "kou-03/provenance.json",
+      "hashes": {
+        "initial": "5739f82e59961c64be3db1abfd74a0c2676708c2c9125daaceb1518b0d456cd9",
+        "completed": "765c00a27a0bf2c907246bb8973b54f8126150b5dc5cd69c2d03ac386818a855",
+        "transition": "33683a71df466087418204ed9deabd9009e69d6a4255bb4341cb86ad9251af0f",
+        "idle": "765c00a27a0bf2c907246bb8973b54f8126150b5dc5cd69c2d03ac386818a855",
+        "provenance": "30401dadf1b6b6e73e1eb67200bffcebaf6b05e7a44e16d229d7c1bc21b96e02"
+      }
+    },
+    {
+      "kouId": "kou-04",
+      "name": "土脉潤い起こる",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 394.444,
+        "y": 201.683,
+        "visibleCenter": [
+          256,
+          255.5
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        162,
+        409,
+        349
+      ],
+      "precursorBounds": [
+        210,
+        272,
+        339,
+        349
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 162,
+        "width": 306,
+        "height": 187
+      },
+      "animation": {
+        "seed": [
+          274.5,
+          310.5
+        ],
+        "durationMs": 720,
+        "frames": 5,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-04/initial.png",
+      "completed": "kou-04/completed.png",
+      "transition": "kou-04/transition.webp",
+      "idle": "kou-04/idle.png",
+      "provenance": "kou-04/provenance.json",
+      "hashes": {
+        "initial": "c53508e8c1cbcaa15cec836a56a046ef9e818126185b2d167d21487e535ae924",
+        "completed": "912fef639aa30aa7fd2023be4c5852c48dda55fa87f2e042308ff67a110c181e",
+        "transition": "e8d0da69d93863c090b65f79129900a83060b035c38e4a94cb97098521d8ac23",
+        "idle": "912fef639aa30aa7fd2023be4c5852c48dda55fa87f2e042308ff67a110c181e",
+        "provenance": "458c204dfd495498a7fb32b1693df57349db7fd2ebef2c91ede68aafe4691e2b"
+      }
+    },
+    {
+      "kouId": "kou-05",
+      "name": "霞始めてたなびく",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 388.458,
+        "y": 245.318,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        172,
+        409,
+        340
+      ],
+      "precursorBounds": [
+        191,
+        301,
+        368,
+        340
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 172,
+        "width": 306,
+        "height": 168
+      },
+      "animation": {
+        "seed": [
+          279.5,
+          320.5
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-05/initial.png",
+      "completed": "kou-05/completed.png",
+      "transition": "kou-05/transition.webp",
+      "idle": "kou-05/idle.png",
+      "provenance": "kou-05/provenance.json",
+      "hashes": {
+        "initial": "0d5d296b0be694420971c504d4eadca075d9dacca2a2a8b36ba2aeb81d1f1cb0",
+        "completed": "748eb2c6758ff9fdc260fa5c35c143d3b572215efe0835895032635f4afa63ae",
+        "transition": "29acaeb5d785b90af406410135220bb79cc9c229c867e59e54e6a3b149d86d04",
+        "idle": "748eb2c6758ff9fdc260fa5c35c143d3b572215efe0835895032635f4afa63ae",
+        "provenance": "b3458b51c3b49845c23bcaa68bab0297d0aaa374bd636806cb60268e6bb3c51b"
+      }
+    },
+    {
+      "kouId": "kou-06",
+      "name": "草木萌え動る",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 467.504,
+        "y": 130.986,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        164,
+        103,
+        348,
+        409
+      ],
+      "precursorBounds": [
+        164,
+        328,
+        298,
+        409
+      ],
+      "motionBounds": {
+        "x": 164,
+        "y": 103,
+        "width": 184,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          231,
+          368.5
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-06/initial.png",
+      "completed": "kou-06/completed.png",
+      "transition": "kou-06/transition.webp",
+      "idle": "kou-06/idle.png",
+      "provenance": "kou-06/provenance.json",
+      "hashes": {
+        "initial": "08c212e3f0bd2a18f0fb79c460ecdaab78aa461434e5c40e00d3bba69c0f20fd",
+        "completed": "696f7c880259911c00a049df740179ee09d26972cf5e354f25320c4b918bc924",
+        "transition": "31401933d945b5db8b85531a9dd28a0b97f166639ca16547df4443fada7c0f2a",
+        "idle": "696f7c880259911c00a049df740179ee09d26972cf5e354f25320c4b918bc924",
+        "provenance": "f1d6ea2e33e14275d78db3b3599c6b5cefa67598a7e03eafe9dc2286a75bb447"
+      }
+    },
+    {
+      "kouId": "kou-07",
+      "name": "すごもりの虫戸を開く",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 453.15,
+        "y": 198.233,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        110,
+        103,
+        402,
+        409
+      ],
+      "precursorBounds": [
+        123,
+        304,
+        183,
+        377
+      ],
+      "motionBounds": {
+        "x": 110,
+        "y": 103,
+        "width": 292,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          153,
+          340.5
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-07/initial.png",
+      "completed": "kou-07/completed.png",
+      "transition": "kou-07/transition.webp",
+      "idle": "kou-07/idle.png",
+      "provenance": "kou-07/provenance.json",
+      "hashes": {
+        "initial": "92b86f8e38692ebca0cff14e2400589c4539239b3e1027440654d648c42f012f",
+        "completed": "ce6df88e9bb729efab2efc73f67bda30b3958fd1544675485cde3081f4b8bb88",
+        "transition": "607cef53856ac298d71908973f9e98c53e55d9e314bf039846a7f3e53d8e184b",
+        "idle": "ce6df88e9bb729efab2efc73f67bda30b3958fd1544675485cde3081f4b8bb88",
+        "provenance": "82ddbc5cc12928052ef748f13195ba653a5f7103d984ffd0f60be60e13e965d1"
+      }
+    },
+    {
+      "kouId": "kou-08",
+      "name": "桃始めてさく",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 510.374,
+        "y": 172.541,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        112,
+        103,
+        400,
+        409
+      ],
+      "precursorBounds": [
+        280,
+        363,
+        349,
+        409
+      ],
+      "motionBounds": {
+        "x": 112,
+        "y": 103,
+        "width": 288,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          314.5,
+          386
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-08/initial.png",
+      "completed": "kou-08/completed.png",
+      "transition": "kou-08/transition.webp",
+      "idle": "kou-08/idle.png",
+      "provenance": "kou-08/provenance.json",
+      "hashes": {
+        "initial": "490a5c9da4e1510942e4d8d7c458c7f9047502c1b6ae58bd8e473261b78a7ac2",
+        "completed": "1a826e68a9686f39111068db7cb0e02411db9587b37c6f466381b326f105b4e6",
+        "transition": "1f0a3528b11e0c143e0c665f4ad54623b1161d42b5e0c3d7cbf58e2ef50fc425",
+        "idle": "1a826e68a9686f39111068db7cb0e02411db9587b37c6f466381b326f105b4e6",
+        "provenance": "9e8e342f8484c7a095ddfd8c63cc143e7093d15cb45ced7df59747aa89fe6bee"
+      }
+    },
+    {
+      "kouId": "kou-09",
+      "name": "菜虫蝶となる",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 445.928,
+        "y": 255.011,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        108,
+        103,
+        404,
+        409
+      ],
+      "precursorBounds": [
+        272,
+        319,
+        321,
+        383
+      ],
+      "motionBounds": {
+        "x": 108,
+        "y": 103,
+        "width": 296,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          296.5,
+          351
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-09/initial.png",
+      "completed": "kou-09/completed.png",
+      "transition": "kou-09/transition.webp",
+      "idle": "kou-09/idle.png",
+      "provenance": "kou-09/provenance.json",
+      "hashes": {
+        "initial": "1bcf04d24e97b418aa8f33767bd9d9f2870caa9ac1667c8e8162bbff15ccaac0",
+        "completed": "b323721adb3c6908a36d89e34855d91db8658ab3bf58504aeb1c0f6d64940646",
+        "transition": "0f24117c6b1d4b9768313120bd0721ec73ca5a4087d3e6fd1c3ee1c366bdbbc9",
+        "idle": "b323721adb3c6908a36d89e34855d91db8658ab3bf58504aeb1c0f6d64940646",
+        "provenance": "500094e96cb1c82dd0084a00442017bc41c81da52d39abf4d65bc4c91ed1a991"
+      }
+    },
+    {
+      "kouId": "kou-10",
+      "name": "雀始めて巣くう",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 503.224,
+        "y": 236.04,
+        "visibleCenter": [
+          256,
+          255.5
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        111,
+        409,
+        400
+      ],
+      "precursorBounds": [
+        249,
+        111,
+        305,
+        211
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 111,
+        "width": 306,
+        "height": 289
+      },
+      "animation": {
+        "seed": [
+          277,
+          161
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-10/initial.png",
+      "completed": "kou-10/completed.png",
+      "transition": "kou-10/transition.webp",
+      "idle": "kou-10/idle.png",
+      "provenance": "kou-10/provenance.json",
+      "hashes": {
+        "initial": "b53adfcbfeee61a0f1f56d747c700efbec5ff881d3c99de5528c92720daf7aa7",
+        "completed": "72373ed3692f8edcc5b2a981769f397f639f467dffce4956168744203c112894",
+        "transition": "a056e2b8c8b771551872c571ab14334f42bd040dc6d50aac89fe77a09da6a802",
+        "idle": "72373ed3692f8edcc5b2a981769f397f639f467dffce4956168744203c112894",
+        "provenance": "4b896d47a3a51d357dfa650527fd73f399b763111b2a7306da1c0e5e7dae572a"
+      }
+    },
+    {
+      "kouId": "kou-11",
+      "name": "桜始めて開く",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 560.177,
+        "y": 213.433,
+        "visibleCenter": [
+          256,
+          255.5
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        134,
+        409,
+        377
+      ],
+      "precursorBounds": [
+        274,
+        292,
+        356,
+        371
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 134,
+        "width": 306,
+        "height": 243
+      },
+      "animation": {
+        "seed": [
+          315,
+          331.5
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-11/initial.png",
+      "completed": "kou-11/completed.png",
+      "transition": "kou-11/transition.webp",
+      "idle": "kou-11/idle.png",
+      "provenance": "kou-11/provenance.json",
+      "hashes": {
+        "initial": "39cca9b579b0bc83f893c2f30edaaf7ae9e1e873b274bc455284be76103f1705",
+        "completed": "007ff74ea6bc5fdce49b3fb7348d12088afbc52de5eab97a47034c1f2609074d",
+        "transition": "d3e0f91f35ff18fca59d9c597a25fb92fd758af1af27861999ba423dc860b58e",
+        "idle": "007ff74ea6bc5fdce49b3fb7348d12088afbc52de5eab97a47034c1f2609074d",
+        "provenance": "fac8ffb158aca47ef0fa4d469e017d14bc97f90735c8bb37882adf3dc1637f88"
+      }
+    },
+    {
+      "kouId": "kou-12",
+      "name": "雷乃ち声を発す",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 421.439,
+        "y": 298.571,
+        "visibleCenter": [
+          256,
+          255.5
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        154,
+        409,
+        357
+      ],
+      "precursorBounds": [
+        211,
+        280,
+        258,
+        357
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 154,
+        "width": 306,
+        "height": 203
+      },
+      "animation": {
+        "seed": [
+          234.5,
+          318.5
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-12/initial.png",
+      "completed": "kou-12/completed.png",
+      "transition": "kou-12/transition.webp",
+      "idle": "kou-12/idle.png",
+      "provenance": "kou-12/provenance.json",
+      "hashes": {
+        "initial": "54f97c106ba59f56e760c0720ffce201a6545dc98bc55ccf838698f9861ad717",
+        "completed": "ef2e77d35c91355e51d4be60607b5469119694f7d0d37dab820dfc819df32b37",
+        "transition": "19cc5de1ba5961e089cfa2b31a24b21e71c08fc52409f49717e814b41e3ad2dd",
+        "idle": "ef2e77d35c91355e51d4be60607b5469119694f7d0d37dab820dfc819df32b37",
+        "provenance": "2936be03b7d75742b48df0ba2b5ac7dd13111b869fbffbe1e691b81897f182f7"
+      }
+    },
+    {
+      "kouId": "kou-13",
+      "name": "玄鳥至る",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 514.117,
+        "y": 280.394,
+        "visibleCenter": [
+          256,
+          255.5
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        130,
+        409,
+        381
+      ],
+      "precursorBounds": [
+        103,
+        136,
+        209,
+        196
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 130,
+        "width": 306,
+        "height": 251
+      },
+      "animation": {
+        "seed": [
+          156,
+          166
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-13/initial.png",
+      "completed": "kou-13/completed.png",
+      "transition": "kou-13/transition.webp",
+      "idle": "kou-13/idle.png",
+      "provenance": "kou-13/provenance.json",
+      "hashes": {
+        "initial": "89deef8edd6c5db638260130f570568be20ffebc2e282373747da1f61179ddf0",
+        "completed": "dd9f1ed91713d256ebcf4b4c71f82c1fd05335c1a2ac95ae20dd61b34b855d02",
+        "transition": "ae400a2d2fdc910e75b423d23100ece416c34bb06e875ae90f1f5cbec93eb30d",
+        "idle": "dd9f1ed91713d256ebcf4b4c71f82c1fd05335c1a2ac95ae20dd61b34b855d02",
+        "provenance": "57a53ad2913e42c478d7339663ade5344eb6825200e6b62cac32b55a0c6f659e"
+      }
+    },
+    {
+      "kouId": "kou-14",
+      "name": "鴻雁かえる",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 571.41,
+        "y": 261.384,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        106,
+        103,
+        406,
+        409
+      ],
+      "precursorBounds": [
+        106,
+        360,
+        269,
+        409
+      ],
+      "motionBounds": {
+        "x": 106,
+        "y": 103,
+        "width": 300,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          187.5,
+          384.5
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-14/initial.png",
+      "completed": "kou-14/completed.png",
+      "transition": "kou-14/transition.webp",
+      "idle": "kou-14/idle.png",
+      "provenance": "kou-14/provenance.json",
+      "hashes": {
+        "initial": "c9555c42b93d1f63e2cffe5fcce6db71736c3d425837962c3654b38d8ea96fd8",
+        "completed": "1ff404c8815f4dc32987280192010f687450db8acad210babc7dae315a712839",
+        "transition": "aa6dfd12f3eb3307a4dfe7e16c4cc7fc51abb91c97f6101499e6b256157cae73",
+        "idle": "1ff404c8815f4dc32987280192010f687450db8acad210babc7dae315a712839",
+        "provenance": "225a97485be66bd5fef442c96a438b17779c9c17772880d58f571242ed0d1025"
+      }
+    },
+    {
+      "kouId": "kou-15",
+      "name": "虹始めてあらわる",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 476.314,
+        "y": 324.209,
+        "visibleCenter": [
+          256,
+          255.5
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        146,
+        409,
+        365
+      ],
+      "precursorBounds": [
+        281,
+        283,
+        409,
+        359
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 146,
+        "width": 306,
+        "height": 219
+      },
+      "animation": {
+        "seed": [
+          345,
+          321
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-15/initial.png",
+      "completed": "kou-15/completed.png",
+      "transition": "kou-15/transition.webp",
+      "idle": "kou-15/idle.png",
+      "provenance": "kou-15/provenance.json",
+      "hashes": {
+        "initial": "0f7e98badade756cbdd2b7f04b7a6fbe44e515a2d2930eda1ff7866241535b15",
+        "completed": "07eda5b1c24ea7c6dba88c0ecc532a804a7e47bf2d578ba3967ecfb3b1ae85ac",
+        "transition": "b38cdb7a4c2458175c3b3620d7aa127156b5f7563e392580dd0809f94d03d581",
+        "idle": "07eda5b1c24ea7c6dba88c0ecc532a804a7e47bf2d578ba3967ecfb3b1ae85ac",
+        "provenance": "64fc13c3e4228febcbcdc7d2fa96ba9ed7fbeb934bfefa4f2b03140fe51ca8ef"
+      }
+    },
+    {
+      "kouId": "kou-16",
+      "name": "葭始めて生ず",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 589.71,
+        "y": 310.397,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        182,
+        103,
+        330,
+        409
+      ],
+      "precursorBounds": [
+        238,
+        331,
+        280,
+        379
+      ],
+      "motionBounds": {
+        "x": 182,
+        "y": 103,
+        "width": 148,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          259,
+          355
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-16/initial.png",
+      "completed": "kou-16/completed.png",
+      "transition": "kou-16/transition.webp",
+      "idle": "kou-16/idle.png",
+      "provenance": "kou-16/provenance.json",
+      "hashes": {
+        "initial": "a198d5644779b0f67d9beacffa1f8c71f4248f7d34e5376e964aa3e5b47f4a78",
+        "completed": "b47268bce33bbbdbbf753c58fdab373d884557a624de28d7bce7784527233a2e",
+        "transition": "a43742fba72ccf1b698d2fed8d37684c7b9f81ce467941345164ba3fd8c169b4",
+        "idle": "b47268bce33bbbdbbf753c58fdab373d884557a624de28d7bce7784527233a2e",
+        "provenance": "6fe44427b1765adc171626286e26d16661ac7e8aafab65c620c63dd7c23a735f"
+      }
+    },
+    {
+      "kouId": "kou-17",
+      "name": "霜止で苗出ずる",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 533.169,
+        "y": 337.649,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        126,
+        103,
+        386,
+        409
+      ],
+      "precursorBounds": [
+        129,
+        366,
+        252,
+        409
+      ],
+      "motionBounds": {
+        "x": 126,
+        "y": 103,
+        "width": 260,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          190.5,
+          387.5
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-17/initial.png",
+      "completed": "kou-17/completed.png",
+      "transition": "kou-17/transition.webp",
+      "idle": "kou-17/idle.png",
+      "provenance": "kou-17/provenance.json",
+      "hashes": {
+        "initial": "ecf5147d06f6c65e642c70550f1b8670e252409ecf89ca20ecb0a5f24e54aa44",
+        "completed": "947e119dd5970626c17a7a66d98c8514e8d4e953dec79bb77897797d7ff51620",
+        "transition": "becc71f1d7d893e97a55192eb3a696bbc58cd1a0147a848c5efa3d28c48797f1",
+        "idle": "947e119dd5970626c17a7a66d98c8514e8d4e953dec79bb77897797d7ff51620",
+        "provenance": "6b4554194cf821a8934f49a8c6ad445471e877cea95afdd174416f705ec83fc8"
+      }
+    },
+    {
+      "kouId": "kou-18",
+      "name": "牡丹はなさく",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 377.919,
+        "y": 342.279,
+        "visibleCenter": [
+          255.5,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        115,
+        103,
+        396,
+        409
+      ],
+      "precursorBounds": [
+        254,
+        325,
+        391,
+        409
+      ],
+      "motionBounds": {
+        "x": 115,
+        "y": 103,
+        "width": 281,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          322.5,
+          367
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-18/initial.png",
+      "completed": "kou-18/completed.png",
+      "transition": "kou-18/transition.webp",
+      "idle": "kou-18/idle.png",
+      "provenance": "kou-18/provenance.json",
+      "hashes": {
+        "initial": "a9b8e4da307148b4b62c91b2bd2f2785bf87a985606c2df24277f2162e1a365e",
+        "completed": "7c914b58dc790ca09236d2615bc1e180c6cbada889fe664c0e401d02b5be42ec",
+        "transition": "8ccef898e3ef3c05e0e64b8c1f291f559386fb152f8f8f402b5b50beb0495f19",
+        "idle": "7c914b58dc790ca09236d2615bc1e180c6cbada889fe664c0e401d02b5be42ec",
+        "provenance": "8aaa3d485d41cc8360ab8482c58d52821d6815f914368164b0340510d020019e"
+      }
+    },
+    {
+      "kouId": "kou-19",
+      "name": "蛙始めて鳴く",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 592.111,
+        "y": 363.503,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        127,
+        409,
+        385
+      ],
+      "precursorBounds": [
+        167,
+        332,
+        317,
+        385
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 127,
+        "width": 306,
+        "height": 258
+      },
+      "animation": {
+        "seed": [
+          242,
+          358.5
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-19/initial.png",
+      "completed": "kou-19/completed.png",
+      "transition": "kou-19/transition.webp",
+      "idle": "kou-19/idle.png",
+      "provenance": "kou-19/provenance.json",
+      "hashes": {
+        "initial": "6f14a59ed358c7198311b0fa01e84932f0918af30cf75e5265c2a7367d2e4d2e",
+        "completed": "6eb5d96f51b2b671cd27b730f7871c8aeb7e21719a6250dbbb2ddd36b20b7d84",
+        "transition": "837ddec3deb6f0d71d0e0bf2f3e5df6aa0b5f8142acd388d809051f4b59cd822",
+        "idle": "6eb5d96f51b2b671cd27b730f7871c8aeb7e21719a6250dbbb2ddd36b20b7d84",
+        "provenance": "9f471b31d0730633b85c8ce535763e3a46ed565ab451caff91666460e36971fd"
+      }
+    },
+    {
+      "kouId": "kou-20",
+      "name": "みみず出ずる",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 482.693,
+        "y": 379.22,
+        "visibleCenter": [
+          255.5,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        130,
+        103,
+        381,
+        409
+      ],
+      "precursorBounds": [
+        174,
+        347,
+        262,
+        407
+      ],
+      "motionBounds": {
+        "x": 130,
+        "y": 103,
+        "width": 251,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          218,
+          377
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-20/initial.png",
+      "completed": "kou-20/completed.png",
+      "transition": "kou-20/transition.webp",
+      "idle": "kou-20/idle.png",
+      "provenance": "kou-20/provenance.json",
+      "hashes": {
+        "initial": "b63fe86fbe669369cacc83e7c5a87c856784f2d21c394658cf7d2b0de4e597e7",
+        "completed": "bd200fe099fc0356dcbb72d892a6ceccdefecca779c7ba45ec48d3ad0c316395",
+        "transition": "8b6712153e9097ae273e042d0eb4937459d8aaee5d27089059d2603f30c1e0cb",
+        "idle": "bd200fe099fc0356dcbb72d892a6ceccdefecca779c7ba45ec48d3ad0c316395",
+        "provenance": "e78525dca1d0df8f62a436a6782bfbc21350a00a1bdd034b4aefe95d32028fb2"
+      }
+    },
+    {
+      "kouId": "kou-21",
+      "name": "竹のこ生ず",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 429.751,
+        "y": 360.731,
+        "visibleCenter": [
+          255.5,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        153,
+        103,
+        358,
+        409
+      ],
+      "precursorBounds": [
+        272,
+        104,
+        315,
+        188
+      ],
+      "motionBounds": {
+        "x": 153,
+        "y": 103,
+        "width": 205,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          293.5,
+          146
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-21/initial.png",
+      "completed": "kou-21/completed.png",
+      "transition": "kou-21/transition.webp",
+      "idle": "kou-21/idle.png",
+      "provenance": "kou-21/provenance.json",
+      "hashes": {
+        "initial": "c220354c8be45541104d1a377eb99d0cf33172dfd708f6ec4e05ae2ae0360078",
+        "completed": "8db465146f8a7cc7a982b55186558abbfc80c847ce87a1a7098acc935b8c783b",
+        "transition": "61b40a6f029a2193c031de4e32f277110e5181d4e144265e6467101fa3651ac3",
+        "idle": "8db465146f8a7cc7a982b55186558abbfc80c847ce87a1a7098acc935b8c783b",
+        "provenance": "2f0851ed580930287604c6e6d712201e394bf6b07694b6809635f3276521ceaa"
+      }
+    },
+    {
+      "kouId": "kou-22",
+      "name": "蚕起きて桑を食む",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 537.28,
+        "y": 393.141,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        115,
+        103,
+        397,
+        409
+      ],
+      "precursorBounds": [
+        130,
+        365,
+        163,
+        409
+      ],
+      "motionBounds": {
+        "x": 115,
+        "y": 103,
+        "width": 282,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          146.5,
+          387
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-22/initial.png",
+      "completed": "kou-22/completed.png",
+      "transition": "kou-22/transition.webp",
+      "idle": "kou-22/idle.png",
+      "provenance": "kou-22/provenance.json",
+      "hashes": {
+        "initial": "b727d4ba468a1694915bf8e5f69a1188022f1e6327ddc1a2ee5b35779f572eda",
+        "completed": "d25d0fde017186398f4ee8e200b69a1ea676bc2fd889ccfc68b6304b302fc681",
+        "transition": "eac8e178a80a6a4554154ba4497fdf777f41e751e7361c3015b62c08f9317ccf",
+        "idle": "d25d0fde017186398f4ee8e200b69a1ea676bc2fd889ccfc68b6304b302fc681",
+        "provenance": "6f5d487f6dcd6e7ff2270be6f4441f96d0e05937ad90e89622a3dd52009a33c3"
+      }
+    },
+    {
+      "kouId": "kou-23",
+      "name": "紅花栄う",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 588.857,
+        "y": 416.276,
+        "visibleCenter": [
+          255.5,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        145,
+        103,
+        366,
+        409
+      ],
+      "precursorBounds": [
+        182,
+        198,
+        336,
+        409
+      ],
+      "motionBounds": {
+        "x": 145,
+        "y": 103,
+        "width": 221,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          259,
+          303.5
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-23/initial.png",
+      "completed": "kou-23/completed.png",
+      "transition": "kou-23/transition.webp",
+      "idle": "kou-23/idle.png",
+      "provenance": "kou-23/provenance.json",
+      "hashes": {
+        "initial": "c33aad1a7a283bf9eaa4fd2917055c491d6bf9f704f41075837f57e423853ba7",
+        "completed": "5d3bb1513f8af980833835474a6a3d45bd8a846e958e1d33b54dd4dbbd3e503e",
+        "transition": "15a60af93caee6781c7f0480223b756869e957fc8ea738e2dceb209a2e66464b",
+        "idle": "5d3bb1513f8af980833835474a6a3d45bd8a846e958e1d33b54dd4dbbd3e503e",
+        "provenance": "6880584219375a9836fdeb5bc52f95d8cacb0fa2d8b371cc9a668cf9525db9e7"
+      }
+    },
+    {
+      "kouId": "kou-24",
+      "name": "麦秋至る",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 495.039,
+        "y": 438.459,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        185,
+        103,
+        327,
+        409
+      ],
+      "precursorBounds": [
+        208,
+        305,
+        327,
+        409
+      ],
+      "motionBounds": {
+        "x": 185,
+        "y": 103,
+        "width": 142,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          267.5,
+          357
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-24/initial.png",
+      "completed": "kou-24/completed.png",
+      "transition": "kou-24/transition.webp",
+      "idle": "kou-24/idle.png",
+      "provenance": "kou-24/provenance.json",
+      "hashes": {
+        "initial": "f9c9feb6adc650241bb355a184b76cb40e8e9d27b8fb6aa6a403dbe3e3ce8158",
+        "completed": "bdf74a96424183c30062516ec6058f4861958936fd34b0a192e17dd127200bdf",
+        "transition": "193560efea0aefd5512182d4e3af103411b205eb14d1752aab3247f936be292f",
+        "idle": "bdf74a96424183c30062516ec6058f4861958936fd34b0a192e17dd127200bdf",
+        "provenance": "aaac6206e9b7a21a555d53fa55bbc67a50ee24c0fa28d4d4b4d868865875150a"
+      }
+    },
+    {
+      "kouId": "kou-25",
+      "name": "蟷螂生ず",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 546.971,
+        "y": 461.714,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        108,
+        103,
+        404,
+        409
+      ],
+      "precursorBounds": [
+        286,
+        323,
+        359,
+        409
+      ],
+      "motionBounds": {
+        "x": 108,
+        "y": 103,
+        "width": 296,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          322.5,
+          366
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-25/initial.png",
+      "completed": "kou-25/completed.png",
+      "transition": "kou-25/transition.webp",
+      "idle": "kou-25/idle.png",
+      "provenance": "kou-25/provenance.json",
+      "hashes": {
+        "initial": "c9fca4a5511cb53de0e9e8ba45618f23d2496bef6fa84f60d4c879861e0f0992",
+        "completed": "8fa7de8881bb803abf1e1755bb1710d429f62c8ec0e7656d05e6d67df614f1db",
+        "transition": "307970ded430567418a6a1a6e873e6bb30eff9e6317d30e98d12a7586d2c7c4d",
+        "idle": "8fa7de8881bb803abf1e1755bb1710d429f62c8ec0e7656d05e6d67df614f1db",
+        "provenance": "26c94b0acd766465fb4d4dbf3347fb9a26e4d87b275a5b0b267869afb7015c0e"
+      }
+    },
+    {
+      "kouId": "kou-26",
+      "name": "腐れたる草蛍となる",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 439.244,
+        "y": 427.566,
+        "visibleCenter": [
+          256,
+          255.5
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        112,
+        409,
+        399
+      ],
+      "precursorBounds": [
+        222,
+        278,
+        257,
+        323
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 112,
+        "width": 306,
+        "height": 287
+      },
+      "animation": {
+        "seed": [
+          239.5,
+          300.5
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-26/initial.png",
+      "completed": "kou-26/completed.png",
+      "transition": "kou-26/transition.webp",
+      "idle": "kou-26/idle.png",
+      "provenance": "kou-26/provenance.json",
+      "hashes": {
+        "initial": "dd51c86c03c857e859f96c4d58dd0d87f2ee50787383794ee8f689d36f5e4b0a",
+        "completed": "85a46466c8b8f04b05c3d128bfa49fd56bd8110eae72f727a9f5311d22c90855",
+        "transition": "8f24bfdf6a53151a33b3614b58701d848b5b68fe81f82011fafcda6fd5c6a4d9",
+        "idle": "85a46466c8b8f04b05c3d128bfa49fd56bd8110eae72f727a9f5311d22c90855",
+        "provenance": "c9d14218ee50943b5bd69f77ba9f9510a4fce97935be45f6f91064df262ed759"
+      }
+    },
+    {
+      "kouId": "kou-27",
+      "name": "梅のみ黄ばむ",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 530.952,
+        "y": 514.486,
+        "visibleCenter": [
+          255.5,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        111,
+        103,
+        400,
+        409
+      ],
+      "precursorBounds": [
+        279,
+        104,
+        400,
+        270
+      ],
+      "motionBounds": {
+        "x": 111,
+        "y": 103,
+        "width": 289,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          339.5,
+          187
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-27/initial.png",
+      "completed": "kou-27/completed.png",
+      "transition": "kou-27/transition.webp",
+      "idle": "kou-27/idle.png",
+      "provenance": "kou-27/provenance.json",
+      "hashes": {
+        "initial": "b93a13f9bd928b1c596172662ef15baabc1be40b2c1a08d95e7e49faf15b384d",
+        "completed": "3f337632d806de3be8d3ef4b7e6a7c1bce8492bb45eccd87a6653b03f073fd16",
+        "transition": "70b6abd0f861bd0ba5dfc5889281f0687a310201da19a100575b754ede2d5f99",
+        "idle": "3f337632d806de3be8d3ef4b7e6a7c1bce8492bb45eccd87a6653b03f073fd16",
+        "provenance": "df6a8af7055000b21ef7e58b30c98ee54f270aa3eb48f7c26864e327674d9397"
+      }
+    },
+    {
+      "kouId": "kou-28",
+      "name": "乃東枯る",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 478.783,
+        "y": 492.039,
+        "visibleCenter": [
+          255.5,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        158,
+        103,
+        353,
+        409
+      ],
+      "precursorBounds": [
+        215,
+        313,
+        273,
+        344
+      ],
+      "motionBounds": {
+        "x": 158,
+        "y": 103,
+        "width": 195,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          244,
+          328.5
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-28/initial.png",
+      "completed": "kou-28/completed.png",
+      "transition": "kou-28/transition.webp",
+      "idle": "kou-28/idle.png",
+      "provenance": "kou-28/provenance.json",
+      "hashes": {
+        "initial": "e8885ced645d82457e21d0e82f394ef159253837941e3039c6607fe03e7ba36b",
+        "completed": "27c40dbf0434aa991c5d176cf66c7b107e397de1cd66abe3fa83cf6f7558ba2f",
+        "transition": "b3572cbb700497b532876380e13ab976bdbdd65c7dc80343a11d16f3bf17e837",
+        "idle": "27c40dbf0434aa991c5d176cf66c7b107e397de1cd66abe3fa83cf6f7558ba2f",
+        "provenance": "dae832cc8e910833d962c591b2d954cf03487b06c6dabe7403c6316831c9d7a4"
+      }
+    },
+    {
+      "kouId": "kou-29",
+      "name": "菖蒲はなさく",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 383.861,
+        "y": 400.877,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        154,
+        103,
+        358,
+        409
+      ],
+      "precursorBounds": [
+        233,
+        257,
+        348,
+        409
+      ],
+      "motionBounds": {
+        "x": 154,
+        "y": 103,
+        "width": 204,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          290.5,
+          333
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-29/initial.png",
+      "completed": "kou-29/completed.png",
+      "transition": "kou-29/transition.webp",
+      "idle": "kou-29/idle.png",
+      "provenance": "kou-29/provenance.json",
+      "hashes": {
+        "initial": "09e929be8bbf76471670e7970c231698de4300716f36807ca4486cb54ed30463",
+        "completed": "6d73bde6f4213cc7886dea3844b73fe9c8e4ccacc4ccf4b75f7d1c24c6699802",
+        "transition": "6b8611789c1c04b0fca4fc820c11f10eb716699a36fbf96795b66cd42f8b2c37",
+        "idle": "6d73bde6f4213cc7886dea3844b73fe9c8e4ccacc4ccf4b75f7d1c24c6699802",
+        "provenance": "5e97ef6579342827c08e4fda6206cf39eea3953d1e5712964ff592570f9baec5"
+      }
+    },
+    {
+      "kouId": "kou-30",
+      "name": "半夏生ず",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 480.688,
+        "y": 558.225,
+        "visibleCenter": [
+          255.5,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        164,
+        103,
+        347,
+        409
+      ],
+      "precursorBounds": [
+        217,
+        259,
+        267,
+        349
+      ],
+      "motionBounds": {
+        "x": 164,
+        "y": 103,
+        "width": 183,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          242,
+          304
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-30/initial.png",
+      "completed": "kou-30/completed.png",
+      "transition": "kou-30/transition.webp",
+      "idle": "kou-30/idle.png",
+      "provenance": "kou-30/provenance.json",
+      "hashes": {
+        "initial": "0da316da56ad2b31cc30471c3e0ec27209257c497ad67a05f33e10ca1f2ea8df",
+        "completed": "02f4fb5bb55a2299c5f56a23b58731295d6052333e78bdca9c0ac9112d10a7a5",
+        "transition": "ad9d48ea9abc78c79316d7ceb12669607470299601056c98a57781e65ab474bb",
+        "idle": "02f4fb5bb55a2299c5f56a23b58731295d6052333e78bdca9c0ac9112d10a7a5",
+        "provenance": "ed7952e415f6d0421ddca6d63de2d81a27203e0af452310c43764ee5c63de5af"
+      }
+    },
+    {
+      "kouId": "kou-31",
+      "name": "温風至る",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 423.188,
+        "y": 480.65,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        142,
+        409,
+        370
+      ],
+      "precursorBounds": [
+        349,
+        254,
+        402,
+        326
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 142,
+        "width": 306,
+        "height": 228
+      },
+      "animation": {
+        "seed": [
+          375.5,
+          290
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-31/initial.png",
+      "completed": "kou-31/completed.png",
+      "transition": "kou-31/transition.webp",
+      "idle": "kou-31/idle.png",
+      "provenance": "kou-31/provenance.json",
+      "hashes": {
+        "initial": "46444fcbd405e1f02507fff95d33efc941191e9145adede181ba5cd067fb9a29",
+        "completed": "734ba30aaae2390627cb51bbdc7a376578029e4c73ea5ef7513849957899283e",
+        "transition": "10568b7a31e901472dda89bdd84eccfc576d30927538591abfb697073d7c4497",
+        "idle": "734ba30aaae2390627cb51bbdc7a376578029e4c73ea5ef7513849957899283e",
+        "provenance": "5269bd928aa4803ea9f7734350ad6fd1589c8433f0441678edd99a98d1de05d2"
+      }
+    },
+    {
+      "kouId": "kou-32",
+      "name": "蓮始めて開く",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 429.21,
+        "y": 533.425,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        124,
+        103,
+        388,
+        409
+      ],
+      "precursorBounds": [
+        240,
+        321,
+        374,
+        409
+      ],
+      "motionBounds": {
+        "x": 124,
+        "y": 103,
+        "width": 264,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          307,
+          365
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-32/initial.png",
+      "completed": "kou-32/completed.png",
+      "transition": "kou-32/transition.webp",
+      "idle": "kou-32/idle.png",
+      "provenance": "kou-32/provenance.json",
+      "hashes": {
+        "initial": "39ef78c14fc3166748337c6ad3490069309af706b0eadf620f6f22ad31ba88a9",
+        "completed": "af0c7652a6e838e752826a7ceac59a58682d0f12551a706a1dc69a6446479872",
+        "transition": "5824c8833a0dbd3c0f439c2cd7ad792b8a3b2384f59f839dec993f36788efe38",
+        "idle": "af0c7652a6e838e752826a7ceac59a58682d0f12551a706a1dc69a6446479872",
+        "provenance": "578a3f9e4b6a420bd0ac2107a4cfccec0bf9fac7786c6f2e97857b8ac741415d"
+      }
+    },
+    {
+      "kouId": "kou-33",
+      "name": "鷹乃ちわざをならう",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 420.17,
+        "y": 586.202,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        147,
+        103,
+        365,
+        409
+      ],
+      "precursorBounds": [
+        232,
+        349,
+        295,
+        371
+      ],
+      "motionBounds": {
+        "x": 147,
+        "y": 103,
+        "width": 218,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          263.5,
+          360
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-33/initial.png",
+      "completed": "kou-33/completed.png",
+      "transition": "kou-33/transition.webp",
+      "idle": "kou-33/idle.png",
+      "provenance": "kou-33/provenance.json",
+      "hashes": {
+        "initial": "462fa993f43c10f2caff78f061bb286f5ce8b9218ae18c1243185a22759af703",
+        "completed": "5f5182448f57698536fe081e7f0867fff43c2432bcc5a67a68981097c63f5714",
+        "transition": "a41ff0802d532b78e86efaa7fcb43f14c75fcab15ad34599ea8b7b7f72e318e8",
+        "idle": "5f5182448f57698536fe081e7f0867fff43c2432bcc5a67a68981097c63f5714",
+        "provenance": "2774d2c76929696eddc99eaa5151f05f080d2ca3466ece25a746723286678c0e"
+      }
+    },
+    {
+      "kouId": "kou-34",
+      "name": "桐始めて花を結ぶ",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 372.428,
+        "y": 453.645,
+        "visibleCenter": [
+          255.5,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        165,
+        103,
+        346,
+        409
+      ],
+      "precursorBounds": [
+        174,
+        113,
+        346,
+        329
+      ],
+      "motionBounds": {
+        "x": 165,
+        "y": 103,
+        "width": 181,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          260,
+          221
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-34/initial.png",
+      "completed": "kou-34/completed.png",
+      "transition": "kou-34/transition.webp",
+      "idle": "kou-34/idle.png",
+      "provenance": "kou-34/provenance.json",
+      "hashes": {
+        "initial": "5750e16f5d081828e46275d7a6c3bcae2f50e3095079e7352b4a35b59d490799",
+        "completed": "9ac6895e802626b20ebaa8beb8c4382c490eb314cc5270261d0c565288cd9c06",
+        "transition": "00d0960eb33ed837d56dfbd18326f96d55c134eedd011c841886f9f162645ec8",
+        "idle": "9ac6895e802626b20ebaa8beb8c4382c490eb314cc5270261d0c565288cd9c06",
+        "provenance": "44a3da3c41555de4e209c73700fea8426718d2939475c4c194d76560a3370582"
+      }
+    },
+    {
+      "kouId": "kou-35",
+      "name": "土潤いてむし暑し",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 373.317,
+        "y": 522.844,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        139,
+        409,
+        373
+      ],
+      "precursorBounds": [
+        168,
+        139,
+        298,
+        275
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 139,
+        "width": 306,
+        "height": 234
+      },
+      "animation": {
+        "seed": [
+          233,
+          207
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-35/initial.png",
+      "completed": "kou-35/completed.png",
+      "transition": "kou-35/transition.webp",
+      "idle": "kou-35/idle.png",
+      "provenance": "kou-35/provenance.json",
+      "hashes": {
+        "initial": "1775a80a0934733cfc7daf990bb605405799cbc7f71f1810558e89b7ff8bcd81",
+        "completed": "e4f3d0cd51c6e734a9bfecbc8eb7f2aa8c980fc5aa6ecdaca3623723c4aef832",
+        "transition": "2fd3cdba3f98828e0e0afab0664d958473ccb6e3cbc9cf822476e95d1319e035",
+        "idle": "e4f3d0cd51c6e734a9bfecbc8eb7f2aa8c980fc5aa6ecdaca3623723c4aef832",
+        "provenance": "d0162e2ae42a2beb28f1bea41ec845b8cd1bf2ada215a0b74171ef3aece85cc5"
+      }
+    },
+    {
+      "kouId": "kou-36",
+      "name": "大雨時にふる",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 361.729,
+        "y": 589.282,
+        "visibleCenter": [
+          255.5,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        131,
+        103,
+        380,
+        409
+      ],
+      "precursorBounds": [
+        238,
+        336,
+        380,
+        409
+      ],
+      "motionBounds": {
+        "x": 131,
+        "y": 103,
+        "width": 249,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          309,
+          372.5
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-36/initial.png",
+      "completed": "kou-36/completed.png",
+      "transition": "kou-36/transition.webp",
+      "idle": "kou-36/idle.png",
+      "provenance": "kou-36/provenance.json",
+      "hashes": {
+        "initial": "4aae2aaa3c6d46cd96bb2670a8654f3058d6a32e157b099f895825d1b7099e5d",
+        "completed": "e3cc0e5f74fc6c5ba49a9d063aa4ffb7384208d74b8e1c7c32f0fe6783a14cc6",
+        "transition": "cf6b83156c35793468601de5bd9a720609c55ef13d26a6eaa4849af36df45fef",
+        "idle": "e3cc0e5f74fc6c5ba49a9d063aa4ffb7384208d74b8e1c7c32f0fe6783a14cc6",
+        "provenance": "38b0d5c009d00c4eaac76a846d53fda74474e9dbfa2f2becdb53e8cecc4291ff"
+      }
+    },
+    {
+      "kouId": "kou-37",
+      "name": "涼風至る",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 320.232,
+        "y": 488.667,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        131,
+        103,
+        381,
+        409
+      ],
+      "precursorBounds": [
+        322,
+        193,
+        378,
+        229
+      ],
+      "motionBounds": {
+        "x": 131,
+        "y": 103,
+        "width": 250,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          350,
+          211
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-37/initial.png",
+      "completed": "kou-37/completed.png",
+      "transition": "kou-37/transition.webp",
+      "idle": "kou-37/idle.png",
+      "provenance": "kou-37/provenance.json",
+      "hashes": {
+        "initial": "c3abb51e8343ed21e9d02772190a3232c664a327335806368a452166012dcad7",
+        "completed": "95eac34711e9480e577b6dafea7ba9a6a99379f632134fe7a45f164d8350eabd",
+        "transition": "c736187c19fb295d9b2e55b88f971d230c8e190b5f0a8a5a7cdf7d29d518d9fa",
+        "idle": "95eac34711e9480e577b6dafea7ba9a6a99379f632134fe7a45f164d8350eabd",
+        "provenance": "971f459d02a03c4b60381ea49a400a17b8df964dd9e433b48cc280462a6cf883"
+      }
+    },
+    {
+      "kouId": "kou-38",
+      "name": "寒蝉鳴く",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 317.905,
+        "y": 542.694,
+        "visibleCenter": [
+          255.5,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        188,
+        103,
+        323,
+        409
+      ],
+      "precursorBounds": [
+        195,
+        103,
+        317,
+        408
+      ],
+      "motionBounds": {
+        "x": 188,
+        "y": 103,
+        "width": 135,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          256,
+          255.5
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-38/initial.png",
+      "completed": "kou-38/completed.png",
+      "transition": "kou-38/transition.webp",
+      "idle": "kou-38/idle.png",
+      "provenance": "kou-38/provenance.json",
+      "hashes": {
+        "initial": "d7f1987dc4038f9d24a39bc78c71a6366590acf80b92de92536d09af87093306",
+        "completed": "a77de9e3dd85d92be1c5186e829a38c3c57fbb34e938e86cf41b272a91123324",
+        "transition": "f975271feebda255ad12c72614c96fdb6ebfd1021a9b0e8f266afb0ecd71b205",
+        "idle": "a77de9e3dd85d92be1c5186e829a38c3c57fbb34e938e86cf41b272a91123324",
+        "provenance": "f4afa383ddafce676e6711a034cce1664064af431ff497ec098bf48acfb3641b"
+      }
+    },
+    {
+      "kouId": "kou-39",
+      "name": "深き霧まとう",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 304.116,
+        "y": 596.62,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        160,
+        409,
+        352
+      ],
+      "precursorBounds": [
+        179,
+        264,
+        259,
+        324
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 160,
+        "width": 306,
+        "height": 192
+      },
+      "animation": {
+        "seed": [
+          219,
+          294
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-39/initial.png",
+      "completed": "kou-39/completed.png",
+      "transition": "kou-39/transition.webp",
+      "idle": "kou-39/idle.png",
+      "provenance": "kou-39/provenance.json",
+      "hashes": {
+        "initial": "dafcca0646fe9c4f2f8acdd12700a9d1f7f4f6fcb935b377521c8dc0079fc40e",
+        "completed": "856bd6bd23ec3d59170144466dbf7cb04b8739186da63fd76675ed5d8af9ffb4",
+        "transition": "91282d011e7a16cf9dcc97b7d7bdf66a55a06feead936212e2aed02fdeccdafc",
+        "idle": "856bd6bd23ec3d59170144466dbf7cb04b8739186da63fd76675ed5d8af9ffb4",
+        "provenance": "c010d4fcd0f3839c208ace0245242387077c64b05199bfb9d1e8ad39c2fe903a"
+      }
+    },
+    {
+      "kouId": "kou-40",
+      "name": "綿のはなしべ開く",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 318.966,
+        "y": 434.819,
+        "visibleCenter": [
+          255.5,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        125,
+        103,
+        386,
+        409
+      ],
+      "precursorBounds": [
+        179,
+        354,
+        282,
+        409
+      ],
+      "motionBounds": {
+        "x": 125,
+        "y": 103,
+        "width": 261,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          230.5,
+          381.5
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-40/initial.png",
+      "completed": "kou-40/completed.png",
+      "transition": "kou-40/transition.webp",
+      "idle": "kou-40/idle.png",
+      "provenance": "kou-40/provenance.json",
+      "hashes": {
+        "initial": "142f0d40f49491b9acae06475b6fcd174bd652216bcbb17d449f46d76b8eaf00",
+        "completed": "18468b6c7482cd842e7c4fefc5e51b0e64882f444efbbd738e048947f2c146c7",
+        "transition": "4b9905e981bd4bc297a2231dcb10d1da7f0e759dda5d71a95ae008967d756cf9",
+        "idle": "18468b6c7482cd842e7c4fefc5e51b0e64882f444efbbd738e048947f2c146c7",
+        "provenance": "14cf72dc7f474f5cda1c2944c457d284f5504010e7a027a4aeb1afd174bc0569"
+      }
+    },
+    {
+      "kouId": "kou-41",
+      "name": "天地始めてさむし",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 264.959,
+        "y": 509.608,
+        "visibleCenter": [
+          256,
+          255.5
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        131,
+        409,
+        380
+      ],
+      "precursorBounds": [
+        120,
+        247,
+        401,
+        322
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 131,
+        "width": 306,
+        "height": 249
+      },
+      "animation": {
+        "seed": [
+          260.5,
+          284.5
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-41/initial.png",
+      "completed": "kou-41/completed.png",
+      "transition": "kou-41/transition.webp",
+      "idle": "kou-41/idle.png",
+      "provenance": "kou-41/provenance.json",
+      "hashes": {
+        "initial": "383ce61f6c7e207ac09820fb591a6fd483125d24a925b3ddbeb2ca27b1d11fbb",
+        "completed": "49ad36bd608d8dea7db5237530ac916ff031cbeb2cb18fad5be6006ed99d640d",
+        "transition": "3dd0f14d8954cc4cee68802a576883ada30c3bf827cc4576e9a0e38bf65b3bbb",
+        "idle": "49ad36bd608d8dea7db5237530ac916ff031cbeb2cb18fad5be6006ed99d640d",
+        "provenance": "2f73e0834749b363a422fc34a706858f37481c8b1b6d791d8fa60937c5f6d2cf"
+      }
+    },
+    {
+      "kouId": "kou-42",
+      "name": "禾乃ちみのる",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 251.538,
+        "y": 563.665,
+        "visibleCenter": [
+          255.5,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        115,
+        103,
+        396,
+        409
+      ],
+      "precursorBounds": [
+        115,
+        103,
+        189,
+        409
+      ],
+      "motionBounds": {
+        "x": 115,
+        "y": 103,
+        "width": 281,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          152,
+          256
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-42/initial.png",
+      "completed": "kou-42/completed.png",
+      "transition": "kou-42/transition.webp",
+      "idle": "kou-42/idle.png",
+      "provenance": "kou-42/provenance.json",
+      "hashes": {
+        "initial": "914fc06d8d279a0bfa384a0d4677336da67e286b2235d6e9c9dddd0df4f31391",
+        "completed": "512f2fa0407a280e60bb6651b63ce9b1fff535e206105f11d89cbe01f19bf82d",
+        "transition": "f315145150ff322474b20018b53bdf550335c5d4537edcc4ba0ad362bd0db7b8",
+        "idle": "512f2fa0407a280e60bb6651b63ce9b1fff535e206105f11d89cbe01f19bf82d",
+        "provenance": "62a04e5eed639db71221f69aac3804d6301858c103ca57fd7f8adacc20e3542e"
+      }
+    },
+    {
+      "kouId": "kou-43",
+      "name": "草露白し",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 263.711,
+        "y": 455.527,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        139,
+        409,
+        373
+      ],
+      "precursorBounds": [
+        272,
+        139,
+        322,
+        177
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 139,
+        "width": 306,
+        "height": 234
+      },
+      "animation": {
+        "seed": [
+          297,
+          158
+        ],
+        "durationMs": 720,
+        "frames": 5,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-43/initial.png",
+      "completed": "kou-43/completed.png",
+      "transition": "kou-43/transition.webp",
+      "idle": "kou-43/idle.png",
+      "provenance": "kou-43/provenance.json",
+      "hashes": {
+        "initial": "999299805d13a7245e4f899e8cdbf9166b132a9c656cb7b194637df4fdfb6d72",
+        "completed": "794f2343f05d7009dba4be47e4ba3c40a2363052bb7c778a808eae676a85b2d1",
+        "transition": "9748bd630d7fe95c371d237bd4808599b886ac5edabbe6f9127045c5801d1327",
+        "idle": "794f2343f05d7009dba4be47e4ba3c40a2363052bb7c778a808eae676a85b2d1",
+        "provenance": "4f1c296540a58a9f9f6bc9c8c55ecb9a01a5cd029720f71a5777b77a47d07ad7"
+      }
+    },
+    {
+      "kouId": "kou-44",
+      "name": "鶺鴒鳴く",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 196.591,
+        "y": 540.375,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        106,
+        409,
+        406
+      ],
+      "precursorBounds": [
+        123,
+        302,
+        278,
+        406
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 106,
+        "width": 306,
+        "height": 300
+      },
+      "animation": {
+        "seed": [
+          200.5,
+          354
+        ],
+        "durationMs": 720,
+        "frames": 5,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-44/initial.png",
+      "completed": "kou-44/completed.png",
+      "transition": "kou-44/transition.webp",
+      "idle": "kou-44/idle.png",
+      "provenance": "kou-44/provenance.json",
+      "hashes": {
+        "initial": "2f0a420841c15382d3a550316144e8cbbda1d45d217a594a44cace4a65d5ee7f",
+        "completed": "e72318f303e98ccc56d64d6065fcf462ff2f67db29071ce2df2e99b15bd49684",
+        "transition": "04945c59c62482ec36f932c1d4fd4664e1550b738636acdb0027ca498f5a7aaf",
+        "idle": "e72318f303e98ccc56d64d6065fcf462ff2f67db29071ce2df2e99b15bd49684",
+        "provenance": "bb5f98bb0f31b0aa8bf77de30231f4d8a5003e7899e23c4f2f08e36d3048ee77"
+      }
+    },
+    {
+      "kouId": "kou-45",
+      "name": "玄鳥去る",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 330.772,
+        "y": 380.707,
+        "visibleCenter": [
+          256,
+          255.5
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        104,
+        409,
+        407
+      ],
+      "precursorBounds": [
+        325,
+        104,
+        408,
+        183
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 104,
+        "width": 306,
+        "height": 303
+      },
+      "animation": {
+        "seed": [
+          366.5,
+          143.5
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-45/initial.png",
+      "completed": "kou-45/completed.png",
+      "transition": "kou-45/transition.webp",
+      "idle": "kou-45/idle.png",
+      "provenance": "kou-45/provenance.json",
+      "hashes": {
+        "initial": "009c77bda51653a2ed916696ac9fd11815d538e4d7bb0e41a7907d45741da8d1",
+        "completed": "f9b1bc54b802f69bf35732ab344538e55162df742693590b380e370c401ebd67",
+        "transition": "90551c0feda624be6434ca09de5d481699e6bec7cfb1ecb2ccfddec93976f767",
+        "idle": "f9b1bc54b802f69bf35732ab344538e55162df742693590b380e370c401ebd67",
+        "provenance": "83a4f4b49535781fdf3c00fd7450e1dd0f2379fbd987bb19c41d14e533350c64"
+      }
+    },
+    {
+      "kouId": "kou-46",
+      "name": "雷乃ち声を収む",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 210.122,
+        "y": 485.599,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        172,
+        409,
+        340
+      ],
+      "precursorBounds": [
+        234,
+        258,
+        308,
+        336
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 172,
+        "width": 306,
+        "height": 168
+      },
+      "animation": {
+        "seed": [
+          271,
+          297
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-46/initial.png",
+      "completed": "kou-46/completed.png",
+      "transition": "kou-46/transition.webp",
+      "idle": "kou-46/idle.png",
+      "provenance": "kou-46/provenance.json",
+      "hashes": {
+        "initial": "9354181c975dbce045ccc0f01b06cb9cca32e60b241dc58304fd018f223694d7",
+        "completed": "9e52a9703d43fa8db8dafe53bc53e983afda318315807885a312ba86a8cf778e",
+        "transition": "267677d3787785e69fed42fc0455305f02b2d5d3c0f07bf1456eef275e1d4f17",
+        "idle": "9e52a9703d43fa8db8dafe53bc53e983afda318315807885a312ba86a8cf778e",
+        "provenance": "887e62bb5d5b967ad7d3269f389453ffb5ea7f3cd8ea43127d2e6265e58bf8e1"
+      }
+    },
+    {
+      "kouId": "kou-47",
+      "name": "虫かくれて戸をふさぐ",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 152.629,
+        "y": 493.975,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        104,
+        409,
+        408
+      ],
+      "precursorBounds": [
+        141,
+        336,
+        180,
+        375
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 104,
+        "width": 306,
+        "height": 304
+      },
+      "animation": {
+        "seed": [
+          160.5,
+          355.5
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-47/initial.png",
+      "completed": "kou-47/completed.png",
+      "transition": "kou-47/transition.webp",
+      "idle": "kou-47/idle.png",
+      "provenance": "kou-47/provenance.json",
+      "hashes": {
+        "initial": "138ee4aeb24d57aad142f43efd897f5b5c3956dfa548ae33bc13399d0261bde9",
+        "completed": "6ed7bd0ad44ef8003bf19c81a85ccb37461b72f6e09a43306575d4d966de750a",
+        "transition": "7cbc3a4a8ddd24b4128a46cfa4d8282625a1d34aea16b3797988f6e207254787",
+        "idle": "6ed7bd0ad44ef8003bf19c81a85ccb37461b72f6e09a43306575d4d966de750a",
+        "provenance": "b8e7b80e7cee43c299c7d77c6962f015d3817552ef67fb2f433fa23a8c7407b7"
+      }
+    },
+    {
+      "kouId": "kou-48",
+      "name": "水始めて涸る",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 164.91,
+        "y": 440.002,
+        "visibleCenter": [
+          256,
+          255.5
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        155,
+        409,
+        356
+      ],
+      "precursorBounds": [
+        303,
+        267,
+        409,
+        356
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 155,
+        "width": 306,
+        "height": 201
+      },
+      "animation": {
+        "seed": [
+          356,
+          311.5
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-48/initial.png",
+      "completed": "kou-48/completed.png",
+      "transition": "kou-48/transition.webp",
+      "idle": "kou-48/idle.png",
+      "provenance": "kou-48/provenance.json",
+      "hashes": {
+        "initial": "00cd14a28c3e6d423879d5d97e602b87fe725a819bd7ce40d0f78701ac751c16",
+        "completed": "522871cf47ed668d76a3507a1f57d1f3c7201d90ba1801cbddf4fcd9371858c5",
+        "transition": "0a84ff6396f186c3e8debfea1375ab30220801d881657cefa00e69384a399eb5",
+        "idle": "522871cf47ed668d76a3507a1f57d1f3c7201d90ba1801cbddf4fcd9371858c5",
+        "provenance": "d2831f2d1fcb02f821a8a98c954df20d6a80538bc351f16f1c5a040891ba5995"
+      }
+    },
+    {
+      "kouId": "kou-49",
+      "name": "鴻雁来る",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 218.504,
+        "y": 410.112,
+        "visibleCenter": [
+          256,
+          255.5
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        121,
+        409,
+        390
+      ],
+      "precursorBounds": [
+        104,
+        348,
+        237,
+        389
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 121,
+        "width": 306,
+        "height": 269
+      },
+      "animation": {
+        "seed": [
+          170.5,
+          368.5
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-49/initial.png",
+      "completed": "kou-49/completed.png",
+      "transition": "kou-49/transition.webp",
+      "idle": "kou-49/idle.png",
+      "provenance": "kou-49/provenance.json",
+      "hashes": {
+        "initial": "4dcc0afbf960eaf7a73be24de55e133baf28e8acda8c812c2863c627633afffd",
+        "completed": "8f64400fc3cfc2491e1ba5dc9540e2d313dee3466c9d4f0a553f5edd28add3de",
+        "transition": "34a1524e7330f6becd96ef2b67b2da0cc3325683070680615cab856868ab8ab2",
+        "idle": "8f64400fc3cfc2491e1ba5dc9540e2d313dee3466c9d4f0a553f5edd28add3de",
+        "provenance": "4748b861dc519fbfdffddd582b31bfb800e2339b7273e876279a5caae8bf02c8"
+      }
+    },
+    {
+      "kouId": "kou-50",
+      "name": "菊花開く",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 273.21,
+        "y": 389.204,
+        "visibleCenter": [
+          256,
+          255.5
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        106,
+        409,
+        405
+      ],
+      "precursorBounds": [
+        233,
+        266,
+        277,
+        300
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 106,
+        "width": 306,
+        "height": 299
+      },
+      "animation": {
+        "seed": [
+          255,
+          283
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-50/initial.png",
+      "completed": "kou-50/completed.png",
+      "transition": "kou-50/transition.webp",
+      "idle": "kou-50/idle.png",
+      "provenance": "kou-50/provenance.json",
+      "hashes": {
+        "initial": "0b6e97abfb0f3fb515add7bb9bae8f34d7384dc7b8514365f463a19419ea1d98",
+        "completed": "eb14da4adb936a69ebbd3be38a9d4940f6a9ea6bd0f5fd83bf60bf07cd363ef2",
+        "transition": "82e90ca0442adf722bb8d2612dbf71eb493843ce634fe834f47a3a3883fde9a7",
+        "idle": "eb14da4adb936a69ebbd3be38a9d4940f6a9ea6bd0f5fd83bf60bf07cd363ef2",
+        "provenance": "d87a547c4cf4e1012341e5bc116e100921deea24b7ccd697add9b9e21babc623"
+      }
+    },
+    {
+      "kouId": "kou-51",
+      "name": "蟋蟀戸にあり",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 110.694,
+        "y": 414.312,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        138,
+        103,
+        374,
+        409
+      ],
+      "precursorBounds": [
+        229,
+        329,
+        260,
+        352
+      ],
+      "motionBounds": {
+        "x": 138,
+        "y": 103,
+        "width": 236,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          244.5,
+          340.5
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-51/initial.png",
+      "completed": "kou-51/completed.png",
+      "transition": "kou-51/transition.webp",
+      "idle": "kou-51/idle.png",
+      "provenance": "kou-51/provenance.json",
+      "hashes": {
+        "initial": "b75d6a2d7c840d7860fafaae1ea330104f8d3df74c83af7abd44838ced082951",
+        "completed": "e9778fcb754fc57e69a0931e9ab67d6d9630e5eed409e5d7d317c9ab06864244",
+        "transition": "f9b102305347bb2e32e458f9d39df41397d58960f06af14259e5b985fd3aa0d4",
+        "idle": "e9778fcb754fc57e69a0931e9ab67d6d9630e5eed409e5d7d317c9ab06864244",
+        "provenance": "09e5d8c0b1ab04b938c14c2877da1110f9053fd36fba618d2c69f6c7ab86e445"
+      }
+    },
+    {
+      "kouId": "kou-52",
+      "name": "霜始めて降る",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 164.014,
+        "y": 382.908,
+        "visibleCenter": [
+          255.5,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        119,
+        103,
+        392,
+        409
+      ],
+      "precursorBounds": [
+        180,
+        332,
+        342,
+        371
+      ],
+      "motionBounds": {
+        "x": 119,
+        "y": 103,
+        "width": 273,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          261,
+          351.5
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-52/initial.png",
+      "completed": "kou-52/completed.png",
+      "transition": "kou-52/transition.webp",
+      "idle": "kou-52/idle.png",
+      "provenance": "kou-52/provenance.json",
+      "hashes": {
+        "initial": "0200f877f5aeb9911551076d05b2f5a16335d830c41f0181bcef64713ba93ee4",
+        "completed": "6c29c5c54b42afa2970f539a391e367fe2f46c7adb6481e72408e94852f72550",
+        "transition": "add85f7c0b27db284952a6b1c1c5362f5e85ec3880ed6a646b2a868a2e0c1dac",
+        "idle": "6c29c5c54b42afa2970f539a391e367fe2f46c7adb6481e72408e94852f72550",
+        "provenance": "efa63ac28cb5edbc9bd867f2ff0850174ce3828fe5eed8e1fd961a715eb511b9"
+      }
+    },
+    {
+      "kouId": "kou-53",
+      "name": "小雨ときどきふる",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 108.661,
+        "y": 360.327,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        171,
+        409,
+        341
+      ],
+      "precursorBounds": [
+        330,
+        172,
+        352,
+        218
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 171,
+        "width": 306,
+        "height": 170
+      },
+      "animation": {
+        "seed": [
+          341,
+          195
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-53/initial.png",
+      "completed": "kou-53/completed.png",
+      "transition": "kou-53/transition.webp",
+      "idle": "kou-53/idle.png",
+      "provenance": "kou-53/provenance.json",
+      "hashes": {
+        "initial": "638551abcebed7971600c85c71255901dd072b3e9adb698201697dcd856eb247",
+        "completed": "1d4a02e7e3062be160c681c5a1fcf88c8a12c01414193295dd045dc0f1c2b2d7",
+        "transition": "d34889e98c9e38f05af7e878da0ed0f91af12b24bb931264f27f4f871684e14c",
+        "idle": "1d4a02e7e3062be160c681c5a1fcf88c8a12c01414193295dd045dc0f1c2b2d7",
+        "provenance": "c396498a78caaf5c54f14baaf65fece42002502147f47593744e330ce2bb9aa8"
+      }
+    },
+    {
+      "kouId": "kou-54",
+      "name": "楓蔦黄ばむ",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 222.469,
+        "y": 352.946,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        122,
+        103,
+        390,
+        409
+      ],
+      "precursorBounds": [
+        122,
+        299,
+        228,
+        405
+      ],
+      "motionBounds": {
+        "x": 122,
+        "y": 103,
+        "width": 268,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          175,
+          352
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-54/initial.png",
+      "completed": "kou-54/completed.png",
+      "transition": "kou-54/transition.webp",
+      "idle": "kou-54/idle.png",
+      "provenance": "kou-54/provenance.json",
+      "hashes": {
+        "initial": "c5dfded91294a58965dcd5b08cc8093f2cb33bb6e53b096701bda6fa0f4f196d",
+        "completed": "797f91143e07e3746edfef652422696cdaecf4e36f997987def4736d16a270ef",
+        "transition": "96395906aa0f1e161cf1b63788048c40a549cf7ab5cb71312b75debd64e441ff",
+        "idle": "797f91143e07e3746edfef652422696cdaecf4e36f997987def4736d16a270ef",
+        "provenance": "a60fa08d456a94dabc1214ce98597e17fb8c51fd912f62a695425ea1d6737b46"
+      }
+    },
+    {
+      "kouId": "kou-55",
+      "name": "山茶始めて開く",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 162.003,
+        "y": 334.071,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        117,
+        103,
+        395,
+        409
+      ],
+      "precursorBounds": [
+        245,
+        269,
+        395,
+        409
+      ],
+      "motionBounds": {
+        "x": 117,
+        "y": 103,
+        "width": 278,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          320,
+          339
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-55/initial.png",
+      "completed": "kou-55/completed.png",
+      "transition": "kou-55/transition.webp",
+      "idle": "kou-55/idle.png",
+      "provenance": "kou-55/provenance.json",
+      "hashes": {
+        "initial": "fd0d2384ef377bb901c35c3fb73bcc8628222497e7981d2a2dee2bd5d2f76597",
+        "completed": "58d5c8f5ad6647db0721c5b5b088bc361e5b53b9bf98c709cc0fb7999faa333b",
+        "transition": "a40f8e8a6084f44e6bec5c528fd66e5f015e3ae864059bd14ccfd8fb4220c022",
+        "idle": "58d5c8f5ad6647db0721c5b5b088bc361e5b53b9bf98c709cc0fb7999faa333b",
+        "provenance": "734fe12499a6cc995e8dd49a8ecd78e103afcaca2414e797160098b319c48b3c"
+      }
+    },
+    {
+      "kouId": "kou-56",
+      "name": "地始めて凍る",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 96.594,
+        "y": 307,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        140,
+        409,
+        372
+      ],
+      "precursorBounds": [
+        230,
+        243,
+        253,
+        308
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 140,
+        "width": 306,
+        "height": 232
+      },
+      "animation": {
+        "seed": [
+          241.5,
+          275.5
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-56/initial.png",
+      "completed": "kou-56/completed.png",
+      "transition": "kou-56/transition.webp",
+      "idle": "kou-56/idle.png",
+      "provenance": "kou-56/provenance.json",
+      "hashes": {
+        "initial": "15a537d7526215a5ee4c8b9025724f3d173514a59b878cfd2973f2b5207b5814",
+        "completed": "696fd12a637858a46cfe04551be1616fffc5fac38ab124a68f2ee6742b52267b",
+        "transition": "848ad7e3bc8450af1065a7373b93a77b23f66572ac65866ee8af5308ac2badbc",
+        "idle": "696fd12a637858a46cfe04551be1616fffc5fac38ab124a68f2ee6742b52267b",
+        "provenance": "a6a34cf92f2f8c6ca56bf53ab218fafe1327f71af2aa550a7d1f4fe8b73561d4"
+      }
+    },
+    {
+      "kouId": "kou-57",
+      "name": "金盞香",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 307.655,
+        "y": 328.159,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        115,
+        103,
+        397,
+        409
+      ],
+      "precursorBounds": [
+        223,
+        321,
+        386,
+        409
+      ],
+      "motionBounds": {
+        "x": 115,
+        "y": 103,
+        "width": 282,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          304.5,
+          365
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-57/initial.png",
+      "completed": "kou-57/completed.png",
+      "transition": "kou-57/transition.webp",
+      "idle": "kou-57/idle.png",
+      "provenance": "kou-57/provenance.json",
+      "hashes": {
+        "initial": "e5c69dbc479db9da00bfb6ddd5fe8b6f753a0e7b94d86912176f80d5a5aaf5b1",
+        "completed": "41d68058a6c06a9f87cc166e902d76731e77b852b94d15dbeec7a18d29c2f59c",
+        "transition": "39285e148e47642a0d70a828405dadd56a9818e4764b69ff01add7521bc97f29",
+        "idle": "41d68058a6c06a9f87cc166e902d76731e77b852b94d15dbeec7a18d29c2f59c",
+        "provenance": "4a3ad0cc88fbe5a39c1c10fdcd8c1b967811469bf808d8f7f98f9384b44036e7"
+      }
+    },
+    {
+      "kouId": "kou-58",
+      "name": "虹かくれて見えず",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 197.686,
+        "y": 290.45,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        126,
+        409,
+        386
+      ],
+      "precursorBounds": [
+        116,
+        324,
+        176,
+        367
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 126,
+        "width": 306,
+        "height": 260
+      },
+      "animation": {
+        "seed": [
+          146,
+          345.5
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-58/initial.png",
+      "completed": "kou-58/completed.png",
+      "transition": "kou-58/transition.webp",
+      "idle": "kou-58/idle.png",
+      "provenance": "kou-58/provenance.json",
+      "hashes": {
+        "initial": "395e971ab5c345bea0327fc5ef32e01178c2399248eb104a3fc94daba2452103",
+        "completed": "e19b5cfc65d9a9fa7df9a6226eea9b7a89d7281c462010339bf85a4845f22123",
+        "transition": "2923c54b5343262ad58cf51490e1b6bfb5ceb615c91098db31a43bdffc29804c",
+        "idle": "e19b5cfc65d9a9fa7df9a6226eea9b7a89d7281c462010339bf85a4845f22123",
+        "provenance": "1477e8f95e59f380422788a26650e9512caeb72e29ba1ccb3bd71dc4b4918372"
+      }
+    },
+    {
+      "kouId": "kou-59",
+      "name": "朔風葉を払う",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 141.858,
+        "y": 266.295,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        130,
+        103,
+        382,
+        409
+      ],
+      "precursorBounds": [
+        130,
+        103,
+        231,
+        232
+      ],
+      "motionBounds": {
+        "x": 130,
+        "y": 103,
+        "width": 252,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          180.5,
+          167.5
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-59/initial.png",
+      "completed": "kou-59/completed.png",
+      "transition": "kou-59/transition.webp",
+      "idle": "kou-59/idle.png",
+      "provenance": "kou-59/provenance.json",
+      "hashes": {
+        "initial": "b188feab8763e76ee96ae6b886f98c816d622d03951de4a84d7614e102f6a1df",
+        "completed": "88c796562ca1a0b3ac726486fcd1da92082103e374c0831f58a2eaf4309b856b",
+        "transition": "8b334391b1c798ee7b49ba5e3d0f13bb865d6ab1f3b4a1c2e5789cb9d6fc2eac",
+        "idle": "88c796562ca1a0b3ac726486fcd1da92082103e374c0831f58a2eaf4309b856b",
+        "provenance": "a954b75c1744d24feedb0a194e2bd0927a4e265923b94b3c033c9962b70c851c"
+      }
+    },
+    {
+      "kouId": "kou-60",
+      "name": "橘始めて黄ばむ",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 254.839,
+        "y": 295.564,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        123,
+        103,
+        389,
+        409
+      ],
+      "precursorBounds": [
+        235,
+        103,
+        376,
+        193
+      ],
+      "motionBounds": {
+        "x": 123,
+        "y": 103,
+        "width": 266,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          305.5,
+          148
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-60/initial.png",
+      "completed": "kou-60/completed.png",
+      "transition": "kou-60/transition.webp",
+      "idle": "kou-60/idle.png",
+      "provenance": "kou-60/provenance.json",
+      "hashes": {
+        "initial": "0eebc112a21fef69320c5ddd3e702897e18cf262b1601b20e4f40a401fe40928",
+        "completed": "4d4142767c449f2bd3a1c70b17d67fb6833e28b973a6cd155bfd31a4b5aedbff",
+        "transition": "254e714bb381e5d43ed888c283c260230f2a36805350b1af71298aad5baf3535",
+        "idle": "4d4142767c449f2bd3a1c70b17d67fb6833e28b973a6cd155bfd31a4b5aedbff",
+        "provenance": "5b2b39354fb3b5022c52b451798adad67d7363e1ba354ff367f92e686810e6d5"
+      }
+    },
+    {
+      "kouId": "kou-61",
+      "name": "閉塞冬となる",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 140.615,
+        "y": 218.136,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        134,
+        409,
+        378
+      ],
+      "precursorBounds": [
+        121,
+        277,
+        230,
+        346
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 134,
+        "width": 306,
+        "height": 244
+      },
+      "animation": {
+        "seed": [
+          175.5,
+          311.5
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-61/initial.png",
+      "completed": "kou-61/completed.png",
+      "transition": "kou-61/transition.webp",
+      "idle": "kou-61/idle.png",
+      "provenance": "kou-61/provenance.json",
+      "hashes": {
+        "initial": "f2bc74c460d2cf5ec1dede511ac4e7585656f0e60e9491dbacc6e13f778ca06c",
+        "completed": "3226db396b92de65c2cd8f8dc46437f475119e6ce54e70a4860471a055307ed7",
+        "transition": "15e19564017f9b0e1ddb37240af30b15d080cc7d1385ce62ed8c7b4967cf0a14",
+        "idle": "3226db396b92de65c2cd8f8dc46437f475119e6ce54e70a4860471a055307ed7",
+        "provenance": "d713c3e041f2a9cec9f311a91e6fe58247e47802d0507e8cef648b3fece7e46a"
+      }
+    },
+    {
+      "kouId": "kou-62",
+      "name": "熊穴にこもる",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 200.932,
+        "y": 237.583,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        124,
+        409,
+        388
+      ],
+      "precursorBounds": [
+        103,
+        315,
+        409,
+        388
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 124,
+        "width": 306,
+        "height": 264
+      },
+      "animation": {
+        "seed": [
+          256,
+          351.5
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-62/initial.png",
+      "completed": "kou-62/completed.png",
+      "transition": "kou-62/transition.webp",
+      "idle": "kou-62/idle.png",
+      "provenance": "kou-62/provenance.json",
+      "hashes": {
+        "initial": "f84886713ae9998d0572fe0e393c24f0ece6230f0e634c77ee1abef8b6f4e430",
+        "completed": "408e4667f5db4b4c1932ab31b619d34d3d2b704bec4a073bb5fa8b0e7f50ec1c",
+        "transition": "386847c598c248d0fa5ac7a4aaad3b17545dbb2bf9b79d01b888141beb2ceae3",
+        "idle": "408e4667f5db4b4c1932ab31b619d34d3d2b704bec4a073bb5fa8b0e7f50ec1c",
+        "provenance": "89b02d5d61b9b9ba75237d1f8fe7a1c8e3179cbe2424206b2b86086f748fca5b"
+      }
+    },
+    {
+      "kouId": "kou-63",
+      "name": "さけの魚群がる",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 176.937,
+        "y": 169.315,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        190,
+        409,
+        322
+      ],
+      "precursorBounds": [
+        188,
+        223,
+        340,
+        247
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 190,
+        "width": 306,
+        "height": 132
+      },
+      "animation": {
+        "seed": [
+          264,
+          235
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-63/initial.png",
+      "completed": "kou-63/completed.png",
+      "transition": "kou-63/transition.webp",
+      "idle": "kou-63/idle.png",
+      "provenance": "kou-63/provenance.json",
+      "hashes": {
+        "initial": "234bdbbe7ce23c1477b8de3354408e1f0bd1dbea3b029b1fe256d8c57844940a",
+        "completed": "3f6757cd15be6830bb49fd684c71a21317c93f94a39f578677c177a9fac67338",
+        "transition": "8a767bf94b1ec23f04017c758b4962c5f83c7b4d24b166527b79d1c76eabe4e0",
+        "idle": "3f6757cd15be6830bb49fd684c71a21317c93f94a39f578677c177a9fac67338",
+        "provenance": "a9e2e1457580024838615ef02889db35f84bb338e250da96bf8460248831cd93"
+      }
+    },
+    {
+      "kouId": "kou-64",
+      "name": "乃東生ず",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 258.169,
+        "y": 233.269,
+        "visibleCenter": [
+          255.5,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        156,
+        103,
+        355,
+        409
+      ],
+      "precursorBounds": [
+        191,
+        359,
+        338,
+        409
+      ],
+      "motionBounds": {
+        "x": 156,
+        "y": 103,
+        "width": 199,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          264.5,
+          384
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-64/initial.png",
+      "completed": "kou-64/completed.png",
+      "transition": "kou-64/transition.webp",
+      "idle": "kou-64/idle.png",
+      "provenance": "kou-64/provenance.json",
+      "hashes": {
+        "initial": "e870475d35d77ac0a156f72ce746901b7e38a002fddab53cfbea1b95d71fec50",
+        "completed": "3d0b03ed067dc54c95d40bee2fc3f3a5c3a05d9addf34377d11c7b796513294a",
+        "transition": "bea6c642aac2e5f832f007b2ec86327ac8a7ca0c341f6719dddc1ab3975cab43",
+        "idle": "3d0b03ed067dc54c95d40bee2fc3f3a5c3a05d9addf34377d11c7b796513294a",
+        "provenance": "3bc26521c1fbc8b9e841a8ffdad6a3a9739936cbf29451e5ccc9558d48f380a6"
+      }
+    },
+    {
+      "kouId": "kou-65",
+      "name": "さわしかの角おつる",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 239.873,
+        "y": 185.697,
+        "visibleCenter": [
+          256,
+          255.5
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        130,
+        409,
+        381
+      ],
+      "precursorBounds": [
+        245,
+        300,
+        406,
+        376
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 130,
+        "width": 306,
+        "height": 251
+      },
+      "animation": {
+        "seed": [
+          325.5,
+          338
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-65/initial.png",
+      "completed": "kou-65/completed.png",
+      "transition": "kou-65/transition.webp",
+      "idle": "kou-65/idle.png",
+      "provenance": "kou-65/provenance.json",
+      "hashes": {
+        "initial": "d2f0556efc5a9b65d828d2cb2c16b4d46b0fa312ef232fbf3a16d22946de5ee0",
+        "completed": "c635b1db9ddcb082767c83d1b3147cbdf9fece4de13d3c8d42dfc2732077b3f5",
+        "transition": "658f40665eba713038af732034436acf974ff5f45621be7798ae82bb2c4b9845",
+        "idle": "c635b1db9ddcb082767c83d1b3147cbdf9fece4de13d3c8d42dfc2732077b3f5",
+        "provenance": "e00f465dab3fab45cd142f35c5a121589d923c2a55929081f89e222bc0ff7180"
+      }
+    },
+    {
+      "kouId": "kou-66",
+      "name": "雪下りて麦のびる",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 228.289,
+        "y": 132.111,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        166,
+        103,
+        346,
+        409
+      ],
+      "precursorBounds": [
+        201,
+        196,
+        337,
+        321
+      ],
+      "motionBounds": {
+        "x": 166,
+        "y": 103,
+        "width": 180,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          269,
+          258.5
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-66/initial.png",
+      "completed": "kou-66/completed.png",
+      "transition": "kou-66/transition.webp",
+      "idle": "kou-66/idle.png",
+      "provenance": "kou-66/provenance.json",
+      "hashes": {
+        "initial": "cbf773573dd8fbb5f3c39bdf8c21d2309381e7c77384d6794bbc671525846e08",
+        "completed": "73262578b849d176395a09aca86c11f9ac2fdd62d3109fbd36ee7f57f3792fee",
+        "transition": "0ea933390dd96f2ded961ae302c7d4ec1db976ecd14113ad6a7361f169894e29",
+        "idle": "73262578b849d176395a09aca86c11f9ac2fdd62d3109fbd36ee7f57f3792fee",
+        "provenance": "6d88bd9a1185daea3ed3190228c7a3d0833fd8b3364f352630d3393974391896"
+      }
+    },
+    {
+      "kouId": "kou-67",
+      "name": "芹乃ち栄う",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 308.479,
+        "y": 270.872,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        127,
+        103,
+        385,
+        409
+      ],
+      "precursorBounds": [
+        254,
+        320,
+        311,
+        365
+      ],
+      "motionBounds": {
+        "x": 127,
+        "y": 103,
+        "width": 258,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          282.5,
+          342.5
+        ],
+        "durationMs": 720,
+        "frames": 6,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-67/initial.png",
+      "completed": "kou-67/completed.png",
+      "transition": "kou-67/transition.webp",
+      "idle": "kou-67/idle.png",
+      "provenance": "kou-67/provenance.json",
+      "hashes": {
+        "initial": "c2960c8bc8e40b3818ba60e327bb4aed106adfc51de62c3ccb596258d0540992",
+        "completed": "e9d8109a6e6f404d47add4ab7e7f14d7571100ba1c3abef49ef97d0144537a49",
+        "transition": "c94f1c1ef59ae1e1f825954ec8d4e7fcb8cf76980b12c3fdab33c0ea1d9ee62f",
+        "idle": "e9d8109a6e6f404d47add4ab7e7f14d7571100ba1c3abef49ef97d0144537a49",
+        "provenance": "57ce42a26a4af281f962b3d549ca30881059a5de0a1ee09e2ba0a23b8f643204"
+      }
+    },
+    {
+      "kouId": "kou-68",
+      "name": "水泉動",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 297.911,
+        "y": 180.467,
+        "visibleCenter": [
+          256,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        125,
+        409,
+        387
+      ],
+      "precursorBounds": [
+        219,
+        241,
+        293,
+        299
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 125,
+        "width": 306,
+        "height": 262
+      },
+      "animation": {
+        "seed": [
+          256,
+          270
+        ],
+        "durationMs": 720,
+        "frames": 5,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-68/initial.png",
+      "completed": "kou-68/completed.png",
+      "transition": "kou-68/transition.webp",
+      "idle": "kou-68/idle.png",
+      "provenance": "kou-68/provenance.json",
+      "hashes": {
+        "initial": "fdcaead89e195dce7ebe18962aaacbcc9094c309fc293206584a478e63d3ff0c",
+        "completed": "c45b5c5dd329d0e4ff2ccb2dc3f26b3d5eb800df817cd3807fafcf2b275d9815",
+        "transition": "9ae14a9b3267192a64bc62012ade2ec65a7483fe6e62732caabd74d5b54e8a4e",
+        "idle": "c45b5c5dd329d0e4ff2ccb2dc3f26b3d5eb800df817cd3807fafcf2b275d9815",
+        "provenance": "c7cfe1319e757cbd031483669b2cc988ae472678f973756f7ae229a951fce002"
+      }
+    },
+    {
+      "kouId": "kou-69",
+      "name": "雉始めてなく",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 285.807,
+        "y": 123.556,
+        "visibleCenter": [
+          256,
+          255.5
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        136,
+        409,
+        375
+      ],
+      "precursorBounds": [
+        115,
+        149,
+        134,
+        174
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 136,
+        "width": 306,
+        "height": 239
+      },
+      "animation": {
+        "seed": [
+          124.5,
+          161.5
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-69/initial.png",
+      "completed": "kou-69/completed.png",
+      "transition": "kou-69/transition.webp",
+      "idle": "kou-69/idle.png",
+      "provenance": "kou-69/provenance.json",
+      "hashes": {
+        "initial": "f1b270670594bb080e62cb697949c2176cdd04f222f60163d765e8c6a4abae4b",
+        "completed": "831edc084d00ef2aa9fdc5132a9f38db922e4b8acb78de738aadd93a2c58cbd5",
+        "transition": "baedd5288a474624127a5b27a71dccc2a0addc901149e422784e51e96c6a6869",
+        "idle": "831edc084d00ef2aa9fdc5132a9f38db922e4b8acb78de738aadd93a2c58cbd5",
+        "provenance": "8e0446ff68e8ecd633cac30f9c9fef3c8cd9cdba81a7766c0358a25643b6719b"
+      }
+    },
+    {
+      "kouId": "kou-70",
+      "name": "款冬華く",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 332.331,
+        "y": 227.25,
+        "visibleCenter": [
+          255.5,
+          256
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        120,
+        103,
+        391,
+        409
+      ],
+      "precursorBounds": [
+        240,
+        280,
+        283,
+        325
+      ],
+      "motionBounds": {
+        "x": 120,
+        "y": 103,
+        "width": 271,
+        "height": 306
+      },
+      "animation": {
+        "seed": [
+          261.5,
+          302.5
+        ],
+        "durationMs": 720,
+        "frames": 5,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-70/initial.png",
+      "completed": "kou-70/completed.png",
+      "transition": "kou-70/transition.webp",
+      "idle": "kou-70/idle.png",
+      "provenance": "kou-70/provenance.json",
+      "hashes": {
+        "initial": "0240ea08929cc0012e5397ea8ff0d85a240ab8a785c5a53acfc380126740ac4f",
+        "completed": "7a42360837ee0cb0a392d1918b3f3218e3fd33dd18aa8f45b5f60b48755f5016",
+        "transition": "b15583a79052792a23371eaa48a22c6116236c801f3ce26ac17f81cb8bfbc3a2",
+        "idle": "7a42360837ee0cb0a392d1918b3f3218e3fd33dd18aa8f45b5f60b48755f5016",
+        "provenance": "6f539276a1065536a5344ab8a3febbef60ac0d1d02341e7ee073af4aeb4f2fd2"
+      }
+    },
+    {
+      "kouId": "kou-71",
+      "name": "水沢氷つめる",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 342.035,
+        "y": 108.564,
+        "visibleCenter": [
+          256,
+          255.5
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        157,
+        409,
+        354
+      ],
+      "precursorBounds": [
+        264,
+        230,
+        407,
+        322
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 157,
+        "width": 306,
+        "height": 197
+      },
+      "animation": {
+        "seed": [
+          335.5,
+          276
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-71/initial.png",
+      "completed": "kou-71/completed.png",
+      "transition": "kou-71/transition.webp",
+      "idle": "kou-71/idle.png",
+      "provenance": "kou-71/provenance.json",
+      "hashes": {
+        "initial": "edab2c0420619e019ce5f60934e4f74a9c760981be95edb7a02c1a8b8ae1af7b",
+        "completed": "d71c7a98682e43b25de7cccfdc6be3a4f71dc97e564e54e34b168914fb92473a",
+        "transition": "1ac90c7c53f55c1673affcee41a2fa5cd2db6c30fe5b754de3f56c98a5122c25",
+        "idle": "d71c7a98682e43b25de7cccfdc6be3a4f71dc97e564e54e34b168914fb92473a",
+        "provenance": "0845e3b89a8b233afb4b9c42d37fc0f07ecac5f3b9bf9857d1b0df830320ffd6"
+      }
+    },
+    {
+      "kouId": "kou-72",
+      "name": "鶏始めてとやにつく",
+      "width": 512,
+      "height": 512,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "placement": {
+        "x": 362.483,
+        "y": 293.942,
+        "visibleCenter": [
+          256,
+          255.5
+        ],
+        "visibleLongEdge": 306
+      },
+      "visibleBounds": [
+        103,
+        131,
+        409,
+        380
+      ],
+      "precursorBounds": [
+        302,
+        138,
+        354,
+        176
+      ],
+      "motionBounds": {
+        "x": 103,
+        "y": 131,
+        "width": 306,
+        "height": 249
+      },
+      "animation": {
+        "seed": [
+          328,
+          157
+        ],
+        "durationMs": 720,
+        "frames": 7,
+        "loop": false,
+        "idle": "static"
+      },
+      "initial": "kou-72/initial.png",
+      "completed": "kou-72/completed.png",
+      "transition": "kou-72/transition.webp",
+      "idle": "kou-72/idle.png",
+      "provenance": "kou-72/provenance.json",
+      "hashes": {
+        "initial": "1ae80cb1e2d659f66fb1aedeb0ffdb140cf02d2a18a4084c2e2701ecb7054333",
+        "completed": "23a139616556c4fce9881b974be3823dfd8037278e642b58b8c6f4e3471e250e",
+        "transition": "3df26320a0c0eb05c0a7f2077b966e83817df783d20ac6670b9a1057d062827a",
+        "idle": "23a139616556c4fce9881b974be3823dfd8037278e642b58b8c6f4e3471e250e",
+        "provenance": "b8ebb80160502e1c7b7759fad0f149ee5c8ee0e572c3c9be994a4a9eb549040a"
+      }
+    }
+  ]
+}

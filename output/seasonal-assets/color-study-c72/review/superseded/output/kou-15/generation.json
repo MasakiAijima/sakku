@@ -1,0 +1,23 @@
+{
+  "id": "kou-15",
+  "hash": "01d3346d44f06c2d3d6fcbc9d2ad91fb0b0e13487b67e9d6ad673906334f295c",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-15/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-15/reference.png",
+  "reference_sha256": "e2315fcccdff16b7a96427f308669b5a8c30fa9dcc63af079734f22c73f7094f",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small ivory CLOUD at the lower right foot of the rainbow only; preserve all red yellow and blue rainbow arcs to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:51:21.166113+00:00",
+  "image_sha256": "02537b92bb5ff70ce87249b723360533723d73fde9d53de8a08b6fbbb8d92291",
+  "completed_sha256": "e62b773972475bd6a7e8a2a06eeb169508718a7caab9741c601836753a872f59",
+  "cutout_sha256": "4bb2d1d602b97fb479f1b9df148a634ed73b7ecfb93871c498abfbb3e70ab16e"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "kou-58",
+  "name": "虹かくれて見えず",
+  "prompt": "Use case: stylized-concept. Asset: one independent Japanese microseason illustration. The attached image is a STYLE reference only. Preserve its few large flat color planes, expressive hand-cut organic silhouette, long unequal curves, asymmetric swelling and pinches, and restrained uneven screen-print ink inside each color field. Do not copy its subject or colors. Express only the seasonal relationship specified below. One dominant motif occupies most of the artwork; at most one or two much smaller auxiliary motifs overlap it into one compact composition. Choose natural, seasonally meaningful colors from the specified palette. Never default to red. Use broad solid opaque color planes. Silhouette has character and directional flow; avoid bilateral symmetry, equally spaced petals, repeated geometry and fine outlines. The static image must be complete; do not add separate parts or gaps for animation. Center the entire compact artwork within the central 60 percent of the square, with ample clean empty margin on all sides. Solid chromakey magenta #FF00FF background; no magenta, hot pink, fuchsia, purple spill or pink reflected lighting in the artwork. Pink petals must be muted salmon #E9B8B5, distinct from the magenta background. No faces, eyes, pupils, letters, numerals, titles, borders, frames, realistic shading, gradients, shadows, translucency, fine veins, repeated decorative dots or textures outside shapes. \nSubject and seasonal relation: One dominant deep blue winter cloud curtain swells across the composition. A much smaller short golden and coral rainbow fragment peeks from behind one edge, almost fully hidden. One pale blue cloud overlap is optional. No complete rainbow bridge, sun or repeated cloud scallops. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.\nSemantic color palette: #3159A7 (冬の雲), #B9D5DE (雲の明るい面), #E3BC45 (隠れる虹), #D94B35 (虹の短い暖色)\nColor intent: 冬雲の青を広くし、虹の色は短い断片に限定する",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "master_version": "e72212780133af95020bc7f39e95b6638d664b3d647c1f7b1077aa4ec317d649",
+  "generator_version": 3,
+  "prompt_version": 3,
+  "operation": "edit",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-01/completed.png",
+  "reference_sha256": "6a5df021d3338710836e235ba3ec90d787b6a6b8cbd7ab3fa7cc43649750a025",
+  "hash": "3acc8d836512005400b01a7a5507c07871f9bda8af7886f1ad41c4d40da1bf26",
+  "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-58/original.png",
+  "provenance": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-58/generation.json",
+  "prompt_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-58/prompt.txt",
+  "attempted_at": "2026-10-12T11:17:01.204767+00:00",
+  "status": "succeeded",
+  "reserved_jpy": 130,
+  "actual_cost_jpy": null,
+  "image_sha256": "107badcdfd79c9dab228fae83120b34914da15823b5a9b94a82655f32be90cdd",
+  "completed_sha256": "37b54eca417c8f49284bdbe4f823067326c6f5c01463a40f524576460a8d0d28",
+  "cutout_sha256": "fdadd5c63eb044ac1b4a0da5b0fb5fbe65e57ed4ff664ae847be77846590f620"
+}

@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-72",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "29a26d32894397613bfc0ca78ec71c7ee33afb36cd13e034393ea2901d6ab073",
+  "generation": {
+    "id": "kou-72",
+    "hash": "db5b7c88ba63b3ed95df05738b8acd6f699c6b9451ebe9a80d1373def6172a91",
+    "reference_sha256": "baed51383a624be8ec5d863498f1fedb5f20b8868bdcf4a8fd146ce3b6b5275d",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small vermilion COMB on the ivory chicken only; preserve ivory chicken and egg and brown coop to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T13:19:04.565071+00:00",
+    "completed_sha256": "23a139616556c4fce9881b974be3823dfd8037278e642b58b8c6f4e3471e250e"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 362.483,
+      "y": 293.942,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      131,
+      409,
+      380
+    ],
+    "precursorBounds": [
+      302,
+      138,
+      354,
+      176
+    ]
+  },
+  "sourceHashes": {
+    "C": "23a139616556c4fce9881b974be3823dfd8037278e642b58b8c6f4e3471e250e",
+    "Cprime": "1ae80cb1e2d659f66fb1aedeb0ffdb140cf02d2a18a4084c2e2701ecb7054333",
+    "generation": "e8b7adc7c2ede8febde14b6b7a1443a9811a3cdd26cfe52b0ccba2aea2294352"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small vermilion COMB on the ivory chicken only; preserve ivory chicken and egg and brown coop to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T13:19:04.565071+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

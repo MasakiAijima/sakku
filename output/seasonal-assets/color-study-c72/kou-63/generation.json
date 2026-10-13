@@ -1,0 +1,23 @@
+{
+  "id": "kou-63",
+  "hash": "a53c2f1bfbf83ff465c9600d1b9dcf360d6195ddde082ab818794ff236726fa6",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/revision-3/kou-63/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-63/reference.png",
+  "reference_sha256": "cde5fc9c20005c95f7b6e5e742ddfcb3ac856fdc7f154d3ba803dc54b9d37330",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the narrow muted-red LATERAL SPAWNING BAND along the salmon flank only; preserve pale-blue body dark-slate back and blue river to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:14:46.763001+00:00",
+  "image_sha256": "8d853689f881886e79bed995c0d8c0f3e834ed5f04f0f724214c0270f4b07e7a",
+  "completed_sha256": "3f6757cd15be6830bb49fd684c71a21317c93f94a39f578677c177a9fac67338",
+  "cutout_sha256": "a1cd3975ce3b568bb0a90248dc2051baafeb228751c3da0394382d497a9c08f6"
+}

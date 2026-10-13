@@ -1,0 +1,70 @@
+{
+  "kouId": "kou-19",
+  "algorithmVersion": "organic-growth-48-v2",
+  "inputFingerprint": "30d1129fae3356674112253e35d14ae6ecaf58c04086154c03a5a05df0aaa61b",
+  "assetVersion": "c-v2",
+  "promptVersion": "sha256:018cc9aee24f9f1965cf5891b3f8e70278171a0badd7c0411c45dbe420d3d3fd",
+  "processedAtUTC": "2026-10-13T13:41:57.494882+00:00",
+  "provider": "openai",
+  "generation": {
+    "id": "kou-19",
+    "hash": "fcb19e8835cd8aef693f40b135f9260300b4962c633470b9ef4212e111aa6515",
+    "reference_sha256": "125d23fdd7a4607503fe3246bb43e9b8cd485d67c998e6d3a24d7df4e62911b1",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small pale-teal WATER PUDDLE beneath the olive frog only; preserve olive body and gold throat to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:53:56.319735+00:00",
+    "completed_sha256": "6eb5d96f51b2b671cd27b730f7871c8aeb7e21719a6250dbbb2ddd36b20b7d84"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 592.111,
+      "y": 363.503,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      127,
+      409,
+      385
+    ],
+    "precursorBounds": [
+      167,
+      332,
+      317,
+      385
+    ]
+  },
+  "sourceHashes": {
+    "C": "6eb5d96f51b2b671cd27b730f7871c8aeb7e21719a6250dbbb2ddd36b20b7d84",
+    "Cprime": "6f14a59ed358c7198311b0fa01e84932f0918af30cf75e5265c2a7367d2e4d2e",
+    "generation": "2d39674e76159be52f4cc5ee0ab9fd0aaecc4d06daa0d13636e93121c75532b7"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small pale-teal WATER PUDDLE beneath the olive frog only; preserve olive body and gold throat to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:53:56.319735+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

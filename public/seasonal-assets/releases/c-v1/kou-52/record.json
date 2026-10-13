@@ -1,0 +1,64 @@
+{
+  "fingerprint": "47e286eb517133092ae65ada72bd4e3f3fc05d58dfc1412e048f4b9a9d7702be",
+  "asset": {
+    "kouId": "kou-52",
+    "name": "霜始めて降る",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 164.014,
+      "y": 382.908,
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      119,
+      103,
+      392,
+      409
+    ],
+    "precursorBounds": [
+      180,
+      332,
+      342,
+      371
+    ],
+    "motionBounds": {
+      "x": 119,
+      "y": 103,
+      "width": 273,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        261.0,
+        351.5
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-52/initial.png",
+    "completed": "kou-52/completed.png",
+    "transition": "kou-52/transition.webp",
+    "idle": "kou-52/idle.png",
+    "provenance": "kou-52/provenance.json",
+    "hashes": {
+      "initial": "0200f877f5aeb9911551076d05b2f5a16335d830c41f0181bcef64713ba93ee4",
+      "completed": "6c29c5c54b42afa2970f539a391e367fe2f46c7adb6481e72408e94852f72550",
+      "transition": "add85f7c0b27db284952a6b1c1c5362f5e85ec3880ed6a646b2a868a2e0c1dac",
+      "idle": "6c29c5c54b42afa2970f539a391e367fe2f46c7adb6481e72408e94852f72550",
+      "provenance": "b7d6d490475aa311665b07c26f9b696049422ceef9397769dcd1d92eb9435739"
+    }
+  }
+}

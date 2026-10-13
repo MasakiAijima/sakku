@@ -1,0 +1,64 @@
+{
+  "fingerprint": "b7e9eae9a98bf30179ba8d9fcc09baa89d674c6fc0631443df9f720b3830fca2",
+  "asset": {
+    "kouId": "kou-25",
+    "name": "蟷螂生ず",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 546.971,
+      "y": 461.714,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      108,
+      103,
+      404,
+      409
+    ],
+    "precursorBounds": [
+      286,
+      323,
+      359,
+      409
+    ],
+    "motionBounds": {
+      "x": 108,
+      "y": 103,
+      "width": 296,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        322.5,
+        366.0
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-25/initial.png",
+    "completed": "kou-25/completed.png",
+    "transition": "kou-25/transition.webp",
+    "idle": "kou-25/idle.png",
+    "provenance": "kou-25/provenance.json",
+    "hashes": {
+      "initial": "c9fca4a5511cb53de0e9e8ba45618f23d2496bef6fa84f60d4c879861e0f0992",
+      "completed": "8fa7de8881bb803abf1e1755bb1710d429f62c8ec0e7656d05e6d67df614f1db",
+      "transition": "307970ded430567418a6a1a6e873e6bb30eff9e6317d30e98d12a7586d2c7c4d",
+      "idle": "8fa7de8881bb803abf1e1755bb1710d429f62c8ec0e7656d05e6d67df614f1db",
+      "provenance": "26c94b0acd766465fb4d4dbf3347fb9a26e4d87b275a5b0b267869afb7015c0e"
+    }
+  }
+}

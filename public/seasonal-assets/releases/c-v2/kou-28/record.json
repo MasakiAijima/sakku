@@ -1,0 +1,64 @@
+{
+  "fingerprint": "419e3041f345679ae5b60cd0b83d1b8361f7760395eed1508e3ea3366a7f9532",
+  "asset": {
+    "kouId": "kou-28",
+    "name": "乃東枯る",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 478.783,
+      "y": 492.039,
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      158,
+      103,
+      353,
+      409
+    ],
+    "precursorBounds": [
+      215,
+      313,
+      273,
+      344
+    ],
+    "motionBounds": {
+      "x": 158,
+      "y": 103,
+      "width": 195,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        244.0,
+        328.5
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-28/initial.png",
+    "completed": "kou-28/completed.png",
+    "transition": "kou-28/transition.webp",
+    "idle": "kou-28/idle.png",
+    "provenance": "kou-28/provenance.json",
+    "hashes": {
+      "initial": "e8885ced645d82457e21d0e82f394ef159253837941e3039c6607fe03e7ba36b",
+      "completed": "27c40dbf0434aa991c5d176cf66c7b107e397de1cd66abe3fa83cf6f7558ba2f",
+      "transition": "b3572cbb700497b532876380e13ab976bdbdd65c7dc80343a11d16f3bf17e837",
+      "idle": "27c40dbf0434aa991c5d176cf66c7b107e397de1cd66abe3fa83cf6f7558ba2f",
+      "provenance": "dae832cc8e910833d962c591b2d954cf03487b06c6dabe7403c6316831c9d7a4"
+    }
+  }
+}

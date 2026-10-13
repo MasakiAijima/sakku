@@ -1,0 +1,23 @@
+{
+  "id": "kou-22",
+  "hash": "a9f70b7c2f6db45638a4bbaee57efa0e36687f5f3569240f16a493e0fd05276e",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-22/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-10/kou-22/reference.png",
+  "reference_sha256": "26c0bedc240a446671a43674cff8b45837c84c747a30a1983a9e73dd5b016497",
+  "prompt": "Use case: precise-object-edit. Make a COLOR-ONLY variant of the attached finished Japanese seasonal cut-paper illustration. Keep the exact subject, composition, contour, proportions, pose, number of parts, overlaps, size and position of EVERY shape. Do not redraw, redesign, simplify, add, remove or move any part. Change ONLY the dominant olive-green MULBERRY LEAF only to saturated #155DD8. This single intentionally unnatural strong color echoes bold Japanese screen-print vermilion, cobalt and orange. Keep every OTHER color exactly as in the attached image, including their muted tones. Preserve existing restrained print mottling and organic cut-paper edges. Use one newly introduced accent hue only, with slight existing ink mottling, no additional accent colors. Keep all artwork complete in the same central area with ample clean margins. Render on solid chromakey magenta #FF00FF background so it can be removed. Magenta must appear ONLY in the background. No shadows, gradients, outlines, faces, eyes, writing or new decorative marks. Output square1024. The only intended difference is the specified color substitution.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:02:59.196570+00:00",
+  "image_sha256": "ffdbe0b99ef96b8510674e9c38cdc55ae6a9ddecb8d3296f9a3ac98de5304de0",
+  "completed_sha256": "d71cfcd421cc09c848ba0f955159d0b90cd95c51337ec9ae8cd70569271918ae",
+  "cutout_sha256": "8583019000cb0a14aecfc5ca281b325b875b7b061e586158694c878d090ba77b"
+}

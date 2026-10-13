@@ -1,0 +1,23 @@
+{
+  "id": "kou-46",
+  "hash": "faab85d2699176f9591588dba724854d1ed7d68634a09e388f891625f1b1265e",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-46/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-46/reference.png",
+  "reference_sha256": "58172320c2a31654c601449ed79221ad15a8c74af794b345a01abe5daf8f42e8",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small IVORY QUIET GAP at the bottom edge of the broad blue thundercloud only; preserve dark-blue and pale-blue cloud planes to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:04:11.778329+00:00",
+  "image_sha256": "284a5d7672dfbf7a221b4d3588cd4fa5db1403df9693b6daa1ff8090fcc4cbe6",
+  "completed_sha256": "9e52a9703d43fa8db8dafe53bc53e983afda318315807885a312ba86a8cf778e",
+  "cutout_sha256": "bac4e9a88e10a7d7e48b267f376302243eabd0d1310f21174ad10bbe89122a59"
+}

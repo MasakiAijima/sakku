@@ -1,0 +1,30 @@
+{
+  "id": "kou-51",
+  "name": "蟋蟀戸にあり",
+  "prompt": "Use case: stylized-concept. Asset: one independent Japanese microseason illustration. The attached image is a STYLE reference only. Preserve its few large flat color planes, expressive hand-cut organic silhouette, long unequal curves, asymmetric swelling and pinches, and restrained uneven screen-print ink inside each color field. Do not copy its subject or colors. Express only the seasonal relationship specified below. One dominant motif occupies most of the artwork; at most one or two much smaller auxiliary motifs overlap it into one compact composition. Choose natural, seasonally meaningful colors from the specified palette. Never default to red. Use broad solid opaque color planes. Silhouette has character and directional flow; avoid bilateral symmetry, equally spaced petals, repeated geometry and fine outlines. The static image must be complete; do not add separate parts or gaps for animation. Center the entire compact artwork within the central 60 percent of the square, with ample clean empty margin on all sides. Solid chromakey magenta #FF00FF background; no magenta, hot pink, fuchsia, purple spill or pink reflected lighting in the artwork. Pink petals must be muted salmon #E9B8B5, distinct from the magenta background. No faces, eyes, pupils, letters, numerals, titles, borders, frames, realistic shading, gradients, shadows, translucency, fine veins, repeated decorative dots or textures outside shapes. \nThis is a new subject design, not a recoloring of the reference. Use the reference only for flat color planes, organic contours and print texture. Never copy its subject silhouette or arrangement. Do not use a curled ribbon, spiral, swirl or wave-shaped blob as a generic symbol for weather or water. Follow the specific seasonal scene and distinguishing silhouette below.\nSubject and seasonal relation: A warm-brown wooden doorway corner and short threshold are the LARGE MAIN motif, made of two broad soft-edged solid planes with an olive shaded recess. Nestled at the foot is ONE VERY SMALL friendly abstract cricket silhouette, less than one quarter of the doorway height: a tiny rounded olive-brown bean body, a small head, one broad folded hind-leg wedge and at most two short simple legs. No antennae, no eyes, no hairs, no segmented abdomen, no thin spidery legs, no sharp claws, no anatomical detail, no realistic insect close-up. Calm welcoming warm-paper composition. The insect must be small and unobtrusive.\nSemantic color palette: #B58A50 (木の戸口), #72804A (小さな蟋蟀), #4C493B (戸口の陰)\nColor intent: 温かな木の褐色を広く使い、蟋蟀は小さなオリーブ色の形に抑える",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "reference_sha256": "be3727c8bfc3eff85f5f84d867b09f89c8fdaadd215f1d32d94f79683360366f",
+  "generator_version": "revision-12-v1",
+  "operation": "edit",
+  "hash": "0a04672271119fa4ba938ad7332d8cebd0280afe524ce036c92969d30eba6b3c",
+  "reference_source": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-32/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-51/reference.png",
+  "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-51/original.png",
+  "provenance": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-51/generation.json",
+  "prompt_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-51/prompt.txt",
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T11:32:42.477672+00:00",
+  "budgetPolicy": "user-waived-for-targeted-revision",
+  "actualCost": null,
+  "image_sha256": "97fba9e094d9805563d92dcd4a78a2596dc9c01b7c1c4e91f077f5a825be709f",
+  "completed_sha256": "344e53ac5d4a8a612d6cc3802352eb1058340bf35d746c49b5a5ae3cbcd67814",
+  "full_sha256": "0333c66fced2fcdc1dad56bdb65ff712c3dea2fd9d589c68f99f5a413288abac",
+  "cutout_sha256": "0333c66fced2fcdc1dad56bdb65ff712c3dea2fd9d589c68f99f5a413288abac"
+}

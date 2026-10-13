@@ -1,0 +1,23 @@
+{
+  "id": "kou-69",
+  "hash": "701de8e09fdd838f8c68b5790306a4b127468a54f02a53dff02e22201586c663",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/revision-12/kou-69/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-69/reference.png",
+  "reference_sha256": "e4162e94c2050d7d36588a66fae265b63e016b19571d770c61503ba90fd443eb",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the tiny vermilion CHEEK PATCH of the green pheasant only; preserve olive body and head dark wing brown long tail and legs to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:17:38.051180+00:00",
+  "image_sha256": "881c04e399327b2d82d05cbdfc23e6af9516a02d2d85bd8693aeab419df799ce",
+  "completed_sha256": "831edc084d00ef2aa9fdc5132a9f38db922e4b8acb78de738aadd93a2c58cbd5",
+  "cutout_sha256": "ecbf0680518d11c5223bfd8587d59d7cafd5307209bd5b48a84608b6fa413bb8"
+}

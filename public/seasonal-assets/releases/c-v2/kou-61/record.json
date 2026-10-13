@@ -1,0 +1,64 @@
+{
+  "fingerprint": "0f60d0c12986410e08bc16a726eae3ce6a8066419ae6ee956a3cbc6ba748a204",
+  "asset": {
+    "kouId": "kou-61",
+    "name": "閉塞冬となる",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 140.615,
+      "y": 218.136,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      134,
+      409,
+      378
+    ],
+    "precursorBounds": [
+      121,
+      277,
+      230,
+      346
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 134,
+      "width": 306,
+      "height": 244
+    },
+    "animation": {
+      "seed": [
+        175.5,
+        311.5
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-61/initial.png",
+    "completed": "kou-61/completed.png",
+    "transition": "kou-61/transition.webp",
+    "idle": "kou-61/idle.png",
+    "provenance": "kou-61/provenance.json",
+    "hashes": {
+      "initial": "f2bc74c460d2cf5ec1dede511ac4e7585656f0e60e9491dbacc6e13f778ca06c",
+      "completed": "3226db396b92de65c2cd8f8dc46437f475119e6ce54e70a4860471a055307ed7",
+      "transition": "15e19564017f9b0e1ddb37240af30b15d080cc7d1385ce62ed8c7b4967cf0a14",
+      "idle": "3226db396b92de65c2cd8f8dc46437f475119e6ce54e70a4860471a055307ed7",
+      "provenance": "d713c3e041f2a9cec9f311a91e6fe58247e47802d0507e8cef648b3fece7e46a"
+    }
+  }
+}

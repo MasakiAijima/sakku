@@ -1,0 +1,70 @@
+{
+  "kouId": "kou-71",
+  "algorithmVersion": "organic-growth-48-v2",
+  "inputFingerprint": "a2c5c1e68ba01bfd35589cb117474b2f57e63b5e189e3375ceade67a91495a71",
+  "assetVersion": "c-v2",
+  "promptVersion": "sha256:4c48c862a58182925c7634a1b6247e88fdd4a57ffb8e966d807646cf1e109ca5",
+  "processedAtUTC": "2026-10-13T13:42:11.869821+00:00",
+  "provider": "openai",
+  "generation": {
+    "id": "kou-71",
+    "hash": "291ed6b4aef59bd159e11437f82206709cfab34dac3efa1b51dcd5068b409fe7",
+    "reference_sha256": "449cb05d06fb38b7bbee49b3d07368941683d0b5b37374ac9a54600f4a5657ae",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small ochre BANK visible beneath the pale-blue ice slab only; preserve ice and deep-blue stream to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T13:19:01.767228+00:00",
+    "completed_sha256": "d71c7a98682e43b25de7cccfdc6be3a4f71dc97e564e54e34b168914fb92473a"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 342.035,
+      "y": 108.564,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      157,
+      409,
+      354
+    ],
+    "precursorBounds": [
+      264,
+      230,
+      407,
+      322
+    ]
+  },
+  "sourceHashes": {
+    "C": "d71c7a98682e43b25de7cccfdc6be3a4f71dc97e564e54e34b168914fb92473a",
+    "Cprime": "edab2c0420619e019ce5f60934e4f74a9c760981be95edb7a02c1a8b8ae1af7b",
+    "generation": "4832cb757146f9fbce00f0069d098e25643dbe76632bdb253b938d7723fb7d6b"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small ochre BANK visible beneath the pale-blue ice slab only; preserve ice and deep-blue stream to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T13:19:01.767228+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

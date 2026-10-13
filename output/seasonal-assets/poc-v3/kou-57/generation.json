@@ -1,0 +1,30 @@
+{
+  "id": "kou-57",
+  "name": "金盞香",
+  "prompt": "Use case: stylized-concept. Asset: one independent Japanese microseason illustration. The attached image is a STYLE reference only. Preserve its few large flat color planes, expressive hand-cut organic silhouette, long unequal curves, asymmetric swelling and pinches, and restrained uneven screen-print ink inside each color field. Do not copy its subject or colors. Express only the seasonal relationship specified below. One dominant motif occupies most of the artwork; at most one or two much smaller auxiliary motifs overlap it into one compact composition. Choose natural, seasonally meaningful colors from the specified palette. Never default to red. Use broad solid opaque color planes. Silhouette has character and directional flow; avoid bilateral symmetry, equally spaced petals, repeated geometry and fine outlines. The static image must be complete; do not add separate parts or gaps for animation. Center the entire compact artwork within the central 60 percent of the square, with ample clean empty margin on all sides. Solid chromakey magenta #FF00FF background; no magenta, hot pink, fuchsia, purple spill or pink reflected lighting in the artwork. Pink petals must be muted salmon #E9B8B5, distinct from the magenta background. No faces, eyes, pupils, letters, numerals, titles, borders, frames, realistic shading, gradients, shadows, translucency, fine veins, repeated decorative dots or textures outside shapes. \nSubject and seasonal relation: One dominant cream narcissus flower forms a few broad unequal petal lobes around one much smaller golden yellow cup set off center. One tiny olive strap leaf may lean below. Soft pinches and a tilted overlap, no mechanical six-point star. This is narcissus, never orange marigold. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.\nSemantic color palette: #F5F3ED (水仙の花弁), #E3BC45 (黄色い杯), #72804A (葉)\nColor intent: 水仙の白い花弁と黄色い杯を正しく使う",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "master_version": "e72212780133af95020bc7f39e95b6638d664b3d647c1f7b1077aa4ec317d649",
+  "generator_version": 3,
+  "prompt_version": 3,
+  "operation": "edit",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-32/completed.png",
+  "reference_sha256": "be3727c8bfc3eff85f5f84d867b09f89c8fdaadd215f1d32d94f79683360366f",
+  "hash": "f5ca87f3be8dd6ce061f94a0186965e7346992f247a43aa72f3a8503c78c06b9",
+  "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-57/original.png",
+  "provenance": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-57/generation.json",
+  "prompt_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-57/prompt.txt",
+  "attempted_at": "2026-10-12T11:17:00.598016+00:00",
+  "status": "succeeded",
+  "reserved_jpy": 130,
+  "actual_cost_jpy": null,
+  "image_sha256": "a20a5ce890dcbc04d990fd48b0d0b1933bd1c0ec8c274736278c54228af1e29d",
+  "completed_sha256": "71a79ac1e1677ddf76e86a059f4ed0c833cc0a86d787c93d5cce79ba16abe9c7",
+  "cutout_sha256": "e65dd565e26f23f458c4ad7ab18dea9cafb7c3ce0eaad1607c9ac6011969e57b"
+}

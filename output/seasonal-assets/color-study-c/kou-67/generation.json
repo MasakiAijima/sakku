@@ -1,0 +1,23 @@
+{
+  "id": "kou-67",
+  "hash": "b8e4e2b481e7d13d000a0cde22f81fcfd3d286c0a69d5815f0bc4b9a1d3535cb",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-67/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c/kou-67/reference.png",
+  "reference_sha256": "08d8efdbd4b93ae3662d83d0cbc753379065ab3421058a9464dd8abe10a1f97d",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese seasonal illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the single small PALE-TEAL young leaf near the base only; preserve the two large olive celery leaves and dark-blue water to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged as well. This is one small existing color field recolored to one accent hue, not a new part, not a new decoration. Preserve relative areas: the recolored field stays exactly the same SMALL area. Do not spread the accent onto the main motif. Keep the artwork centered with generous clear margins; solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:28:21.331663+00:00",
+  "image_sha256": "0053e4d75d0d91dc3d58f1cde3f058db7a5b49e95034e2836e52e8151a72d66d",
+  "completed_sha256": "7cd1146ebf7a6a5dcb9808eb82ac60c1797a890b61bdd4354be33adb6ce38c94",
+  "cutout_sha256": "85dd3cb9e83dc53bf28a5d764493eb708ce696443767cf48670bf4299e84b766"
+}

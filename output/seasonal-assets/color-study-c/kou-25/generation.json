@@ -1,0 +1,23 @@
+{
+  "id": "kou-25",
+  "hash": "1e6b97cee3d79fae3b97e1811d35697c5862e75ca7308a4d5303efb74ee85bd9",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-25/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c/kou-25/reference.png",
+  "reference_sha256": "2b1eaa1e9d6073851492bbea58dd0cea55927f189e95d5012cdccd8aa89dbfa4",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese seasonal illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small brown EGG CASE beside the mantis only; preserve pale-teal mantis and olive forelegs to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged as well. This is one small existing color field recolored to one accent hue, not a new part, not a new decoration. Preserve relative areas: the recolored field stays exactly the same SMALL area. Do not spread the accent onto the main motif. Keep the artwork centered with generous clear margins; solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:25:36.612658+00:00",
+  "image_sha256": "f32520493902aee9a9ec4fb423df4f3e77138ec83ec17e7aab45c2bc91b36085",
+  "completed_sha256": "8fa7de8881bb803abf1e1755bb1710d429f62c8ec0e7656d05e6d67df614f1db",
+  "cutout_sha256": "fe1cdf23f51e4864f4cad8a13d684ae992925aa53642418a58bf0efcde719742"
+}

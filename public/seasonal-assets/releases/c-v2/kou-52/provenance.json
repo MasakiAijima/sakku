@@ -1,0 +1,70 @@
+{
+  "kouId": "kou-52",
+  "algorithmVersion": "organic-growth-48-v2",
+  "inputFingerprint": "a6bd799ece2c23811c8f3a47fcd6d69432e72e95de5b1ffd5bff087cdf021710",
+  "assetVersion": "c-v2",
+  "promptVersion": "sha256:7caa467ed8355a9dafc45a049f5efe9c70a988e861d5d19de2f2d09dd02a68fd",
+  "processedAtUTC": "2026-10-13T13:42:06.483559+00:00",
+  "provider": "openai",
+  "generation": {
+    "id": "kou-52",
+    "hash": "e592862abe5d6bb2f7949a8f1038739e0c8231ccb5cf3af5cef73c770ced4bd6",
+    "reference_sha256": "0194e5d56f233d16bda4bf8000afca4eba1fb26a2fcc0b54d06d043c670adf78",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small pale-blue COLD SHADOW beneath the ivory frosted grass tuft only; preserve ivory frost and ochre ground to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T13:07:01.183268+00:00",
+    "completed_sha256": "6c29c5c54b42afa2970f539a391e367fe2f46c7adb6481e72408e94852f72550"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 164.014,
+      "y": 382.908,
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      119,
+      103,
+      392,
+      409
+    ],
+    "precursorBounds": [
+      180,
+      332,
+      342,
+      371
+    ]
+  },
+  "sourceHashes": {
+    "C": "6c29c5c54b42afa2970f539a391e367fe2f46c7adb6481e72408e94852f72550",
+    "Cprime": "0200f877f5aeb9911551076d05b2f5a16335d830c41f0181bcef64713ba93ee4",
+    "generation": "f1d77cd406d09e0b7372ea889dc96d669b854f4d8a412e2f1bc4b53d68f8b881"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small pale-blue COLD SHADOW beneath the ivory frosted grass tuft only; preserve ivory frost and ochre ground to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T13:07:01.183268+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "kou-47",
+  "name": "虫かくれて戸をふさぐ",
+  "prompt": "Use case: stylized-concept. Asset: one independent Japanese microseason illustration. The attached image is a STYLE reference only. Preserve its few large flat color planes, expressive hand-cut organic silhouette, long unequal curves, asymmetric swelling and pinches, and restrained uneven screen-print ink inside each color field. Do not copy its subject or colors. Express only the seasonal relationship specified below. One dominant motif occupies most of the artwork; at most one or two much smaller auxiliary motifs overlap it into one compact composition. Choose natural, seasonally meaningful colors from the specified palette. Never default to red. Use broad solid opaque color planes. Silhouette has character and directional flow; avoid bilateral symmetry, equally spaced petals, repeated geometry and fine outlines. The static image must be complete; do not add separate parts or gaps for animation. Center the entire compact artwork within the central 60 percent of the square, with ample clean empty margin on all sides. Solid chromakey magenta #FF00FF background; no magenta, hot pink, fuchsia, purple spill or pink reflected lighting in the artwork. Pink petals must be muted salmon #E9B8B5, distinct from the magenta background. No faces, eyes, pupils, letters, numerals, titles, borders, frames, realistic shading, gradients, shadows, translucency, fine veins, repeated decorative dots or textures outside shapes. \nSubject and seasonal relation: One dominant golden brown fallen leaf with unequal broad lobes covers a much smaller low brown insect burrow opening. A tiny charcoal hollow remains visible at one edge. Leaf and earth overlap closely. No visible insect, open tall arch, thin veins or red door frame. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.\nSemantic color palette: #E3BC45 (落葉), #B58A50 (土), #4C4A43 (穴)\nColor intent: 秋の落葉は黄土、土と穴は自然な褐色と暗色にする",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "master_version": "e72212780133af95020bc7f39e95b6638d664b3d647c1f7b1077aa4ec317d649",
+  "generator_version": 3,
+  "prompt_version": 3,
+  "operation": "edit",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-54/completed.png",
+  "reference_sha256": "dbe5ebfb8cd2ad86935c795d1238dbefefb617b5c4c2da759a2f46b8df077c61",
+  "hash": "7329ccfc7f237143f6a5b9aed888256362789de6cb1b52893e577ecbda0ab490",
+  "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-47/original.png",
+  "provenance": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-47/generation.json",
+  "prompt_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-47/prompt.txt",
+  "attempted_at": "2026-10-12T11:14:07.578155+00:00",
+  "status": "succeeded",
+  "reserved_jpy": 130,
+  "actual_cost_jpy": null,
+  "image_sha256": "9986eed5d96e0474c93cd1a501569e305c81b4c8db121a18194243005fd15a4c",
+  "completed_sha256": "514d1d61935f6e244a6699a34ebae0d11e3c01769287053bfde7ec6371891c4c",
+  "cutout_sha256": "7e65a08e73546b798df99ec39b0ea90bd77547a365835dfd7a2beb901191a137"
+}

@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-29",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "26ed60183802cde1f33f0cffd6157ce62c6365d6f82aa5d7ba9269bc59afb131",
+  "generation": {
+    "id": "kou-29",
+    "hash": "abd24374657f999aa0190e399d6b904b1902df5221081cc4ebc6abffdb2c6278",
+    "reference_sha256": "39ed70c7b47d03dd333e902c1172c03b9aa6fcb3eb054d90f4f2623a23d24269",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small narrow olive LEAF under the blue iris only; preserve dark-blue and pale-blue flower planes to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:56:55.248069+00:00",
+    "completed_sha256": "6d73bde6f4213cc7886dea3844b73fe9c8e4ccacc4ccf4b75f7d1c24c6699802"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 383.861,
+      "y": 400.877,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      154,
+      103,
+      358,
+      409
+    ],
+    "precursorBounds": [
+      233,
+      257,
+      348,
+      409
+    ]
+  },
+  "sourceHashes": {
+    "C": "6d73bde6f4213cc7886dea3844b73fe9c8e4ccacc4ccf4b75f7d1c24c6699802",
+    "Cprime": "09e929be8bbf76471670e7970c231698de4300716f36807ca4486cb54ed30463",
+    "generation": "16bfece778619999ef314baea2bd45d14791e6a7b47f77f673c264e127766190"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small narrow olive LEAF under the blue iris only; preserve dark-blue and pale-blue flower planes to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:56:55.248069+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

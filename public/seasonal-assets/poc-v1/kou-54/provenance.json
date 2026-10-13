@@ -1,0 +1,225 @@
+{
+  "kouId": "kou-54",
+  "provider": "openai",
+  "model": "gpt-image-2",
+  "generation": {
+    "size": "1024x1024",
+    "quality": "low"
+  },
+  "promptVersion": 1,
+  "generatedAt": "2026-10-12T07:11:49.899266+00:00",
+  "generatedAtSource": "original file timestamp; API timestamp unavailable",
+  "prompt": "Use case: stylized-concept. One square flat opaque cut-paper and textile-applique silkscreen illustration for Sakku. Only 3 to 6 large rounded hand-cut solid-color shapes. Vermilion, cobalt, pale blue, olive, ochre palette. Fine uniform ink grain inside shapes only. Compact centered motif inside the central 60 percent of the canvas. No shadows, gradients, translucency, highlights, face, eyes, text, borders, tiny decorations. Background must be a completely uniform solid magenta #FF00FF for later alpha extraction; absolutely no magenta in the subject. Subject and composition: | kou-54 | 霜降 | 楓蔦黄ばむ | 楓や蔦が色づく | 楓葉と蔦葉の組 | 大きな掌形の葉に小さな蔦葉が重なる。 | 朱の丸い掌形の楓葉、青の蔦葉、黄の小葉。細かな葉脈なし。 |",
+  "sourceHashes": {
+    "original.png": "53819f1dac9aeb5e6133a42977acdc70abcd29dd3e579bdb470f5359a963c77e",
+    "cutout.png": "9caca8493f1b6ddb316eb2bfee182e2a28cec1a53e26460bcb561a1ca79d4a64",
+    "prompt.txt": "0be3a7eff909e9c3b619655df9c3f6db5f5cb374d5e65c9806b8892d60617d47"
+  },
+  "files": {
+    "initial.png": {
+      "sha256": "0675178eff8d8c35e0f83526b7ea8ea70170b68d8662ff018471999cb2733b19",
+      "bytes": 2700,
+      "frames": 1,
+      "alphaBounds": [
+        [
+          103,
+          121,
+          410,
+          392
+        ]
+      ]
+    },
+    "completed.png": {
+      "sha256": "66092bec658a12c6c200df12f510052c6546a8a8060acda1403c80effac03538",
+      "bytes": 75946,
+      "frames": 1,
+      "alphaBounds": [
+        [
+          103,
+          121,
+          409,
+          391
+        ]
+      ]
+    },
+    "completed.webp": {
+      "sha256": "c093652f77b37c9ff3463428acbe130debc1949ebe63089772a82dab28ea209d",
+      "bytes": 50386,
+      "frames": 1,
+      "alphaBounds": [
+        [
+          103,
+          121,
+          409,
+          391
+        ]
+      ]
+    },
+    "transition.webp": {
+      "sha256": "71870fd8e47f3b4d712611e6c30ebce1f193deb7d6c2c22c5f543e19facc90f7",
+      "bytes": 448614,
+      "frames": 12,
+      "alphaBounds": [
+        [
+          103,
+          121,
+          410,
+          392
+        ],
+        [
+          103,
+          121,
+          410,
+          392
+        ],
+        [
+          103,
+          121,
+          410,
+          392
+        ],
+        [
+          103,
+          121,
+          410,
+          392
+        ],
+        [
+          103,
+          121,
+          410,
+          392
+        ],
+        [
+          103,
+          121,
+          410,
+          392
+        ],
+        [
+          103,
+          121,
+          410,
+          392
+        ],
+        [
+          103,
+          121,
+          410,
+          392
+        ],
+        [
+          103,
+          121,
+          410,
+          392
+        ],
+        [
+          103,
+          121,
+          410,
+          392
+        ],
+        [
+          103,
+          121,
+          410,
+          392
+        ],
+        [
+          103,
+          121,
+          409,
+          391
+        ]
+      ]
+    },
+    "idle.webp": {
+      "sha256": "74a2e2a54d018504d750ff32710f7a398425c0a39415b6368aab13352e5697e3",
+      "bytes": 605450,
+      "frames": 12,
+      "alphaBounds": [
+        [
+          103,
+          121,
+          409,
+          391
+        ],
+        [
+          105,
+          121,
+          411,
+          393
+        ],
+        [
+          106,
+          121,
+          412,
+          395
+        ],
+        [
+          106,
+          121,
+          413,
+          395
+        ],
+        [
+          106,
+          121,
+          412,
+          395
+        ],
+        [
+          105,
+          121,
+          411,
+          393
+        ],
+        [
+          103,
+          121,
+          409,
+          391
+        ],
+        [
+          101,
+          120,
+          407,
+          393
+        ],
+        [
+          100,
+          120,
+          406,
+          395
+        ],
+        [
+          99,
+          120,
+          406,
+          395
+        ],
+        [
+          100,
+          120,
+          406,
+          395
+        ],
+        [
+          101,
+          120,
+          407,
+          393
+        ]
+      ]
+    }
+  },
+  "actualCost": null,
+  "costEvidence": "Bundled generation CLI returned no usage; actual cost unknown",
+  "rights": {
+    "reference": "https://openai.com/policies/terms-of-use/",
+    "review": "pending"
+  },
+  "initialMethod": "Approximate Muted Pop: 2x2 silhouette bounding regions, up to four large rounded geometric segments, nearest muted palette color; approximate initial, not final art",
+  "idleMethod": "Provisional rigid rotation +/-1.5 degrees about fixed canvas center; not separated-piece animation"
+}

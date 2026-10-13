@@ -1,0 +1,64 @@
+{
+  "fingerprint": "e1c740ffcb7ec02c169d8d8e59aa387683bb65f5c3308373cac1bf36cf943ff9",
+  "asset": {
+    "kouId": "kou-07",
+    "name": "すごもりの虫戸を開く",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 453.15,
+      "y": 198.233,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      110,
+      103,
+      402,
+      409
+    ],
+    "precursorBounds": [
+      123,
+      304,
+      183,
+      377
+    ],
+    "motionBounds": {
+      "x": 110,
+      "y": 103,
+      "width": 292,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        153.0,
+        340.5
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-07/initial.png",
+    "completed": "kou-07/completed.png",
+    "transition": "kou-07/transition.webp",
+    "idle": "kou-07/idle.png",
+    "provenance": "kou-07/provenance.json",
+    "hashes": {
+      "initial": "92b86f8e38692ebca0cff14e2400589c4539239b3e1027440654d648c42f012f",
+      "completed": "ce6df88e9bb729efab2efc73f67bda30b3958fd1544675485cde3081f4b8bb88",
+      "transition": "607cef53856ac298d71908973f9e98c53e55d9e314bf039846a7f3e53d8e184b",
+      "idle": "ce6df88e9bb729efab2efc73f67bda30b3958fd1544675485cde3081f4b8bb88",
+      "provenance": "47da677cb53eb78699c4417daeef375c707e084df64e8243a5b20c7a720b2a2e"
+    }
+  }
+}

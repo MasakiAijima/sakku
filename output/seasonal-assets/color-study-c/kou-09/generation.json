@@ -1,0 +1,23 @@
+{
+  "id": "kou-09",
+  "hash": "8dc78650bd0ce9cb965f21513071966493493d724a244b6dd38b2a6e4222165d",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-09/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c/kou-09/reference.png",
+  "reference_sha256": "1813fdeba5d5ddb3337d78b374a58b401c4e541064f198280dcdf0fb857729a5",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese seasonal illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the tiny dark-gray BUTTERFLY BODY between the yellow wings and olive cocoon only to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged as well. This is one small existing color field recolored to one accent hue, not a new part, not a new decoration. Preserve relative areas: the recolored field stays exactly the same SMALL area. Do not spread the accent onto the main motif. Keep the artwork centered with generous clear margins; solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:24:09.448974+00:00",
+  "image_sha256": "7f43b3da62e9e49d74b346f8529f829771733128755726525c52f0c8bf99496e",
+  "completed_sha256": "12e9239e9c8c6e7b76d5253031d5195696a131ea3723c65f99dd178c54b34611",
+  "cutout_sha256": "33c704c9003d940a360d86d51e714d63ba5425b5a95944436192a67a294e7cdf"
+}

@@ -1,0 +1,64 @@
+{
+  "fingerprint": "cf0f4c79b454a09784654ac0fd2cd7cca11ca10a3f069d943c5138d6d96e0282",
+  "asset": {
+    "kouId": "kou-40",
+    "name": "綿のはなしべ開く",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 318.966,
+      "y": 434.819,
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      125,
+      103,
+      386,
+      409
+    ],
+    "precursorBounds": [
+      179,
+      354,
+      282,
+      409
+    ],
+    "motionBounds": {
+      "x": 125,
+      "y": 103,
+      "width": 261,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        230.5,
+        381.5
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-40/initial.png",
+    "completed": "kou-40/completed.png",
+    "transition": "kou-40/transition.webp",
+    "idle": "kou-40/idle.png",
+    "provenance": "kou-40/provenance.json",
+    "hashes": {
+      "initial": "142f0d40f49491b9acae06475b6fcd174bd652216bcbb17d449f46d76b8eaf00",
+      "completed": "18468b6c7482cd842e7c4fefc5e51b0e64882f444efbbd738e048947f2c146c7",
+      "transition": "4b9905e981bd4bc297a2231dcb10d1da7f0e759dda5d71a95ae008967d756cf9",
+      "idle": "18468b6c7482cd842e7c4fefc5e51b0e64882f444efbbd738e048947f2c146c7",
+      "provenance": "be99d1ea13d25b1529a4a8e5fed3403c270697f3cf68fef70883477d73f8a4d8"
+    }
+  }
+}

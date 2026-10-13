@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-58",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "55f10935783b872d481d0ae696c6ccf4f1c82bbbad591d2471179111b4cd7c22",
+  "generation": {
+    "id": "kou-58",
+    "hash": "f48bcaf17663ecac78c077ff899b0be4804fa90803629683b7a7dd84e2d7aae8",
+    "reference_sha256": "9cf92777968872b843dd8507ed2a1c84121c6b8292911edc93f6a5e30922757c",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the tiny muted-salmon INNER RAINBOW ARC peeking from the bottom-left of the cloud only; preserve slate-blue cloud and golden outer arc to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T13:09:54.944398+00:00",
+    "completed_sha256": "e19b5cfc65d9a9fa7df9a6226eea9b7a89d7281c462010339bf85a4845f22123"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 197.686,
+      "y": 290.45,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      126,
+      409,
+      386
+    ],
+    "precursorBounds": [
+      116,
+      324,
+      176,
+      367
+    ]
+  },
+  "sourceHashes": {
+    "C": "e19b5cfc65d9a9fa7df9a6226eea9b7a89d7281c462010339bf85a4845f22123",
+    "Cprime": "395e971ab5c345bea0327fc5ef32e01178c2399248eb104a3fc94daba2452103",
+    "generation": "82bb516596d1ab2a700a429b1c9cb73ed30b70d8741b487afa1093835289f343"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the tiny muted-salmon INNER RAINBOW ARC peeking from the bottom-left of the cloud only; preserve slate-blue cloud and golden outer arc to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T13:09:54.944398+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

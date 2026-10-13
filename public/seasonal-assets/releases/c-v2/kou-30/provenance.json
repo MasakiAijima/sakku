@@ -1,0 +1,70 @@
+{
+  "kouId": "kou-30",
+  "algorithmVersion": "organic-growth-48-v2",
+  "inputFingerprint": "19bf43b8a712867c1153e13c27f1d25c722533a3027fe5ed29e96f30e1e2bfdc",
+  "assetVersion": "c-v2",
+  "promptVersion": "sha256:d65f70b9588d50315b6b7d38e596ab0533a881e6505100a9c48d4feedd0438d5",
+  "processedAtUTC": "2026-10-13T13:42:00.337190+00:00",
+  "provider": "openai",
+  "generation": {
+    "id": "kou-30",
+    "hash": "6c8915eaaaf3e3aa2ca380f66e27670249263b0cbc7b6a6c4a8fd81351007f60",
+    "reference_sha256": "8bcb675fe8219ef3a2aba974be6408683a975c3eef12a6d6beba1a92cf76ec13",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the short ochre SPADIX emerging inside the large olive pinellia spathe only; preserve olive and teal spathe planes to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:57:05.563229+00:00",
+    "completed_sha256": "02f4fb5bb55a2299c5f56a23b58731295d6052333e78bdca9c0ac9112d10a7a5"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 480.688,
+      "y": 558.225,
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      164,
+      103,
+      347,
+      409
+    ],
+    "precursorBounds": [
+      217,
+      259,
+      267,
+      349
+    ]
+  },
+  "sourceHashes": {
+    "C": "02f4fb5bb55a2299c5f56a23b58731295d6052333e78bdca9c0ac9112d10a7a5",
+    "Cprime": "0da316da56ad2b31cc30471c3e0ec27209257c497ad67a05f33e10ca1f2ea8df",
+    "generation": "12f0d3df98c92555eab3291ae1511d4fc2c46ce66ec419e86bf1b98bf86e9931"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the short ochre SPADIX emerging inside the large olive pinellia spathe only; preserve olive and teal spathe planes to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:57:05.563229+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

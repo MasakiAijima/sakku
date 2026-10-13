@@ -1,0 +1,64 @@
+{
+  "fingerprint": "74062d3f521ce8c7b614a4cbd513a008c58c17791221db91d906e706cfc844b7",
+  "asset": {
+    "kouId": "kou-46",
+    "name": "雷乃ち声を収む",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 210.122,
+      "y": 485.599,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      172,
+      409,
+      340
+    ],
+    "precursorBounds": [
+      234,
+      258,
+      308,
+      336
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 172,
+      "width": 306,
+      "height": 168
+    },
+    "animation": {
+      "seed": [
+        271.0,
+        297.0
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-46/initial.png",
+    "completed": "kou-46/completed.png",
+    "transition": "kou-46/transition.webp",
+    "idle": "kou-46/idle.png",
+    "provenance": "kou-46/provenance.json",
+    "hashes": {
+      "initial": "9354181c975dbce045ccc0f01b06cb9cca32e60b241dc58304fd018f223694d7",
+      "completed": "9e52a9703d43fa8db8dafe53bc53e983afda318315807885a312ba86a8cf778e",
+      "transition": "267677d3787785e69fed42fc0455305f02b2d5d3c0f07bf1456eef275e1d4f17",
+      "idle": "9e52a9703d43fa8db8dafe53bc53e983afda318315807885a312ba86a8cf778e",
+      "provenance": "887e62bb5d5b967ad7d3269f389453ffb5ea7f3cd8ea43127d2e6265e58bf8e1"
+    }
+  }
+}

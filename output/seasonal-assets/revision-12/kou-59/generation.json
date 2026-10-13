@@ -1,0 +1,30 @@
+{
+  "id": "kou-59",
+  "name": "朔風葉を払う",
+  "prompt": "Use case: stylized-concept. Asset: one independent Japanese microseason illustration. The attached image is a STYLE reference only. Preserve its few large flat color planes, expressive hand-cut organic silhouette, long unequal curves, asymmetric swelling and pinches, and restrained uneven screen-print ink inside each color field. Do not copy its subject or colors. Express only the seasonal relationship specified below. One dominant motif occupies most of the artwork; at most one or two much smaller auxiliary motifs overlap it into one compact composition. Choose natural, seasonally meaningful colors from the specified palette. Never default to red. Use broad solid opaque color planes. Silhouette has character and directional flow; avoid bilateral symmetry, equally spaced petals, repeated geometry and fine outlines. The static image must be complete; do not add separate parts or gaps for animation. Center the entire compact artwork within the central 60 percent of the square, with ample clean empty margin on all sides. Solid chromakey magenta #FF00FF background; no magenta, hot pink, fuchsia, purple spill or pink reflected lighting in the artwork. Pink petals must be muted salmon #E9B8B5, distinct from the magenta background. No faces, eyes, pupils, letters, numerals, titles, borders, frames, realistic shading, gradients, shadows, translucency, fine veins, repeated decorative dots or textures outside shapes. \nThis is a new subject design, not a recoloring of the reference. Use the reference only for flat color planes, organic contours and print texture. Never copy its subject silhouette or arrangement. Do not use a curled ribbon, spiral, swirl or wave-shaped blob as a generic symbol for weather or water. Follow the specific seasonal scene and distinguishing silhouette below.\nSubject and seasonal relation: Two broad irregular autumn leaves, one golden yellow and one warm ochre, tumble diagonally down to the right away from one much smaller bare twig at the upper left. One leaf is broad with a shallow uneven notch, the other slender and tilted, avoid maple lobes. Their offset tilted silhouettes convey a strong north wind WITHOUT drawing any wind glyph. No curl, spiral, blue wind shape, cloud, repeated tiny leaves or thin veins.\nSemantic color palette: #B9D5DE (北風), #E3BC45 (落葉), #B58A50 (裸枝)\nColor intent: 北風は冷たい淡青、落葉は黄、裸枝は褐色にする",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "reference_sha256": "be3727c8bfc3eff85f5f84d867b09f89c8fdaadd215f1d32d94f79683360366f",
+  "generator_version": "revision-12-v1",
+  "operation": "edit",
+  "hash": "42518f54fe1db942fbacefae5d885434b331f937590d801024583b2cf1ca5cac",
+  "reference_source": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-32/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-59/reference.png",
+  "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-59/original.png",
+  "provenance": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-59/generation.json",
+  "prompt_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-59/prompt.txt",
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T11:34:12.817463+00:00",
+  "budgetPolicy": "user-waived-for-targeted-revision",
+  "actualCost": null,
+  "image_sha256": "693b977c850cc906ac47be95286729093834130922e234bf9e0babb67c4edad8",
+  "completed_sha256": "38c508b6d7f2c312b3b2415ffa6ab26b59becf7e5699025196e94f86bd5573e6",
+  "full_sha256": "4abd1721a4f466059e075a4090fdb12f6acdbb54d2d76d1128737e6cc18ea79f",
+  "cutout_sha256": "4abd1721a4f466059e075a4090fdb12f6acdbb54d2d76d1128737e6cc18ea79f"
+}

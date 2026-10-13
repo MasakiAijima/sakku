@@ -1,0 +1,30 @@
+{
+  "id": "kou-19",
+  "name": "蛙始めて鳴く",
+  "prompt": "Use case: stylized-concept. Asset: one independent Japanese microseason illustration. The attached image is a STYLE reference only. Preserve its few large flat color planes, expressive hand-cut organic silhouette, long unequal curves, asymmetric swelling and pinches, and restrained uneven screen-print ink inside each color field. Do not copy its subject or colors. Express only the seasonal relationship specified below. One dominant motif occupies most of the artwork; at most one or two much smaller auxiliary motifs overlap it into one compact composition. Choose natural, seasonally meaningful colors from the specified palette. Never default to red. Use broad solid opaque color planes. Silhouette has character and directional flow; avoid bilateral symmetry, equally spaced petals, repeated geometry and fine outlines. The static image must be complete; do not add separate parts or gaps for animation. Center the entire compact artwork within the central 60 percent of the square, with ample clean empty margin on all sides. Solid chromakey magenta #FF00FF background; no magenta, hot pink, fuchsia, purple spill or pink reflected lighting in the artwork. Pink petals must be muted salmon #E9B8B5, distinct from the magenta background. No faces, eyes, pupils, letters, numerals, titles, borders, frames, realistic shading, gradients, shadows, translucency, fine veins, repeated decorative dots or textures outside shapes. \nSubject and seasonal relation: One dominant olive green frog in side profile with a broad rounded back and one folded hind leg merged into the silhouette. A much smaller pale golden vocal sac swells under its throat and one tiny teal water plane touches its foot. No face or eyes, sound symbols or extra limbs. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.\nSemantic color palette: #72804A (蛙), #E3BC45 (膨らむ喉), #90B8B0 (浅い水)\nColor intent: 蛙は自然な緑、喉は淡い黄、水は青緑にする",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "master_version": "e72212780133af95020bc7f39e95b6638d664b3d647c1f7b1077aa4ec317d649",
+  "generator_version": 3,
+  "prompt_version": 3,
+  "operation": "edit",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-32/completed.png",
+  "reference_sha256": "be3727c8bfc3eff85f5f84d867b09f89c8fdaadd215f1d32d94f79683360366f",
+  "hash": "706cc933aee4076a54ac91b9083c07e09367094658aabfa79a0c9cc5b7c81364",
+  "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-19/original.png",
+  "provenance": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-19/generation.json",
+  "prompt_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-19/prompt.txt",
+  "attempted_at": "2026-10-12T11:04:09.197434+00:00",
+  "status": "succeeded",
+  "reserved_jpy": 130,
+  "actual_cost_jpy": null,
+  "image_sha256": "b3aba579d1cbfe5afaed5e9b5a8dec8e75c39a66985a37cb9ec579976fe35b93",
+  "completed_sha256": "125d23fdd7a4607503fe3246bb43e9b8cd485d67c998e6d3a24d7df4e62911b1",
+  "cutout_sha256": "8203768fe7de238f18c1d2e557bdecc734388187e6967ad65942df8882c2d0cb"
+}

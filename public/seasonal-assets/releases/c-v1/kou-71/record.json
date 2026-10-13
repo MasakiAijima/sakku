@@ -1,0 +1,64 @@
+{
+  "fingerprint": "c2f67eed1cfe02eb960a685c266306564e5002b2a11313ff5c69e69428ed88af",
+  "asset": {
+    "kouId": "kou-71",
+    "name": "水沢氷つめる",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 342.035,
+      "y": 108.564,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      157,
+      409,
+      354
+    ],
+    "precursorBounds": [
+      264,
+      230,
+      407,
+      322
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 157,
+      "width": 306,
+      "height": 197
+    },
+    "animation": {
+      "seed": [
+        335.5,
+        276.0
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-71/initial.png",
+    "completed": "kou-71/completed.png",
+    "transition": "kou-71/transition.webp",
+    "idle": "kou-71/idle.png",
+    "provenance": "kou-71/provenance.json",
+    "hashes": {
+      "initial": "edab2c0420619e019ce5f60934e4f74a9c760981be95edb7a02c1a8b8ae1af7b",
+      "completed": "d71c7a98682e43b25de7cccfdc6be3a4f71dc97e564e54e34b168914fb92473a",
+      "transition": "1ac90c7c53f55c1673affcee41a2fa5cd2db6c30fe5b754de3f56c98a5122c25",
+      "idle": "d71c7a98682e43b25de7cccfdc6be3a4f71dc97e564e54e34b168914fb92473a",
+      "provenance": "463ce3a1cba7c097a3dd9de4b04eed20e72ad84dc743990577d5808db635d759"
+    }
+  }
+}

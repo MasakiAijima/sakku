@@ -1,14 +1,14 @@
 'use client';
 
-import {useEffect,useState} from 'react';
+import {useEffect,useRef,useState} from 'react';
 import {seasonalYear,type SeasonalOrbit} from '../shared/seasonal-orbit';
 import {watchSeasonalOrbit} from '../shared/seasonal-orbit-browser';
-import {orbitLayout,orderedPlacements,orbitOverlapReview} from '../shared/orbit-layout';
+import type {SeasonalArt} from '../shared/seasonal-art';
+import {mountSeasonalArt,type SeasonalArtController} from '../shared/seasonal-art-runtime.js';
 
 type KouName={id:string;name:string;reading:string;sekki:string};
 const statusNames={upcoming:'未到来',current:'いまの候',visited:'訪問済み'};
-const colors=['#e24733','#256aa3','#ee9b3d','#dfb82d','#599170'];
-export default function SeasonalOrbitView({calendar,names,years}:{calendar:unknown;names:KouName[];years:number[]}) {
+export default function SeasonalOrbitView({calendar,names,years,art}:{calendar:unknown;names:KouName[];years:number[];art:SeasonalArt|null}) {
   const [view,setView]=useState({home:true,english:false});
   useEffect(()=>{
     const refresh=()=>setView({home:document.documentElement.dataset.sakkuScreen==='home',english:document.documentElement.dataset.sakkuLanguage==='English'});
@@ -20,7 +20,46 @@ export default function SeasonalOrbitView({calendar,names,years}:{calendar:unkno
   const [year,setYear]=useState('current');
   const [orbit,setOrbit]=useState<SeasonalOrbit|null>(null);
   const [selected,setSelected]=useState<string|null>(null);
-  const [debug,setDebug]=useState(false);
+  const svgRef=useRef<SVGSVGElement>(null);
+  const controller=useRef<SeasonalArtController|null>(null);
+  const labels=useRef({names,english:view.english});
+  useEffect(()=>{labels.current={names,english:view.english};},[names,view.english]);
+  const [reducedMotion,setReducedMotion]=useState(false);
+  const [visible,setVisible]=useState(true);
+  const [offlineReady,setOfflineReady]=useState(false);
+  const [artStatus,setArtStatus]=useState('');
+  useEffect(()=>{
+    if(!art||!('serviceWorker' in navigator))return;
+    let active=true;
+    const message=(event:MessageEvent)=>{if(active&&event.data?.type==='offline-ready'&&event.data.version===art.version)setOfflineReady(true);};
+    navigator.serviceWorker.addEventListener('message',message);
+    void navigator.serviceWorker.register('/seasonal-art-worker.js',{type:'module',scope:'/'}).then(async registration=>{
+      await navigator.serviceWorker.ready;
+      if(active)(registration.active??navigator.serviceWorker.controller)?.postMessage({type:'prepare-current'});
+    }).catch(()=>{});
+    return ()=>{active=false;navigator.serviceWorker.removeEventListener('message',message);};
+  },[art]);
+  useEffect(()=>{
+    const media=matchMedia('(prefers-reduced-motion: reduce)');
+    const refresh=()=>{setReducedMotion(media.matches);setVisible(!document.hidden);};
+    refresh();media.addEventListener('change',refresh);document.addEventListener('visibilitychange',refresh);
+    return ()=>{media.removeEventListener('change',refresh);document.removeEventListener('visibilitychange',refresh);};
+  },[]);
+  const ready=orbit?.kind==='ready';
+  useEffect(()=>{
+    if(!art||!ready||!svgRef.current)return;
+    const instance=mountSeasonalArt({svg:svgRef.current,manifest:art,assetBase:new URL(`/seasonal-assets/releases/${art.version}/`,location.href).href,onSelect:setSelected,onStatus:setArtStatus,label:(id,kind)=>{
+      const item=labels.current.names.find(value=>value.id===id);
+      const state=labels.current.english?{upcoming:'Upcoming',current:'Current',visited:'Visited'}[kind]:statusNames[kind];
+      return `${Number(id.slice(4))} ${item?.name}（${item?.reading}） · ${item?.sekki} · ${state}`;
+    }});
+    controller.current=instance;
+    return ()=>{instance.dispose();controller.current=null;};
+  },[art,ready]);
+  useEffect(()=>{
+    if(orbit?.kind==='ready')controller.current?.update({year:orbit.year,slots:orbit.slots,reducedMotion,visible:visible&&view.home});
+  },[orbit,reducedMotion,visible,view.home,view.english,art]);
+  useEffect(()=>controller.current?.select(selected),[selected,ready,art]);
   useEffect(()=>{
     let stop=()=>{};
     let activeYear:number|null=null;
@@ -43,44 +82,23 @@ export default function SeasonalOrbitView({calendar,names,years}:{calendar:unkno
   const slots=orbit?.kind==='ready'?orbit.slots:[];
   const details=slots.find(slot=>slot.id===selected);
   const name=names.find(item=>item.id===selected);
-  const review=debug?orbitOverlapReview():[];
+
   return <section hidden={!view.home} className="seasonal-orbit" aria-labelledby="orbit-heading">
     <div className="orbit-heading"><div><p className="eyebrow">SEASONAL ORBIT</p><h2 id="orbit-heading">{text('季節のめぐり','Seasonal orbit')}</h2></div>
       <label>{text('季節年','Seasonal year')}<select aria-label={text('季節年','Seasonal year')} value={year} onChange={event=>setYear(event.target.value)}><option value="current">{text('現在の季節年','Current seasonal year')}</option>{years.map(value=><option key={value} value={value}>{value} · {text("立春から","from Risshun")}</option>)}</select></label></div>
-    <p className="hint">{text('訪れた候は、記録の有無にかかわらず色づきます。幾何形は仮アートです。72候の完成イラストは制作待ちです。','Visited microseasons gain color whether you write or not. Geometry is provisional artwork; the 72 final illustrations are pending.')}</p>
+    <p className="hint">{text('訪れた候は、記録の有無にかかわらず色づきます。これからの候はアクセントのかけらで待っています。','Microseasons gain color as they arrive, whether you write or not. Upcoming ones wait as small accents.')}</p>
+    {offlineReady&&<p className="hint">{text('季節の表示をオフラインで利用できます。','Seasonal artwork is available offline.')}</p>}
     {!orbit?<p role="status">{text('季節暦を読み込んでいます…','Loading the seasonal calendar…')}</p>:orbit.kind==='unavailable'?<p role="status">{text('この季節年の暦を利用できません。対応する年を選択してください。','Calendar unavailable for this seasonal year. Choose a supported year.')}</p>:<>
-      <svg className="orbit-svg" viewBox="0 0 600 600" role="group" aria-label={text(`${orbit.year}年の72候。候の選択には下の一覧も使えます。`,`${orbit.year}: 72 microseasons. You can also choose a microseason from the list below.`)}>
-        <circle cx="300" cy="300" r="275" fill="#f0eadc"/>
-        <circle cx="300" cy="300" r="220" fill="none" stroke="#d8cdbb" strokeDasharray="2 8"/>
-        <text x="300" y="280" textAnchor="middle" fontSize="22" fill="#514c43">{orbit.year} · {text('季節年','seasonal year')}</text>
-        <text x="300" y="315" textAnchor="middle" fontSize="16" fill="#514c43">{slots.filter(slot=>slot.completed).length} / 72 {text('候を訪問','visited')}</text>
-        {orderedPlacements(orbitLayout,selected).map(placement=>{
-          const slot=slots.find(value=>value.id===placement.id);
-          const title=names.find(value=>value.id===placement.id);
-          if(!slot||!title)return null;
-          const label=`${slot.order} ${title.name}（${title.reading}） · ${title.sekki} · ${status(slot.kind)}`;
-          return <g key={slot.id} data-orbit-id={slot.id} data-kind={slot.kind} data-anchor={`${placement.x},${placement.y}`} data-z={placement.staticZ}
-            transform={`translate(${placement.x+placement.offsetX} ${placement.y+placement.offsetY}) scale(${placement.scale})`}
-            role="button" tabIndex={slot.id===(selected??slots[0]?.id)?0:-1} aria-label={label} aria-pressed={selected===slot.id} onClick={()=>setSelected(slot.id)}
-            onKeyDown={event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();setSelected(slot.id);}}}>
-            <title>{label}</title>
-            {placement.artwork.kind==='static'?<image {...placement.artworkBounds} href={slot.completed?placement.artwork.completedSrc:placement.artwork.upcomingSrc}/>:<>
-              <rect {...placement.artworkBounds} rx={slot.order%3===0?placement.artworkBounds.width/2:2} fill={slot.completed?colors[(slot.order-1)%colors.length]:'#b6b5aa'} stroke={selected===slot.id?'#222':'#f0eadc'} strokeWidth={selected===slot.id?3:1}/>
-              <svg {...placement.artworkBounds} viewBox="-12 -12 24 24"><path d={slot.order%2?'M-10 9 L8 -10 L10 9 Z':'M-10 -8 L10 0 L-10 10 Z'} fill={slot.completed?'#f5d35c':'#d5c9b9'} opacity=".75"/></svg>
-            </>}
-            {slot.kind==='current'&&<circle r="5" fill="#fff" stroke="#222"/>}
-            <rect {...{x:placement.touchBounds.x,y:placement.touchBounds.y,width:placement.touchBounds.width,height:placement.touchBounds.height}} fill="transparent"/>
-            {debug&&<><rect {...placement.artworkBounds} fill="none" stroke="blue"/><rect {...placement.motionBounds} fill="none" stroke="red" strokeDasharray="2 2"/><rect {...placement.touchBounds} fill="none" stroke="green"/></>}
-          </g>;
-        })}
-      </svg>
+      {artStatus&&artStatus!=='七十二候の画像を読み込みました。'&&<p role="status">{text(artStatus,'Some seasonal images are unavailable; showing available still artwork.')}</p>}
+      <p className="orbit-progress">{slots.filter(slot=>slot.completed).length} / 72 {text('候が到来','microseasons arrived')} · {text('いまの候','Current')}: {names.find(item=>item.id===slots.find(slot=>slot.kind==='current')?.id)?.name??'—'}</p>
+      {art?<svg ref={svgRef} className="orbit-svg" viewBox="0 0 700 700" role="group" aria-label={text(`${orbit.year}年の72候。候の選択には下の一覧も使えます。`,`${orbit.year}: 72 microseasons. You can also choose a microseason from the list below.`)}/>:<p role="status">{text('承認済みの季節画像を利用できません。','Approved seasonal artwork is unavailable.')}</p>}
       <label className="orbit-select-label" htmlFor="orbit-selection">{text('候を選ぶ（一覧）','Choose a microseason (list)')}</label>
       <select id="orbit-selection" value={selected??''} onChange={event=>setSelected(event.target.value||null)}><option value="">{text('72候から選択','Choose from 72 microseasons')}</option>{slots.map(slot=>{
         const title=names.find(value=>value.id===slot.id);
         return <option key={slot.id} value={slot.id}>{slot.order} · {title?.name}（{title?.reading}） · {status(slot.kind)}</option>;
       })}</select>
-      <p role="status" className="orbit-detail" data-selected-id={details?.id??''}>{details&&name?`${name.name}（${name.reading}） · ${name.sekki} · ${details.startDate} → ${details.endDate} (${text("終了日を含まない","end excluded")}) · ${status(details.kind)}`:text('円環または一覧から候を選ぶと、候名と期間を表示します。','Choose a microseason on the orbit or list to see its name and dates.')}</p>
-      <details><summary>{text('重なりレビュー','Overlap review')}</summary><label><input type="checkbox" checked={debug} onChange={event=>setDebug(event.target.checked)}/> {text('アート（青）・最大可動範囲（赤）・タッチ領域（緑）','Artwork (blue), maximum motion (red), touch area (green)')}</label>{debug&&<p className="hint">{text('完全遮蔽のサンプル検出:','Sampled fully occluded:')} {review.filter(item=>item.visibleSamples===0).length} · {text('最大可動範囲の重なり:','Maximum motion overlaps:')} {review.filter(item=>item.collisions.length>0).length}</p>}</details>
+      <p role="status" className="orbit-detail" data-selected-id={details?.id??''}>{details&&name?`${name.name}（${name.reading}） · ${name.sekki} · ${details.startDate} → ${details.endDate} (${text("終了日を含まない","end excluded")}) · ${status(details.kind)}`:text('図または一覧から候を選ぶと、候名と期間を表示します。','Choose a microseason on the orbit or list to see its name and dates.')}</p>
+
     </>}
   </section>;
 }

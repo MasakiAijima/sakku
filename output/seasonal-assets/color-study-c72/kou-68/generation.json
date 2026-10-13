@@ -1,0 +1,23 @@
+{
+  "id": "kou-68",
+  "hash": "e2a818092f136e13368ac68ecf35ab1b722b7bfe0b66ee42c3eff0e9579d20a5",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/revision-12/kou-68/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-68/reference.png",
+  "reference_sha256": "8106904b8c050f13765e5f5c22da11569f0f5f84d00b54cb5a952d708141ea21",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small pale-teal UPWELLING MOUND in the center of the blue spring pool only; preserve large blue water and ochre stone rim to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:17:34.878759+00:00",
+  "image_sha256": "67662d8ebe32015a36430439322167ca149d497119cf524489a906e1fe61848b",
+  "completed_sha256": "c45b5c5dd329d0e4ff2ccb2dc3f26b3d5eb800df817cd3807fafcf2b275d9815",
+  "cutout_sha256": "6016286843254adbd123855853180202ce3cdef66f06842a6385f0a56244610c"
+}

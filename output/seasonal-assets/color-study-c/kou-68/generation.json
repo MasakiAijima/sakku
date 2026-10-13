@@ -1,0 +1,23 @@
+{
+  "id": "kou-68",
+  "hash": "d0ade5937e072c25978334510d8d8d59aafb26eee3ed55b4087acdc2d4bf058e",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/revision-12/kou-68/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c/kou-68/reference.png",
+  "reference_sha256": "8106904b8c050f13765e5f5c22da11569f0f5f84d00b54cb5a952d708141ea21",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese seasonal illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small central PALE-TEAL UPWELLING MOUND inside the pool only; preserve large blue water and ochre stone rim to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged as well. This is one small existing color field recolored to one accent hue, not a new part, not a new decoration. Preserve relative areas: the recolored field stays exactly the same SMALL area. Do not spread the accent onto the main motif. Keep the artwork centered with generous clear margins; solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:28:29.037531+00:00",
+  "image_sha256": "2208472622784f3eda2cdb55cf4c2f129982575f4ab86edc4afd6b39ffb4c300",
+  "completed_sha256": "16791f27d2089578325e1133376f786b8dec8aba44d23883ae39f5f7da971785",
+  "cutout_sha256": "3aaac2d596973ef7e8bea889fcd31b9fb18cefe9e27eabf02028317bed3cc038"
+}

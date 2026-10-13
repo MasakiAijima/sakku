@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-23",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "5a02deae67f84d88b5cbba534bd63d5ed4328ec18bde557e877b047c374ae54c",
+  "generation": {
+    "id": "kou-23",
+    "hash": "92d90a6cf5abc1bddf859e9a553748a21dfc1ace93255bd304fa1fdb1d845767",
+    "reference_sha256": "1a60f154a0c83de09824107411eba562ef3f4d8020049a4e7a7487014a67e6ac",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small olive CALYX at the base of the orange safflower only; preserve orange flower and vermilion inner plane to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:55:23.746176+00:00",
+    "completed_sha256": "5d3bb1513f8af980833835474a6a3d45bd8a846e958e1d33b54dd4dbbd3e503e"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 588.857,
+      "y": 416.276,
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      145,
+      103,
+      366,
+      409
+    ],
+    "precursorBounds": [
+      182,
+      198,
+      336,
+      409
+    ]
+  },
+  "sourceHashes": {
+    "C": "5d3bb1513f8af980833835474a6a3d45bd8a846e958e1d33b54dd4dbbd3e503e",
+    "Cprime": "c33aad1a7a283bf9eaa4fd2917055c491d6bf9f704f41075837f57e423853ba7",
+    "generation": "0a0ffd63c01401d1a2dbbefc127d224fb1ddc0241c32da7dfe76547b83ee33b0"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small olive CALYX at the base of the orange safflower only; preserve orange flower and vermilion inner plane to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:55:23.746176+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

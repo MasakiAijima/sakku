@@ -1,0 +1,64 @@
+{
+  "fingerprint": "0db5db50d789369912c9ad140a130c4cc434e5071a2cf44626ec092520c36658",
+  "asset": {
+    "kouId": "kou-63",
+    "name": "さけの魚群がる",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 176.937,
+      "y": 169.315,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      190,
+      409,
+      322
+    ],
+    "precursorBounds": [
+      188,
+      223,
+      340,
+      247
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 190,
+      "width": 306,
+      "height": 132
+    },
+    "animation": {
+      "seed": [
+        264.0,
+        235.0
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-63/initial.png",
+    "completed": "kou-63/completed.png",
+    "transition": "kou-63/transition.webp",
+    "idle": "kou-63/idle.png",
+    "provenance": "kou-63/provenance.json",
+    "hashes": {
+      "initial": "234bdbbe7ce23c1477b8de3354408e1f0bd1dbea3b029b1fe256d8c57844940a",
+      "completed": "3f6757cd15be6830bb49fd684c71a21317c93f94a39f578677c177a9fac67338",
+      "transition": "8a767bf94b1ec23f04017c758b4962c5f83c7b4d24b166527b79d1c76eabe4e0",
+      "idle": "3f6757cd15be6830bb49fd684c71a21317c93f94a39f578677c177a9fac67338",
+      "provenance": "7f49a555722684e04bede49921c0304241d62d513a2102d4af82542968ce363a"
+    }
+  }
+}

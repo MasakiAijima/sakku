@@ -1,0 +1,64 @@
+{
+  "fingerprint": "9a129da32b3ff00ff003b973a7422181c6abb58995ea64ebab88798917e80bd7",
+  "asset": {
+    "kouId": "kou-13",
+    "name": "玄鳥至る",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 514.117,
+      "y": 280.394,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      130,
+      409,
+      381
+    ],
+    "precursorBounds": [
+      103,
+      136,
+      209,
+      196
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 130,
+      "width": 306,
+      "height": 251
+    },
+    "animation": {
+      "seed": [
+        156.0,
+        166.0
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-13/initial.png",
+    "completed": "kou-13/completed.png",
+    "transition": "kou-13/transition.webp",
+    "idle": "kou-13/idle.png",
+    "provenance": "kou-13/provenance.json",
+    "hashes": {
+      "initial": "89deef8edd6c5db638260130f570568be20ffebc2e282373747da1f61179ddf0",
+      "completed": "dd9f1ed91713d256ebcf4b4c71f82c1fd05335c1a2ac95ae20dd61b34b855d02",
+      "transition": "ae400a2d2fdc910e75b423d23100ece416c34bb06e875ae90f1f5cbec93eb30d",
+      "idle": "dd9f1ed91713d256ebcf4b4c71f82c1fd05335c1a2ac95ae20dd61b34b855d02",
+      "provenance": "a9fab15288cf891d812545f0a7fe3f77aa8b4df9b990a3fba8ec0fcf5c27ca8d"
+    }
+  }
+}

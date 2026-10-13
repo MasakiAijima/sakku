@@ -1,0 +1,23 @@
+{
+  "id": "kou-55",
+  "hash": "fc4b68ba51fa830c31cab562c602c73d30c455ddf1aea3cea820749538411105",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-55/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-55/reference.png",
+  "reference_sha256": "e418537e17f00d2a7fe21110cb55bcf2050e7951c3c75056a6d2440daa0de89e",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small olive EVERGREEN LEAF below the broad red-and-pink camellia only; preserve red and pink petals to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:08:28.875712+00:00",
+  "image_sha256": "f019d4d8cb83ea1cef4f3d32267b2653a9dc39312c6ab71816296ca7155f5107",
+  "completed_sha256": "58d5c8f5ad6647db0721c5b5b088bc361e5b53b9bf98c709cc0fb7999faa333b",
+  "cutout_sha256": "6e76d632e8ef0633f264a031cbd6264b510f274b425633cf7f37f49d5dc2c99c"
+}

@@ -1,0 +1,64 @@
+{
+  "fingerprint": "3f6a73c4219eedc393924d18bbf3f2dcfe5c73c15253aa7b8ffaf23cb8698898",
+  "asset": {
+    "kouId": "kou-41",
+    "name": "天地始めてさむし",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 264.959,
+      "y": 509.608,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      131,
+      409,
+      380
+    ],
+    "precursorBounds": [
+      120,
+      247,
+      401,
+      322
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 131,
+      "width": 306,
+      "height": 249
+    },
+    "animation": {
+      "seed": [
+        260.5,
+        284.5
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-41/initial.png",
+    "completed": "kou-41/completed.png",
+    "transition": "kou-41/transition.webp",
+    "idle": "kou-41/idle.png",
+    "provenance": "kou-41/provenance.json",
+    "hashes": {
+      "initial": "383ce61f6c7e207ac09820fb591a6fd483125d24a925b3ddbeb2ca27b1d11fbb",
+      "completed": "49ad36bd608d8dea7db5237530ac916ff031cbeb2cb18fad5be6006ed99d640d",
+      "transition": "3dd0f14d8954cc4cee68802a576883ada30c3bf827cc4576e9a0e38bf65b3bbb",
+      "idle": "49ad36bd608d8dea7db5237530ac916ff031cbeb2cb18fad5be6006ed99d640d",
+      "provenance": "d0ae260bc7010291b45dd1beff08ed85ea7ab45aba12c02e984f2ceb39130c67"
+    }
+  }
+}

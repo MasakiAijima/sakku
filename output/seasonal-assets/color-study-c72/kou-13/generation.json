@@ -1,0 +1,23 @@
+{
+  "id": "kou-13",
+  "hash": "dfe879be044bb0fe3bdddaab77a027c4d45755f6acd33dd5d47352f2373a0d4a",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-13/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-13/reference.png",
+  "reference_sha256": "3bd36df1601f84d97193aadb29bb6c3e02aba47823053b91e34a39b3c4ddf618",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the short small brown EAVE at the upper-left of the blue swallow only; preserve blue swallow and ivory belly to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:51:08.145576+00:00",
+  "image_sha256": "0a495321f6264603e7ed2a1974ee54e87902bea03966d92c124d9e6a23a0d14e",
+  "completed_sha256": "dd9f1ed91713d256ebcf4b4c71f82c1fd05335c1a2ac95ae20dd61b34b855d02",
+  "cutout_sha256": "a776a04f275d6a727e93337e7430d7b0497d24d7f2ee9c872bd2301435613767"
+}

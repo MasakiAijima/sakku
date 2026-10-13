@@ -1,0 +1,23 @@
+{
+  "id": "kou-02",
+  "hash": "addcd07f48ef061fe626f93047d61ccbcfc3448e2c67636482ebe0263cf66534",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-02/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-02/reference.png",
+  "reference_sha256": "ffcd686dea51bd2c8520b92c42392f6481f6ab9601af9f4c6c7619a599358cb1",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the tiny muted-gold BREAST PATCH on the olive bush warbler only; preserve olive body and brown twig to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:45:24.828832+00:00",
+  "image_sha256": "e0e7cc974f7335436ba993e3ca6e1c0375bcf268d6b1006bf7abff15dc85a7ea",
+  "completed_sha256": "492794a5d8ed3e4f2ca5ef8af24770f8236d1aa6a0591624b69271c08d826859",
+  "cutout_sha256": "14faafbade79b3319089e42055673edcfeecfca09f314a1f67777b8bcbd8e0d2"
+}

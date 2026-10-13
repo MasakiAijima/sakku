@@ -1,0 +1,30 @@
+{
+  "id": "kou-69",
+  "name": "雉始めてなく",
+  "prompt": "Use case: stylized-concept. Asset: one independent Japanese microseason illustration. The attached image is a STYLE reference only. Preserve its few large flat color planes, expressive hand-cut organic silhouette, long unequal curves, asymmetric swelling and pinches, and restrained uneven screen-print ink inside each color field. Do not copy its subject or colors. Express only the seasonal relationship specified below. One dominant motif occupies most of the artwork; at most one or two much smaller auxiliary motifs overlap it into one compact composition. Choose natural, seasonally meaningful colors from the specified palette. Never default to red. Use broad solid opaque color planes. Silhouette has character and directional flow; avoid bilateral symmetry, equally spaced petals, repeated geometry and fine outlines. The static image must be complete; do not add separate parts or gaps for animation. Center the entire compact artwork within the central 60 percent of the square, with ample clean empty margin on all sides. Solid chromakey magenta #FF00FF background; no magenta, hot pink, fuchsia, purple spill or pink reflected lighting in the artwork. Pink petals must be muted salmon #E9B8B5, distinct from the magenta background. No faces, eyes, pupils, letters, numerals, titles, borders, frames, realistic shading, gradients, shadows, translucency, fine veins, repeated decorative dots or textures outside shapes. \nThis is a new subject design, not a recoloring of the reference. Use the reference only for flat color planes, organic contours and print texture. Never copy its subject silhouette or arrangement. Do not use a curled ribbon, spiral, swirl or wave-shaped blob as a generic symbol for weather or water. Follow the specific seasonal scene and distinguishing silhouette below.\nSubject and seasonal relation: One recognisable male Japanese green pheasant standing in SIDE PROFILE on two short sturdy legs. Small head, visibly slender upright neck, elongated horizontal dark-olive body, a small vermilion cheek/neck color patch without eye or facial detail, and an unmistakably VERY LONG narrow copper-brown tapering tail extending diagonally behind it, at least 1.5 times body length. A broad asymmetric dark wing plane. Keep head small, breast slender, tail long. Absolutely not a dove, pigeon, round songbird, duck or chicken. No eyes, pupils, beak expression, thin feather lines or repeated feather texture.\nSemantic color palette: #72804A (雉の胸), #B58A50 (長い尾), #D94B35 (首の小さな色面)\nColor intent: 雉の緑の胸と褐色の長尾、赤は首の小面だけにする",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "reference_sha256": "be3727c8bfc3eff85f5f84d867b09f89c8fdaadd215f1d32d94f79683360366f",
+  "generator_version": "revision-12-v1",
+  "operation": "edit",
+  "hash": "3efde0911dc8e3727579e3dff18c0b9b66b5da1c4935918c400bd2bf9d4587e4",
+  "reference_source": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-32/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-69/reference.png",
+  "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-69/original.png",
+  "provenance": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-69/generation.json",
+  "prompt_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-69/prompt.txt",
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T11:35:40.963661+00:00",
+  "budgetPolicy": "user-waived-for-targeted-revision",
+  "actualCost": null,
+  "image_sha256": "5e0c8609f4a105290d05b9aa29dc8f32ffddd3c0584d579fce18c5b5deedd6bb",
+  "completed_sha256": "e4162e94c2050d7d36588a66fae265b63e016b19571d770c61503ba90fd443eb",
+  "full_sha256": "b2baf0bd76ee0452b26207d4f633db2fa2a269e24796ad933073835571497b11",
+  "cutout_sha256": "b2baf0bd76ee0452b26207d4f633db2fa2a269e24796ad933073835571497b11"
+}

@@ -1,0 +1,7 @@
+time	decision	evidence	result
+2026-10-12	Use configured OpenAI API gpt-image-2	User added key and model after permitting1000JPY	3 low1024 originals generated
+2026-10-12	Keep source and processed output separate	Existing motif spec and #19 immutable versions	output raw and public draft package
+2026-10-12	Do not expand72 yet	Three images retain shadow/detail issues; initial placeholders share layout	Quality review required
+2026-10-12	Compare PNG WebP and sprite	Actual encoded files measured in manifest	Final production format pending platform review
+2026-10-12	Revise visual priority to dominant organic silhouette	User rejected PoC and supplied ten-point definition	Execution specv2 overrides detail enumerations
+2026-10-12	Use earlier facefree samples as image references	Viewed original v2eastwind lotus maple	Reference images differ from rejected recentpoc-v1

@@ -1,0 +1,48 @@
+{
+  "version": "poc-v2",
+  "promptVersion": 2,
+  "status": "awaiting-art-review",
+  "generation": "OpenAI API via bundled imagegen CLI edit",
+  "model": "gpt-image-2",
+  "quality": "medium",
+  "size": "1024x1024",
+  "comparison": "comparison.png",
+  "sameBackground": "#f7f2e8",
+  "sameVisibleLongestEdgePx": 306,
+  "canvasPx": 512,
+  "observations": {
+    "kou-01": "One dominant curved wind, one smaller ice patch and a tiny drop; no repeated wind bands. Drop is pale blue, not the cobalt requested in spec.",
+    "kou-32": "Unequal asymmetric petal masses; center and water removed; one smaller leaf.",
+    "kou-54": "Unequal long and short lobes; one smaller blue leaf; yellow twig and veins removed."
+  },
+  "orbitReview": {
+    "desktop": "Actual bounds and scale inspected; broad silhouettes visible.",
+    "mobile320": "SVG262px. Visible motif long edge about6.26px. Fine contour and overlap cannot be judged reliably at this size.",
+    "remaining69": "Provisional dots only; not final all72 composition."
+  },
+  "budget": {
+    "capJpy": 1000,
+    "reservedTotalJpy": 360,
+    "actualBilledJpy": null
+  },
+  "files": {
+    "kou-01": {
+      "output/seasonal-assets/poc-v2/kou-01/original.png": "fa79fbc473c133c15e0093195a3cab5a82541521b032af8d597dae5df1a73e74",
+      "output/seasonal-assets/poc-v2/kou-01/cutout.png": "577a622badb4ebcba0502e6c768e7fecd42c43e16687fa84ccfefea9067c4ab9",
+      "output/seasonal-assets/poc-v2/kou-01/prompt.txt": "b6d46794e1cda09267f68a2c7671d99749e6ed3d1913a1ed0138598b752246eb",
+      "public/seasonal-assets/poc-v2/kou-01/completed.png": "7e02fa47c5f26c7a41ae5d12ca5bdd26dcce78b24de9fb861543abdc8a5d6fec"
+    },
+    "kou-32": {
+      "output/seasonal-assets/poc-v2/kou-32/original.png": "b5d6825a083e70d63c60cc9ab1d81dcc959048d80bdbb8403dbd9f5494c24b2f",
+      "output/seasonal-assets/poc-v2/kou-32/cutout.png": "c48978320a71a40f45afff2ae31dca610f14be96880a7ac19170f2c6d5f10f8c",
+      "output/seasonal-assets/poc-v2/kou-32/prompt.txt": "db19e2984529e02e7acf2ce025c7b5358f18862bad7ea30d6386ec66210e0413",
+      "public/seasonal-assets/poc-v2/kou-32/completed.png": "db8119726362c97e898956a641b86147b21e6530ca67648fd7f1da6f06ac4410"
+    },
+    "kou-54": {
+      "output/seasonal-assets/poc-v2/kou-54/original.png": "f8f34d6330bd7ac2e7c4c73023dfe397e74da9e0decf7b6606683759a402ac29",
+      "output/seasonal-assets/poc-v2/kou-54/cutout.png": "fe73ae3d38bf6b60ea89fb68462b9aba85af926a97e5cc0116076b35bb6b50d0",
+      "output/seasonal-assets/poc-v2/kou-54/prompt.txt": "983b7aeba391ecba2454c21d15f2e661e5ea421766bf17f966c7fc90e005ef58",
+      "public/seasonal-assets/poc-v2/kou-54/completed.png": "a24123f5a05e7e93d55970e1e224521bb567bb0e34db1258c98195ac23058a72"
+    }
+  }
+}

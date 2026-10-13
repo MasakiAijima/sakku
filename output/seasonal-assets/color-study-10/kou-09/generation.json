@@ -1,0 +1,23 @@
+{
+  "id": "kou-09",
+  "hash": "0f47f823dcdcbdcc213fe96e8f35f82a3074660d4dc66e9eed66642eed78bbc7",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-09/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-10/kou-09/reference.png",
+  "reference_sha256": "1813fdeba5d5ddb3337d78b374a58b401c4e541064f198280dcdf0fb857729a5",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese seasonal illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the two large golden-yellow butterfly wing planes only, keep olive cocoon shell and dark-gray body unchanged to saturated #155DD8. Leave every color outside the specified main-color planes exactly as in the input. All other small colors are unchanged as well. This is one existing main-color field recolored to one accent hue, not a new part, not a new decoration. Preserve relative areas: the recolored field stays exactly the same area. Do not spread the accent onto any other parts. Keep the artwork centered with generous clear margins; solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:22:24.287107+00:00",
+  "image_sha256": "a5a64218adba7a40a4fecc7cde3d19fd1c39e59362198d934b0bdd35a687f4c3",
+  "completed_sha256": "4ca21dd19db2ea2aa83a8eaf8a50688fef7659834523f5d306342cde63d6e784",
+  "cutout_sha256": "5a4bf955944eb7bc17b5a1109d64c5a9f89e2dfb250d8575b0cb1ff2d65d486c"
+}

@@ -1,0 +1,64 @@
+{
+  "fingerprint": "6b05b21d8e6435c6735c21393f548b91d34e8c8f1f519c40bf9eb800d9d36014",
+  "asset": {
+    "kouId": "kou-09",
+    "name": "菜虫蝶となる",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 445.928,
+      "y": 255.011,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      108,
+      103,
+      404,
+      409
+    ],
+    "precursorBounds": [
+      272,
+      319,
+      321,
+      383
+    ],
+    "motionBounds": {
+      "x": 108,
+      "y": 103,
+      "width": 296,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        296.5,
+        351.0
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-09/initial.png",
+    "completed": "kou-09/completed.png",
+    "transition": "kou-09/transition.webp",
+    "idle": "kou-09/idle.png",
+    "provenance": "kou-09/provenance.json",
+    "hashes": {
+      "initial": "1bcf04d24e97b418aa8f33767bd9d9f2870caa9ac1667c8e8162bbff15ccaac0",
+      "completed": "b323721adb3c6908a36d89e34855d91db8658ab3bf58504aeb1c0f6d64940646",
+      "transition": "0f24117c6b1d4b9768313120bd0721ec73ca5a4087d3e6fd1c3ee1c366bdbbc9",
+      "idle": "b323721adb3c6908a36d89e34855d91db8658ab3bf58504aeb1c0f6d64940646",
+      "provenance": "19d16d8cc072e4fb3a8df239e5da68c45a76a125dae9c248fbc658d6628311a0"
+    }
+  }
+}

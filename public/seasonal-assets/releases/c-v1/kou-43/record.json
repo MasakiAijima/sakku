@@ -1,0 +1,64 @@
+{
+  "fingerprint": "885a0110d254a54a23f02a1956bf60d51d28b1413be678d8c21e2e3558b1beb4",
+  "asset": {
+    "kouId": "kou-43",
+    "name": "草露白し",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 263.711,
+      "y": 455.527,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      139,
+      409,
+      373
+    ],
+    "precursorBounds": [
+      272,
+      139,
+      322,
+      177
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 139,
+      "width": 306,
+      "height": 234
+    },
+    "animation": {
+      "seed": [
+        297.0,
+        158.0
+      ],
+      "durationMs": 720,
+      "frames": 5,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-43/initial.png",
+    "completed": "kou-43/completed.png",
+    "transition": "kou-43/transition.webp",
+    "idle": "kou-43/idle.png",
+    "provenance": "kou-43/provenance.json",
+    "hashes": {
+      "initial": "999299805d13a7245e4f899e8cdbf9166b132a9c656cb7b194637df4fdfb6d72",
+      "completed": "794f2343f05d7009dba4be47e4ba3c40a2363052bb7c778a808eae676a85b2d1",
+      "transition": "9748bd630d7fe95c371d237bd4808599b886ac5edabbe6f9127045c5801d1327",
+      "idle": "794f2343f05d7009dba4be47e4ba3c40a2363052bb7c778a808eae676a85b2d1",
+      "provenance": "e153f3048111f7e2d533656e565a2120ce0c89beba76659a5d679fa9b031bb27"
+    }
+  }
+}

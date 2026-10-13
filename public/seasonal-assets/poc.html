@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ja">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>72候アセット 3候検証</title>
+<style>
+body{font-family:system-ui,sans-serif;background:#f6f4eb;color:#27392d;max-width:1000px;margin:32px auto;padding:16px}select,button{font:inherit}select{padding:12px}#assets{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:24px}.asset{border:2px solid #c7cabc;border-radius:16px;background:#ebe9df;padding:12px;cursor:pointer}.asset[aria-pressed=true]{border-color:#27634e;box-shadow:0 0 0 2px #27634e}.asset img{width:100%;height:auto;display:block;background:repeating-conic-gradient(#fff 0% 25%,#e7e7e7 0% 50%) 50%/20px 20px}.asset span{display:block;margin-top:12px}button:focus-visible{outline:4px solid #bc7815;outline-offset:4px}
+</style>
+<h1>72候アセット 3候検証</h1>
+<p><a href="revision-review.html">改訂した静止画3点と前案の比較を見る</a></p>
+<p>採用前の画像を確認する専用ページです。候を選ぶと、その候だけ動きます。</p>
+<label for="state">表示状態</label>
+<select id="state"><option value="initial">未完成</option><option value="completed">完成</option><option value="transition">完成への遷移</option><option value="idle">待機</option></select>
+<p id="status" role="status">読み込み中</p>
+<div id="assets" aria-label="候の選択"></div>
+<script type="module">
+import {mountPoc} from './poc-loader.js';
+mountPoc({document,manifestUrl:new URL('./poc-v1/manifest.json',location.href).href});
+</script>
+</html>

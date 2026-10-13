@@ -1,0 +1,23 @@
+{
+  "id": "kou-33",
+  "hash": "cbea8499d46c569997cf37b550809789e478dec6cbc4324a8916ed8404ffcebf",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-33/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-33/reference.png",
+  "reference_sha256": "5082b878d8a667aab2754bb073ad68eda059bfb99b8fb541c97dc9bb4ee04c97",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small olive MOSS PATCH on the rock beneath the brown young hawk only; preserve brown hawk and dark wings and brown rock to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:58:31.327314+00:00",
+  "image_sha256": "a7bc8fbf001ba13f18672109320449d9f3b2526e9a275b2ad2bd2ca598d43e41",
+  "completed_sha256": "5f5182448f57698536fe081e7f0867fff43c2432bcc5a67a68981097c63f5714",
+  "cutout_sha256": "186552612cfbec95a82c56a126c7b51fc1baa5950b5e52aeb26a304ab3056ff6"
+}

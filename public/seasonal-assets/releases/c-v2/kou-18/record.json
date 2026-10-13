@@ -1,0 +1,64 @@
+{
+  "fingerprint": "d1a81860f56d8f060ca82f935d85b9fa736a3f6508a0acc5c9ad83ad1c32cb37",
+  "asset": {
+    "kouId": "kou-18",
+    "name": "牡丹はなさく",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 377.919,
+      "y": 342.279,
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      115,
+      103,
+      396,
+      409
+    ],
+    "precursorBounds": [
+      254,
+      325,
+      391,
+      409
+    ],
+    "motionBounds": {
+      "x": 115,
+      "y": 103,
+      "width": 281,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        322.5,
+        367.0
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-18/initial.png",
+    "completed": "kou-18/completed.png",
+    "transition": "kou-18/transition.webp",
+    "idle": "kou-18/idle.png",
+    "provenance": "kou-18/provenance.json",
+    "hashes": {
+      "initial": "a9b8e4da307148b4b62c91b2bd2f2785bf87a985606c2df24277f2162e1a365e",
+      "completed": "7c914b58dc790ca09236d2615bc1e180c6cbada889fe664c0e401d02b5be42ec",
+      "transition": "8ccef898e3ef3c05e0e64b8c1f291f559386fb152f8f8f402b5b50beb0495f19",
+      "idle": "7c914b58dc790ca09236d2615bc1e180c6cbada889fe664c0e401d02b5be42ec",
+      "provenance": "8aaa3d485d41cc8360ab8482c58d52821d6815f914368164b0340510d020019e"
+    }
+  }
+}

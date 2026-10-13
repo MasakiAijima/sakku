@@ -1,0 +1,23 @@
+{
+  "id": "kou-71",
+  "hash": "291ed6b4aef59bd159e11437f82206709cfab34dac3efa1b51dcd5068b409fe7",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-71/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-71/reference.png",
+  "reference_sha256": "449cb05d06fb38b7bbee49b3d07368941683d0b5b37374ac9a54600f4a5657ae",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small ochre BANK visible beneath the pale-blue ice slab only; preserve ice and deep-blue stream to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:19:01.767228+00:00",
+  "image_sha256": "0c580fda70451b0bc1888a7bedd6c0cb42fb02ea86a23f48261f2a63e26852b8",
+  "completed_sha256": "d71c7a98682e43b25de7cccfdc6be3a4f71dc97e564e54e34b168914fb92473a",
+  "cutout_sha256": "4b39e2c0e3681ef090a8576a13d1599c3bd91d91972122227c804b025d7a1cce"
+}

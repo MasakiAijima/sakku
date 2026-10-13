@@ -1,0 +1,64 @@
+{
+  "fingerprint": "28f91f450dbac66298908f52adf1083d97b61059f104c2147be900c69dcc3484",
+  "asset": {
+    "kouId": "kou-72",
+    "name": "鶏始めてとやにつく",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 362.483,
+      "y": 293.942,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      131,
+      409,
+      380
+    ],
+    "precursorBounds": [
+      302,
+      138,
+      354,
+      176
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 131,
+      "width": 306,
+      "height": 249
+    },
+    "animation": {
+      "seed": [
+        328.0,
+        157.0
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-72/initial.png",
+    "completed": "kou-72/completed.png",
+    "transition": "kou-72/transition.webp",
+    "idle": "kou-72/idle.png",
+    "provenance": "kou-72/provenance.json",
+    "hashes": {
+      "initial": "1ae80cb1e2d659f66fb1aedeb0ffdb140cf02d2a18a4084c2e2701ecb7054333",
+      "completed": "23a139616556c4fce9881b974be3823dfd8037278e642b58b8c6f4e3471e250e",
+      "transition": "3df26320a0c0eb05c0a7f2077b966e83817df783d20ac6670b9a1057d062827a",
+      "idle": "23a139616556c4fce9881b974be3823dfd8037278e642b58b8c6f4e3471e250e",
+      "provenance": "b8ebb80160502e1c7b7759fad0f149ee5c8ee0e572c3c9be994a4a9eb549040a"
+    }
+  }
+}

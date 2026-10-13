@@ -1,0 +1,23 @@
+{
+  "id": "kou-53",
+  "hash": "1a189e1a19b8a3b28ed507d76474f1d58aac95ba86c74bdc63a725c21e82bf4b",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-53/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-53/reference.png",
+  "reference_sha256": "633cd1be6b61f6a71ee5d15bcb7f70a513fa3d2fd9e7245f18c4f136fefbebbb",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the single small pale-blue RAINDROP above the broad teal ripple only; preserve teal and deep-blue ripple planes to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:08:20.981174+00:00",
+  "image_sha256": "7f7444a779bc566d52bdbbdb0b5debfd77cb459a4cbb0eb00fd956e6a8454a7f",
+  "completed_sha256": "1d4a02e7e3062be160c681c5a1fcf88c8a12c01414193295dd045dc0f1c2b2d7",
+  "cutout_sha256": "7591ad01ec6e118877c6b5659f0a027ab4bd042894ad58df45676597ca83cd04"
+}

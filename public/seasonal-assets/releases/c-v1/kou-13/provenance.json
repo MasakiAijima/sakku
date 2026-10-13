@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-13",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "9a129da32b3ff00ff003b973a7422181c6abb58995ea64ebab88798917e80bd7",
+  "generation": {
+    "id": "kou-13",
+    "hash": "dfe879be044bb0fe3bdddaab77a027c4d45755f6acd33dd5d47352f2373a0d4a",
+    "reference_sha256": "3bd36df1601f84d97193aadb29bb6c3e02aba47823053b91e34a39b3c4ddf618",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the short small brown EAVE at the upper-left of the blue swallow only; preserve blue swallow and ivory belly to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:51:08.145576+00:00",
+    "completed_sha256": "dd9f1ed91713d256ebcf4b4c71f82c1fd05335c1a2ac95ae20dd61b34b855d02"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 514.117,
+      "y": 280.394,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      130,
+      409,
+      381
+    ],
+    "precursorBounds": [
+      103,
+      136,
+      209,
+      196
+    ]
+  },
+  "sourceHashes": {
+    "C": "dd9f1ed91713d256ebcf4b4c71f82c1fd05335c1a2ac95ae20dd61b34b855d02",
+    "Cprime": "89deef8edd6c5db638260130f570568be20ffebc2e282373747da1f61179ddf0",
+    "generation": "0b7a18513bab6012d0d463ad04bc6aafd2f7d7ef6c5e3004137dc4e41ba2564b"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the short small brown EAVE at the upper-left of the blue swallow only; preserve blue swallow and ivory belly to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:51:08.145576+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

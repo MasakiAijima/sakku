@@ -1,0 +1,665 @@
+{
+  "budget_jpy": 10000,
+  "accounting": "conservative reservation, not billed cost",
+  "entries": [
+    {
+      "id": "kou-01",
+      "reserved_jpy": 30,
+      "status": "succeeded",
+      "output": "output/seasonal-assets/poc-v1/kou-01/original.png",
+      "source": "initial manual bundled CLI PoC; usage unavailable"
+    },
+    {
+      "id": "kou-32",
+      "reserved_jpy": 30,
+      "status": "succeeded",
+      "output": "output/seasonal-assets/poc-v1/kou-32/original.png",
+      "source": "initial manual bundled CLI PoC; usage unavailable"
+    },
+    {
+      "id": "kou-54",
+      "reserved_jpy": 30,
+      "status": "succeeded",
+      "output": "output/seasonal-assets/poc-v1/kou-54/original.png",
+      "source": "initial manual bundled CLI PoC; usage unavailable"
+    },
+    {
+      "id": "kou-01",
+      "hash": "aeb14dfab1241a625eac91c092f727a568901969b82fdfe5e6283eb93f6d38b5",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v2/kou-01/original.png",
+      "reserved_jpy": 90,
+      "attempted_at": "2026-10-12T07:37:06.337234+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-32",
+      "hash": "83cfc992cc26fdfb8f80e7955a9f58b50053549d89032cb89dc4efdd63536cd8",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v2/kou-32/original.png",
+      "reserved_jpy": 90,
+      "attempted_at": "2026-10-12T07:37:37.260825+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-54",
+      "hash": "c18b8620d4a439cdca5a23f73f74fa0bcf8961b1028a0a86116c6787a9fc2d74",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v2/kou-54/original.png",
+      "reserved_jpy": 90,
+      "attempted_at": "2026-10-12T07:38:07.409618+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-32",
+      "hash": "27bb0ff3a8c558a2aec46ed48110ebc36732eccdd315824257082d211fdb0bb6",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-32/original.png",
+      "reserved_jpy": 0,
+      "attempted_at": "2026-10-12T10:53:41.500330+00:00",
+      "status": "failed-before-api",
+      "reserved_before_release_jpy": 130,
+      "release_reason": "Bundled CLI exited before creating an API client: openai SDK not installed."
+    },
+    {
+      "id": "kou-01",
+      "hash": "1cad5a08d6def560c99b0708a2fe60ec03f13f53aefe1f308cd8f0278488cbf8",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-01/original.png",
+      "reserved_jpy": 0,
+      "attempted_at": "2026-10-12T10:53:41.500593+00:00",
+      "status": "failed-before-api",
+      "reserved_before_release_jpy": 130,
+      "release_reason": "Bundled CLI exited before creating an API client: openai SDK not installed."
+    },
+    {
+      "id": "kou-54",
+      "hash": "1c9724a2067a896df76ff8a1a450b31efe9a655f11194947a135eae47485c687",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-54/original.png",
+      "reserved_jpy": 0,
+      "attempted_at": "2026-10-12T10:53:41.500603+00:00",
+      "status": "failed-before-api",
+      "reserved_before_release_jpy": 130,
+      "release_reason": "Bundled CLI exited before creating an API client: openai SDK not installed."
+    },
+    {
+      "id": "kou-01",
+      "hash": "1cad5a08d6def560c99b0708a2fe60ec03f13f53aefe1f308cd8f0278488cbf8",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-01/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T10:55:44.574468+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-32",
+      "hash": "27bb0ff3a8c558a2aec46ed48110ebc36732eccdd315824257082d211fdb0bb6",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-32/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T10:55:44.578017+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-54",
+      "hash": "1c9724a2067a896df76ff8a1a450b31efe9a655f11194947a135eae47485c687",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-54/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T10:55:44.579513+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-04",
+      "hash": "eb39025f51ddaf67ac0d9216dbb67b3e91a4fb1004dd0b5f0debcfda3fa3aa0a",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-04/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T10:58:24.787284+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-03",
+      "hash": "bf0e2b744147673bf73f5cb023360f1d5bfcf56c96521d52bbe8fd90190b55e7",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-03/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T10:58:24.787595+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-05",
+      "hash": "ca044d060ecb43a5381ff48179b817861c2dc00e3ad8040f61cbc8ee716e638e",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-05/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T10:58:24.787632+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-02",
+      "hash": "da477d84b7768a53c2ce3ebb7ecfe9257b815a65fa5641a113263d0eccd0cf07",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-02/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T10:58:24.787691+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-06",
+      "hash": "da9234deb9d52e5a7790d8f55f97b948eec2c44137aba30a704e51a85ce61e95",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-06/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T10:59:50.949517+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-07",
+      "hash": "cbf58e0601d7fac49f0715b467fdb20363b8f88cc2e5497249aa63c54122d2f2",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-07/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T10:59:51.559198+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-08",
+      "hash": "8ee049f5cbb170a979d44f10f3248a592f450a3331c0d08191727764c28787fe",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-08/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T10:59:51.647669+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-09",
+      "hash": "26253830a5052e9dddc74fc8117c1d9f8496a3f6f1ccc1dfd6aaec93d6e22c3d",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-09/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T10:59:53.726266+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-10",
+      "hash": "41823f59086fd13908515ea9e8e29e69cbb2cda618b044bff6a0355c8b6beb45",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-10/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:01:14.952951+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-11",
+      "hash": "d12701d5eef41fd9a68c31b98da25fc123bdae68631fe9207da9d03bc64be611",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-11/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:01:17.591504+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-12",
+      "hash": "ba03886d4d871fcf5753123ec50b47d7cec65d008723c9143ee5192f5b4e9f66",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-12/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:01:19.679383+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-13",
+      "hash": "2dde61c37d28c5be7414f3f94019f9e63bfea744802e4cc208bce8fe9a9189a3",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-13/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:01:26.766266+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-14",
+      "hash": "6221ad3194cb85885cc28fd3198e21e4ab827ac3753ec3ec5566a76424c39b9a",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-14/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:02:42.326800+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-15",
+      "hash": "eaaa6e6440876179cd12543f1e314a0a62c61ed573b8c2ec7baa9b9a4bb9a7ae",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-15/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:02:44.185775+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-16",
+      "hash": "c21af36fc82c6a8aff6e288728f804cb9d3c119410ef3aa1e1e1c1be5565ca01",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-16/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:02:44.467154+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-17",
+      "hash": "a037b4571350282cddea2d593d14635c86fa0d9b589197afba520e0b142ddd1e",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-17/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:02:52.899926+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-18",
+      "hash": "5c3d96ebe9661262225deeaa340e8848bc0cceafa94628e4480cf0d33afbf3ff",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-18/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:04:08.656822+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-19",
+      "hash": "706cc933aee4076a54ac91b9083c07e09367094658aabfa79a0c9cc5b7c81364",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-19/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:04:09.197434+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-20",
+      "hash": "da1946e85b53a115ff7eb8341bb8339583c74d16f6caae89c32bdb27373a68df",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-20/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:04:09.280654+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-21",
+      "hash": "2f5fd8d44e0f04bdae1c93d50c34b0530604dc3d1d374f19d38db07850100796",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-21/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:04:16.675388+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-22",
+      "hash": "4786ba308612aca0b1b06fef588069af2901cd1f9b8c0c807171d0c8d911f025",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-22/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:05:34.205743+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-23",
+      "hash": "4160b806c5eea01afd6680bf014340486db46a46103a5419fd285f366b769a18",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-23/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:05:36.149975+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-24",
+      "hash": "242fdba3a68e62ec341464ad0dee971a1c6a7ed4089f581a15954b3f13aba47a",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-24/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:05:36.795002+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-25",
+      "hash": "f26deaf9603533476909857037d3e3683a184c6402e571dfb39da33e92f73e0e",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-25/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:05:41.446384+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-26",
+      "hash": "96bc84d5ba606fb1cf08d979cd0d7ec4cccbd2b61736513aa37fb4849ad00bcf",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-26/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:07:00.061878+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-27",
+      "hash": "ee77bde24e790eead0be4885997572c4bd8eb94002a1180ccd712628ebc95378",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-27/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:07:00.609760+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-28",
+      "hash": "527d13a9b88414ed2dd6ad993d17c32259ab0d6be9a15bb44adba8e79e473371",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-28/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:07:00.691064+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-29",
+      "hash": "8576e6b1613669cfd45939dff6e3db47e8f190db1d6291eec3f04c4a150fbb4c",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-29/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:07:07.554805+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-30",
+      "hash": "4876d1dabc398267a25c8631020c45b091ce2331b5cd6fae0e9fe54dd1aca6ae",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-30/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:08:23.280835+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-31",
+      "hash": "a6771606ed006fecd7c71028c7de252f8f8c42ca21c8fa3321c89e9424103786",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-31/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:08:27.334159+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-33",
+      "hash": "c16f8a18d277efbb632454dc2865a99e28def0e76d928cabfcf52dae0537ecda",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-33/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:08:27.400551+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-34",
+      "hash": "e4d397e4731c7626ee03904fd72f1cf6e820002cd66e51ebcc819392a6c8165c",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-34/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:08:32.150633+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-35",
+      "hash": "62aa2ff2d6ac925818bc58b5fc67c0adb9a2aa80e8996e106848a32fd030a014",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-35/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:09:50.182609+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-36",
+      "hash": "d562c4adfe508da4d8d560ec8efe62f0571b34ab5f46b296ca52720b3eb834c1",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-36/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:09:50.255879+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-37",
+      "hash": "7c520787ae40fd23193306a91981f0365d6c3dc97e911e4dee7623b591bcb950",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-37/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:09:53.882605+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-38",
+      "hash": "9f35b7bfbd89a7ef1969e6a0f19947b7755445fcbf8a6d3a19b8ac6b910c8742",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-38/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:09:58.279071+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-39",
+      "hash": "21c2494f8f40ecb93067b3a4a63991f5d47a9199ed3aa343ac05458d263d2c19",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-39/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:11:17.217917+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-40",
+      "hash": "655514f20118e6b8f0af5af5c2be86b76573beb36f44f3c1e0e3e9b30291396a",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-40/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:11:17.236217+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-41",
+      "hash": "75971c43e57f83ad517e0692770e8f1bc50629f118a9ebf1d2bdb009907d44d8",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-41/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:11:17.339074+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-42",
+      "hash": "88a2b925683c8a10eaf660940abfef79f7c08cb6ac83bde9841546771fb7bfbe",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-42/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:11:24.668208+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-43",
+      "hash": "3c85f1576012185794469335bdb9863abf79eedbaab942bdb51be66d5c46e733",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-43/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:12:43.475947+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-44",
+      "hash": "7470b18b01cf8ec65ddfb07e678add9d667ccff26713d9c0c0eb21541ce2bbae",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-44/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:12:43.484799+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-45",
+      "hash": "b17fed89f6d6a8021019ffc610daa2f50a36ee4e7d0cffa3d6aced59ecc67a43",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-45/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:12:44.123632+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-46",
+      "hash": "9bd59d839903f65b6bf13e1ca67a835c5e4b22312fd325d9362f4bcebe143c58",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-46/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:12:49.051990+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-47",
+      "hash": "7329ccfc7f237143f6a5b9aed888256362789de6cb1b52893e577ecbda0ab490",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-47/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:14:07.578155+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-48",
+      "hash": "e086464363aca2e02ff2486ff879b7c0946933f08ce57319aacc6b42c4733b03",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-48/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:14:10.692186+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-49",
+      "hash": "4918f76fd6d64d39910daf166b1433b6308a83868de2ec93379b7d4864ed8511",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-49/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:14:13.965275+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-50",
+      "hash": "ad753086d6e012dc462f4439b60d3fe5b89a24d1ac867d3376f8593d54438cf3",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-50/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:14:28.197692+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-51",
+      "hash": "1b0c0116e9de7881540d2cc07da1f1efb050b4f85009c119cb396fa2a4b2915e",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-51/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:15:32.770895+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-52",
+      "hash": "87e1030f61cafe2d225192317736be97acdffa069033a9edd723e8dd17e8fb8a",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-52/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:15:35.859545+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-53",
+      "hash": "46593e53d8db321d3d10dd55a209345903dd2e40086d40c86816d1d88a230e38",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-53/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:15:38.390542+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-55",
+      "hash": "18962586529ffa84e572716f6be0e93074ed5a7778cd231e67cdd3016c7c5119",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-55/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:15:56.083790+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-56",
+      "hash": "892c50f2d79211e6a516cc10fdb967205ffb08cca352ba720a5d879f690e3114",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-56/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:16:57.170022+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-57",
+      "hash": "f5ca87f3be8dd6ce061f94a0186965e7346992f247a43aa72f3a8503c78c06b9",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-57/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:17:00.598016+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-58",
+      "hash": "3acc8d836512005400b01a7a5507c07871f9bda8af7886f1ad41c4d40da1bf26",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-58/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:17:01.204767+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-59",
+      "hash": "2e33284df5ae9a21d045d8c11dafdec86bcb64d8f2aaf69a0deecfa6f74fb9d5",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-59/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:17:21.418380+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-60",
+      "hash": "757a62be0e18fb2e3c083a0cb59e95b6e0c8ca3febccc6693dc22bd9d5cc0aee",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-60/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:18:22.830958+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-61",
+      "hash": "afc8839f4f5ccb3145f1d927d7ff06038a298bbe5e6ede6eba7dadeaf44d33d3",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-61/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:18:25.199469+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-62",
+      "hash": "dba57592f2e35a8cb67a40795d049eb33527f5492afaae4c2df47d614db27fb8",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-62/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:18:25.815038+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-63",
+      "hash": "10c8f4ce8a046c4c04d8c8c539ec8e7a88281fb5bfd8fca4dfc117ccfbeb7593",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-63/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:18:47.554428+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-64",
+      "hash": "62ca4ace32d2eb8fe935b0ad90f623da6440776504aec32e96092f600af997c9",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-64/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:19:44.582021+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-65",
+      "hash": "19d843998ff6b0e48e5dc7c7774ac355e1d7fa65d0e14adf8fefb4cc570d7d48",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-65/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:19:50.891336+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-66",
+      "hash": "5d2d72ea2708b681e33e616d615950fa566e9b7261c2cc37139c5409608bde2d",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-66/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:19:52.418909+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-67",
+      "hash": "b6d90b302f6e165d9da98991658fa2c0361d98b8e3262581e3e6bc11052dc03a",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-67/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:20:12.697464+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-68",
+      "hash": "dc3b2c604c0b515594519f861ddd288712f944a471c82c4d079cbd964c1b1ced",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-68/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:21:08.617645+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-69",
+      "hash": "b2b7a66b7c5bfeaf83da0cda34bb21afc05b86ed2a4adb059b85f23f30776cd6",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-69/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:21:15.543065+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-70",
+      "hash": "02c3e30d19c0800439903d003db2560855aa09114ea71063dc9f401a4d802f5a",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-70/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:21:17.826738+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-71",
+      "hash": "0066a4e1dd68260a623ce7bcbfad57081cf8bc9504fcc9c926be61227b7eef82",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-71/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:21:39.514207+00:00",
+      "status": "succeeded"
+    },
+    {
+      "id": "kou-72",
+      "hash": "5e054c32b1e5c1f2975159fafdff7fe145d187b8e70dbf77939753055f564b78",
+      "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-72/original.png",
+      "reserved_jpy": 130,
+      "attempted_at": "2026-10-12T11:22:34.564248+00:00",
+      "status": "succeeded"
+    }
+  ],
+  "budget_history": [
+    {
+      "previous_jpy": 1000,
+      "updated_jpy": 10000,
+      "authorization": "User approved cumulative10000JPY for all72 image concepts",
+      "updated_at": "2026-10-12T10:46:36.745419+00:00"
+    }
+  ]
+}

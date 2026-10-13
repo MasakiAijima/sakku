@@ -1,0 +1,64 @@
+{
+  "fingerprint": "5cd03481223b1d663352cf876250a50f5f0414843793585e765d8fcd6bf63557",
+  "asset": {
+    "kouId": "kou-68",
+    "name": "水泉動",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 297.911,
+      "y": 180.467,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      125,
+      409,
+      387
+    ],
+    "precursorBounds": [
+      219,
+      241,
+      293,
+      299
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 125,
+      "width": 306,
+      "height": 262
+    },
+    "animation": {
+      "seed": [
+        256.0,
+        270.0
+      ],
+      "durationMs": 720,
+      "frames": 5,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-68/initial.png",
+    "completed": "kou-68/completed.png",
+    "transition": "kou-68/transition.webp",
+    "idle": "kou-68/idle.png",
+    "provenance": "kou-68/provenance.json",
+    "hashes": {
+      "initial": "fdcaead89e195dce7ebe18962aaacbcc9094c309fc293206584a478e63d3ff0c",
+      "completed": "c45b5c5dd329d0e4ff2ccb2dc3f26b3d5eb800df817cd3807fafcf2b275d9815",
+      "transition": "9ae14a9b3267192a64bc62012ade2ec65a7483fe6e62732caabd74d5b54e8a4e",
+      "idle": "c45b5c5dd329d0e4ff2ccb2dc3f26b3d5eb800df817cd3807fafcf2b275d9815",
+      "provenance": "c7cfe1319e757cbd031483669b2cc988ae472678f973756f7ae229a951fce002"
+    }
+  }
+}

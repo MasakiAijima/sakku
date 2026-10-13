@@ -1,0 +1,30 @@
+{
+  "id": "kou-68",
+  "name": "水泉動",
+  "prompt": "Use case: stylized-concept. Asset: one independent Japanese microseason illustration. The attached image is a STYLE reference only. Preserve its few large flat color planes, expressive hand-cut organic silhouette, long unequal curves, asymmetric swelling and pinches, and restrained uneven screen-print ink inside each color field. Do not copy its subject or colors. Express only the seasonal relationship specified below. One dominant motif occupies most of the artwork; at most one or two much smaller auxiliary motifs overlap it into one compact composition. Choose natural, seasonally meaningful colors from the specified palette. Never default to red. Use broad solid opaque color planes. Silhouette has character and directional flow; avoid bilateral symmetry, equally spaced petals, repeated geometry and fine outlines. The static image must be complete; do not add separate parts or gaps for animation. Center the entire compact artwork within the central 60 percent of the square, with ample clean empty margin on all sides. Solid chromakey magenta #FF00FF background; no magenta, hot pink, fuchsia, purple spill or pink reflected lighting in the artwork. Pink petals must be muted salmon #E9B8B5, distinct from the magenta background. No faces, eyes, pupils, letters, numerals, titles, borders, frames, realistic shading, gradients, shadows, translucency, fine veins, repeated decorative dots or textures outside shapes. \nThis is a new subject design, not a recoloring of the reference. Use the reference only for flat color planes, organic contours and print texture. Never copy its subject silhouette or arrangement. Do not use a curled ribbon, spiral, swirl or wave-shaped blob as a generic symbol for weather or water. Follow the specific seasonal scene and distinguishing silhouette below.\nSubject and seasonal relation: A broad low irregular oval pool of deep blue spring water nestled within a thick asymmetrical pale-ochre stone rim. In the middle, one small upright rounded pale-teal mound of upwelling water quietly rises, without splash. Top-down oblique view, wide bowl-like outline, flat solid planes. The main silhouette is an enclosed oval basin. No S curves, curved tongue, stream ribbon, wind glyph, spirals, hook or separate raindrop.\nSemantic color palette: #90B8B0 (湧く水), #3159A7 (水の折れ), #B58A50 (岩)\nColor intent: 泉の水を青緑と深青、岩を自然な褐色にする",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "reference_sha256": "be3727c8bfc3eff85f5f84d867b09f89c8fdaadd215f1d32d94f79683360366f",
+  "generator_version": "revision-12-v1",
+  "operation": "edit",
+  "hash": "def182b094aad7d32f52fe22f4dfc4e1f67b558de788869421ff6dc94beeaef3",
+  "reference_source": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-32/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-68/reference.png",
+  "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-68/original.png",
+  "provenance": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-68/generation.json",
+  "prompt_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-68/prompt.txt",
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T11:35:37.031162+00:00",
+  "budgetPolicy": "user-waived-for-targeted-revision",
+  "actualCost": null,
+  "image_sha256": "719e27734c54fd28eb6c3e82a90644f650f955bda1e816d09a1f92d82bca2993",
+  "completed_sha256": "8106904b8c050f13765e5f5c22da11569f0f5f84d00b54cb5a952d708141ea21",
+  "full_sha256": "cac3b843981a025f9c52b2a7427cdc5b23789e0a7c6ad1783fb6da836ac3e529",
+  "cutout_sha256": "cac3b843981a025f9c52b2a7427cdc5b23789e0a7c6ad1783fb6da836ac3e529"
+}

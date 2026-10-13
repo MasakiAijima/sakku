@@ -1,0 +1,23 @@
+{
+  "id": "kou-06",
+  "hash": "4681475a15e7a33989a52c9e540642e7ab941ebfbb365a7b2453837db4035aa2",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-06/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-10/kou-06/reference.png",
+  "reference_sha256": "15bebabf5504d1a310af44489a013c905fa87bcc2c53d1c096461e3f0efbab16",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese seasonal illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the two large pale-teal young leaf planes only, keep small olive bud casing and brown branch unchanged to saturated #F04420. Leave every color outside the specified main-color planes exactly as in the input. All other small colors are unchanged as well. This is one existing main-color field recolored to one accent hue, not a new part, not a new decoration. Preserve relative areas: the recolored field stays exactly the same area. Do not spread the accent onto any other parts. Keep the artwork centered with generous clear margins; solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:22:24.288653+00:00",
+  "image_sha256": "faff2e7557ed372d1d665814e928222f6889c644825a898cdee3e08107f9e136",
+  "completed_sha256": "13a62b62a06f59243c8e3d8900ee883a83a62411f120e07a7e1441a45f87174d",
+  "cutout_sha256": "65c9311e4e363f324e6f6ed4796972859ff089722ef8312e7e157ea23e9d718d"
+}

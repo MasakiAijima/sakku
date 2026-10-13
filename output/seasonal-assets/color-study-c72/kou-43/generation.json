@@ -1,0 +1,23 @@
+{
+  "id": "kou-43",
+  "hash": "b81ac131daa251d1ea42c2b3f77d94efe9347baf2c8283c5ea7452eeb7005dfd",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-43/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-43/reference.png",
+  "reference_sha256": "07abec9a6099d23dec961b9a5d22331983fb6ec21fac673aa8a4452137673044",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the single tiny pale-blue DEWDROP on the large olive and teal leaf only; preserve both leaf planes to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:02:46.691264+00:00",
+  "image_sha256": "ca67d1ffe37d99f27bd736c8011113151ea5bd079d1e0c8e35e4faf7697a3f37",
+  "completed_sha256": "794f2343f05d7009dba4be47e4ba3c40a2363052bb7c778a808eae676a85b2d1",
+  "cutout_sha256": "ec21aefc23b7807cb1600e810ec30f7d5f226bc1e1fc4f193eb1c4f14230a91a"
+}

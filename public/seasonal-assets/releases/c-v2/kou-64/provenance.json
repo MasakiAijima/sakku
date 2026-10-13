@@ -1,0 +1,70 @@
+{
+  "kouId": "kou-64",
+  "algorithmVersion": "organic-growth-48-v2",
+  "inputFingerprint": "28cae860fa95b661c054160bc47775dd57c4555bca4c0d31c3e8610f1dc471e7",
+  "assetVersion": "c-v2",
+  "promptVersion": "sha256:a87d46e2630b85bfc2f21bad98ddf63ecca1a31499fd1eb62324ec545a5fc130",
+  "processedAtUTC": "2026-10-13T13:42:09.834070+00:00",
+  "provider": "openai",
+  "generation": {
+    "id": "kou-64",
+    "hash": "9dbd1efa511b2f2262ef72a680fb8c7b4c3feac63610ab008915c0d106186a6e",
+    "reference_sha256": "dc693132184ac7ff5d5b9f3719e238dae84b2221a90c87fa183080be6487c3b6",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small ochre GROUND PATCH under the purple self-heal spike and olive leaves only; preserve purple flower spike and olive plant to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T13:14:50.318082+00:00",
+    "completed_sha256": "3d0b03ed067dc54c95d40bee2fc3f3a5c3a05d9addf34377d11c7b796513294a"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 258.169,
+      "y": 233.269,
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      156,
+      103,
+      355,
+      409
+    ],
+    "precursorBounds": [
+      191,
+      359,
+      338,
+      409
+    ]
+  },
+  "sourceHashes": {
+    "C": "3d0b03ed067dc54c95d40bee2fc3f3a5c3a05d9addf34377d11c7b796513294a",
+    "Cprime": "e870475d35d77ac0a156f72ce746901b7e38a002fddab53cfbea1b95d71fec50",
+    "generation": "786b9f510da028593e8134b7fc17b045263fb06aa96f0c533105c95fd6d6b97e"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small ochre GROUND PATCH under the purple self-heal spike and olive leaves only; preserve purple flower spike and olive plant to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T13:14:50.318082+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

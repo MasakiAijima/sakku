@@ -1,0 +1,28 @@
+{
+  "id": "kou-54",
+  "name": "楓蔦黄ばむ",
+  "prompt": "Redesign the attached faceless seasonal artwork. Use it as the style reference for unequal areas of color, long curves and how shapes overlap, not just its colors. Express one seasonal moment with a few large flat color fields and expressive organic contours. Choose one dominant motif first; use only one or two auxiliary motifs, much smaller than the dominant one. Draw long curves, uneven swelling and shallow and deep pinches. Avoid equal petals, mechanical repetition and internal bilateral symmetry. Create directional flow through leaning and projecting silhouettes. Choose only the necessary 2-4 colors from #D94B35 #ED8B35 #3159A7 #E3BC45 #72804A #E9B8B5 #B9D5DE #B58A50 #F5F3ED, giving the dominant color the largest area. Keep subtle uneven ink printing inside the fields, supporting the shapes. Make a complete static composition; do not separate parts or add gaps for animation. Keep the motif inside the central 60 percent of a square canvas. Solid chromakey magenta #FF00FF background only; no magenta in the artwork. No faces, eyes, text, logos, outlines, frames, shadows, gradients, translucency or fine decorative details. One large vermilion maple leaf dominates, tilting with irregular broad lobes of unequal size and curved uneven edges. One much smaller cobalt blue ivy leaf overlaps near its base. Show a colored maple overlapping a smaller ivy, with the blue ivy supporting the red silhouette. No yellow twig, branches, berries, extra leaves or fine veins.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "medium",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "master_version": "e72212780133af95020bc7f39e95b6638d664b3d647c1f7b1077aa4ec317d649",
+  "generator_version": 2,
+  "prompt_version": 2,
+  "operation": "edit",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/imagegen/microseason-samples-v2/05-maple-colors.png",
+  "reference_sha256": "d289dc66ef0bfd49b2b9096a0bf8b3f1bcefff9e6e83d2f9bfbe925748aaba6f",
+  "hash": "c18b8620d4a439cdca5a23f73f74fa0bcf8961b1028a0a86116c6787a9fc2d74",
+  "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v2/kou-54/original.png",
+  "provenance": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v2/kou-54/generation.json",
+  "prompt_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v2/kou-54/prompt.txt",
+  "attempted_at": "2026-10-12T07:38:07.409618+00:00",
+  "status": "succeeded",
+  "reserved_jpy": 90,
+  "actual_cost_jpy": null,
+  "image_sha256": "f8f34d6330bd7ac2e7c4c73023dfe397e74da9e0decf7b6606683759a402ac29"
+}

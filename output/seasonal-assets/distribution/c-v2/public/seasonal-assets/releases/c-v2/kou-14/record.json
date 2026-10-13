@@ -1,0 +1,64 @@
+{
+  "fingerprint": "f5eb0bf2684d0f5a679db5462462a4ee6b8f264e6f41c4a215191417d6980837",
+  "asset": {
+    "kouId": "kou-14",
+    "name": "鴻雁かえる",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 571.41,
+      "y": 261.384,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      106,
+      103,
+      406,
+      409
+    ],
+    "precursorBounds": [
+      106,
+      360,
+      269,
+      409
+    ],
+    "motionBounds": {
+      "x": 106,
+      "y": 103,
+      "width": 300,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        187.5,
+        384.5
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-14/initial.png",
+    "completed": "kou-14/completed.png",
+    "transition": "kou-14/transition.webp",
+    "idle": "kou-14/idle.png",
+    "provenance": "kou-14/provenance.json",
+    "hashes": {
+      "initial": "c9555c42b93d1f63e2cffe5fcce6db71736c3d425837962c3654b38d8ea96fd8",
+      "completed": "1ff404c8815f4dc32987280192010f687450db8acad210babc7dae315a712839",
+      "transition": "aa6dfd12f3eb3307a4dfe7e16c4cc7fc51abb91c97f6101499e6b256157cae73",
+      "idle": "1ff404c8815f4dc32987280192010f687450db8acad210babc7dae315a712839",
+      "provenance": "225a97485be66bd5fef442c96a438b17779c9c17772880d58f571242ed0d1025"
+    }
+  }
+}

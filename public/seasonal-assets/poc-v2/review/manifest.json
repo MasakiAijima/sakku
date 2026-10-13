@@ -1,0 +1,61 @@
+{
+  "canvas_px": 512,
+  "artwork_extent_px": 306,
+  "background": "#f7f2e8",
+  "items": [
+    {
+      "id": "kou-01",
+      "name": "東風凍を解く",
+      "alpha_bounds": {
+        "previous": [
+          103,
+          131,
+          409,
+          380
+        ],
+        "revised": [
+          103,
+          145,
+          409,
+          367
+        ]
+      }
+    },
+    {
+      "id": "kou-32",
+      "name": "蓮始めて開く",
+      "alpha_bounds": {
+        "previous": [
+          103,
+          119,
+          409,
+          393
+        ],
+        "revised": [
+          103,
+          120,
+          409,
+          392
+        ]
+      }
+    },
+    {
+      "id": "kou-54",
+      "name": "楓蔦黄ばむ",
+      "alpha_bounds": {
+        "previous": [
+          103,
+          121,
+          409,
+          391
+        ],
+        "revised": [
+          103,
+          116,
+          409,
+          395
+        ]
+      }
+    }
+  ]
+}

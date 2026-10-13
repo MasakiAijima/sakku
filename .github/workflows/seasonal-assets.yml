@@ -1,0 +1,42 @@
+name: Seasonal asset bundle
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install image validators
+        run: python -m pip install -r scripts/seasonal-requirements.txt
+      - name: Validate approved bundle and manifest contract
+        env:
+          SEASONAL_PYTHON: python
+        run: |
+          python -m unittest discover -s tests -p test_seasonal_color_resume.py
+          python -m unittest discover -s tests -p test_seasonal_release.py
+          python -m unittest discover -s tests -p test_seasonal_cprime_inputs.py
+          python scripts/package-seasonal-release.py --version c-v2 --check
+          node scripts/seasonal-release.mjs validate --version c-v2
+          node --test tests/seasonal-assets-poc.test.mjs tests/seasonal-release-loader.test.mjs tests/seasonal-release-promotion.test.mjs
+      - name: Install browser tools
+        run: |
+          npm install --prefix "$RUNNER_TEMP/browser-test" --package-lock=false --ignore-scripts playwright@1.64.0
+          node "$RUNNER_TEMP/browser-test/node_modules/playwright/cli.js" install --with-deps chrome
+      - name: Verify offline bundle and failure recovery
+        env:
+          PLAYWRIGHT_MODULE: ${{ runner.temp }}/browser-test/node_modules/playwright/index.mjs
+        run: |
+          node tests/seasonal-release-offline.test.mjs
+          node tests/seasonal-home-offline.test.mjs

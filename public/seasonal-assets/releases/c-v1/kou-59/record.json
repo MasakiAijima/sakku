@@ -1,0 +1,64 @@
+{
+  "fingerprint": "8d758a64971e84d001271eb02c20fc22f5ae284c4891f838c420a396a7d2d4fa",
+  "asset": {
+    "kouId": "kou-59",
+    "name": "朔風葉を払う",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 141.858,
+      "y": 266.295,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      130,
+      103,
+      382,
+      409
+    ],
+    "precursorBounds": [
+      130,
+      103,
+      231,
+      232
+    ],
+    "motionBounds": {
+      "x": 130,
+      "y": 103,
+      "width": 252,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        180.5,
+        167.5
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-59/initial.png",
+    "completed": "kou-59/completed.png",
+    "transition": "kou-59/transition.webp",
+    "idle": "kou-59/idle.png",
+    "provenance": "kou-59/provenance.json",
+    "hashes": {
+      "initial": "b188feab8763e76ee96ae6b886f98c816d622d03951de4a84d7614e102f6a1df",
+      "completed": "88c796562ca1a0b3ac726486fcd1da92082103e374c0831f58a2eaf4309b856b",
+      "transition": "8b334391b1c798ee7b49ba5e3d0f13bb865d6ab1f3b4a1c2e5789cb9d6fc2eac",
+      "idle": "88c796562ca1a0b3ac726486fcd1da92082103e374c0831f58a2eaf4309b856b",
+      "provenance": "daa54eb0dba9256d968d5cbe6b433e5a16842ebc9d56382e5853e8d52dea74f1"
+    }
+  }
+}

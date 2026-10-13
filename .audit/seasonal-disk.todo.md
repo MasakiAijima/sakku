@@ -1,0 +1,6 @@
+- [x] Scope the decision the prototype exists to make: which layout, which interaction, which density, or for an empirical fork which behavior, timing, or approach.
+- [x] Gather references when the design space is open. skip: direction specified by user.
+- [x] Build throwaway in an isolated scratch dir, separate from production source. Existing standalone seasonal-assets review page is the preview artifact; application unchanged.
+- [x] When comparing alternatives, build them behind one switcher. skip: user specified one layout.
+- [x] Verify on the matching surface.
+- [x] Present alternatives, tradeoffs, and a recommendation. Present requested preview and cropping limitation.

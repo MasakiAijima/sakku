@@ -1,0 +1,30 @@
+{
+  "id": "kou-37",
+  "name": "涼風至る",
+  "prompt": "Use case: stylized-concept. Asset: one independent Japanese microseason illustration. The attached image is a STYLE reference only. Preserve its few large flat color planes, expressive hand-cut organic silhouette, long unequal curves, asymmetric swelling and pinches, and restrained uneven screen-print ink inside each color field. Do not copy its subject or colors. Express only the seasonal relationship specified below. One dominant motif occupies most of the artwork; at most one or two much smaller auxiliary motifs overlap it into one compact composition. Choose natural, seasonally meaningful colors from the specified palette. Never default to red. Use broad solid opaque color planes. Silhouette has character and directional flow; avoid bilateral symmetry, equally spaced petals, repeated geometry and fine outlines. The static image must be complete; do not add separate parts or gaps for animation. Center the entire compact artwork within the central 60 percent of the square, with ample clean empty margin on all sides. Solid chromakey magenta #FF00FF background; no magenta, hot pink, fuchsia, purple spill or pink reflected lighting in the artwork. Pink petals must be muted salmon #E9B8B5, distinct from the magenta background. No faces, eyes, pupils, letters, numerals, titles, borders, frames, realistic shading, gradients, shadows, translucency, fine veins, repeated decorative dots or textures outside shapes. \nSubject and seasonal relation: One dominant pale blue cool breeze ribbon sweeps in a long uneven shallow S curve. One much smaller pair of warm brown winged maple seeds tilts along its edge. A pale teal overlap may deepen the ribbon. No big summer leaf, ice or fallen broad leaves. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.\nSemantic color palette: #B9D5DE (涼風), #90B8B0 (風の折れ), #B58A50 (翼果)\nColor intent: 涼しさを淡青、乾いた翼果を自然な黄褐色で表す",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "master_version": "e72212780133af95020bc7f39e95b6638d664b3d647c1f7b1077aa4ec317d649",
+  "generator_version": 3,
+  "prompt_version": 3,
+  "operation": "edit",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-01/completed.png",
+  "reference_sha256": "6a5df021d3338710836e235ba3ec90d787b6a6b8cbd7ab3fa7cc43649750a025",
+  "hash": "7c520787ae40fd23193306a91981f0365d6c3dc97e911e4dee7623b591bcb950",
+  "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-37/original.png",
+  "provenance": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-37/generation.json",
+  "prompt_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-37/prompt.txt",
+  "attempted_at": "2026-10-12T11:09:53.882605+00:00",
+  "status": "succeeded",
+  "reserved_jpy": 130,
+  "actual_cost_jpy": null,
+  "image_sha256": "d6695fbfe10a12cf2b28d2541776fcb4badfec2381b007b0deb36d7ada12080d",
+  "completed_sha256": "4cd9828c11a95e6ae6aa8a1175a31e3ad0ea9c3ba7ef19ea4f008355344e398c",
+  "cutout_sha256": "054e44a0ec791e30f3f30740b53e32e6381be13d050a6cad131aef6742b845da"
+}

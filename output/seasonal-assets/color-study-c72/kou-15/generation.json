@@ -1,0 +1,23 @@
+{
+  "id": "kou-15",
+  "hash": "70e726f676185c5f36c1cdea080d02611fce08e51c652d57d777f3ab8e7b3f88",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-15/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-15/reference.png",
+  "reference_sha256": "e2315fcccdff16b7a96427f308669b5a8c30fa9dcc63af079734f22c73f7094f",
+  "prompt": "Use case: precise-object-edit. Make ONE local color substitution on the attached illustration. Recolor the existing small ivory cloud attached to the LOWER RIGHT foot of the rainbow. Preserve the cloud completely with the same organic silhouette and overlapping position, and recolor the entire cloud raspberry pink. Keep the rainbow red, yellow and blue. The requested accent color is raspberry pink #E73E73. The subject MUST contain this exact accent hue; do not substitute another hue. Preserve the exact composition, all silhouettes, curves, sizes, positions, part count and subtle print texture. Do not omit any motif or add anything. All other subject colors remain unchanged. Use solid chromakey #FF00FF ONLY for the empty background. The accent must remain clearly distinct from this background. No text, eyes, faces, shadows, outlines, new decorations or gradients. Square 1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:21:03.733326+00:00",
+  "image_sha256": "d8a4feca55fc94c265e34c85a31bb10f73bacd7ad7b411f97e0fd110f78de33d",
+  "completed_sha256": "07eda5b1c24ea7c6dba88c0ecc532a804a7e47bf2d578ba3967ecfb3b1ae85ac",
+  "cutout_sha256": "dacb89962163445e5cf3b51bd56b5649c93d21341ffcbed4beef82c6a9b7404b"
+}

@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "seed": 197210,
+  "targetCount": 12,
+  "budgetPolicy": "user-waived-for-targeted-revision",
+  "entries": [
+    {
+      "id": "kou-22",
+      "name": "蚕起きて桑を食む",
+      "sourcePath": "kou-22/completed.png",
+      "accentHex": "#155DD8",
+      "accentName": "鮮やかな青",
+      "target": "the dominant olive-green MULBERRY LEAF only",
+      "prompt": "Use case: precise-object-edit. Make a COLOR-ONLY variant of the attached finished Japanese seasonal cut-paper illustration. Keep the exact subject, composition, contour, proportions, pose, number of parts, overlaps, size and position of EVERY shape. Do not redraw, redesign, simplify, add, remove or move any part. Change ONLY the dominant olive-green MULBERRY LEAF only to saturated #155DD8. This single intentionally unnatural strong color echoes bold Japanese screen-print vermilion, cobalt and orange. Keep every OTHER color exactly as in the attached image, including their muted tones. Preserve existing restrained print mottling and organic cut-paper edges. Use one newly introduced accent hue only, with slight existing ink mottling, no additional accent colors. Keep all artwork complete in the same central area with ample clean margins. Render on solid chromakey magenta #FF00FF background so it can be removed. Magenta must appear ONLY in the background. No shadows, gradients, outlines, faces, eyes, writing or new decorative marks. Output square1024. The only intended difference is the specified color substitution."
+    },
+    {
+      "id": "kou-24",
+      "name": "麦秋至る",
+      "sourcePath": "kou-24/completed.png",
+      "accentHex": "#F04420",
+      "accentName": "強い朱",
+      "target": "the golden wheat grain head only",
+      "prompt": "Use case: precise-object-edit. Make a COLOR-ONLY variant of the attached finished Japanese seasonal cut-paper illustration. Keep the exact subject, composition, contour, proportions, pose, number of parts, overlaps, size and position of EVERY shape. Do not redraw, redesign, simplify, add, remove or move any part. Change ONLY the golden wheat grain head only to saturated #F04420. This single intentionally unnatural strong color echoes bold Japanese screen-print vermilion, cobalt and orange. Keep every OTHER color exactly as in the attached image, including their muted tones. Preserve existing restrained print mottling and organic cut-paper edges. Use one newly introduced accent hue only, with slight existing ink mottling, no additional accent colors. Keep all artwork complete in the same central area with ample clean margins. Render on solid chromakey magenta #FF00FF background so it can be removed. Magenta must appear ONLY in the background. No shadows, gradients, outlines, faces, eyes, writing or new decorative marks. Output square1024. The only intended difference is the specified color substitution."
+    },
+    {
+      "id": "kou-25",
+      "name": "蟷螂生ず",
+      "sourcePath": "kou-25/completed.png",
+      "accentHex": "#F48708",
+      "accentName": "鮮やかな橙",
+      "target": "the pale-teal body and limbs of the mantis only",
+      "prompt": "Use case: precise-object-edit. Make a COLOR-ONLY variant of the attached finished Japanese seasonal cut-paper illustration. Keep the exact subject, composition, contour, proportions, pose, number of parts, overlaps, size and position of EVERY shape. Do not redraw, redesign, simplify, add, remove or move any part. Change ONLY the pale-teal body and limbs of the mantis only to saturated #F48708. This single intentionally unnatural strong color echoes bold Japanese screen-print vermilion, cobalt and orange. Keep every OTHER color exactly as in the attached image, including their muted tones. Preserve existing restrained print mottling and organic cut-paper edges. Use one newly introduced accent hue only, with slight existing ink mottling, no additional accent colors. Keep all artwork complete in the same central area with ample clean margins. Render on solid chromakey magenta #FF00FF background so it can be removed. Magenta must appear ONLY in the background. No shadows, gradients, outlines, faces, eyes, writing or new decorative marks. Output square1024. The only intended difference is the specified color substitution."
+    },
+    {
+      "id": "kou-39",
+      "name": "深き霧まとう",
+      "sourcePath": "kou-39/completed.png",
+      "accentHex": "#155DD8",
+      "accentName": "鮮やかな青",
+      "target": "the dominant pale-blue FOG shape only",
+      "prompt": "Use case: precise-object-edit. Make a COLOR-ONLY variant of the attached finished Japanese seasonal cut-paper illustration. Keep the exact subject, composition, contour, proportions, pose, number of parts, overlaps, size and position of EVERY shape. Do not redraw, redesign, simplify, add, remove or move any part. Change ONLY the dominant pale-blue FOG shape only to saturated #155DD8. This single intentionally unnatural strong color echoes bold Japanese screen-print vermilion, cobalt and orange. Keep every OTHER color exactly as in the attached image, including their muted tones. Preserve existing restrained print mottling and organic cut-paper edges. Use one newly introduced accent hue only, with slight existing ink mottling, no additional accent colors. Keep all artwork complete in the same central area with ample clean margins. Render on solid chromakey magenta #FF00FF background so it can be removed. Magenta must appear ONLY in the background. No shadows, gradients, outlines, faces, eyes, writing or new decorative marks. Output square1024. The only intended difference is the specified color substitution."
+    },
+    {
+      "id": "kou-56",
+      "name": "地始めて凍る",
+      "sourcePath": "kou-56/completed.png",
+      "accentHex": "#F04420",
+      "accentName": "強い朱",
+      "target": "the large ochre-brown EARTH shape only, preserving the small pale-blue ice wedge",
+      "prompt": "Use case: precise-object-edit. Make a COLOR-ONLY variant of the attached finished Japanese seasonal cut-paper illustration. Keep the exact subject, composition, contour, proportions, pose, number of parts, overlaps, size and position of EVERY shape. Do not redraw, redesign, simplify, add, remove or move any part. Change ONLY the large ochre-brown EARTH shape only, preserving the small pale-blue ice wedge to saturated #F04420. This single intentionally unnatural strong color echoes bold Japanese screen-print vermilion, cobalt and orange. Keep every OTHER color exactly as in the attached image, including their muted tones. Preserve existing restrained print mottling and organic cut-paper edges. Use one newly introduced accent hue only, with slight existing ink mottling, no additional accent colors. Keep all artwork complete in the same central area with ample clean margins. Render on solid chromakey magenta #FF00FF background so it can be removed. Magenta must appear ONLY in the background. No shadows, gradients, outlines, faces, eyes, writing or new decorative marks. Output square1024. The only intended difference is the specified color substitution."
+    },
+    {
+      "id": "kou-58",
+      "name": "虹かくれて見えず",
+      "sourcePath": "../revision-12/kou-58/completed.png",
+      "accentHex": "#F48708",
+      "accentName": "鮮やかな橙",
+      "target": "the large slate-blue WINTER CLOUD only, preserving the tiny rainbow fragment",
+      "prompt": "Use case: precise-object-edit. Make a COLOR-ONLY variant of the attached finished Japanese seasonal cut-paper illustration. Keep the exact subject, composition, contour, proportions, pose, number of parts, overlaps, size and position of EVERY shape. Do not redraw, redesign, simplify, add, remove or move any part. Change ONLY the large slate-blue WINTER CLOUD only, preserving the tiny rainbow fragment to saturated #F48708. This single intentionally unnatural strong color echoes bold Japanese screen-print vermilion, cobalt and orange. Keep every OTHER color exactly as in the attached image, including their muted tones. Preserve existing restrained print mottling and organic cut-paper edges. Use one newly introduced accent hue only, with slight existing ink mottling, no additional accent colors. Keep all artwork complete in the same central area with ample clean margins. Render on solid chromakey magenta #FF00FF background so it can be removed. Magenta must appear ONLY in the background. No shadows, gradients, outlines, faces, eyes, writing or new decorative marks. Output square1024. The only intended difference is the specified color substitution."
+    },
+    {
+      "id": "kou-65",
+      "name": "さわしかの角おつる",
+      "sourcePath": "kou-65/completed.png",
+      "accentHex": "#155DD8",
+      "accentName": "鮮やかな青",
+      "target": "the warm-brown DEER ANTLER only, preserving the small olive leaf",
+      "prompt": "Use case: precise-object-edit. Make a COLOR-ONLY variant of the attached finished Japanese seasonal cut-paper illustration. Keep the exact subject, composition, contour, proportions, pose, number of parts, overlaps, size and position of EVERY shape. Do not redraw, redesign, simplify, add, remove or move any part. Change ONLY the warm-brown DEER ANTLER only, preserving the small olive leaf to saturated #155DD8. This single intentionally unnatural strong color echoes bold Japanese screen-print vermilion, cobalt and orange. Keep every OTHER color exactly as in the attached image, including their muted tones. Preserve existing restrained print mottling and organic cut-paper edges. Use one newly introduced accent hue only, with slight existing ink mottling, no additional accent colors. Keep all artwork complete in the same central area with ample clean margins. Render on solid chromakey magenta #FF00FF background so it can be removed. Magenta must appear ONLY in the background. No shadows, gradients, outlines, faces, eyes, writing or new decorative marks. Output square1024. The only intended difference is the specified color substitution."
+    },
+    {
+      "id": "kou-67",
+      "name": "芹乃ち栄う",
+      "sourcePath": "kou-67/completed.png",
+      "accentHex": "#F04420",
+      "accentName": "強い朱",
+      "target": "the broad olive-green CELERY LEAVES only, preserving the blue water and small pale-teal plane",
+      "prompt": "Use case: precise-object-edit. Make a COLOR-ONLY variant of the attached finished Japanese seasonal cut-paper illustration. Keep the exact subject, composition, contour, proportions, pose, number of parts, overlaps, size and position of EVERY shape. Do not redraw, redesign, simplify, add, remove or move any part. Change ONLY the broad olive-green CELERY LEAVES only, preserving the blue water and small pale-teal plane to saturated #F04420. This single intentionally unnatural strong color echoes bold Japanese screen-print vermilion, cobalt and orange. Keep every OTHER color exactly as in the attached image, including their muted tones. Preserve existing restrained print mottling and organic cut-paper edges. Use one newly introduced accent hue only, with slight existing ink mottling, no additional accent colors. Keep all artwork complete in the same central area with ample clean margins. Render on solid chromakey magenta #FF00FF background so it can be removed. Magenta must appear ONLY in the background. No shadows, gradients, outlines, faces, eyes, writing or new decorative marks. Output square1024. The only intended difference is the specified color substitution."
+    },
+    {
+      "id": "kou-68",
+      "name": "水泉動",
+      "sourcePath": "../revision-12/kou-68/completed.png",
+      "accentHex": "#F04420",
+      "accentName": "強い朱",
+      "target": "the ochre STONE RIM around the spring pool only, preserving blue water and pale-teal upwelling",
+      "prompt": "Use case: precise-object-edit. Make a COLOR-ONLY variant of the attached finished Japanese seasonal cut-paper illustration. Keep the exact subject, composition, contour, proportions, pose, number of parts, overlaps, size and position of EVERY shape. Do not redraw, redesign, simplify, add, remove or move any part. Change ONLY the ochre STONE RIM around the spring pool only, preserving blue water and pale-teal upwelling to saturated #F04420. This single intentionally unnatural strong color echoes bold Japanese screen-print vermilion, cobalt and orange. Keep every OTHER color exactly as in the attached image, including their muted tones. Preserve existing restrained print mottling and organic cut-paper edges. Use one newly introduced accent hue only, with slight existing ink mottling, no additional accent colors. Keep all artwork complete in the same central area with ample clean margins. Render on solid chromakey magenta #FF00FF background so it can be removed. Magenta must appear ONLY in the background. No shadows, gradients, outlines, faces, eyes, writing or new decorative marks. Output square1024. The only intended difference is the specified color substitution."
+    },
+    {
+      "id": "kou-69",
+      "name": "雉始めてなく",
+      "sourcePath": "../revision-12/kou-69/completed.png",
+      "accentHex": "#155DD8",
+      "accentName": "鮮やかな青",
+      "target": "the olive-green BODY, NECK and HEAD planes of the pheasant only, preserving the dark wing, warm-brown long tail, red cheek and legs",
+      "prompt": "Use case: precise-object-edit. Make a COLOR-ONLY variant of the attached finished Japanese seasonal cut-paper illustration. Keep the exact subject, composition, contour, proportions, pose, number of parts, overlaps, size and position of EVERY shape. Do not redraw, redesign, simplify, add, remove or move any part. Change ONLY the olive-green BODY, NECK and HEAD planes of the pheasant only, preserving the dark wing, warm-brown long tail, red cheek and legs to saturated #155DD8. This single intentionally unnatural strong color echoes bold Japanese screen-print vermilion, cobalt and orange. Keep every OTHER color exactly as in the attached image, including their muted tones. Preserve existing restrained print mottling and organic cut-paper edges. Use one newly introduced accent hue only, with slight existing ink mottling, no additional accent colors. Keep all artwork complete in the same central area with ample clean margins. Render on solid chromakey magenta #FF00FF background so it can be removed. Magenta must appear ONLY in the background. No shadows, gradients, outlines, faces, eyes, writing or new decorative marks. Output square1024. The only intended difference is the specified color substitution."
+    },
+    {
+      "id": "kou-06",
+      "name": "草木萌え動る",
+      "sourcePath": "kou-06/completed.png",
+      "accentHex": "#F04420",
+      "accentName": "強い朱",
+      "target": "the two large pale-teal young leaf planes only, keep small olive bud casing and brown branch unchanged",
+      "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese seasonal illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the two large pale-teal young leaf planes only, keep small olive bud casing and brown branch unchanged to saturated #F04420. Leave every color outside the specified main-color planes exactly as in the input. All other small colors are unchanged as well. This is one existing main-color field recolored to one accent hue, not a new part, not a new decoration. Preserve relative areas: the recolored field stays exactly the same area. Do not spread the accent onto any other parts. Keep the artwork centered with generous clear margins; solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024."
+    },
+    {
+      "id": "kou-09",
+      "name": "菜虫蝶となる",
+      "sourcePath": "kou-09/completed.png",
+      "accentHex": "#155DD8",
+      "accentName": "鮮やかな青",
+      "target": "the two large golden-yellow butterfly wing planes only, keep olive cocoon shell and dark-gray body unchanged",
+      "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese seasonal illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the two large golden-yellow butterfly wing planes only, keep olive cocoon shell and dark-gray body unchanged to saturated #155DD8. Leave every color outside the specified main-color planes exactly as in the input. All other small colors are unchanged as well. This is one existing main-color field recolored to one accent hue, not a new part, not a new decoration. Preserve relative areas: the recolored field stays exactly the same area. Do not spread the accent onto any other parts. Keep the artwork centered with generous clear margins; solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024."
+    }
+  ]
+}

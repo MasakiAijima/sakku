@@ -1,0 +1,23 @@
+{
+  "id": "kou-16",
+  "hash": "fe4e67f6afe27c8a63b12aff392db0a4155393c31469be0a899f53a1abb1bb8d",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-16/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-16/reference.png",
+  "reference_sha256": "ffdbe669331706400fc26d5f62db9d455dbd8712d12cf98b82fd977f32c5ca6a",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the tiny ochre ROOT BASE beneath the large olive reed shoot only; preserve olive shoot and teal water to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:52:32.382912+00:00",
+  "image_sha256": "3a3d2745aaeb4d11775b4c1928bf05927a1fc8c1335c207e03d2f9204d368ba8",
+  "completed_sha256": "b47268bce33bbbdbbf753c58fdab373d884557a624de28d7bce7784527233a2e",
+  "cutout_sha256": "b0ea60a87d76997c358a6069c6fa89cf8867eba949532b4c1c131bed91f9cad9"
+}

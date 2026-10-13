@@ -1,0 +1,24 @@
+{
+  "id": "kou-22",
+  "hash": "1d10c24aa1b43ac882188245b27c7b01bcbbad6095e6315053c0484f774785f3",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-22/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-22/reference.png",
+  "reference_sha256": "26c0bedc240a446671a43674cff8b45837c84c747a30a1983a9e73dd5b016497",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese seasonal illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small brown LEAF STALK only; keep the large olive mulberry leaf and tiny ivory silkworm unchanged to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged as well. This is one small existing color field recolored to one accent hue, not a new part, not a new decoration. Preserve relative areas: the recolored field stays exactly the same SMALL area. Do not spread the accent onto the main motif. Keep the artwork centered with generous clear margins; solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:24:09.449275+00:00",
+  "image_sha256": "a11055c8857f1642e209a86a34fbae7ebe44ec9ece63a180d1b8ad63b9e083ad",
+  "completed_sha256": "d25d0fde017186398f4ee8e200b69a1ea676bc2fd889ccfc68b6304b302fc681",
+  "cutout_sha256": "e4f1ba89148b18ecff04b3d41f77ccd17d7b460c9b98a0b86041a09e74db52c7",
+  "reused_from": "output/seasonal-assets/color-study-c/kou-22"
+}

@@ -1,0 +1,64 @@
+{
+  "fingerprint": "da7886f193b63ec7f79d315ba55a69a08abfd8fa6d7b73a4b76ce0f373a8dee3",
+  "asset": {
+    "kouId": "kou-12",
+    "name": "雷乃ち声を発す",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 421.439,
+      "y": 298.571,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      154,
+      409,
+      357
+    ],
+    "precursorBounds": [
+      211,
+      280,
+      258,
+      357
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 154,
+      "width": 306,
+      "height": 203
+    },
+    "animation": {
+      "seed": [
+        234.5,
+        318.5
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-12/initial.png",
+    "completed": "kou-12/completed.png",
+    "transition": "kou-12/transition.webp",
+    "idle": "kou-12/idle.png",
+    "provenance": "kou-12/provenance.json",
+    "hashes": {
+      "initial": "54f97c106ba59f56e760c0720ffce201a6545dc98bc55ccf838698f9861ad717",
+      "completed": "ef2e77d35c91355e51d4be60607b5469119694f7d0d37dab820dfc819df32b37",
+      "transition": "19cc5de1ba5961e089cfa2b31a24b21e71c08fc52409f49717e814b41e3ad2dd",
+      "idle": "ef2e77d35c91355e51d4be60607b5469119694f7d0d37dab820dfc819df32b37",
+      "provenance": "216be4cc166e6781b5f763ddc473ae56d48f0ed29eb6b25c8327003c1fe4c3cf"
+    }
+  }
+}

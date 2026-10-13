@@ -1,0 +1,23 @@
+{
+  "id": "kou-18",
+  "hash": "72412dc6480c5b554fbb5b6fac04d942a7f38b31cc5ab893eb0167c85981e0e1",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-18/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-18/reference.png",
+  "reference_sha256": "224a179f8e4f699ca5712b636c0cba0720b80da8c9998d8c18aafb77c200f42b",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small olive LEAF underneath the broad vermilion peony only; preserve red and pink petals to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:52:44.946953+00:00",
+  "image_sha256": "ad17aa65b123d00d9334ea61dbf46dc4fa98c90f7736fa3c6943d12318c34e95",
+  "completed_sha256": "14c0911323923f60f2a5dedeba4294e48178bf36821bf1652fff4d634569fe44",
+  "cutout_sha256": "90bb523c7a7334d6488e54cfb057998dec5f024e7bff964bd2a23b6329b898ac"
+}

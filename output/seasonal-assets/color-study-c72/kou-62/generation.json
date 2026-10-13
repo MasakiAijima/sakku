@@ -1,0 +1,23 @@
+{
+  "id": "kou-62",
+  "hash": "056e69f1542ef195cb8b716243c0e9333042f90c94861243d79cb4932b5e62ea",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-62/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-62/reference.png",
+  "reference_sha256": "5c9f8f8a6302b8cc59d467b500ada7e1c0efd5330884448cdbc1afb953bafd67",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small golden-yellow DRY BED/SOIL PATCH under the dark hibernating bear at the cave mouth only; preserve bear and ochre cave rim to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:14:41.535181+00:00",
+  "image_sha256": "bdf42b172c7f76f26d64ba76bd0bab07ea416541bf081718621c80f9a7b43ece",
+  "completed_sha256": "408e4667f5db4b4c1932ab31b619d34d3d2b704bec4a073bb5fa8b0e7f50ec1c",
+  "cutout_sha256": "048dd75ef78a4358dd5cc1bbd371c6695bb7ceae2bc54ace17d817e9ad66698e"
+}

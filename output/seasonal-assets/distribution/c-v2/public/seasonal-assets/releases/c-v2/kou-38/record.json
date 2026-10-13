@@ -1,0 +1,64 @@
+{
+  "fingerprint": "918e93e5166056b06003fe8238ddecc27e18bbd6e651cffe18a923dd6291f546",
+  "asset": {
+    "kouId": "kou-38",
+    "name": "寒蝉鳴く",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 317.905,
+      "y": 542.694,
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      188,
+      103,
+      323,
+      409
+    ],
+    "precursorBounds": [
+      195,
+      103,
+      317,
+      408
+    ],
+    "motionBounds": {
+      "x": 188,
+      "y": 103,
+      "width": 135,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        256.0,
+        255.5
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-38/initial.png",
+    "completed": "kou-38/completed.png",
+    "transition": "kou-38/transition.webp",
+    "idle": "kou-38/idle.png",
+    "provenance": "kou-38/provenance.json",
+    "hashes": {
+      "initial": "d7f1987dc4038f9d24a39bc78c71a6366590acf80b92de92536d09af87093306",
+      "completed": "a77de9e3dd85d92be1c5186e829a38c3c57fbb34e938e86cf41b272a91123324",
+      "transition": "f975271feebda255ad12c72614c96fdb6ebfd1021a9b0e8f266afb0ecd71b205",
+      "idle": "a77de9e3dd85d92be1c5186e829a38c3c57fbb34e938e86cf41b272a91123324",
+      "provenance": "f4afa383ddafce676e6711a034cce1664064af431ff497ec098bf48acfb3641b"
+    }
+  }
+}

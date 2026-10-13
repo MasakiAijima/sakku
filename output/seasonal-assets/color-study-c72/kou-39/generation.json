@@ -1,0 +1,24 @@
+{
+  "id": "kou-39",
+  "hash": "0aecb69d7c9b76b26e5759a8524b4129fe5c51d5458256d9d49386014cde40d4",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-39/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-39/reference.png",
+  "reference_sha256": "ecc5255684f4f435b100d20e65ff0a88482bdd4bba604ea7473c323de7396caf",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese seasonal illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small DARK-BLUE distant tree/shadow plane beside the olive conifer and within the pale-blue fog only to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged as well. This is one small existing color field recolored to one accent hue, not a new part, not a new decoration. Preserve relative areas: the recolored field stays exactly the same SMALL area. Do not spread the accent onto the main motif. Keep the artwork centered with generous clear margins; solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:25:39.345286+00:00",
+  "image_sha256": "bcbf7112e91af2f134b45caacdeeeadbd5d5888ba5c6b4cfb739dc841db1fd22",
+  "completed_sha256": "856bd6bd23ec3d59170144466dbf7cb04b8739186da63fd76675ed5d8af9ffb4",
+  "cutout_sha256": "f398ebcf048963cc9816a2764b569d63d7945aac453120729e6980571c53ea7e",
+  "reused_from": "output/seasonal-assets/color-study-c/kou-39"
+}

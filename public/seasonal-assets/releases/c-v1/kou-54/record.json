@@ -1,0 +1,64 @@
+{
+  "fingerprint": "03b45b450946d30cfb2c2ca65e70c3367f3fc083b926abd7175662b792b55492",
+  "asset": {
+    "kouId": "kou-54",
+    "name": "楓蔦黄ばむ",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 222.469,
+      "y": 352.946,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      122,
+      103,
+      390,
+      409
+    ],
+    "precursorBounds": [
+      122,
+      299,
+      228,
+      405
+    ],
+    "motionBounds": {
+      "x": 122,
+      "y": 103,
+      "width": 268,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        175.0,
+        352.0
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-54/initial.png",
+    "completed": "kou-54/completed.png",
+    "transition": "kou-54/transition.webp",
+    "idle": "kou-54/idle.png",
+    "provenance": "kou-54/provenance.json",
+    "hashes": {
+      "initial": "c5dfded91294a58965dcd5b08cc8093f2cb33bb6e53b096701bda6fa0f4f196d",
+      "completed": "797f91143e07e3746edfef652422696cdaecf4e36f997987def4736d16a270ef",
+      "transition": "96395906aa0f1e161cf1b63788048c40a549cf7ab5cb71312b75debd64e441ff",
+      "idle": "797f91143e07e3746edfef652422696cdaecf4e36f997987def4736d16a270ef",
+      "provenance": "9dfeb62bbae2cde251f36e3b160d3fe4e1509ca8adf898f2c02e724110435910"
+    }
+  }
+}

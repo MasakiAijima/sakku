@@ -1,0 +1,30 @@
+{
+  "id": "kou-63",
+  "name": "さけの魚群がる",
+  "prompt": "Use case: stylized-concept. Asset: one independent Japanese microseason illustration. The attached image is a STYLE reference only. Preserve its few large flat color planes, expressive hand-cut organic silhouette, long unequal curves, asymmetric swelling and pinches, and restrained uneven screen-print ink inside each color field. Do not copy its subject or colors. Express only the seasonal relationship specified below. One dominant motif occupies most of the artwork; at most one or two much smaller auxiliary motifs overlap it into one compact composition. Choose natural, seasonally meaningful colors from the specified palette. Never default to red. Use broad solid opaque color planes. Silhouette has character and directional flow; avoid bilateral symmetry, equally spaced petals, repeated geometry and fine outlines. The static image must be complete; do not add separate parts or gaps for animation. Center the entire compact artwork within the central 60 percent of the square, with ample clean empty margin on all sides. Solid chromakey magenta #FF00FF background; no magenta, hot pink, fuchsia, purple spill or pink reflected lighting in the artwork. Pink petals must be muted salmon #E9B8B5, distinct from the magenta background. No faces, eyes, pupils, letters, numerals, titles, borders, frames, realistic shading, gradients, shadows, translucency, fine veins, repeated decorative dots or textures outside shapes. \nThis is a new subject design, not a recoloring of the reference. Use the reference only for flat color planes, organic contours and print texture. Never copy its subject silhouette or arrangement. Do not use a curled ribbon, spiral, swirl or wave-shaped blob as a generic symbol for weather or water. Follow the specific seasonal scene and distinguishing silhouette below.\nSubject and seasonal relation: One large unmistakable SALMON fish in nearly horizontal SIDE PROFILE swimming upstream leftward, plus one much smaller salmon behind it. A long straight streamlined spindle-shaped body, thicker middle, pointed snout with subtle hooked lower jaw, narrow tail peduncle, a clearly forked V-shaped VERTICAL tail fin shown in side silhouette, one small triangular dorsal fin near middle and one tiny adipose fin near tail. Broad silver pale-blue flank, dark slate-blue back, restrained muted salmon-red lateral spawning band. Fish body must be straight and long, not arched like a jumping dolphin. A small simple blue river plane beneath. Absolutely no dolphin, whale, cetacean, mammal, rounded melon forehead, flipper, horizontal tail flukes or large curved dorsal fin. No eyes, teeth, scales, speckles, outlines or fine anatomical lines.\nSemantic color palette: #B9D5DE (鮭の銀青色の体), #667D94 (背と尾びれ), #C57864 (婚姻色の側面), #3159A7 (川)\nColor intent: 銀青の体に暗い背と控えめな赤褐色の婚姻色を合わせる",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "reference_sha256": "be3727c8bfc3eff85f5f84d867b09f89c8fdaadd215f1d32d94f79683360366f",
+  "generator_version": "revision-3-v1",
+  "operation": "edit",
+  "hash": "0aa0f4b986044a5592d65fac51e6580d60864d40b61f19fd7f802eb01d959c3f",
+  "reference_source": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-32/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-3/kou-63/reference.png",
+  "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-3/kou-63/original.png",
+  "provenance": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-3/kou-63/generation.json",
+  "prompt_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-3/kou-63/prompt.txt",
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T11:49:18.077528+00:00",
+  "budgetPolicy": "user-waived-for-targeted-revision",
+  "actualCost": null,
+  "image_sha256": "9e19d42fa57ef4009c98139e4b3877e18b424d3615e7317bb31935ddb0459695",
+  "completed_sha256": "cde5fc9c20005c95f7b6e5e742ddfcb3ac856fdc7f154d3ba803dc54b9d37330",
+  "full_sha256": "6e4e5c2f2de7a2666fb48602070756fd3340a13f0e2f07f19ac06da245c61914",
+  "cutout_sha256": "6e4e5c2f2de7a2666fb48602070756fd3340a13f0e2f07f19ac06da245c61914"
+}

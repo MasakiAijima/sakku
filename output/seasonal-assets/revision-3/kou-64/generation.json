@@ -1,0 +1,30 @@
+{
+  "id": "kou-64",
+  "name": "乃東生ず",
+  "prompt": "Use case: stylized-concept. Asset: one independent Japanese microseason illustration. The attached image is a STYLE reference only. Preserve its few large flat color planes, expressive hand-cut organic silhouette, long unequal curves, asymmetric swelling and pinches, and restrained uneven screen-print ink inside each color field. Do not copy its subject or colors. Express only the seasonal relationship specified below. One dominant motif occupies most of the artwork; at most one or two much smaller auxiliary motifs overlap it into one compact composition. Choose natural, seasonally meaningful colors from the specified palette. Never default to red. Use broad solid opaque color planes. Silhouette has character and directional flow; avoid bilateral symmetry, equally spaced petals, repeated geometry and fine outlines. The static image must be complete; do not add separate parts or gaps for animation. Center the entire compact artwork within the central 60 percent of the square, with ample clean empty margin on all sides. Solid chromakey magenta #FF00FF background; no magenta, hot pink, fuchsia, purple spill or pink reflected lighting in the artwork. Pink petals must be muted salmon #E9B8B5, distinct from the magenta background. No faces, eyes, pupils, letters, numerals, titles, borders, frames, realistic shading, gradients, shadows, translucency, fine veins, repeated decorative dots or textures outside shapes. \nThis is a new subject design, not a recoloring of the reference. Use the reference only for flat color planes, organic contours and print texture. Never copy its subject silhouette or arrangement. Do not use a curled ribbon, spiral, swirl or wave-shaped blob as a generic symbol for weather or water. Follow the specific seasonal scene and distinguishing silhouette below.\nSubject and seasonal relation: One recognisable PRUNELLA VULGARIS self-heal plant, Japanese utsubogusa. A short dense upright cylindrical violet-purple flower spike, like a small blunt uneven club, is the MAIN motif. Indicate stacked overlapping purple tubular blossom planes as only three or four broad unequal lobes integrated into one thick spike, not tiny repeated details. One short muted-olive stem and one pair of broad opposite lanceolate leaves near the lower half, with one small ochre ground plane. Compact asymmetrical botanical cut-paper silhouette. Botanical flower spike, not a generic seedling, lotus, iris, lavender stalk with many tiny florets, cattail, maple or bamboo. Use muted bluish violet #75629B and deeper purple #574B78, never magenta or pink; these colors must remain opaque inside the plant.\nSemantic color palette: #75629B (ウツボグサの花穂), #574B78 (花穂の重なり), #72804A (茎と対生する葉), #B58A50 (大地)\nColor intent: ウツボグサの紫色の花穂とオリーブ色の葉で植物を識別できるようにする",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "reference_sha256": "be3727c8bfc3eff85f5f84d867b09f89c8fdaadd215f1d32d94f79683360366f",
+  "generator_version": "revision-3-v1",
+  "operation": "edit",
+  "hash": "7ca88e2d97ee690a1d54671188e841ac30bc6065f628ee00c5f7fffccc13c24d",
+  "reference_source": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-32/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-3/kou-64/reference.png",
+  "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-3/kou-64/original.png",
+  "provenance": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-3/kou-64/generation.json",
+  "prompt_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-3/kou-64/prompt.txt",
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T11:49:18.076773+00:00",
+  "budgetPolicy": "user-waived-for-targeted-revision",
+  "actualCost": null,
+  "image_sha256": "75bbda3af8060a7d36d81e6247a77e9cfdc834bb2cc58ce1a896151ac4f8b1cd",
+  "completed_sha256": "dc693132184ac7ff5d5b9f3719e238dae84b2221a90c87fa183080be6487c3b6",
+  "full_sha256": "3aa5560dfabaf4a56e094bfa555e8922bc7b019f6beecaec6bb61f5fe8d63cd6",
+  "cutout_sha256": "3aa5560dfabaf4a56e094bfa555e8922bc7b019f6beecaec6bb61f5fe8d63cd6"
+}

@@ -1,0 +1,70 @@
+{
+  "kouId": "kou-06",
+  "algorithmVersion": "organic-growth-48-v2",
+  "inputFingerprint": "c63590939acaa6b97a557dcfb2c50c5e79ce60b540172c0b3583ec9f5f408ec7",
+  "assetVersion": "c-v2",
+  "promptVersion": "sha256:7bfc2109b13107b6896721a86f0bb17450f9cb028c22d5dc574df42ee63aaac5",
+  "processedAtUTC": "2026-10-13T13:41:53.892284+00:00",
+  "provider": "openai",
+  "generation": {
+    "id": "kou-06",
+    "hash": "7d524393f2d248d9a2cdb74712f6425ab8b607b2f7299990806f2fc5aa2e61b5",
+    "reference_sha256": "15bebabf5504d1a310af44489a013c905fa87bcc2c53d1c096461e3f0efbab16",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small brown WOODY BRANCH beneath the two large pale-teal young leaves only; preserve leaves and olive bud casing to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:46:54.612870+00:00",
+    "completed_sha256": "696f7c880259911c00a049df740179ee09d26972cf5e354f25320c4b918bc924"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 467.504,
+      "y": 130.986,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      164,
+      103,
+      348,
+      409
+    ],
+    "precursorBounds": [
+      164,
+      328,
+      298,
+      409
+    ]
+  },
+  "sourceHashes": {
+    "C": "696f7c880259911c00a049df740179ee09d26972cf5e354f25320c4b918bc924",
+    "Cprime": "08c212e3f0bd2a18f0fb79c460ecdaab78aa461434e5c40e00d3bba69c0f20fd",
+    "generation": "87ccbdb158e8811d3e14dcb3d5f8fcb48b6957e6cc7276d2b2dc3a1ca3691cc7"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small brown WOODY BRANCH beneath the two large pale-teal young leaves only; preserve leaves and olive bud casing to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:46:54.612870+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

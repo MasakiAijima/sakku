@@ -1,0 +1,23 @@
+{
+  "id": "kou-47",
+  "hash": "174462f8b123a8872a0d7e737fba80c49b4b065d716dc02e6dc01026499610a5",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-47/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-47/reference.png",
+  "reference_sha256": "514d1d61935f6e244a6699a34ebae0d11e3c01769287053bfde7ec6371891c4c",
+  "prompt": "Use case: precise-object-edit. Make ONE local color substitution on the attached illustration. Recolor the small exposed brown SOIL BAND beneath and to the lower left of the large yellow leaf. Recolor only this small soil band vivid orange. Preserve the yellow leaf completely and keep the small opening in the soil band empty. The requested accent color is vivid orange #F48708. The subject MUST contain this exact accent hue; do not substitute another hue. Preserve the exact composition, all silhouettes, curves, sizes, positions, part count and subtle print texture. Do not omit any motif or add anything. All other subject colors remain unchanged. Use solid chromakey #FF00FF ONLY for the empty background. The accent must remain clearly distinct from this background. No text, eyes, faces, shadows, outlines, new decorations or gradients. Square 1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:22:29.411918+00:00",
+  "image_sha256": "632d88e281a087a51347878e2f1cf84cb9777945e6ed21851662f709979becb3",
+  "completed_sha256": "18c8afafa9f86bfb30deb92df713c6808c3235e45727173590acc18e48709ed4",
+  "cutout_sha256": "af295a37a75c49501e01714dddd624a456982df3d9e47753f7061a4bbd7e7978"
+}

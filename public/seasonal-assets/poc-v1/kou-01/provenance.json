@@ -1,0 +1,225 @@
+{
+  "kouId": "kou-01",
+  "provider": "openai",
+  "model": "gpt-image-2",
+  "generation": {
+    "size": "1024x1024",
+    "quality": "low"
+  },
+  "promptVersion": 1,
+  "generatedAt": "2026-10-12T07:10:25.167640+00:00",
+  "generatedAtSource": "original file timestamp; API timestamp unavailable",
+  "prompt": "Use case: stylized-concept. One square flat opaque cut-paper and textile-applique silkscreen illustration for Sakku. Only 3 to 6 large rounded hand-cut solid-color shapes. Vermilion, cobalt, pale blue, olive, ochre palette. Fine uniform ink grain inside shapes only. Compact centered motif inside the central 60 percent of the canvas. No shadows, gradients, translucency, highlights, face, eyes, text, borders, tiny decorations. Background must be a completely uniform solid magenta #FF00FF for later alpha extraction; absolutely no magenta in the subject. Subject and composition: | kou-01 | 立春 | 東風凍を解く | 春風で氷が解ける | 解氷の滴 | 二枚の氷片の間に大きな滴、横に短い風の帯。 | 朱の風帯、淡青の氷片二枚、青い滴一つを重ねる。水面全体は描かない。 |",
+  "sourceHashes": {
+    "original.png": "3f06ee259422dfa25f0f3455f8c2b7555223bdd07c037882a4aebc4ace4945f4",
+    "cutout.png": "b42e4120a0040d40a03623b1d9f832a836ffac3ebfb3614ff0c238ca250233f4",
+    "prompt.txt": "e0ab8e7c832f85f695961607fc6049d483698625a7d759c1f632b515ef5509ba"
+  },
+  "files": {
+    "initial.png": {
+      "sha256": "2898adf3ce8e36af98a3ed941f51d2d351ffc9c495889e7b41e76233c2307777",
+      "bytes": 2659,
+      "frames": 1,
+      "alphaBounds": [
+        [
+          103,
+          131,
+          410,
+          381
+        ]
+      ]
+    },
+    "completed.png": {
+      "sha256": "109e157cfc6bdbf1710d61e95021d46927614368b36c555d21b4833f70623dfc",
+      "bytes": 60470,
+      "frames": 1,
+      "alphaBounds": [
+        [
+          103,
+          131,
+          409,
+          380
+        ]
+      ]
+    },
+    "completed.webp": {
+      "sha256": "f4045d67690ddb365a9041b46a3c4863d87eb66375ce5d3fadb3a7416bcd4433",
+      "bytes": 44090,
+      "frames": 1,
+      "alphaBounds": [
+        [
+          103,
+          131,
+          409,
+          380
+        ]
+      ]
+    },
+    "transition.webp": {
+      "sha256": "177b6a82d5287f5d41ea85198eb492dc17d7d2555335c7c614277b8252b8b390",
+      "bytes": 379866,
+      "frames": 12,
+      "alphaBounds": [
+        [
+          103,
+          131,
+          410,
+          381
+        ],
+        [
+          103,
+          131,
+          410,
+          381
+        ],
+        [
+          103,
+          131,
+          410,
+          381
+        ],
+        [
+          103,
+          131,
+          410,
+          381
+        ],
+        [
+          103,
+          131,
+          410,
+          381
+        ],
+        [
+          103,
+          131,
+          410,
+          381
+        ],
+        [
+          103,
+          131,
+          410,
+          381
+        ],
+        [
+          103,
+          131,
+          410,
+          381
+        ],
+        [
+          103,
+          131,
+          410,
+          381
+        ],
+        [
+          103,
+          131,
+          410,
+          381
+        ],
+        [
+          103,
+          131,
+          410,
+          381
+        ],
+        [
+          103,
+          131,
+          409,
+          380
+        ]
+      ]
+    },
+    "idle.webp": {
+      "sha256": "a837407a9bd169e1925f3ee02b57302eb879ac6fb712246755c26107078db64e",
+      "bytes": 521024,
+      "frames": 12,
+      "alphaBounds": [
+        [
+          103,
+          131,
+          409,
+          380
+        ],
+        [
+          105,
+          131,
+          375,
+          382
+        ],
+        [
+          106,
+          131,
+          374,
+          384
+        ],
+        [
+          106,
+          131,
+          374,
+          384
+        ],
+        [
+          106,
+          131,
+          374,
+          384
+        ],
+        [
+          105,
+          131,
+          375,
+          382
+        ],
+        [
+          103,
+          131,
+          409,
+          380
+        ],
+        [
+          101,
+          130,
+          377,
+          378
+        ],
+        [
+          100,
+          129,
+          378,
+          377
+        ],
+        [
+          100,
+          129,
+          377,
+          376
+        ],
+        [
+          100,
+          129,
+          378,
+          377
+        ],
+        [
+          101,
+          130,
+          377,
+          378
+        ]
+      ]
+    }
+  },
+  "actualCost": null,
+  "costEvidence": "Bundled generation CLI returned no usage; actual cost unknown",
+  "rights": {
+    "reference": "https://openai.com/policies/terms-of-use/",
+    "review": "pending"
+  },
+  "initialMethod": "Approximate Muted Pop: 2x2 silhouette bounding regions, up to four large rounded geometric segments, nearest muted palette color; approximate initial, not final art",
+  "idleMethod": "Provisional rigid rotation +/-1.5 degrees about fixed canvas center; not separated-piece animation"
+}

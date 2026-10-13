@@ -1,0 +1,64 @@
+{
+  "fingerprint": "a8a540a523d31b0cd5649fa066693f1d0dedefba0826a03d0a7b151e968b9ff0",
+  "asset": {
+    "kouId": "kou-16",
+    "name": "葭始めて生ず",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 589.71,
+      "y": 310.397,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      182,
+      103,
+      330,
+      409
+    ],
+    "precursorBounds": [
+      238,
+      331,
+      280,
+      379
+    ],
+    "motionBounds": {
+      "x": 182,
+      "y": 103,
+      "width": 148,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        259.0,
+        355.0
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-16/initial.png",
+    "completed": "kou-16/completed.png",
+    "transition": "kou-16/transition.webp",
+    "idle": "kou-16/idle.png",
+    "provenance": "kou-16/provenance.json",
+    "hashes": {
+      "initial": "a198d5644779b0f67d9beacffa1f8c71f4248f7d34e5376e964aa3e5b47f4a78",
+      "completed": "b47268bce33bbbdbbf753c58fdab373d884557a624de28d7bce7784527233a2e",
+      "transition": "a43742fba72ccf1b698d2fed8d37684c7b9f81ce467941345164ba3fd8c169b4",
+      "idle": "b47268bce33bbbdbbf753c58fdab373d884557a624de28d7bce7784527233a2e",
+      "provenance": "cd43c20608d77f0e095248113ad926304fe51bb04bd771f699d480e560466e72"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "kouId": "kou-11",
+  "algorithmVersion": "organic-growth-48-v2",
+  "inputFingerprint": "b1e3b73fe11eb91724f135ce749228b0622a0ba333775de693d7b0bf11235cb5",
+  "assetVersion": "c-v2",
+  "promptVersion": "sha256:0c015a5497a9d667e82518acc5402428c73cf69eaea54c9266784e0c2f8ea41c",
+  "processedAtUTC": "2026-10-13T13:41:55.463953+00:00",
+  "provider": "openai",
+  "generation": {
+    "id": "kou-11",
+    "hash": "97079263f88993184f2a200ca0f15d17c592ebfdcf303534504a18d3b541dfb8",
+    "reference_sha256": "b5f6f6db37559709abb06dc3cacc7fd341b47e1206adb5410456672f7f5c0c23",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the short tiny brown CHERRY BRANCH beneath the pink blossoms only; preserve pink and ivory petal planes to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:49:43.861999+00:00",
+    "completed_sha256": "007ff74ea6bc5fdce49b3fb7348d12088afbc52de5eab97a47034c1f2609074d"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 560.177,
+      "y": 213.433,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      134,
+      409,
+      377
+    ],
+    "precursorBounds": [
+      274,
+      292,
+      356,
+      371
+    ]
+  },
+  "sourceHashes": {
+    "C": "007ff74ea6bc5fdce49b3fb7348d12088afbc52de5eab97a47034c1f2609074d",
+    "Cprime": "39cca9b579b0bc83f893c2f30edaaf7ae9e1e873b274bc455284be76103f1705",
+    "generation": "2f47ffa9f1858fe124e19802297e2feac0e5e2df52d7f77dd5574723052331d3"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the short tiny brown CHERRY BRANCH beneath the pink blossoms only; preserve pink and ivory petal planes to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:49:43.861999+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

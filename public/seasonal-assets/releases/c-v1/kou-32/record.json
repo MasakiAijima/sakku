@@ -1,0 +1,64 @@
+{
+  "fingerprint": "8987d410daa32d66faa44bc970dbe77e5f25e2ee6a67a2b209d6679993d039c2",
+  "asset": {
+    "kouId": "kou-32",
+    "name": "蓮始めて開く",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 429.21,
+      "y": 533.425,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      124,
+      103,
+      388,
+      409
+    ],
+    "precursorBounds": [
+      240,
+      321,
+      374,
+      409
+    ],
+    "motionBounds": {
+      "x": 124,
+      "y": 103,
+      "width": 264,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        307.0,
+        365.0
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-32/initial.png",
+    "completed": "kou-32/completed.png",
+    "transition": "kou-32/transition.webp",
+    "idle": "kou-32/idle.png",
+    "provenance": "kou-32/provenance.json",
+    "hashes": {
+      "initial": "39ef78c14fc3166748337c6ad3490069309af706b0eadf620f6f22ad31ba88a9",
+      "completed": "af0c7652a6e838e752826a7ceac59a58682d0f12551a706a1dc69a6446479872",
+      "transition": "5824c8833a0dbd3c0f439c2cd7ad792b8a3b2384f59f839dec993f36788efe38",
+      "idle": "af0c7652a6e838e752826a7ceac59a58682d0f12551a706a1dc69a6446479872",
+      "provenance": "45a56e220a0ae20a43b48236948439a09f374c640b035dc3a796833558980adf"
+    }
+  }
+}

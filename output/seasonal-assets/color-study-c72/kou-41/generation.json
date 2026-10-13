@@ -1,0 +1,23 @@
+{
+  "id": "kou-41",
+  "hash": "1aa7f852b0ab26633126cd02a15845cbab34acc4ba288a66fe3c2094e0112158",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/revision-12/kou-41/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-41/reference.png",
+  "reference_sha256": "9dc948db18a3032e7b6baed3ea58cb259f43df3245ed4d487ae1880a120b4c16",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the narrow IVORY SEAM between the broad pale-blue sky and ochre earth planes only; preserve large sky and ground planes to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:02:27.040012+00:00",
+  "image_sha256": "5c9c2e2e5a35ce4abd81921a1beabfb561fa09b7e07846e09cd7f53ea27c8ae5",
+  "completed_sha256": "49ad36bd608d8dea7db5237530ac916ff031cbeb2cb18fad5be6006ed99d640d",
+  "cutout_sha256": "f0ddeabd2af5bdaf725883bdaf389381ada916bc5b438e1c15cf1224a424f46b"
+}

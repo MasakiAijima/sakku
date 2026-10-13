@@ -1,0 +1,64 @@
+{
+  "fingerprint": "408cd388cd57d50d8b69e097e4d851129a777c43cfc1aae0f02cbc267aa68a30",
+  "asset": {
+    "kouId": "kou-53",
+    "name": "小雨ときどきふる",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 108.661,
+      "y": 360.327,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      171,
+      409,
+      341
+    ],
+    "precursorBounds": [
+      330,
+      172,
+      352,
+      218
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 171,
+      "width": 306,
+      "height": 170
+    },
+    "animation": {
+      "seed": [
+        341.0,
+        195.0
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-53/initial.png",
+    "completed": "kou-53/completed.png",
+    "transition": "kou-53/transition.webp",
+    "idle": "kou-53/idle.png",
+    "provenance": "kou-53/provenance.json",
+    "hashes": {
+      "initial": "638551abcebed7971600c85c71255901dd072b3e9adb698201697dcd856eb247",
+      "completed": "1d4a02e7e3062be160c681c5a1fcf88c8a12c01414193295dd045dc0f1c2b2d7",
+      "transition": "d34889e98c9e38f05af7e878da0ed0f91af12b24bb931264f27f4f871684e14c",
+      "idle": "1d4a02e7e3062be160c681c5a1fcf88c8a12c01414193295dd045dc0f1c2b2d7",
+      "provenance": "8dd9bac7e8335f54917b027cc45c9459fd559ad6aaf9f5d6c7ec7ffe533fd50c"
+    }
+  }
+}

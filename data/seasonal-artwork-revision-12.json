@@ -1,0 +1,367 @@
+{
+  "schemaVersion": 1,
+  "revision": "revision-12",
+  "budgetPolicy": "user-waived-for-targeted-revision",
+  "entries": [
+    {
+      "id": "kou-01",
+      "name": "東風凍を解く",
+      "sekkiId": "sekki-01",
+      "sekki": "立春",
+      "season": "spring",
+      "meaning": "春風で氷が解ける",
+      "relation": "大きな氷の塊が春風でほどける",
+      "composition": "傾いた淡青の氷に青緑の融水と一滴を添える",
+      "palette": [
+        {
+          "hex": "#90B8B0",
+          "role": "春風"
+        },
+        {
+          "hex": "#B9D5DE",
+          "role": "氷"
+        },
+        {
+          "hex": "#3159A7",
+          "role": "融けた水"
+        }
+      ],
+      "colorReason": "風は柔らかな青緑、氷は淡青で早春の冷たさと解氷を表す",
+      "subjectPrompt": "One large tilted pale-blue ice block with a rounded softened bottom corner, a small pale-teal meltwater puddle underneath and one blue drop. A diagonal softened edge suggests the arriving gentle spring air. Main silhouette is a compact irregular ice block, not a wind symbol. No ribbons, curling wisps, spirals, hook shapes, clouds or foliage.",
+      "referenceId": "kou-01",
+      "referencePath": "public/seasonal-assets/poc-v3/kou-32/completed.png",
+      "revisionReason": "ユーザーレビューによる対象12候だけの形と構図の見直し"
+    },
+    {
+      "id": "kou-05",
+      "name": "霞始めてたなびく",
+      "sekkiId": "sekki-02",
+      "sekki": "雨水",
+      "season": "spring",
+      "meaning": "春霞がたなびく",
+      "relation": "丘の前に薄い霞が横にたなびく",
+      "composition": "幅の違う淡桃と生成りの霞が低い丘を横切る",
+      "palette": [
+        {
+          "hex": "#E9B8B5",
+          "role": "春霞"
+        },
+        {
+          "hex": "#72804A",
+          "role": "丘"
+        },
+        {
+          "hex": "#B9D5DE",
+          "role": "霞の冷色"
+        }
+      ],
+      "colorReason": "霞は淡桃と淡青、丘は芽吹き前のオリーブで穏やかにする",
+      "subjectPrompt": "Two broad unequal horizontal bands of muted salmon and warm ivory spring haze, with subtly uneven scalloped upper edges and tapering ends. They overlap one very small muted-olive rounded distant hill at the lower edge. The main silhouette is low, wide and horizontal. Flat opaque planes, no translucency. No curled ends, spirals, hooks, large wave or ribbon wind glyph. Do not depict a flower.",
+      "referenceId": "kou-01",
+      "referencePath": "public/seasonal-assets/poc-v3/kou-32/completed.png",
+      "revisionReason": "ユーザーレビューによる対象12候だけの形と構図の見直し"
+    },
+    {
+      "id": "kou-37",
+      "name": "涼風至る",
+      "sekkiId": "sekki-13",
+      "sekki": "立秋",
+      "season": "autumn",
+      "meaning": "涼しい風が吹く",
+      "relation": "涼風で草の葉先が片側へ傾く",
+      "composition": "二枚の大きな青緑の草葉が同じ方向になびく",
+      "palette": [
+        {
+          "hex": "#B9D5DE",
+          "role": "涼風"
+        },
+        {
+          "hex": "#90B8B0",
+          "role": "風の折れ"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "翼果"
+        }
+      ],
+      "colorReason": "涼しさを淡青、乾いた翼果を自然な黄褐色で表す",
+      "subjectPrompt": "Two broad pale-teal late-summer grass blades rooted together, unequal heights, both bending gently toward the right, with one small muted-gold seed head leaning with them. The cool breeze is shown only through the bending plant. An open airy asymmetrical silhouette, with large full leaf planes, no drawn wind glyph, no spiral, no wave, no ice or cloud. Do not make a flower.",
+      "referenceId": "kou-01",
+      "referencePath": "public/seasonal-assets/poc-v3/kou-32/completed.png",
+      "revisionReason": "ユーザーレビューによる対象12候だけの形と構図の見直し"
+    },
+    {
+      "id": "kou-41",
+      "name": "天地始めてさむし",
+      "sekkiId": "sekki-14",
+      "sekki": "処暑",
+      "season": "autumn",
+      "meaning": "空と地面が冷え始める",
+      "relation": "空と大地の間に秋の冷たさが広がる",
+      "composition": "淡青の広い空と黄褐色の低い大地を上下に重ねる",
+      "palette": [
+        {
+          "hex": "#B9D5DE",
+          "role": "冷えた空気"
+        },
+        {
+          "hex": "#3159A7",
+          "role": "空の深い面"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "地面"
+        }
+      ],
+      "colorReason": "冷気を淡青と深青、地面を褐色で表す",
+      "subjectPrompt": "An abstract miniature landscape of exactly two large broad opaque planes: a cool pale-blue uneven trapezoid of autumn sky above a low warm-ochre rolling ground plane. A narrow irregular ivory seam between them suggests cooling air. The overall silhouette is broad and roughly rectangular with gently organic edges, visibly layered sky above earth. No wind curl, ribbon, hook, cloud puff, droplet or leaf. No outlined frame.",
+      "referenceId": "kou-01",
+      "referencePath": "public/seasonal-assets/poc-v3/kou-32/completed.png",
+      "revisionReason": "ユーザーレビューによる対象12候だけの形と構図の見直し"
+    },
+    {
+      "id": "kou-51",
+      "name": "蟋蟀戸にあり",
+      "sekkiId": "sekki-17",
+      "sekki": "寒露",
+      "season": "autumn",
+      "meaning": "戸の近くで秋の虫が鳴く",
+      "relation": "秋の戸口に小さな蟋蟀が寄る",
+      "composition": "大きな木の戸口の足元に丸い小さな蟋蟀を添える",
+      "palette": [
+        {
+          "hex": "#B58A50",
+          "role": "木の戸口"
+        },
+        {
+          "hex": "#72804A",
+          "role": "小さな蟋蟀"
+        },
+        {
+          "hex": "#4C493B",
+          "role": "戸口の陰"
+        }
+      ],
+      "colorReason": "温かな木の褐色を広く使い、蟋蟀は小さなオリーブ色の形に抑える",
+      "subjectPrompt": "A warm-brown wooden doorway corner and short threshold are the LARGE MAIN motif, made of two broad soft-edged solid planes with an olive shaded recess. Nestled at the foot is ONE VERY SMALL friendly abstract cricket silhouette, less than one quarter of the doorway height: a tiny rounded olive-brown bean body, a small head, one broad folded hind-leg wedge and at most two short simple legs. No antennae, no eyes, no hairs, no segmented abdomen, no thin spidery legs, no sharp claws, no anatomical detail, no realistic insect close-up. Calm welcoming warm-paper composition. The insect must be small and unobtrusive.",
+      "referenceId": "kou-54",
+      "referencePath": "public/seasonal-assets/poc-v3/kou-32/completed.png",
+      "revisionReason": "ユーザーレビューによる対象12候だけの形と構図の見直し"
+    },
+    {
+      "id": "kou-52",
+      "name": "霜始めて降る",
+      "sekkiId": "sekki-18",
+      "sekki": "霜降",
+      "season": "autumn",
+      "meaning": "初霜が降りる",
+      "relation": "地面の草に初霜が置く",
+      "composition": "低い黄褐色の地面に太く短い白い霜の草束を置く",
+      "palette": [
+        {
+          "hex": "#B58A50",
+          "role": "落葉"
+        },
+        {
+          "hex": "#F5F3ED",
+          "role": "初霜"
+        },
+        {
+          "hex": "#B9D5DE",
+          "role": "冷たい陰"
+        }
+      ],
+      "colorReason": "生成りの初霜と淡青の冷たさを、黄褐色の地面へ重ねる",
+      "subjectPrompt": "A low warm-ochre uneven patch of ground supports one compact cluster of THREE unequal short broad grass blades coated in thick warm-ivory first frost. A small pale-blue shadow plane lies at the base. The frosted blades have chunky gently jagged edges, no tiny crystal lines. Main shape is a pale frost-covered low tuft, not a leaf lying flat. No maple, ivy, autumn leaf, snowflake diagram, decorative repeated crystals, tall stems or curling wind.",
+      "referenceId": "kou-54",
+      "referencePath": "public/seasonal-assets/poc-v3/kou-32/completed.png",
+      "revisionReason": "ユーザーレビューによる対象12候だけの形と構図の見直し"
+    },
+    {
+      "id": "kou-58",
+      "name": "虹かくれて見えず",
+      "sekkiId": "sekki-20",
+      "sekki": "小雪",
+      "season": "winter",
+      "meaning": "冬に虹が見えなくなる",
+      "relation": "冬雲に虹が隠れていく",
+      "composition": "大きな灰青の雲が虹の弧をほとんど覆う",
+      "palette": [
+        {
+          "hex": "#667D94",
+          "role": "冬雲"
+        },
+        {
+          "hex": "#B9D5DE",
+          "role": "冷たい空気"
+        },
+        {
+          "hex": "#F1EBDD",
+          "role": "雪・光"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "大地"
+        },
+        {
+          "hex": "#E3BC45",
+          "role": "隠れる虹の黄色"
+        }
+      ],
+      "colorReason": "冬雲の青を広くし、虹の色は短い断片に限定する",
+      "subjectPrompt": "One large dense slate-pale-blue winter cloud with three broad unequal rounded lobes. One very small fragment of a muted gold and salmon rainbow arch is almost concealed BEHIND the lower left edge; only a short upside-down-U segment remains visible. The silhouette is a heavy broad cloud, not a curling breeze. No spiral, hook, pointed tail, wind ribbon, ice fragment or water drop. No fully visible rainbow.",
+      "referenceId": "kou-01",
+      "referencePath": "public/seasonal-assets/poc-v3/kou-32/completed.png",
+      "revisionReason": "ユーザーレビューによる対象12候だけの形と構図の見直し"
+    },
+    {
+      "id": "kou-59",
+      "name": "朔風葉を払う",
+      "sekkiId": "sekki-20",
+      "sekki": "小雪",
+      "season": "winter",
+      "meaning": "北風が木の葉を払う",
+      "relation": "北風が黄葉を枝から払う",
+      "composition": "斜めに流れる二枚の黄葉と小さな裸枝",
+      "palette": [
+        {
+          "hex": "#B9D5DE",
+          "role": "北風"
+        },
+        {
+          "hex": "#E3BC45",
+          "role": "落葉"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "裸枝"
+        }
+      ],
+      "colorReason": "北風は冷たい淡青、落葉は黄、裸枝は褐色にする",
+      "subjectPrompt": "Two broad irregular autumn leaves, one golden yellow and one warm ochre, tumble diagonally down to the right away from one much smaller bare twig at the upper left. One leaf is broad with a shallow uneven notch, the other slender and tilted, avoid maple lobes. Their offset tilted silhouettes convey a strong north wind WITHOUT drawing any wind glyph. No curl, spiral, blue wind shape, cloud, repeated tiny leaves or thin veins.",
+      "referenceId": "kou-01",
+      "referencePath": "public/seasonal-assets/poc-v3/kou-32/completed.png",
+      "revisionReason": "ユーザーレビューによる対象12候だけの形と構図の見直し"
+    },
+    {
+      "id": "kou-61",
+      "name": "閉塞冬となる",
+      "sekkiId": "sekki-21",
+      "sekki": "大雪",
+      "season": "winter",
+      "meaning": "空が塞がり冬になる",
+      "relation": "重い冬雲が山を閉ざす",
+      "composition": "平たい濃灰青の雲蓋を低い山にかぶせる",
+      "palette": [
+        {
+          "hex": "#667D94",
+          "role": "冬雲"
+        },
+        {
+          "hex": "#B9D5DE",
+          "role": "冷たい空気"
+        },
+        {
+          "hex": "#F1EBDD",
+          "role": "雪・光"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "大地"
+        }
+      ],
+      "colorReason": "重い冬空の青と山の褐色を使う",
+      "subjectPrompt": "A very wide LOW FLAT dark slate-blue overcast cloud lid, with an almost level top edge and a heavy slightly sagging bottom edge, presses down over a smaller angular ivory snow-covered hill with an ochre base. The cloud and hill overlap into one dense closed compact composition. Distinct flattened slab silhouette, NOT a fluffy rounded cloud and NOT a curved wind ribbon. No rainbow, hooks, curls, spirals, droplet or trees.",
+      "referenceId": "kou-01",
+      "referencePath": "public/seasonal-assets/poc-v3/kou-32/completed.png",
+      "revisionReason": "ユーザーレビューによる対象12候だけの形と構図の見直し"
+    },
+    {
+      "id": "kou-66",
+      "name": "雪下りて麦のびる",
+      "sekkiId": "sekki-22",
+      "sekki": "冬至",
+      "season": "winter",
+      "meaning": "雪の下で麦が伸びる",
+      "relation": "雪の下から麦の若葉が開き始める",
+      "composition": "丸い雪の隙間から短く幅のある緑の若葉が開く",
+      "palette": [
+        {
+          "hex": "#90B8B0",
+          "role": "麦の新芽"
+        },
+        {
+          "hex": "#72804A",
+          "role": "芽の濃色"
+        },
+        {
+          "hex": "#F5F3ED",
+          "role": "雪"
+        }
+      ],
+      "colorReason": "麦の新緑と雪の白を使い、成長の関係を表す",
+      "subjectPrompt": "A compact young WHEAT SEEDLING emerging from a low irregular warm-ivory cushion of snow. Two short broad fresh teal-green lance-shaped juvenile leaves unfold close to the ground in a squat open V, with a tiny darker olive emerging central leaf. Leaves are thick rounded folded planes with visible width and curved tips, not long narrow stalks. Their height above the snow is only about the snow cushion width. No visible stem, no long stalk, no reed, no grass-like tall narrow blade, no branch, no flowers or grain head. Emphasize the small tender sprout opening under the snow.",
+      "referenceId": "kou-32",
+      "referencePath": "public/seasonal-assets/poc-v3/kou-32/completed.png",
+      "revisionReason": "ユーザーレビューによる対象12候だけの形と構図の見直し"
+    },
+    {
+      "id": "kou-68",
+      "name": "水泉動",
+      "sekkiId": "sekki-23",
+      "sekki": "小寒",
+      "season": "winter",
+      "meaning": "地中の泉が動き始める",
+      "relation": "地面の泉が内側から動き始める",
+      "composition": "岩に囲まれた低い楕円の水面と中央の小さな湧き口",
+      "palette": [
+        {
+          "hex": "#90B8B0",
+          "role": "湧く水"
+        },
+        {
+          "hex": "#3159A7",
+          "role": "水の折れ"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "岩"
+        }
+      ],
+      "colorReason": "泉の水を青緑と深青、岩を自然な褐色にする",
+      "subjectPrompt": "A broad low irregular oval pool of deep blue spring water nestled within a thick asymmetrical pale-ochre stone rim. In the middle, one small upright rounded pale-teal mound of upwelling water quietly rises, without splash. Top-down oblique view, wide bowl-like outline, flat solid planes. The main silhouette is an enclosed oval basin. No S curves, curved tongue, stream ribbon, wind glyph, spirals, hook or separate raindrop.",
+      "referenceId": "kou-01",
+      "referencePath": "public/seasonal-assets/poc-v3/kou-32/completed.png",
+      "revisionReason": "ユーザーレビューによる対象12候だけの形と構図の見直し"
+    },
+    {
+      "id": "kou-69",
+      "name": "雉始めてなく",
+      "sekkiId": "sekki-23",
+      "sekki": "小寒",
+      "season": "winter",
+      "meaning": "雉が鳴き始める",
+      "relation": "長い尾の雄雉が地上で鳴き始める",
+      "composition": "細い首と小さな頭、体より長い尾をもつ雄雉",
+      "palette": [
+        {
+          "hex": "#72804A",
+          "role": "雉の胸"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "長い尾"
+        },
+        {
+          "hex": "#D94B35",
+          "role": "首の小さな色面"
+        }
+      ],
+      "colorReason": "雉の緑の胸と褐色の長尾、赤は首の小面だけにする",
+      "subjectPrompt": "One recognisable male Japanese green pheasant standing in SIDE PROFILE on two short sturdy legs. Small head, visibly slender upright neck, elongated horizontal dark-olive body, a small vermilion cheek/neck color patch without eye or facial detail, and an unmistakably VERY LONG narrow copper-brown tapering tail extending diagonally behind it, at least 1.5 times body length. A broad asymmetric dark wing plane. Keep head small, breast slender, tail long. Absolutely not a dove, pigeon, round songbird, duck or chicken. No eyes, pupils, beak expression, thin feather lines or repeated feather texture.",
+      "referenceId": "kou-54",
+      "referencePath": "public/seasonal-assets/poc-v3/kou-32/completed.png",
+      "revisionReason": "ユーザーレビューによる対象12候だけの形と構図の見直し"
+    }
+  ]
+}

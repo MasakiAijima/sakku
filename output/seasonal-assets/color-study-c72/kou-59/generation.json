@@ -1,0 +1,23 @@
+{
+  "id": "kou-59",
+  "hash": "e9f7036df712a9b2c8a157930dfcb1947ccb14d0e571da3b5aa9b64c1fac4b94",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/revision-12/kou-59/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-59/reference.png",
+  "reference_sha256": "38c508b6d7f2c312b3b2415ffa6ab26b59becf7e5699025196e94f86bd5573e6",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small bare BROWN TWIG at upper left behind the two falling golden and ochre leaves only; preserve both leaves to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:11:12.417180+00:00",
+  "image_sha256": "75550d5d74d3af815b2eb1f189441ef43c96c7d256233a3bd773380052a4d9c6",
+  "completed_sha256": "88c796562ca1a0b3ac726486fcd1da92082103e374c0831f58a2eaf4309b856b",
+  "cutout_sha256": "4d1317e2e30f07848f7633b3e50ee6f58780440eae6f862a641004ef7e7b096f"
+}

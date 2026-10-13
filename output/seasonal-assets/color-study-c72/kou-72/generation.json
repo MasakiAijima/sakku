@@ -1,0 +1,23 @@
+{
+  "id": "kou-72",
+  "hash": "db5b7c88ba63b3ed95df05738b8acd6f699c6b9451ebe9a80d1373def6172a91",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-72/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-72/reference.png",
+  "reference_sha256": "baed51383a624be8ec5d863498f1fedb5f20b8868bdcf4a8fd146ce3b6b5275d",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small vermilion COMB on the ivory chicken only; preserve ivory chicken and egg and brown coop to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:19:04.565071+00:00",
+  "image_sha256": "f1adcd9978bee9aa416e5bd9196e50e77cf65b12a8d1c9ec742544328e9b0691",
+  "completed_sha256": "23a139616556c4fce9881b974be3823dfd8037278e642b58b8c6f4e3471e250e",
+  "cutout_sha256": "51c379b4caa844274080aca5c325fda9a6d01906007befbb9fdf1c651301c95e"
+}

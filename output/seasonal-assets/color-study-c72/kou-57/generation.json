@@ -1,0 +1,23 @@
+{
+  "id": "kou-57",
+  "hash": "5475760dfa48b7b22f2d323f13c3c30640dd2c5f925c539c605183a880286213",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-57/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-57/reference.png",
+  "reference_sha256": "71a79ac1e1677ddf76e86a059f4ed0c833cc0a86d787c93d5cce79ba16abe9c7",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small olive LEAF under the large ivory narcissus petals only; preserve ivory flower and golden cup to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:09:49.726997+00:00",
+  "image_sha256": "4bd1b5c52dd505f0db86183b92057796a340364ffb27d94842e25bbee8ac0c67",
+  "completed_sha256": "41d68058a6c06a9f87cc166e902d76731e77b852b94d15dbeec7a18d29c2f59c",
+  "cutout_sha256": "52a29136737e39719a676da162dac40230cbc87afade0928a2846a403e342f5d"
+}

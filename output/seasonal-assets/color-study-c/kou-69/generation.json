@@ -1,0 +1,23 @@
+{
+  "id": "kou-69",
+  "hash": "3024081a1fc538d7c2593b255e6ced93c83fa45a4279072f315229c5a1caaf0a",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/revision-12/kou-69/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c/kou-69/reference.png",
+  "reference_sha256": "e4162e94c2050d7d36588a66fae265b63e016b19571d770c61503ba90fd443eb",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese seasonal illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the tiny RED CHEEK/NECK PATCH only; preserve olive body and head, dark wing, brown long tail, legs and grass to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged as well. This is one small existing color field recolored to one accent hue, not a new part, not a new decoration. Preserve relative areas: the recolored field stays exactly the same SMALL area. Do not spread the accent onto the main motif. Keep the artwork centered with generous clear margins; solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:28:29.813298+00:00",
+  "image_sha256": "360002553c1a244a343392cbbf7b5f68b2d8913f4520360620177a8da6957b75",
+  "completed_sha256": "3e09d7206dcdf3fb3a53726b8d2caac0d66be42e6347490f14a03fb56c8e456c",
+  "cutout_sha256": "8befad8222e7c554b7fc3092d5e8c2873c1e803821da44129cf453beefeeace6"
+}

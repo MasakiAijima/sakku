@@ -1,0 +1,64 @@
+{
+  "fingerprint": "967a49beaff2d9ba487a1adfdffabdfe6c5b45a0ebfc32903136b6c1dee89c91",
+  "asset": {
+    "kouId": "kou-22",
+    "name": "蚕起きて桑を食む",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 537.28,
+      "y": 393.141,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      115,
+      103,
+      397,
+      409
+    ],
+    "precursorBounds": [
+      130,
+      365,
+      163,
+      409
+    ],
+    "motionBounds": {
+      "x": 115,
+      "y": 103,
+      "width": 282,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        146.5,
+        387.0
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-22/initial.png",
+    "completed": "kou-22/completed.png",
+    "transition": "kou-22/transition.webp",
+    "idle": "kou-22/idle.png",
+    "provenance": "kou-22/provenance.json",
+    "hashes": {
+      "initial": "b727d4ba468a1694915bf8e5f69a1188022f1e6327ddc1a2ee5b35779f572eda",
+      "completed": "d25d0fde017186398f4ee8e200b69a1ea676bc2fd889ccfc68b6304b302fc681",
+      "transition": "eac8e178a80a6a4554154ba4497fdf777f41e751e7361c3015b62c08f9317ccf",
+      "idle": "d25d0fde017186398f4ee8e200b69a1ea676bc2fd889ccfc68b6304b302fc681",
+      "provenance": "6f5d487f6dcd6e7ff2270be6f4441f96d0e05937ad90e89622a3dd52009a33c3"
+    }
+  }
+}

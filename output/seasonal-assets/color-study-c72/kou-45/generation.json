@@ -1,0 +1,23 @@
+{
+  "id": "kou-45",
+  "hash": "59aebad5bc3c71e6c08f2e61b8f50ca7a2e9a28d660479304a1d3433edd54975",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-45/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-45/reference.png",
+  "reference_sha256": "1c5247c51998c4e43293253dd693de7f159a2f34ccb87495c5088b4d83691fcc",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the tiny distant BLUE SWALLOW above the broad ochre empty nest only; preserve ochre nest and dark interior to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:04:02.940428+00:00",
+  "image_sha256": "f52819ba17c5773f8b1e67faf594a2226791ac5fe78a78d295f4e5c7766c4917",
+  "completed_sha256": "f9b1bc54b802f69bf35732ab344538e55162df742693590b380e370c401ebd67",
+  "cutout_sha256": "9e8391c53bcbdfbc7e169697212a80364eb4fb278b2b07e3049242f3d9441f16"
+}

@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-51",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "5c1a81e5099add251e69f18c81a72a741af6dbe135aadb2fd47318590a9e58b4",
+  "generation": {
+    "id": "kou-51",
+    "hash": "06cb11df85606d915802b0f888607da6e19dff15585ec844f5206366bba12619",
+    "reference_sha256": "344e53ac5d4a8a612d6cc3802352eb1058340bf35d746c49b5a5ae3cbcd67814",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the VERY SMALL olive CRICKET at the bottom of the warm-brown doorway only; preserve brown doorway and dark recess to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T13:06:56.858361+00:00",
+    "completed_sha256": "e9778fcb754fc57e69a0931e9ab67d6d9630e5eed409e5d7d317c9ab06864244"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 110.694,
+      "y": 414.312,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      138,
+      103,
+      374,
+      409
+    ],
+    "precursorBounds": [
+      229,
+      329,
+      260,
+      352
+    ]
+  },
+  "sourceHashes": {
+    "C": "e9778fcb754fc57e69a0931e9ab67d6d9630e5eed409e5d7d317c9ab06864244",
+    "Cprime": "b75d6a2d7c840d7860fafaae1ea330104f8d3df74c83af7abd44838ced082951",
+    "generation": "11328b055a2bff213947592213b191b0ee7ef00b61740da6468132fe560e7cf9"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the VERY SMALL olive CRICKET at the bottom of the warm-brown doorway only; preserve brown doorway and dark recess to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T13:06:56.858361+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

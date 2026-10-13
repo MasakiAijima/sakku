@@ -1,0 +1,70 @@
+{
+  "kouId": "kou-49",
+  "algorithmVersion": "organic-growth-48-v2",
+  "inputFingerprint": "742110b57169be20ca475e07b051c5b00f03a095a3beaa95442ffb8b46f39a05",
+  "assetVersion": "c-v2",
+  "promptVersion": "sha256:f6b365faeffd2be379acd16792a8d5c1b8d4ea6c936bd5fa05d94718091b2045",
+  "processedAtUTC": "2026-10-13T13:42:05.565821+00:00",
+  "provider": "openai",
+  "generation": {
+    "id": "kou-49",
+    "hash": "acb2487b772434bbaf1502af735fae8846f6637a9c9c9fe7dd948251893d3ba4",
+    "reference_sha256": "cc5064233e0ee179a7171889b51a55f399b444561d1c0deddccfe517b5a6190c",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small pale-teal WATER RIPPLE beneath the brown goose only; preserve brown body and dark wing to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T13:05:37.152410+00:00",
+    "completed_sha256": "8f64400fc3cfc2491e1ba5dc9540e2d313dee3466c9d4f0a553f5edd28add3de"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 218.504,
+      "y": 410.112,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      121,
+      409,
+      390
+    ],
+    "precursorBounds": [
+      104,
+      348,
+      237,
+      389
+    ]
+  },
+  "sourceHashes": {
+    "C": "8f64400fc3cfc2491e1ba5dc9540e2d313dee3466c9d4f0a553f5edd28add3de",
+    "Cprime": "4dcc0afbf960eaf7a73be24de55e133baf28e8acda8c812c2863c627633afffd",
+    "generation": "879e250f76af7cd32d43c8e54ae5cb06c7f7ad2fe7fcb6caec181b0ba8b5f089"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small pale-teal WATER RIPPLE beneath the brown goose only; preserve brown body and dark wing to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T13:05:37.152410+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

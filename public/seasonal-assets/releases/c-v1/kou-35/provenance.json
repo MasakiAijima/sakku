@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-35",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "6acefce8d9c8feb26656ce2e29516d01cc0a1bef9dc411ba16710109af1ed66f",
+  "generation": {
+    "id": "kou-35",
+    "hash": "de6bd92bdfdd78c3c6a1a1d4390b2eff41d7623720dfb143e41b3ebd83588e8e",
+    "reference_sha256": "a934f04292ad94ee85d34cbed0930db063dbb27db4e05252b34ab04bcd3c44e8",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small golden-yellow HUMID HEAT PLUME above the broad ochre soil only; preserve soil and orange lower plane to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:59:46.316702+00:00",
+    "completed_sha256": "e4f3d0cd51c6e734a9bfecbc8eb7f2aa8c980fc5aa6ecdaca3623723c4aef832"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 373.317,
+      "y": 522.844,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      139,
+      409,
+      373
+    ],
+    "precursorBounds": [
+      168,
+      139,
+      298,
+      275
+    ]
+  },
+  "sourceHashes": {
+    "C": "e4f3d0cd51c6e734a9bfecbc8eb7f2aa8c980fc5aa6ecdaca3623723c4aef832",
+    "Cprime": "1775a80a0934733cfc7daf990bb605405799cbc7f71f1810558e89b7ff8bcd81",
+    "generation": "237ff81355c730c376930a65efa2dbb3897bd0c1a9694e9601d4acfa899e2e07"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small golden-yellow HUMID HEAT PLUME above the broad ochre soil only; preserve soil and orange lower plane to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:59:46.316702+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "kou-58",
+  "hash": "167d78e11afb8df2d48c48af6e2c3eaaaa21ffe80eb783cb670f48c742c45ec3",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/revision-12/kou-58/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c/kou-58/reference.png",
+  "reference_sha256": "9cf92777968872b843dd8507ed2a1c84121c6b8292911edc93f6a5e30922757c",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese seasonal illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the tiny muted-salmon INNER RAINBOW ARC peeking out from the bottom-left of the cloud only; preserve slate-blue cloud and gold outer arc to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged as well. This is one small existing color field recolored to one accent hue, not a new part, not a new decoration. Preserve relative areas: the recolored field stays exactly the same SMALL area. Do not spread the accent onto the main motif. Keep the artwork centered with generous clear margins; solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:27:02.740467+00:00",
+  "image_sha256": "543b4e0535ea9ff7c0aae142d8370762d806b24eeb0dcf7a33104d0cdddfb39c",
+  "completed_sha256": "1e0ac358e2c3237305e6e0c22b99adabbd609f57bfaeaf8c0606e1faa2bf3dd6",
+  "cutout_sha256": "5ee0aa1777c4ae7570f324677b982237dc7610bb40e49af1c5902def29a905f9"
+}

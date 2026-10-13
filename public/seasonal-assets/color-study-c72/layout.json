@@ -1,0 +1,2112 @@
+{
+  "schemaVersion": 1,
+  "status": "current-artwork-fixed-layout",
+  "seed": 1972,
+  "masterVersion": "e72212780133af95020bc7f39e95b6638d664b3d647c1f7b1077aa4ec317d649",
+  "viewBox": [
+    0,
+    0,
+    700,
+    700
+  ],
+  "packingBoundary": {
+    "cx": 350,
+    "cy": 350,
+    "radius": 285.0
+  },
+  "commonVisibleLongEdge": 43.24,
+  "minimumHullGap": 3.0,
+  "algorithm": "fixed coordinates / latest 72 silhouettes / common-size fit",
+  "sources": {
+    "kou-01": {
+      "path": "kou-01/completed.png",
+      "sha256": "1264b493129b1595ad492425f0ab5f179d6579f2c67d578b08a16501ba740d24",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        116,
+        103,
+        396,
+        409
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-02": {
+      "path": "kou-02/completed.png",
+      "sha256": "492794a5d8ed3e4f2ca5ef8af24770f8236d1aa6a0591624b69271c08d826859",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        104,
+        409,
+        408
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-03": {
+      "path": "kou-03/completed.png",
+      "sha256": "765c00a27a0bf2c907246bb8973b54f8126150b5dc5cd69c2d03ac386818a855",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        158,
+        409,
+        354
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-04": {
+      "path": "kou-04/completed.png",
+      "sha256": "912fef639aa30aa7fd2023be4c5852c48dda55fa87f2e042308ff67a110c181e",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        162,
+        409,
+        349
+      ],
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-05": {
+      "path": "kou-05/completed.png",
+      "sha256": "748eb2c6758ff9fdc260fa5c35c143d3b572215efe0835895032635f4afa63ae",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        172,
+        409,
+        340
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-06": {
+      "path": "kou-06/completed.png",
+      "sha256": "696f7c880259911c00a049df740179ee09d26972cf5e354f25320c4b918bc924",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        164,
+        103,
+        348,
+        409
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-07": {
+      "path": "kou-07/completed.png",
+      "sha256": "ce6df88e9bb729efab2efc73f67bda30b3958fd1544675485cde3081f4b8bb88",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        110,
+        103,
+        402,
+        409
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-08": {
+      "path": "kou-08/completed.png",
+      "sha256": "1a826e68a9686f39111068db7cb0e02411db9587b37c6f466381b326f105b4e6",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        112,
+        103,
+        400,
+        409
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-09": {
+      "path": "kou-09/completed.png",
+      "sha256": "b323721adb3c6908a36d89e34855d91db8658ab3bf58504aeb1c0f6d64940646",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        108,
+        103,
+        404,
+        409
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-10": {
+      "path": "kou-10/completed.png",
+      "sha256": "72373ed3692f8edcc5b2a981769f397f639f467dffce4956168744203c112894",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        111,
+        409,
+        400
+      ],
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-11": {
+      "path": "kou-11/completed.png",
+      "sha256": "007ff74ea6bc5fdce49b3fb7348d12088afbc52de5eab97a47034c1f2609074d",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        134,
+        409,
+        377
+      ],
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-12": {
+      "path": "kou-12/completed.png",
+      "sha256": "ef2e77d35c91355e51d4be60607b5469119694f7d0d37dab820dfc819df32b37",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        154,
+        409,
+        357
+      ],
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-13": {
+      "path": "kou-13/completed.png",
+      "sha256": "dd9f1ed91713d256ebcf4b4c71f82c1fd05335c1a2ac95ae20dd61b34b855d02",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        130,
+        409,
+        381
+      ],
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-14": {
+      "path": "kou-14/completed.png",
+      "sha256": "1ff404c8815f4dc32987280192010f687450db8acad210babc7dae315a712839",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        106,
+        103,
+        406,
+        409
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-15": {
+      "path": "kou-15/completed.png",
+      "sha256": "07eda5b1c24ea7c6dba88c0ecc532a804a7e47bf2d578ba3967ecfb3b1ae85ac",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        146,
+        409,
+        365
+      ],
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-16": {
+      "path": "kou-16/completed.png",
+      "sha256": "b47268bce33bbbdbbf753c58fdab373d884557a624de28d7bce7784527233a2e",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        182,
+        103,
+        330,
+        409
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-17": {
+      "path": "kou-17/completed.png",
+      "sha256": "947e119dd5970626c17a7a66d98c8514e8d4e953dec79bb77897797d7ff51620",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        126,
+        103,
+        386,
+        409
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-18": {
+      "path": "kou-18/completed.png",
+      "sha256": "7c914b58dc790ca09236d2615bc1e180c6cbada889fe664c0e401d02b5be42ec",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        115,
+        103,
+        396,
+        409
+      ],
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-19": {
+      "path": "kou-19/completed.png",
+      "sha256": "6eb5d96f51b2b671cd27b730f7871c8aeb7e21719a6250dbbb2ddd36b20b7d84",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        127,
+        409,
+        385
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-20": {
+      "path": "kou-20/completed.png",
+      "sha256": "bd200fe099fc0356dcbb72d892a6ceccdefecca779c7ba45ec48d3ad0c316395",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        130,
+        103,
+        381,
+        409
+      ],
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-21": {
+      "path": "kou-21/completed.png",
+      "sha256": "8db465146f8a7cc7a982b55186558abbfc80c847ce87a1a7098acc935b8c783b",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        153,
+        103,
+        358,
+        409
+      ],
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-22": {
+      "path": "kou-22/completed.png",
+      "sha256": "d25d0fde017186398f4ee8e200b69a1ea676bc2fd889ccfc68b6304b302fc681",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        115,
+        103,
+        397,
+        409
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-23": {
+      "path": "kou-23/completed.png",
+      "sha256": "5d3bb1513f8af980833835474a6a3d45bd8a846e958e1d33b54dd4dbbd3e503e",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        145,
+        103,
+        366,
+        409
+      ],
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-24": {
+      "path": "kou-24/completed.png",
+      "sha256": "bdf74a96424183c30062516ec6058f4861958936fd34b0a192e17dd127200bdf",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        185,
+        103,
+        327,
+        409
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-25": {
+      "path": "kou-25/completed.png",
+      "sha256": "8fa7de8881bb803abf1e1755bb1710d429f62c8ec0e7656d05e6d67df614f1db",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        108,
+        103,
+        404,
+        409
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-26": {
+      "path": "kou-26/completed.png",
+      "sha256": "85a46466c8b8f04b05c3d128bfa49fd56bd8110eae72f727a9f5311d22c90855",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        112,
+        409,
+        399
+      ],
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-27": {
+      "path": "kou-27/completed.png",
+      "sha256": "3f337632d806de3be8d3ef4b7e6a7c1bce8492bb45eccd87a6653b03f073fd16",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        111,
+        103,
+        400,
+        409
+      ],
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-28": {
+      "path": "kou-28/completed.png",
+      "sha256": "27c40dbf0434aa991c5d176cf66c7b107e397de1cd66abe3fa83cf6f7558ba2f",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        158,
+        103,
+        353,
+        409
+      ],
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-29": {
+      "path": "kou-29/completed.png",
+      "sha256": "6d73bde6f4213cc7886dea3844b73fe9c8e4ccacc4ccf4b75f7d1c24c6699802",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        154,
+        103,
+        358,
+        409
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-30": {
+      "path": "kou-30/completed.png",
+      "sha256": "02f4fb5bb55a2299c5f56a23b58731295d6052333e78bdca9c0ac9112d10a7a5",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        164,
+        103,
+        347,
+        409
+      ],
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-31": {
+      "path": "kou-31/completed.png",
+      "sha256": "734ba30aaae2390627cb51bbdc7a376578029e4c73ea5ef7513849957899283e",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        142,
+        409,
+        370
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-32": {
+      "path": "kou-32/completed.png",
+      "sha256": "af0c7652a6e838e752826a7ceac59a58682d0f12551a706a1dc69a6446479872",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        124,
+        103,
+        388,
+        409
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-33": {
+      "path": "kou-33/completed.png",
+      "sha256": "5f5182448f57698536fe081e7f0867fff43c2432bcc5a67a68981097c63f5714",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        147,
+        103,
+        365,
+        409
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-34": {
+      "path": "kou-34/completed.png",
+      "sha256": "9ac6895e802626b20ebaa8beb8c4382c490eb314cc5270261d0c565288cd9c06",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        165,
+        103,
+        346,
+        409
+      ],
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-35": {
+      "path": "kou-35/completed.png",
+      "sha256": "e4f3d0cd51c6e734a9bfecbc8eb7f2aa8c980fc5aa6ecdaca3623723c4aef832",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        139,
+        409,
+        373
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-36": {
+      "path": "kou-36/completed.png",
+      "sha256": "e3cc0e5f74fc6c5ba49a9d063aa4ffb7384208d74b8e1c7c32f0fe6783a14cc6",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        131,
+        103,
+        380,
+        409
+      ],
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-37": {
+      "path": "kou-37/completed.png",
+      "sha256": "95eac34711e9480e577b6dafea7ba9a6a99379f632134fe7a45f164d8350eabd",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        131,
+        103,
+        381,
+        409
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-38": {
+      "path": "kou-38/completed.png",
+      "sha256": "a77de9e3dd85d92be1c5186e829a38c3c57fbb34e938e86cf41b272a91123324",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        188,
+        103,
+        323,
+        409
+      ],
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-39": {
+      "path": "kou-39/completed.png",
+      "sha256": "856bd6bd23ec3d59170144466dbf7cb04b8739186da63fd76675ed5d8af9ffb4",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        160,
+        409,
+        352
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-40": {
+      "path": "kou-40/completed.png",
+      "sha256": "18468b6c7482cd842e7c4fefc5e51b0e64882f444efbbd738e048947f2c146c7",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        125,
+        103,
+        386,
+        409
+      ],
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-41": {
+      "path": "kou-41/completed.png",
+      "sha256": "49ad36bd608d8dea7db5237530ac916ff031cbeb2cb18fad5be6006ed99d640d",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        131,
+        409,
+        380
+      ],
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-42": {
+      "path": "kou-42/completed.png",
+      "sha256": "512f2fa0407a280e60bb6651b63ce9b1fff535e206105f11d89cbe01f19bf82d",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        115,
+        103,
+        396,
+        409
+      ],
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-43": {
+      "path": "kou-43/completed.png",
+      "sha256": "794f2343f05d7009dba4be47e4ba3c40a2363052bb7c778a808eae676a85b2d1",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        139,
+        409,
+        373
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-44": {
+      "path": "kou-44/completed.png",
+      "sha256": "e72318f303e98ccc56d64d6065fcf462ff2f67db29071ce2df2e99b15bd49684",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        106,
+        409,
+        406
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-45": {
+      "path": "kou-45/completed.png",
+      "sha256": "f9b1bc54b802f69bf35732ab344538e55162df742693590b380e370c401ebd67",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        104,
+        409,
+        407
+      ],
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-46": {
+      "path": "kou-46/completed.png",
+      "sha256": "9e52a9703d43fa8db8dafe53bc53e983afda318315807885a312ba86a8cf778e",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        172,
+        409,
+        340
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-47": {
+      "path": "kou-47/completed.png",
+      "sha256": "6ed7bd0ad44ef8003bf19c81a85ccb37461b72f6e09a43306575d4d966de750a",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        104,
+        409,
+        408
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-48": {
+      "path": "kou-48/completed.png",
+      "sha256": "522871cf47ed668d76a3507a1f57d1f3c7201d90ba1801cbddf4fcd9371858c5",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        155,
+        409,
+        356
+      ],
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-49": {
+      "path": "kou-49/completed.png",
+      "sha256": "8f64400fc3cfc2491e1ba5dc9540e2d313dee3466c9d4f0a553f5edd28add3de",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        121,
+        409,
+        390
+      ],
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-50": {
+      "path": "kou-50/completed.png",
+      "sha256": "eb14da4adb936a69ebbd3be38a9d4940f6a9ea6bd0f5fd83bf60bf07cd363ef2",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        106,
+        409,
+        405
+      ],
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-51": {
+      "path": "kou-51/completed.png",
+      "sha256": "e9778fcb754fc57e69a0931e9ab67d6d9630e5eed409e5d7d317c9ab06864244",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        138,
+        103,
+        374,
+        409
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-52": {
+      "path": "kou-52/completed.png",
+      "sha256": "6c29c5c54b42afa2970f539a391e367fe2f46c7adb6481e72408e94852f72550",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        119,
+        103,
+        392,
+        409
+      ],
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-53": {
+      "path": "kou-53/completed.png",
+      "sha256": "1d4a02e7e3062be160c681c5a1fcf88c8a12c01414193295dd045dc0f1c2b2d7",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        171,
+        409,
+        341
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-54": {
+      "path": "kou-54/completed.png",
+      "sha256": "797f91143e07e3746edfef652422696cdaecf4e36f997987def4736d16a270ef",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        122,
+        103,
+        390,
+        409
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-55": {
+      "path": "kou-55/completed.png",
+      "sha256": "58d5c8f5ad6647db0721c5b5b088bc361e5b53b9bf98c709cc0fb7999faa333b",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        117,
+        103,
+        395,
+        409
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-56": {
+      "path": "kou-56/completed.png",
+      "sha256": "696fd12a637858a46cfe04551be1616fffc5fac38ab124a68f2ee6742b52267b",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        140,
+        409,
+        372
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-57": {
+      "path": "kou-57/completed.png",
+      "sha256": "41d68058a6c06a9f87cc166e902d76731e77b852b94d15dbeec7a18d29c2f59c",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        115,
+        103,
+        397,
+        409
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-58": {
+      "path": "kou-58/completed.png",
+      "sha256": "e19b5cfc65d9a9fa7df9a6226eea9b7a89d7281c462010339bf85a4845f22123",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        126,
+        409,
+        386
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-59": {
+      "path": "kou-59/completed.png",
+      "sha256": "88c796562ca1a0b3ac726486fcd1da92082103e374c0831f58a2eaf4309b856b",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        130,
+        103,
+        382,
+        409
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-60": {
+      "path": "kou-60/completed.png",
+      "sha256": "4d4142767c449f2bd3a1c70b17d67fb6833e28b973a6cd155bfd31a4b5aedbff",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        123,
+        103,
+        389,
+        409
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-61": {
+      "path": "kou-61/completed.png",
+      "sha256": "3226db396b92de65c2cd8f8dc46437f475119e6ce54e70a4860471a055307ed7",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        134,
+        409,
+        378
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-62": {
+      "path": "kou-62/completed.png",
+      "sha256": "408e4667f5db4b4c1932ab31b619d34d3d2b704bec4a073bb5fa8b0e7f50ec1c",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        124,
+        409,
+        388
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-63": {
+      "path": "kou-63/completed.png",
+      "sha256": "3f6757cd15be6830bb49fd684c71a21317c93f94a39f578677c177a9fac67338",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        190,
+        409,
+        322
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-64": {
+      "path": "kou-64/completed.png",
+      "sha256": "3d0b03ed067dc54c95d40bee2fc3f3a5c3a05d9addf34377d11c7b796513294a",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        156,
+        103,
+        355,
+        409
+      ],
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-65": {
+      "path": "kou-65/completed.png",
+      "sha256": "c635b1db9ddcb082767c83d1b3147cbdf9fece4de13d3c8d42dfc2732077b3f5",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        130,
+        409,
+        381
+      ],
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-66": {
+      "path": "kou-66/completed.png",
+      "sha256": "73262578b849d176395a09aca86c11f9ac2fdd62d3109fbd36ee7f57f3792fee",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        166,
+        103,
+        346,
+        409
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-67": {
+      "path": "kou-67/completed.png",
+      "sha256": "e9d8109a6e6f404d47add4ab7e7f14d7571100ba1c3abef49ef97d0144537a49",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        127,
+        103,
+        385,
+        409
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-68": {
+      "path": "kou-68/completed.png",
+      "sha256": "c45b5c5dd329d0e4ff2ccb2dc3f26b3d5eb800df817cd3807fafcf2b275d9815",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        125,
+        409,
+        387
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-69": {
+      "path": "kou-69/completed.png",
+      "sha256": "831edc084d00ef2aa9fdc5132a9f38db922e4b8acb78de738aadd93a2c58cbd5",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        136,
+        409,
+        375
+      ],
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-70": {
+      "path": "kou-70/completed.png",
+      "sha256": "7a42360837ee0cb0a392d1918b3f3218e3fd33dd18aa8f45b5f60b48755f5016",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        120,
+        103,
+        391,
+        409
+      ],
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-71": {
+      "path": "kou-71/completed.png",
+      "sha256": "d71c7a98682e43b25de7cccfdc6be3a4f71dc97e564e54e34b168914fb92473a",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        157,
+        409,
+        354
+      ],
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-72": {
+      "path": "kou-72/completed.png",
+      "sha256": "23a139616556c4fce9881b974be3823dfd8037278e642b58b8c6f4e3471e250e",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        131,
+        409,
+        380
+      ],
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    }
+  },
+  "entries": [
+    {
+      "id": "kou-01",
+      "name": "東風凍を解く",
+      "sekkiId": "sekki-01",
+      "season": "spring",
+      "sourceId": "kou-01",
+      "placeholder": false,
+      "x": 351.792,
+      "y": 160.16
+    },
+    {
+      "id": "kou-02",
+      "name": "うぐいす鳴く",
+      "sekkiId": "sekki-01",
+      "season": "spring",
+      "sourceId": "kou-02",
+      "placeholder": false,
+      "x": 400.633,
+      "y": 110.74
+    },
+    {
+      "id": "kou-03",
+      "name": "魚氷を上る",
+      "sekkiId": "sekki-01",
+      "season": "spring",
+      "sourceId": "kou-03",
+      "placeholder": false,
+      "x": 410.808,
+      "y": 156.573
+    },
+    {
+      "id": "kou-04",
+      "name": "土脉潤い起こる",
+      "sekkiId": "sekki-02",
+      "season": "spring",
+      "sourceId": "kou-04",
+      "placeholder": false,
+      "x": 394.444,
+      "y": 201.683
+    },
+    {
+      "id": "kou-05",
+      "name": "霞始めてたなびく",
+      "sekkiId": "sekki-02",
+      "season": "spring",
+      "sourceId": "kou-05",
+      "placeholder": false,
+      "x": 388.458,
+      "y": 245.318
+    },
+    {
+      "id": "kou-06",
+      "name": "草木萌え動る",
+      "sekkiId": "sekki-02",
+      "season": "spring",
+      "sourceId": "kou-06",
+      "placeholder": false,
+      "x": 467.504,
+      "y": 130.986
+    },
+    {
+      "id": "kou-07",
+      "name": "すごもりの虫戸を開く",
+      "sekkiId": "sekki-03",
+      "season": "spring",
+      "sourceId": "kou-07",
+      "placeholder": false,
+      "x": 453.15,
+      "y": 198.233
+    },
+    {
+      "id": "kou-08",
+      "name": "桃始めてさく",
+      "sekkiId": "sekki-03",
+      "season": "spring",
+      "sourceId": "kou-08",
+      "placeholder": false,
+      "x": 510.374,
+      "y": 172.541
+    },
+    {
+      "id": "kou-09",
+      "name": "菜虫蝶となる",
+      "sekkiId": "sekki-03",
+      "season": "spring",
+      "sourceId": "kou-09",
+      "placeholder": false,
+      "x": 445.928,
+      "y": 255.011
+    },
+    {
+      "id": "kou-10",
+      "name": "雀始めて巣くう",
+      "sekkiId": "sekki-04",
+      "season": "spring",
+      "sourceId": "kou-10",
+      "placeholder": false,
+      "x": 503.224,
+      "y": 236.04
+    },
+    {
+      "id": "kou-11",
+      "name": "桜始めて開く",
+      "sekkiId": "sekki-04",
+      "season": "spring",
+      "sourceId": "kou-11",
+      "placeholder": false,
+      "x": 560.177,
+      "y": 213.433
+    },
+    {
+      "id": "kou-12",
+      "name": "雷乃ち声を発す",
+      "sekkiId": "sekki-04",
+      "season": "spring",
+      "sourceId": "kou-12",
+      "placeholder": false,
+      "x": 421.439,
+      "y": 298.571
+    },
+    {
+      "id": "kou-13",
+      "name": "玄鳥至る",
+      "sekkiId": "sekki-05",
+      "season": "spring",
+      "sourceId": "kou-13",
+      "placeholder": false,
+      "x": 514.117,
+      "y": 280.394
+    },
+    {
+      "id": "kou-14",
+      "name": "鴻雁かえる",
+      "sekkiId": "sekki-05",
+      "season": "spring",
+      "sourceId": "kou-14",
+      "placeholder": false,
+      "x": 571.41,
+      "y": 261.384
+    },
+    {
+      "id": "kou-15",
+      "name": "虹始めてあらわる",
+      "sekkiId": "sekki-05",
+      "season": "spring",
+      "sourceId": "kou-15",
+      "placeholder": false,
+      "x": 476.314,
+      "y": 324.209
+    },
+    {
+      "id": "kou-16",
+      "name": "葭始めて生ず",
+      "sekkiId": "sekki-06",
+      "season": "spring",
+      "sourceId": "kou-16",
+      "placeholder": false,
+      "x": 589.71,
+      "y": 310.397
+    },
+    {
+      "id": "kou-17",
+      "name": "霜止で苗出ずる",
+      "sekkiId": "sekki-06",
+      "season": "spring",
+      "sourceId": "kou-17",
+      "placeholder": false,
+      "x": 533.169,
+      "y": 337.649
+    },
+    {
+      "id": "kou-18",
+      "name": "牡丹はなさく",
+      "sekkiId": "sekki-06",
+      "season": "spring",
+      "sourceId": "kou-18",
+      "placeholder": false,
+      "x": 377.919,
+      "y": 342.279
+    },
+    {
+      "id": "kou-19",
+      "name": "蛙始めて鳴く",
+      "sekkiId": "sekki-07",
+      "season": "summer",
+      "sourceId": "kou-19",
+      "placeholder": false,
+      "x": 592.111,
+      "y": 363.503
+    },
+    {
+      "id": "kou-20",
+      "name": "みみず出ずる",
+      "sekkiId": "sekki-07",
+      "season": "summer",
+      "sourceId": "kou-20",
+      "placeholder": false,
+      "x": 482.693,
+      "y": 379.22
+    },
+    {
+      "id": "kou-21",
+      "name": "竹のこ生ず",
+      "sekkiId": "sekki-07",
+      "season": "summer",
+      "sourceId": "kou-21",
+      "placeholder": false,
+      "x": 429.751,
+      "y": 360.731
+    },
+    {
+      "id": "kou-22",
+      "name": "蚕起きて桑を食む",
+      "sekkiId": "sekki-08",
+      "season": "summer",
+      "sourceId": "kou-22",
+      "placeholder": false,
+      "x": 537.28,
+      "y": 393.141
+    },
+    {
+      "id": "kou-23",
+      "name": "紅花栄う",
+      "sekkiId": "sekki-08",
+      "season": "summer",
+      "sourceId": "kou-23",
+      "placeholder": false,
+      "x": 588.857,
+      "y": 416.276
+    },
+    {
+      "id": "kou-24",
+      "name": "麦秋至る",
+      "sekkiId": "sekki-08",
+      "season": "summer",
+      "sourceId": "kou-24",
+      "placeholder": false,
+      "x": 495.039,
+      "y": 438.459
+    },
+    {
+      "id": "kou-25",
+      "name": "蟷螂生ず",
+      "sekkiId": "sekki-09",
+      "season": "summer",
+      "sourceId": "kou-25",
+      "placeholder": false,
+      "x": 546.971,
+      "y": 461.714
+    },
+    {
+      "id": "kou-26",
+      "name": "腐れたる草蛍となる",
+      "sekkiId": "sekki-09",
+      "season": "summer",
+      "sourceId": "kou-26",
+      "placeholder": false,
+      "x": 439.244,
+      "y": 427.566
+    },
+    {
+      "id": "kou-27",
+      "name": "梅のみ黄ばむ",
+      "sekkiId": "sekki-09",
+      "season": "summer",
+      "sourceId": "kou-27",
+      "placeholder": false,
+      "x": 530.952,
+      "y": 514.486
+    },
+    {
+      "id": "kou-28",
+      "name": "乃東枯る",
+      "sekkiId": "sekki-10",
+      "season": "summer",
+      "sourceId": "kou-28",
+      "placeholder": false,
+      "x": 478.783,
+      "y": 492.039
+    },
+    {
+      "id": "kou-29",
+      "name": "菖蒲はなさく",
+      "sekkiId": "sekki-10",
+      "season": "summer",
+      "sourceId": "kou-29",
+      "placeholder": false,
+      "x": 383.861,
+      "y": 400.877
+    },
+    {
+      "id": "kou-30",
+      "name": "半夏生ず",
+      "sekkiId": "sekki-10",
+      "season": "summer",
+      "sourceId": "kou-30",
+      "placeholder": false,
+      "x": 480.688,
+      "y": 558.225
+    },
+    {
+      "id": "kou-31",
+      "name": "温風至る",
+      "sekkiId": "sekki-11",
+      "season": "summer",
+      "sourceId": "kou-31",
+      "placeholder": false,
+      "x": 423.188,
+      "y": 480.65
+    },
+    {
+      "id": "kou-32",
+      "name": "蓮始めて開く",
+      "sekkiId": "sekki-11",
+      "season": "summer",
+      "sourceId": "kou-32",
+      "placeholder": false,
+      "x": 429.21,
+      "y": 533.425
+    },
+    {
+      "id": "kou-33",
+      "name": "鷹乃ちわざをならう",
+      "sekkiId": "sekki-11",
+      "season": "summer",
+      "sourceId": "kou-33",
+      "placeholder": false,
+      "x": 420.17,
+      "y": 586.202
+    },
+    {
+      "id": "kou-34",
+      "name": "桐始めて花を結ぶ",
+      "sekkiId": "sekki-12",
+      "season": "summer",
+      "sourceId": "kou-34",
+      "placeholder": false,
+      "x": 372.428,
+      "y": 453.645
+    },
+    {
+      "id": "kou-35",
+      "name": "土潤いてむし暑し",
+      "sekkiId": "sekki-12",
+      "season": "summer",
+      "sourceId": "kou-35",
+      "placeholder": false,
+      "x": 373.317,
+      "y": 522.844
+    },
+    {
+      "id": "kou-36",
+      "name": "大雨時にふる",
+      "sekkiId": "sekki-12",
+      "season": "summer",
+      "sourceId": "kou-36",
+      "placeholder": false,
+      "x": 361.729,
+      "y": 589.282
+    },
+    {
+      "id": "kou-37",
+      "name": "涼風至る",
+      "sekkiId": "sekki-13",
+      "season": "autumn",
+      "sourceId": "kou-37",
+      "placeholder": false,
+      "x": 320.232,
+      "y": 488.667
+    },
+    {
+      "id": "kou-38",
+      "name": "寒蝉鳴く",
+      "sekkiId": "sekki-13",
+      "season": "autumn",
+      "sourceId": "kou-38",
+      "placeholder": false,
+      "x": 317.905,
+      "y": 542.694
+    },
+    {
+      "id": "kou-39",
+      "name": "深き霧まとう",
+      "sekkiId": "sekki-13",
+      "season": "autumn",
+      "sourceId": "kou-39",
+      "placeholder": false,
+      "x": 304.116,
+      "y": 596.62
+    },
+    {
+      "id": "kou-40",
+      "name": "綿のはなしべ開く",
+      "sekkiId": "sekki-14",
+      "season": "autumn",
+      "sourceId": "kou-40",
+      "placeholder": false,
+      "x": 318.966,
+      "y": 434.819
+    },
+    {
+      "id": "kou-41",
+      "name": "天地始めてさむし",
+      "sekkiId": "sekki-14",
+      "season": "autumn",
+      "sourceId": "kou-41",
+      "placeholder": false,
+      "x": 264.959,
+      "y": 509.608
+    },
+    {
+      "id": "kou-42",
+      "name": "禾乃ちみのる",
+      "sekkiId": "sekki-14",
+      "season": "autumn",
+      "sourceId": "kou-42",
+      "placeholder": false,
+      "x": 251.538,
+      "y": 563.665
+    },
+    {
+      "id": "kou-43",
+      "name": "草露白し",
+      "sekkiId": "sekki-15",
+      "season": "autumn",
+      "sourceId": "kou-43",
+      "placeholder": false,
+      "x": 263.711,
+      "y": 455.527
+    },
+    {
+      "id": "kou-44",
+      "name": "鶺鴒鳴く",
+      "sekkiId": "sekki-15",
+      "season": "autumn",
+      "sourceId": "kou-44",
+      "placeholder": false,
+      "x": 196.591,
+      "y": 540.375
+    },
+    {
+      "id": "kou-45",
+      "name": "玄鳥去る",
+      "sekkiId": "sekki-15",
+      "season": "autumn",
+      "sourceId": "kou-45",
+      "placeholder": false,
+      "x": 330.772,
+      "y": 380.707
+    },
+    {
+      "id": "kou-46",
+      "name": "雷乃ち声を収む",
+      "sekkiId": "sekki-16",
+      "season": "autumn",
+      "sourceId": "kou-46",
+      "placeholder": false,
+      "x": 210.122,
+      "y": 485.599
+    },
+    {
+      "id": "kou-47",
+      "name": "虫かくれて戸をふさぐ",
+      "sekkiId": "sekki-16",
+      "season": "autumn",
+      "sourceId": "kou-47",
+      "placeholder": false,
+      "x": 152.629,
+      "y": 493.975
+    },
+    {
+      "id": "kou-48",
+      "name": "水始めて涸る",
+      "sekkiId": "sekki-16",
+      "season": "autumn",
+      "sourceId": "kou-48",
+      "placeholder": false,
+      "x": 164.91,
+      "y": 440.002
+    },
+    {
+      "id": "kou-49",
+      "name": "鴻雁来る",
+      "sekkiId": "sekki-17",
+      "season": "autumn",
+      "sourceId": "kou-49",
+      "placeholder": false,
+      "x": 218.504,
+      "y": 410.112
+    },
+    {
+      "id": "kou-50",
+      "name": "菊花開く",
+      "sekkiId": "sekki-17",
+      "season": "autumn",
+      "sourceId": "kou-50",
+      "placeholder": false,
+      "x": 273.21,
+      "y": 389.204
+    },
+    {
+      "id": "kou-51",
+      "name": "蟋蟀戸にあり",
+      "sekkiId": "sekki-17",
+      "season": "autumn",
+      "sourceId": "kou-51",
+      "placeholder": false,
+      "x": 110.694,
+      "y": 414.312
+    },
+    {
+      "id": "kou-52",
+      "name": "霜始めて降る",
+      "sekkiId": "sekki-18",
+      "season": "autumn",
+      "sourceId": "kou-52",
+      "placeholder": false,
+      "x": 164.014,
+      "y": 382.908
+    },
+    {
+      "id": "kou-53",
+      "name": "小雨ときどきふる",
+      "sekkiId": "sekki-18",
+      "season": "autumn",
+      "sourceId": "kou-53",
+      "placeholder": false,
+      "x": 108.661,
+      "y": 360.327
+    },
+    {
+      "id": "kou-54",
+      "name": "楓蔦黄ばむ",
+      "sekkiId": "sekki-18",
+      "season": "autumn",
+      "sourceId": "kou-54",
+      "placeholder": false,
+      "x": 222.469,
+      "y": 352.946
+    },
+    {
+      "id": "kou-55",
+      "name": "山茶始めて開く",
+      "sekkiId": "sekki-19",
+      "season": "winter",
+      "sourceId": "kou-55",
+      "placeholder": false,
+      "x": 162.003,
+      "y": 334.071
+    },
+    {
+      "id": "kou-56",
+      "name": "地始めて凍る",
+      "sekkiId": "sekki-19",
+      "season": "winter",
+      "sourceId": "kou-56",
+      "placeholder": false,
+      "x": 96.594,
+      "y": 307.0
+    },
+    {
+      "id": "kou-57",
+      "name": "金盞香",
+      "sekkiId": "sekki-19",
+      "season": "winter",
+      "sourceId": "kou-57",
+      "placeholder": false,
+      "x": 307.655,
+      "y": 328.159
+    },
+    {
+      "id": "kou-58",
+      "name": "虹かくれて見えず",
+      "sekkiId": "sekki-20",
+      "season": "winter",
+      "sourceId": "kou-58",
+      "placeholder": false,
+      "x": 197.686,
+      "y": 290.45
+    },
+    {
+      "id": "kou-59",
+      "name": "朔風葉を払う",
+      "sekkiId": "sekki-20",
+      "season": "winter",
+      "sourceId": "kou-59",
+      "placeholder": false,
+      "x": 141.858,
+      "y": 266.295
+    },
+    {
+      "id": "kou-60",
+      "name": "橘始めて黄ばむ",
+      "sekkiId": "sekki-20",
+      "season": "winter",
+      "sourceId": "kou-60",
+      "placeholder": false,
+      "x": 254.839,
+      "y": 295.564
+    },
+    {
+      "id": "kou-61",
+      "name": "閉塞冬となる",
+      "sekkiId": "sekki-21",
+      "season": "winter",
+      "sourceId": "kou-61",
+      "placeholder": false,
+      "x": 140.615,
+      "y": 218.136
+    },
+    {
+      "id": "kou-62",
+      "name": "熊穴にこもる",
+      "sekkiId": "sekki-21",
+      "season": "winter",
+      "sourceId": "kou-62",
+      "placeholder": false,
+      "x": 200.932,
+      "y": 237.583
+    },
+    {
+      "id": "kou-63",
+      "name": "さけの魚群がる",
+      "sekkiId": "sekki-21",
+      "season": "winter",
+      "sourceId": "kou-63",
+      "placeholder": false,
+      "x": 176.937,
+      "y": 169.315
+    },
+    {
+      "id": "kou-64",
+      "name": "乃東生ず",
+      "sekkiId": "sekki-22",
+      "season": "winter",
+      "sourceId": "kou-64",
+      "placeholder": false,
+      "x": 258.169,
+      "y": 233.269
+    },
+    {
+      "id": "kou-65",
+      "name": "さわしかの角おつる",
+      "sekkiId": "sekki-22",
+      "season": "winter",
+      "sourceId": "kou-65",
+      "placeholder": false,
+      "x": 239.873,
+      "y": 185.697
+    },
+    {
+      "id": "kou-66",
+      "name": "雪下りて麦のびる",
+      "sekkiId": "sekki-22",
+      "season": "winter",
+      "sourceId": "kou-66",
+      "placeholder": false,
+      "x": 228.289,
+      "y": 132.111
+    },
+    {
+      "id": "kou-67",
+      "name": "芹乃ち栄う",
+      "sekkiId": "sekki-23",
+      "season": "winter",
+      "sourceId": "kou-67",
+      "placeholder": false,
+      "x": 308.479,
+      "y": 270.872
+    },
+    {
+      "id": "kou-68",
+      "name": "水泉動",
+      "sekkiId": "sekki-23",
+      "season": "winter",
+      "sourceId": "kou-68",
+      "placeholder": false,
+      "x": 297.911,
+      "y": 180.467
+    },
+    {
+      "id": "kou-69",
+      "name": "雉始めてなく",
+      "sekkiId": "sekki-23",
+      "season": "winter",
+      "sourceId": "kou-69",
+      "placeholder": false,
+      "x": 285.807,
+      "y": 123.556
+    },
+    {
+      "id": "kou-70",
+      "name": "款冬華く",
+      "sekkiId": "sekki-24",
+      "season": "winter",
+      "sourceId": "kou-70",
+      "placeholder": false,
+      "x": 332.331,
+      "y": 227.25
+    },
+    {
+      "id": "kou-71",
+      "name": "水沢氷つめる",
+      "sekkiId": "sekki-24",
+      "season": "winter",
+      "sourceId": "kou-71",
+      "placeholder": false,
+      "x": 342.035,
+      "y": 108.564
+    },
+    {
+      "id": "kou-72",
+      "name": "鶏始めてとやにつく",
+      "sekkiId": "sekki-24",
+      "season": "winter",
+      "sourceId": "kou-72",
+      "placeholder": false,
+      "x": 362.483,
+      "y": 293.942
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "generated": 72,
+  "reused": 4,
+  "newSubjects": 68,
+  "additionalGenerations": 7,
+  "coordinateCount": 72,
+  "coordinatesPreserved": true,
+  "commonVisibleLongEdge": 43.24,
+  "overlapPixels": 0,
+  "outsidePixels": 0,
+  "AImagesUnchanged": 72,
+  "AManifestAndLayoutUnchanged": true,
+  "gallery": {
+    "decoded": 72,
+    "seasonFilters": true,
+    "search": true,
+    "modal": true,
+    "keyboard": true,
+    "mobile": true
+  },
+  "ABC": {
+    "subjects": 12,
+    "decoded": 36,
+    "seasonFilters": true,
+    "modal": true,
+    "mobile": true
+  }
+}

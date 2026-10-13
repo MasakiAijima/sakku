@@ -1,0 +1,70 @@
+{
+  "kouId": "kou-05",
+  "algorithmVersion": "organic-growth-48-v2",
+  "inputFingerprint": "5e9ee8343897c52a1f8238ff547c20e14edb4e3c6343c90e6c0554daf7785d1e",
+  "assetVersion": "c-v2",
+  "promptVersion": "sha256:5929cda8032011c0186ab186327d7697fc1fe1587e7d6dc7a248f1726555c419",
+  "processedAtUTC": "2026-10-13T13:41:53.648389+00:00",
+  "provider": "openai",
+  "generation": {
+    "id": "kou-05",
+    "hash": "84bf3609eda40cfe271b8893e5d1156d4aa882c2d0f60d3c6f9363fc98a9242a",
+    "reference_sha256": "c71271827b48afb76d2b079576aa0cb570a18a927f1688a61054576dabc94396",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small olive DISTANT HILL under the two broad pink and pale-blue haze bands only; preserve both haze bands to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:46:51.031089+00:00",
+    "completed_sha256": "748eb2c6758ff9fdc260fa5c35c143d3b572215efe0835895032635f4afa63ae"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 388.458,
+      "y": 245.318,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      172,
+      409,
+      340
+    ],
+    "precursorBounds": [
+      191,
+      301,
+      368,
+      340
+    ]
+  },
+  "sourceHashes": {
+    "C": "748eb2c6758ff9fdc260fa5c35c143d3b572215efe0835895032635f4afa63ae",
+    "Cprime": "0d5d296b0be694420971c504d4eadca075d9dacca2a2a8b36ba2aeb81d1f1cb0",
+    "generation": "ff2e37cda3a6c06093ca2a6c12519e23122e7ce13e989c2440d38bf02d4624fa"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small olive DISTANT HILL under the two broad pink and pale-blue haze bands only; preserve both haze bands to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:46:51.031089+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

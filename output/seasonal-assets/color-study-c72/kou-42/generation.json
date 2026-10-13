@@ -1,0 +1,23 @@
+{
+  "id": "kou-42",
+  "hash": "26390bf0b4748ab8654452f7d6e858c5e93aa6db1b9fe43c2a686a47a8fbb28e",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-42/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-42/reference.png",
+  "reference_sha256": "665ad307ee3dafe09a16abd898b22e80af82706fbfc087ad33a8fe55491d4c68",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the narrow olive RICE STEM carrying the golden grain head only; preserve golden and ochre grains to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:02:37.581863+00:00",
+  "image_sha256": "105837016c5792fc106ffdcc6b91257abf38525b93faa0af5888b50dac0d6859",
+  "completed_sha256": "512f2fa0407a280e60bb6651b63ce9b1fff535e206105f11d89cbe01f19bf82d",
+  "cutout_sha256": "1adcc347df43059914985f8d95b6811b2036488615221c213237816412418435"
+}

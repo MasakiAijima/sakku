@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-27",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "bb8e4964eba7bcdf38812c7e8e2b4d58602bff6708bd6aa7704ab19d1eaa2f01",
+  "generation": {
+    "id": "kou-27",
+    "hash": "6c4aedf2493f2de2f4cb9babbc158840d0a796044bef80cd48ed0ec8146f60e3",
+    "reference_sha256": "622cdbd97463863452cc9d3696197a6a6f42ca7779447b7c0860b25fa708e70b",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the short small brown BRANCH beside the golden-yellow plum only; preserve yellow plum and olive green patch to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:55:40.009551+00:00",
+    "completed_sha256": "3f337632d806de3be8d3ef4b7e6a7c1bce8492bb45eccd87a6653b03f073fd16"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 530.952,
+      "y": 514.486,
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      111,
+      103,
+      400,
+      409
+    ],
+    "precursorBounds": [
+      279,
+      104,
+      400,
+      270
+    ]
+  },
+  "sourceHashes": {
+    "C": "3f337632d806de3be8d3ef4b7e6a7c1bce8492bb45eccd87a6653b03f073fd16",
+    "Cprime": "b93a13f9bd928b1c596172662ef15baabc1be40b2c1a08d95e7e49faf15b384d",
+    "generation": "f7285f385199b3d0d0549115a861da18203a6ba5b5aa63753f7183fd087b13a0"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the short small brown BRANCH beside the golden-yellow plum only; preserve yellow plum and olive green patch to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:55:40.009551+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

@@ -1,0 +1,64 @@
+{
+  "fingerprint": "6b1ba0bb8c2b0013c11ae7f153a2eb24435b3e4c0927c5e318b66414d387d1f8",
+  "asset": {
+    "kouId": "kou-01",
+    "name": "東風凍を解く",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 351.792,
+      "y": 160.16,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      116,
+      103,
+      396,
+      409
+    ],
+    "precursorBounds": [
+      337,
+      340,
+      368,
+      397
+    ],
+    "motionBounds": {
+      "x": 116,
+      "y": 103,
+      "width": 280,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        352.5,
+        368.5
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-01/initial.png",
+    "completed": "kou-01/completed.png",
+    "transition": "kou-01/transition.webp",
+    "idle": "kou-01/idle.png",
+    "provenance": "kou-01/provenance.json",
+    "hashes": {
+      "initial": "b14b2cad4412cdf5bb333be9734df09bd7f591b0941cbfe071e9d648c55e244f",
+      "completed": "1264b493129b1595ad492425f0ab5f179d6579f2c67d578b08a16501ba740d24",
+      "transition": "71fcc7fda08165a184e5f635e1be9c0b0afec97833499cd799a26c29685a03e8",
+      "idle": "1264b493129b1595ad492425f0ab5f179d6579f2c67d578b08a16501ba740d24",
+      "provenance": "ec55d55cff7b26bc969363446173036954d7b099a452937b7f6e59747dc5bf2b"
+    }
+  }
+}

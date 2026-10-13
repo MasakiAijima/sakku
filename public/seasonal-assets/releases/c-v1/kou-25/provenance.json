@@ -1,0 +1,67 @@
+{
+  "kouId": "kou-25",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "adb4b21a10dcf7f37732d9e2baca3bc34eb91233b2f2aefb2e585c745ef93de6",
+  "generation": {
+    "id": "kou-25",
+    "hash": "1e6b97cee3d79fae3b97e1811d35697c5862e75ca7308a4d5303efb74ee85bd9",
+    "reference_sha256": "2b1eaa1e9d6073851492bbea58dd0cea55927f189e95d5012cdccd8aa89dbfa4",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese seasonal illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small brown EGG CASE beside the mantis only; preserve pale-teal mantis and olive forelegs to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged as well. This is one small existing color field recolored to one accent hue, not a new part, not a new decoration. Preserve relative areas: the recolored field stays exactly the same SMALL area. Do not spread the accent onto the main motif. Keep the artwork centered with generous clear margins; solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:25:36.612658+00:00",
+    "completed_sha256": "8fa7de8881bb803abf1e1755bb1710d429f62c8ec0e7656d05e6d67df614f1db",
+    "reused_from": "output/seasonal-assets/color-study-c/kou-25"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 546.971,
+      "y": 461.714,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      108,
+      103,
+      404,
+      409
+    ],
+    "precursorBounds": [
+      286,
+      323,
+      359,
+      409
+    ]
+  },
+  "sourceHashes": {
+    "C": "8fa7de8881bb803abf1e1755bb1710d429f62c8ec0e7656d05e6d67df614f1db",
+    "Cprime": "c9fca4a5511cb53de0e9e8ba45618f23d2496bef6fa84f60d4c879861e0f0992",
+    "generation": "d3f8bb80c0b4ee03f89669295c76960c41501956b2c6dce32fbe6dcba6de8843"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese seasonal illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small brown EGG CASE beside the mantis only; preserve pale-teal mantis and olive forelegs to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged as well. This is one small existing color field recolored to one accent hue, not a new part, not a new decoration. Preserve relative areas: the recolored field stays exactly the same SMALL area. Do not spread the accent onto the main motif. Keep the artwork centered with generous clear margins; solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:25:36.612658+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

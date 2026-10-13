@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "revision": "revision-3",
+  "targetCount": 3,
+  "budgetPolicy": "user-waived-for-targeted-revision",
+  "entries": [
+    {
+      "id": "kou-63",
+      "name": "さけの魚群がる",
+      "sekkiId": "sekki-21",
+      "sekki": "大雪",
+      "season": "winter",
+      "meaning": "鮭が群れをなす",
+      "relation": "川をのぼる鮭の群れ",
+      "composition": "銀青の紡錘形の鮭を大きく、小さな一匹を後ろへ添える",
+      "palette": [
+        {
+          "hex": "#B9D5DE",
+          "role": "鮭の銀青色の体"
+        },
+        {
+          "hex": "#667D94",
+          "role": "背と尾びれ"
+        },
+        {
+          "hex": "#C57864",
+          "role": "婚姻色の側面"
+        },
+        {
+          "hex": "#3159A7",
+          "role": "川"
+        }
+      ],
+      "colorReason": "銀青の体に暗い背と控えめな赤褐色の婚姻色を合わせる",
+      "subjectPrompt": "One large unmistakable SALMON fish in nearly horizontal SIDE PROFILE swimming upstream leftward, plus one much smaller salmon behind it. A long straight streamlined spindle-shaped body, thicker middle, pointed snout with subtle hooked lower jaw, narrow tail peduncle, a clearly forked V-shaped VERTICAL tail fin shown in side silhouette, one small triangular dorsal fin near middle and one tiny adipose fin near tail. Broad silver pale-blue flank, dark slate-blue back, restrained muted salmon-red lateral spawning band. Fish body must be straight and long, not arched like a jumping dolphin. A small simple blue river plane beneath. Absolutely no dolphin, whale, cetacean, mammal, rounded melon forehead, flipper, horizontal tail flukes or large curved dorsal fin. No eyes, teeth, scales, speckles, outlines or fine anatomical lines.",
+      "referenceId": "kou-54",
+      "referencePath": "public/seasonal-assets/poc-v3/kou-32/completed.png"
+    },
+    {
+      "id": "kou-64",
+      "name": "乃東生ず",
+      "sekkiId": "sekki-22",
+      "sekki": "冬至",
+      "season": "winter",
+      "meaning": "うつぼぐさが芽を出す",
+      "relation": "ウツボグサの花穂が生まれる",
+      "composition": "短い紫の花穂と対生するオリーブの葉をまとめる",
+      "palette": [
+        {
+          "hex": "#75629B",
+          "role": "ウツボグサの花穂"
+        },
+        {
+          "hex": "#574B78",
+          "role": "花穂の重なり"
+        },
+        {
+          "hex": "#72804A",
+          "role": "茎と対生する葉"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "大地"
+        }
+      ],
+      "colorReason": "ウツボグサの紫色の花穂とオリーブ色の葉で植物を識別できるようにする",
+      "subjectPrompt": "One recognisable PRUNELLA VULGARIS self-heal plant, Japanese utsubogusa. A short dense upright cylindrical violet-purple flower spike, like a small blunt uneven club, is the MAIN motif. Indicate stacked overlapping purple tubular blossom planes as only three or four broad unequal lobes integrated into one thick spike, not tiny repeated details. One short muted-olive stem and one pair of broad opposite lanceolate leaves near the lower half, with one small ochre ground plane. Compact asymmetrical botanical cut-paper silhouette. Botanical flower spike, not a generic seedling, lotus, iris, lavender stalk with many tiny florets, cattail, maple or bamboo. Use muted bluish violet #75629B and deeper purple #574B78, never magenta or pink; these colors must remain opaque inside the plant.",
+      "referenceId": "kou-32",
+      "referencePath": "public/seasonal-assets/poc-v3/kou-32/completed.png"
+    },
+    {
+      "id": "kou-66",
+      "name": "雪下りて麦のびる",
+      "sekkiId": "sekki-22",
+      "sekki": "冬至",
+      "season": "winter",
+      "meaning": "雪の下で麦が伸びる",
+      "relation": "雪の間から数本の麦の茎が伸びる",
+      "composition": "低い雪から細い緑の茎を三本、長さを変えて伸ばす",
+      "palette": [
+        {
+          "hex": "#90B8B0",
+          "role": "雪から伸びる麦の茎"
+        },
+        {
+          "hex": "#72804A",
+          "role": "小さな若葉"
+        },
+        {
+          "hex": "#F1EBDD",
+          "role": "雪"
+        }
+      ],
+      "colorReason": "生成りの低い雪と細い青緑の茎、小さなオリーブの葉で麦の成長を表す",
+      "subjectPrompt": "Three slender young WHEAT STEMS emerge upright through one low irregular warm-ivory snow patch. Show THREE distinct narrow fresh muted-green stalks, visibly elongated with unequal heights, gently leaning in different directions, each with at most one small short narrow pointed leaf attached at a different height. The stems themselves are clearly visible for most of their length and are the MAIN motif; the small leaves do not hide them. One short, one medium and one taller stalk grouped closely from the same snow opening. Quiet organic asymmetry, not mechanically parallel. No large two-leaf seedling, no broad leaf fan, no thick tulip leaves, no grain heads, no flowers, no branches or bare woody twigs. These are a few living green wheat stems growing through snow.",
+      "referenceId": "kou-32",
+      "referencePath": "public/seasonal-assets/poc-v3/kou-32/completed.png"
+    }
+  ]
+}

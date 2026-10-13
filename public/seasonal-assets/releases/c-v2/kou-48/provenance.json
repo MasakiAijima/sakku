@@ -1,0 +1,70 @@
+{
+  "kouId": "kou-48",
+  "algorithmVersion": "organic-growth-48-v2",
+  "inputFingerprint": "ac6c5e2c114821b58cef1fd969d83ce67a6ff9fb4927158f1003185bad0e63c3",
+  "assetVersion": "c-v2",
+  "promptVersion": "sha256:1ca982a5d00c75f2973e52d06230e61a05b80d0dd10494f75da9331ca496cdcd",
+  "processedAtUTC": "2026-10-13T13:42:05.317962+00:00",
+  "provider": "openai",
+  "generation": {
+    "id": "kou-48",
+    "hash": "d4450c4a54d759cd56c9cec6e291d07993f7a8c135f800674bf631351bdaf5fd",
+    "reference_sha256": "bf44fc57ff327fd6e149e6cf52d47d425498d57dd86cead36b84cd38b85dfa06",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small muted-gold EARTH EDGE at lower right beneath the broad ochre soil plane only; preserve ochre soil and pale-teal water to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T13:05:28.419260+00:00",
+    "completed_sha256": "522871cf47ed668d76a3507a1f57d1f3c7201d90ba1801cbddf4fcd9371858c5"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 164.91,
+      "y": 440.002,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      155,
+      409,
+      356
+    ],
+    "precursorBounds": [
+      303,
+      267,
+      409,
+      356
+    ]
+  },
+  "sourceHashes": {
+    "C": "522871cf47ed668d76a3507a1f57d1f3c7201d90ba1801cbddf4fcd9371858c5",
+    "Cprime": "00cd14a28c3e6d423879d5d97e602b87fe725a819bd7ce40d0f78701ac751c16",
+    "generation": "8d207cd142b47ae2a3d505c03181bffb1849dc73b84d1ec8be2b98bd9784c000"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small muted-gold EARTH EDGE at lower right beneath the broad ochre soil plane only; preserve ochre soil and pale-teal water to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T13:05:28.419260+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

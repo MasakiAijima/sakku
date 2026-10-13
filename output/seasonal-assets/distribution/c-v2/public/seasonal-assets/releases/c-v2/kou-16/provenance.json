@@ -1,0 +1,70 @@
+{
+  "kouId": "kou-16",
+  "algorithmVersion": "organic-growth-48-v2",
+  "inputFingerprint": "6cd293c2b5d51c57d514b17677fbf17ee95b738f606270bd0ce3ae936da584f2",
+  "assetVersion": "c-v2",
+  "promptVersion": "sha256:710720ef08a5d4c3a5049e02eacab697318a66373d344173a0c57e5eabb9c727",
+  "processedAtUTC": "2026-10-13T13:41:56.659389+00:00",
+  "provider": "openai",
+  "generation": {
+    "id": "kou-16",
+    "hash": "fe4e67f6afe27c8a63b12aff392db0a4155393c31469be0a899f53a1abb1bb8d",
+    "reference_sha256": "ffdbe669331706400fc26d5f62db9d455dbd8712d12cf98b82fd977f32c5ca6a",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the tiny ochre ROOT BASE beneath the large olive reed shoot only; preserve olive shoot and teal water to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:52:32.382912+00:00",
+    "completed_sha256": "b47268bce33bbbdbbf753c58fdab373d884557a624de28d7bce7784527233a2e"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 589.71,
+      "y": 310.397,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      182,
+      103,
+      330,
+      409
+    ],
+    "precursorBounds": [
+      238,
+      331,
+      280,
+      379
+    ]
+  },
+  "sourceHashes": {
+    "C": "b47268bce33bbbdbbf753c58fdab373d884557a624de28d7bce7784527233a2e",
+    "Cprime": "a198d5644779b0f67d9beacffa1f8c71f4248f7d34e5376e964aa3e5b47f4a78",
+    "generation": "270e4ee32eb7a4686b9af6dbddff0c3444c44736bed3344e25791416e3f2c455"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the tiny ochre ROOT BASE beneath the large olive reed shoot only; preserve olive shoot and teal water to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:52:32.382912+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

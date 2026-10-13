@@ -1,0 +1,30 @@
+{
+  "id": "kou-65",
+  "name": "さわしかの角おつる",
+  "prompt": "Use case: stylized-concept. Asset: one independent Japanese microseason illustration. The attached image is a STYLE reference only. Preserve its few large flat color planes, expressive hand-cut organic silhouette, long unequal curves, asymmetric swelling and pinches, and restrained uneven screen-print ink inside each color field. Do not copy its subject or colors. Express only the seasonal relationship specified below. One dominant motif occupies most of the artwork; at most one or two much smaller auxiliary motifs overlap it into one compact composition. Choose natural, seasonally meaningful colors from the specified palette. Never default to red. Use broad solid opaque color planes. Silhouette has character and directional flow; avoid bilateral symmetry, equally spaced petals, repeated geometry and fine outlines. The static image must be complete; do not add separate parts or gaps for animation. Center the entire compact artwork within the central 60 percent of the square, with ample clean empty margin on all sides. Solid chromakey magenta #FF00FF background; no magenta, hot pink, fuchsia, purple spill or pink reflected lighting in the artwork. Pink petals must be muted salmon #E9B8B5, distinct from the magenta background. No faces, eyes, pupils, letters, numerals, titles, borders, frames, realistic shading, gradients, shadows, translucency, fine veins, repeated decorative dots or textures outside shapes. \nSubject and seasonal relation: One dominant shed deer antler lies diagonally low, its broad warm brown main curve splitting into two or three unequal blunt organic tines. One much smaller olive ground patch supports one tip. A small ochre antler plane is optional. No deer head, eyes or thin branching tree. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.\nSemantic color palette: #B58A50 (落ちた角), #E3BC45 (角の明るい面), #72804A (地面の草)\nColor intent: 鹿角の自然な黄褐色と草の緑を使う",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "master_version": "e72212780133af95020bc7f39e95b6638d664b3d647c1f7b1077aa4ec317d649",
+  "generator_version": 3,
+  "prompt_version": 3,
+  "operation": "edit",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-54/completed.png",
+  "reference_sha256": "dbe5ebfb8cd2ad86935c795d1238dbefefb617b5c4c2da759a2f46b8df077c61",
+  "hash": "19d843998ff6b0e48e5dc7c7774ac355e1d7fa65d0e14adf8fefb4cc570d7d48",
+  "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-65/original.png",
+  "provenance": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-65/generation.json",
+  "prompt_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-65/prompt.txt",
+  "attempted_at": "2026-10-12T11:19:50.891336+00:00",
+  "status": "succeeded",
+  "reserved_jpy": 130,
+  "actual_cost_jpy": null,
+  "image_sha256": "dba2a825cc82579fc77d77d293cf1cd72860a54e3f948553945b9a304e751dc0",
+  "completed_sha256": "7ad7b9bd2f2361e4ce51942d27540b11f1410e72a396cc13c4b90da89b163d7a",
+  "cutout_sha256": "76600b2f4976dcf3293b63b443933e567c66ced5aa632078c46c8730de804c22"
+}

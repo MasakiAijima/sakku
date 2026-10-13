@@ -1,0 +1,64 @@
+{
+  "fingerprint": "0ab02c20b4af1a70377df860974254b2377b8ca9a7cd0da726f78cd6b399e435",
+  "asset": {
+    "kouId": "kou-56",
+    "name": "地始めて凍る",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 96.594,
+      "y": 307.0,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      140,
+      409,
+      372
+    ],
+    "precursorBounds": [
+      230,
+      243,
+      253,
+      308
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 140,
+      "width": 306,
+      "height": 232
+    },
+    "animation": {
+      "seed": [
+        241.5,
+        275.5
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-56/initial.png",
+    "completed": "kou-56/completed.png",
+    "transition": "kou-56/transition.webp",
+    "idle": "kou-56/idle.png",
+    "provenance": "kou-56/provenance.json",
+    "hashes": {
+      "initial": "15a537d7526215a5ee4c8b9025724f3d173514a59b878cfd2973f2b5207b5814",
+      "completed": "696fd12a637858a46cfe04551be1616fffc5fac38ab124a68f2ee6742b52267b",
+      "transition": "848ad7e3bc8450af1065a7373b93a77b23f66572ac65866ee8af5308ac2badbc",
+      "idle": "696fd12a637858a46cfe04551be1616fffc5fac38ab124a68f2ee6742b52267b",
+      "provenance": "c8655f7a777f3a3e91603dfffc025bea450a4fe25231815f30900cd83d4f5a6a"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "fingerprint": "10eac8079c68b73a9e102a5d8383902897a9059953fd746ee8057ed115cf774e",
+  "asset": {
+    "kouId": "kou-35",
+    "name": "土潤いてむし暑し",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 373.317,
+      "y": 522.844,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      139,
+      409,
+      373
+    ],
+    "precursorBounds": [
+      168,
+      139,
+      298,
+      275
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 139,
+      "width": 306,
+      "height": 234
+    },
+    "animation": {
+      "seed": [
+        233.0,
+        207.0
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-35/initial.png",
+    "completed": "kou-35/completed.png",
+    "transition": "kou-35/transition.webp",
+    "idle": "kou-35/idle.png",
+    "provenance": "kou-35/provenance.json",
+    "hashes": {
+      "initial": "1775a80a0934733cfc7daf990bb605405799cbc7f71f1810558e89b7ff8bcd81",
+      "completed": "e4f3d0cd51c6e734a9bfecbc8eb7f2aa8c980fc5aa6ecdaca3623723c4aef832",
+      "transition": "2fd3cdba3f98828e0e0afab0664d958473ccb6e3cbc9cf822476e95d1319e035",
+      "idle": "e4f3d0cd51c6e734a9bfecbc8eb7f2aa8c980fc5aa6ecdaca3623723c4aef832",
+      "provenance": "d0162e2ae42a2beb28f1bea41ec845b8cd1bf2ada215a0b74171ef3aece85cc5"
+    }
+  }
+}

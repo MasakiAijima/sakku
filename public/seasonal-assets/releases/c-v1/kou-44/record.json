@@ -1,0 +1,64 @@
+{
+  "fingerprint": "d3658d1ae300e7e8d57e2e8e580e9afb38a232c7bb2e5c95da277357f93fec2d",
+  "asset": {
+    "kouId": "kou-44",
+    "name": "鶺鴒鳴く",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 196.591,
+      "y": 540.375,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      106,
+      409,
+      406
+    ],
+    "precursorBounds": [
+      123,
+      302,
+      278,
+      406
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 106,
+      "width": 306,
+      "height": 300
+    },
+    "animation": {
+      "seed": [
+        200.5,
+        354.0
+      ],
+      "durationMs": 720,
+      "frames": 5,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-44/initial.png",
+    "completed": "kou-44/completed.png",
+    "transition": "kou-44/transition.webp",
+    "idle": "kou-44/idle.png",
+    "provenance": "kou-44/provenance.json",
+    "hashes": {
+      "initial": "2f0a420841c15382d3a550316144e8cbbda1d45d217a594a44cace4a65d5ee7f",
+      "completed": "e72318f303e98ccc56d64d6065fcf462ff2f67db29071ce2df2e99b15bd49684",
+      "transition": "04945c59c62482ec36f932c1d4fd4664e1550b738636acdb0027ca498f5a7aaf",
+      "idle": "e72318f303e98ccc56d64d6065fcf462ff2f67db29071ce2df2e99b15bd49684",
+      "provenance": "2752280b46bc33aedf84e561a09655217a3bbf81f32f9c67b272d1293d575966"
+    }
+  }
+}

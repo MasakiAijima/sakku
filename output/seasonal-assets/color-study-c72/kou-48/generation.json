@@ -1,0 +1,23 @@
+{
+  "id": "kou-48",
+  "hash": "d4450c4a54d759cd56c9cec6e291d07993f7a8c135f800674bf631351bdaf5fd",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-48/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-48/reference.png",
+  "reference_sha256": "bf44fc57ff327fd6e149e6cf52d47d425498d57dd86cead36b84cd38b85dfa06",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small muted-gold EARTH EDGE at lower right beneath the broad ochre soil plane only; preserve ochre soil and pale-teal water to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:05:28.419260+00:00",
+  "image_sha256": "d5916417dc5afa2834dc08fd7e485db04bad3a49b3cfce662f5f1b95fad8fe41",
+  "completed_sha256": "522871cf47ed668d76a3507a1f57d1f3c7201d90ba1801cbddf4fcd9371858c5",
+  "cutout_sha256": "8414ef85b2065da46a7e3169bfdd71806f4bd0b5b047f53b5a1ccce4d23baaf9"
+}
