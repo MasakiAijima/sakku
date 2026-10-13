@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-12",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "da7886f193b63ec7f79d315ba55a69a08abfd8fa6d7b73a4b76ce0f373a8dee3",
+  "generation": {
+    "id": "kou-12",
+    "hash": "622c01603771d20c30ca64c2a9987453aec2631765e0c8a13dbe739ec03bc448",
+    "reference_sha256": "8b49f77b15fa771bb80e05930fb754c5e93af156784f9c7c0f92e691b8465516",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small golden-yellow LIGHTNING BOLT below the broad dark-blue thundercloud only; preserve all blue cloud planes to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:49:53.410669+00:00",
+    "completed_sha256": "ef2e77d35c91355e51d4be60607b5469119694f7d0d37dab820dfc819df32b37"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 421.439,
+      "y": 298.571,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      154,
+      409,
+      357
+    ],
+    "precursorBounds": [
+      211,
+      280,
+      258,
+      357
+    ]
+  },
+  "sourceHashes": {
+    "C": "ef2e77d35c91355e51d4be60607b5469119694f7d0d37dab820dfc819df32b37",
+    "Cprime": "54f97c106ba59f56e760c0720ffce201a6545dc98bc55ccf838698f9861ad717",
+    "generation": "fc7416e741454f59dcae4465dcb506f47ab879b952ccffa237a2c28f03a36088"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small golden-yellow LIGHTNING BOLT below the broad dark-blue thundercloud only; preserve all blue cloud planes to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:49:53.410669+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

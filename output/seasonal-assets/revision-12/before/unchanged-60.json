@@ -1,0 +1,782 @@
+{
+  "kou-02": {
+    "rowSha256": "5981bd8b0b3b0114d4a6bc8b4e95b161f6321d8c86c02b8a052c07abcf7dbaf8",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-02/completed.png",
+        "sha256": "ffcd686dea51bd2c8520b92c42392f6481f6ab9601af9f4c6c7619a599358cb1"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-02/full.png",
+        "sha256": "6173c0ba29dde7580919bc7f9fe89aa57f688527dbf3a0a5494a66854cf3091d"
+      }
+    }
+  },
+  "kou-03": {
+    "rowSha256": "d0d84dee402040a90c8be7bb039927561171527673f463ea4ffa5d4a4ee7ac08",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-03/completed.png",
+        "sha256": "7a72aa1c6d8e2e389c55ca5fb26646eb9ddea80020d17a85015a6c98a04d78aa"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-03/full.png",
+        "sha256": "66bd984bb66257d99243f11b6914be1beac615cc05c99f972e785c4a104dbd81"
+      }
+    }
+  },
+  "kou-04": {
+    "rowSha256": "ff31d2e2fd9b0025bd02a971c9ac1e4dacb87372f67fa35850e3f63b2d39e2bf",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-04/completed.png",
+        "sha256": "f35a35ac3d7d06213c93183bf838571094740e1e1810502ab9f8186059cbc977"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-04/full.png",
+        "sha256": "bb88ca6f1137cbf1cd796c9655680d9e180db62cb953c4f27a36c63223306c87"
+      }
+    }
+  },
+  "kou-06": {
+    "rowSha256": "bbbad75b7538372b34a756b65ddcb5517c64e8bc8d9469f9345b8216587bfdea",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-06/completed.png",
+        "sha256": "15bebabf5504d1a310af44489a013c905fa87bcc2c53d1c096461e3f0efbab16"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-06/full.png",
+        "sha256": "7b3c423c476f35b6c1c4916733f6ac3d570e29c3780c8e168c5d528aaa76eb5b"
+      }
+    }
+  },
+  "kou-07": {
+    "rowSha256": "a55f1194ea935ea42a14189c4a318f2faf61a40d848a1ece0a08a02d06cd4750",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-07/completed.png",
+        "sha256": "c99afc3594da8b24e783ddaae26f25da894148ca3bf078f4599bf9f4c47744ee"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-07/full.png",
+        "sha256": "ac91ce83af3454d57e8290ad22f4f64d6f3aa4d3e33d5716844cb945e31ef9fb"
+      }
+    }
+  },
+  "kou-08": {
+    "rowSha256": "e0edaa13fa7d1b4d2270ca3772fb34930c64bca197d6ec6ff60d15596a2c8a39",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-08/completed.png",
+        "sha256": "7f1074ba4137841eae740cf3367ab6b863fe52191e8834975833978884eba94d"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-08/full.png",
+        "sha256": "9617ca9d6b34cec17d54fdab1b62ab1323258361d77f9320fa4936cebb4b085f"
+      }
+    }
+  },
+  "kou-09": {
+    "rowSha256": "8ed3a2b2163a396276cacecaa8bdc69c7744abcc6750724d62e3feef973cc651",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-09/completed.png",
+        "sha256": "1813fdeba5d5ddb3337d78b374a58b401c4e541064f198280dcdf0fb857729a5"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-09/full.png",
+        "sha256": "7646266ef44dfacc05a6cc763a1a9304f37fdd51403925112ecb54a8e5166a60"
+      }
+    }
+  },
+  "kou-10": {
+    "rowSha256": "4d419ee945b001d1a9fbe068e923a5f8764e0a0f5d3747570ffdc92faf38c635",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-10/completed.png",
+        "sha256": "e55b794e9dce007d27bb1f1c4904e648ab04a19ac049226c13b043cc7302de6d"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-10/full.png",
+        "sha256": "2a0ee483995c93cfef0ebf33afa294933ca7e5f2a3fb628384655e8b57bab3c3"
+      }
+    }
+  },
+  "kou-11": {
+    "rowSha256": "d86475782ffe6b59e010690ff8d8058cacbf701cc4df1a3f578d1b73cdf1ec4d",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-11/completed.png",
+        "sha256": "b5f6f6db37559709abb06dc3cacc7fd341b47e1206adb5410456672f7f5c0c23"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-11/full.png",
+        "sha256": "c1ba9bb2ff14306b8b449a8d67d62b3924c00f69253224da32e403b5bf6eb8c6"
+      }
+    }
+  },
+  "kou-12": {
+    "rowSha256": "08eaece969c24d7c72cbc6c50175ad4a390fb6fc6c4cc3fc304667e91dd6db65",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-12/completed.png",
+        "sha256": "8b49f77b15fa771bb80e05930fb754c5e93af156784f9c7c0f92e691b8465516"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-12/full.png",
+        "sha256": "82a24be29d9a9044a51f362425f78d2ce5fd5ce5ddb95ce771f0deb368c2f3b0"
+      }
+    }
+  },
+  "kou-13": {
+    "rowSha256": "f5e57a1ec79f25c48c7ce95079a0c1c3c8631316cc2e3154e0669cd03b723971",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-13/completed.png",
+        "sha256": "3bd36df1601f84d97193aadb29bb6c3e02aba47823053b91e34a39b3c4ddf618"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-13/full.png",
+        "sha256": "ec41338958b7cb677058ec3f985032814520a399a67b66f0c5988896bf31c889"
+      }
+    }
+  },
+  "kou-14": {
+    "rowSha256": "9045d166b8739a84432490aca4ddd9935b27fe74dc0cf8ba6b868ed594fa5fcf",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-14/completed.png",
+        "sha256": "db35a3b40699ad57d235fc2e2daaf4808f7f92961f2feb9950c0147fd7f15bb8"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-14/full.png",
+        "sha256": "006aba2ced0bda2e27914214adcf377baa89d0e7d289f5c24847a2ce59fb6717"
+      }
+    }
+  },
+  "kou-15": {
+    "rowSha256": "8bcf94da5e00b85b027fd07da99b1db5583f3a3de3f75a80c83c13bd3e2df8af",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-15/completed.png",
+        "sha256": "e2315fcccdff16b7a96427f308669b5a8c30fa9dcc63af079734f22c73f7094f"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-15/full.png",
+        "sha256": "76802e9559f64cc26bf6ff6cebf43c5ba6913eb9b5aab01ac08d45c9ee402771"
+      }
+    }
+  },
+  "kou-16": {
+    "rowSha256": "f92aa82a5e50f40f5522ecca7a057cea12364bfbd8b035c435de7a50a9f8d2c8",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-16/completed.png",
+        "sha256": "ffdbe669331706400fc26d5f62db9d455dbd8712d12cf98b82fd977f32c5ca6a"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-16/full.png",
+        "sha256": "ff643391af2963e2f7774520a351c3248fc5a223ced2776d995db99fd6c5bcfc"
+      }
+    }
+  },
+  "kou-17": {
+    "rowSha256": "69420cd1407b4abdfe16447f2cdb97ec2e1e3aa90f975e49a44b02333ec8d518",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-17/completed.png",
+        "sha256": "991451f415c142a7f150396da4256e9066386c417241f514e21d66f9d2c1d02e"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-17/full.png",
+        "sha256": "1f1ba77f22be3233171cafa7419ac5eeca650b9390c209405684a91e40c6a0c0"
+      }
+    }
+  },
+  "kou-18": {
+    "rowSha256": "36cb94c85f9acace97a68c1babc7203b74f3189c2525a7f205b58148cba33d30",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-18/completed.png",
+        "sha256": "224a179f8e4f699ca5712b636c0cba0720b80da8c9998d8c18aafb77c200f42b"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-18/full.png",
+        "sha256": "f2b1983fa62c277feb2f2e56b2899239a55061ccf5b9802ffbc633f5b98756a0"
+      }
+    }
+  },
+  "kou-19": {
+    "rowSha256": "8b9e5a98e48c0b33c37dbc6a449a01694e6ec5713cb3141485b276cb71c945f1",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-19/completed.png",
+        "sha256": "125d23fdd7a4607503fe3246bb43e9b8cd485d67c998e6d3a24d7df4e62911b1"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-19/full.png",
+        "sha256": "8203768fe7de238f18c1d2e557bdecc734388187e6967ad65942df8882c2d0cb"
+      }
+    }
+  },
+  "kou-20": {
+    "rowSha256": "4ef4537bd19a62461c766b4088d9cc2139c8ccd5dca378c65946d4f9fa36aea5",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-20/completed.png",
+        "sha256": "76e2cd6d63cec76caec76c8b1003b37a006aaecb440859c585b12bf3912b41c5"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-20/full.png",
+        "sha256": "7616d4baf09e256ecce1ab6bc5a25693e59997630c2439c9abed448878f16b7c"
+      }
+    }
+  },
+  "kou-21": {
+    "rowSha256": "c9f810df8e2369eb812ebd5fdda4d29a9575d59c1a35c7dd6a238ece701c440b",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-21/completed.png",
+        "sha256": "e0ed0ec3f27378904f49dec1e40a84ec8548861454537b9353d930ad2f203777"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-21/full.png",
+        "sha256": "96267a5726cf646937c7cfe652f5063caab7329942452bb38ee463bfd61f160d"
+      }
+    }
+  },
+  "kou-22": {
+    "rowSha256": "9a4c43dcdfc2b09ee6a21981caae837c0fef2985d2ccb8b04f2cb448f197b861",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-22/completed.png",
+        "sha256": "26c0bedc240a446671a43674cff8b45837c84c747a30a1983a9e73dd5b016497"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-22/full.png",
+        "sha256": "3051f795153fd7c186486da3662dc616b6e3f0c354b0f248364eae581d01acbb"
+      }
+    }
+  },
+  "kou-23": {
+    "rowSha256": "ece3e0b963ac5b9f28ee30e53166054bb8ed2c621e02c425a6f49b18de17dca9",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-23/completed.png",
+        "sha256": "1a60f154a0c83de09824107411eba562ef3f4d8020049a4e7a7487014a67e6ac"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-23/full.png",
+        "sha256": "e50eb2a3df08bcf68f135d59e08c402d6c864ccc56f381af799a49bbcbdb6a91"
+      }
+    }
+  },
+  "kou-24": {
+    "rowSha256": "1f3102a1d85a1b9c32c09e723a51ab57ca1828e589f11a0777b7c12fd211d24c",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-24/completed.png",
+        "sha256": "b41bd5fea5b7521a0bfa11d8a9b4d54c94e6737efb9eb1aec25dd52d5af3f43c"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-24/full.png",
+        "sha256": "ba4bc7eb19eca27c65f3cea48f0ab9627299dc9a5d9f68498de63c94e860a7e2"
+      }
+    }
+  },
+  "kou-25": {
+    "rowSha256": "d2b7f203c3944113ae6661430c805a734d3d35ad9686e35d245bbfb1050446dd",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-25/completed.png",
+        "sha256": "2b1eaa1e9d6073851492bbea58dd0cea55927f189e95d5012cdccd8aa89dbfa4"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-25/full.png",
+        "sha256": "7b4304d7cc751892fccfe87eed53b8a64f252aef00e4a154abfe236134fd69dd"
+      }
+    }
+  },
+  "kou-26": {
+    "rowSha256": "0d9a9b05243e3ac088b0b5606d314a9a363cd082e696e21a1ef0a9cf89a51e4f",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-26/completed.png",
+        "sha256": "d137a75f1b359ac18c6df3fe3eab1ebee4de2a56fa4933afd26843367f614b87"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-26/full.png",
+        "sha256": "4e4e68bf07735f8bbd1dc05c35f6b61eb03c264479a02c82dcdc41de1035e4ad"
+      }
+    }
+  },
+  "kou-27": {
+    "rowSha256": "9399779d89185a1e848b3cb2175d606b22c4f2d95aa6c71ffd0506e3ce23daa3",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-27/completed.png",
+        "sha256": "622cdbd97463863452cc9d3696197a6a6f42ca7779447b7c0860b25fa708e70b"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-27/full.png",
+        "sha256": "459de75b90cee34d3c7a14bb26a3a87b2564631fbd530ece0e4284e0b2579a9e"
+      }
+    }
+  },
+  "kou-28": {
+    "rowSha256": "ea96a20697b9d9e71b37f1fa90ff8c89b3f9d96d250482fdc293077c572261c1",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-28/completed.png",
+        "sha256": "263207e278960b0d05bf62feb74386c66141135054647c663eeb8ef0deeadb3d"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-28/full.png",
+        "sha256": "2692efb1147291716ff9ddcec7063e8c6edf962e38f54cf30b022390415b866f"
+      }
+    }
+  },
+  "kou-29": {
+    "rowSha256": "0ac11fb30bf1a5d7288e764e96e3c0baad8ff86692a06bd8cfc5eccee791a087",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-29/completed.png",
+        "sha256": "39ed70c7b47d03dd333e902c1172c03b9aa6fcb3eb054d90f4f2623a23d24269"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-29/full.png",
+        "sha256": "6ba5b24ad7bc148b86d61e2ff7e966fa87528744bccca3efd5a18a0768cf51d7"
+      }
+    }
+  },
+  "kou-30": {
+    "rowSha256": "d4ff73bb26887b7e60302310992d4112bbc553e0843da7f5f24e73c9cf243e08",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-30/completed.png",
+        "sha256": "8bcb675fe8219ef3a2aba974be6408683a975c3eef12a6d6beba1a92cf76ec13"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-30/full.png",
+        "sha256": "f21cd794cdccaec0f20f92a019e172561cffb2b6dab23f9dcd85d5345ad719aa"
+      }
+    }
+  },
+  "kou-31": {
+    "rowSha256": "d72f03d1d53faedf7d045f65d5ca87ffeb1690abe197e0f520b228601c77be13",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-31/completed.png",
+        "sha256": "e305e8748e638fe1397435c27ed6aebfd923c1a4dfb1f4692c161d6fae508da0"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-31/full.png",
+        "sha256": "b9096c6fb969d87578c6aac12b798bddc7c2d0568f5658aed1c18f3d18fb3ca2"
+      }
+    }
+  },
+  "kou-32": {
+    "rowSha256": "4bd22415d7ee124a5ce9f52eff838bc1be3bd21b443a3cb4d7fc41774e15a846",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-32/completed.png",
+        "sha256": "be3727c8bfc3eff85f5f84d867b09f89c8fdaadd215f1d32d94f79683360366f"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-32/full.png",
+        "sha256": "69d7d5044ab8dd1602dcce5762e82964510881090957b389ad949e900176bb1a"
+      }
+    }
+  },
+  "kou-33": {
+    "rowSha256": "1ab1afecfb834abf234b83e4ee5caf0394ca8f13d0ff301c0bac7930a00b2e13",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-33/completed.png",
+        "sha256": "5082b878d8a667aab2754bb073ad68eda059bfb99b8fb541c97dc9bb4ee04c97"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-33/full.png",
+        "sha256": "6c7fd60453bbb21b66ebe6d7ae3280c9456b2ea5fa356ac614e207f17d6e07b7"
+      }
+    }
+  },
+  "kou-34": {
+    "rowSha256": "758af741f9c296083e647feefe244badee7eb48f94ca4bb7a4ff8f36b7665d5c",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-34/completed.png",
+        "sha256": "4e05396f6a896d41c0176d47d5093fb01ef145512eff2da091d8ab58f3ef75fa"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-34/full.png",
+        "sha256": "77bcf2655a7591f01f76ead8d5b6d56ea23ea2cc7603cbf1b8c2f7cf169850f8"
+      }
+    }
+  },
+  "kou-35": {
+    "rowSha256": "351840206547d5d22ce9778ae287db72a0840ec9382fca2ec987ff48762fa9a8",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-35/completed.png",
+        "sha256": "a934f04292ad94ee85d34cbed0930db063dbb27db4e05252b34ab04bcd3c44e8"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-35/full.png",
+        "sha256": "30bfe740cb1bd47dceaf523eb3c958b7f73ed4c8abee13e83ce84c081bbf117b"
+      }
+    }
+  },
+  "kou-36": {
+    "rowSha256": "2428c73758a063fd3979e86161817944c6dd4668634cdfcda46332a7b2adaac9",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-36/completed.png",
+        "sha256": "2fcb4610a6540d04995c9bf9f6b675ace377b710b0b77b265109c8e251222481"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-36/full.png",
+        "sha256": "fba9c69388de7d41a32f325d3896fc24afa2ad056bea42d2e3da0c6ef72045dd"
+      }
+    }
+  },
+  "kou-38": {
+    "rowSha256": "2bf07cd1803bfa73f8331c2332c79fa5cd32bf15fe782c1cd6f7719e519f5d9f",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-38/completed.png",
+        "sha256": "4a963250f7cab303d2477368fa5d768d20fa606eaf7c8a3b0d819e5b57d6bfe9"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-38/full.png",
+        "sha256": "fd0f29f4f7ea2478f6a9b9d0811e66ef9e2fe977f7b8c9e71467bbb9118b3d63"
+      }
+    }
+  },
+  "kou-39": {
+    "rowSha256": "2d6d46e3c1744056eefd028e7700815149c2070119e5c5ade18707cbb43ccf15",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-39/completed.png",
+        "sha256": "ecc5255684f4f435b100d20e65ff0a88482bdd4bba604ea7473c323de7396caf"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-39/full.png",
+        "sha256": "e00c7fb865e306b702a6c9ad5d281a6f926635947f30ce2f4f9d42cc47e221ba"
+      }
+    }
+  },
+  "kou-40": {
+    "rowSha256": "9d1db1f4e72a44f46aaf7742de16818dc25a374d4616173dcdf2041332da2e3f",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-40/completed.png",
+        "sha256": "c2756bdfdcd690b285846a3f9b23e080f3030cd37b916fedbaadbc407129d17d"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-40/full.png",
+        "sha256": "a19b7f7dce7c1b0b1ce13bb089f0028392f9fb39b92ef9ac8111f03564f14610"
+      }
+    }
+  },
+  "kou-42": {
+    "rowSha256": "09dfb2bf7af47f6031c922075ca6b113b006f6b425b27d57f8550f7020a61b1e",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-42/completed.png",
+        "sha256": "665ad307ee3dafe09a16abd898b22e80af82706fbfc087ad33a8fe55491d4c68"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-42/full.png",
+        "sha256": "de1ffba7ab81b83e6f64dbb9c9de7990d297f199231bd1660ecaaa1d1ef251e9"
+      }
+    }
+  },
+  "kou-43": {
+    "rowSha256": "3cdd7e06115a0f069867c918a7c6b8e7c452809e89619a093d146cedc3da5b37",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-43/completed.png",
+        "sha256": "07abec9a6099d23dec961b9a5d22331983fb6ec21fac673aa8a4452137673044"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-43/full.png",
+        "sha256": "cc6ebf1abe35a04641e997c1bb5eefff1486fea863de5941880cdb5469a9ed99"
+      }
+    }
+  },
+  "kou-44": {
+    "rowSha256": "7bdffb42c0e0e10121413adb09a33a73f1ad2ccd4e660b881795f615401aeb62",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-44/completed.png",
+        "sha256": "90730a421fc3f82fdfc9ebd0d8955a385b9c2dc70dc4da9a5fa66651b79574b3"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-44/full.png",
+        "sha256": "fac624bc0a07b49e67e388299af9197c9720e286fc1e0e220725b52659c02392"
+      }
+    }
+  },
+  "kou-45": {
+    "rowSha256": "b0e7421594aa24aa5b031bcd3d4df1abb0b43374903b8a3adf7eb52bc26128c8",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-45/completed.png",
+        "sha256": "1c5247c51998c4e43293253dd693de7f159a2f34ccb87495c5088b4d83691fcc"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-45/full.png",
+        "sha256": "24c56756d4f07129b37a1483af6f2fcd6b8d9ab8b3efa485ec3c9ef2b7045c44"
+      }
+    }
+  },
+  "kou-46": {
+    "rowSha256": "b0ecfa0a3f1845b6a28c3665ef5323840019703b09d0cf3988691f67e8fc1596",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-46/completed.png",
+        "sha256": "58172320c2a31654c601449ed79221ad15a8c74af794b345a01abe5daf8f42e8"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-46/full.png",
+        "sha256": "b8e0ba0a412e3146c49025c98c46d2a9de004cc83fce72ba30f9719079878b8a"
+      }
+    }
+  },
+  "kou-47": {
+    "rowSha256": "589b44cbfa1fbd22fa294df49959fd644cd4375ac4f0a7169a793b21e71a62cf",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-47/completed.png",
+        "sha256": "514d1d61935f6e244a6699a34ebae0d11e3c01769287053bfde7ec6371891c4c"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-47/full.png",
+        "sha256": "7e65a08e73546b798df99ec39b0ea90bd77547a365835dfd7a2beb901191a137"
+      }
+    }
+  },
+  "kou-48": {
+    "rowSha256": "29cdcfb482aeaf45b2973fd6ea9c3de3b1d05173fed11132249a5ece99481647",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-48/completed.png",
+        "sha256": "bf44fc57ff327fd6e149e6cf52d47d425498d57dd86cead36b84cd38b85dfa06"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-48/full.png",
+        "sha256": "6a4a760edbed3f7242571ab355db25388a78085e85f3214df00af7d27c93482f"
+      }
+    }
+  },
+  "kou-49": {
+    "rowSha256": "d2dea7df2afc174d5b715f1b4a21687db0ff9077eabf7a23cd1938d95885cdba",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-49/completed.png",
+        "sha256": "cc5064233e0ee179a7171889b51a55f399b444561d1c0deddccfe517b5a6190c"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-49/full.png",
+        "sha256": "722b44ef69e5541b0fc96be53842f72d0ddd3419db6d5f69da40d22308147ef7"
+      }
+    }
+  },
+  "kou-50": {
+    "rowSha256": "2b0580ac93d4ff4004c7e9a5beb32e5afffff14e85847ceacd94f7963b12ac88",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-50/completed.png",
+        "sha256": "436336deedd7ddb44dc79978fb77d0dc30b6acc6f2b867ff732b60c6860a865d"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-50/full.png",
+        "sha256": "79d45be5dd9923e7813a7e5004c3e05e92e1b5607e890ba4b30da14830b35366"
+      }
+    }
+  },
+  "kou-53": {
+    "rowSha256": "b94d26e1137eeb94bbfdf5fdc3deae32aca1e32bb540103f9552f21fb2906f58",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-53/completed.png",
+        "sha256": "633cd1be6b61f6a71ee5d15bcb7f70a513fa3d2fd9e7245f18c4f136fefbebbb"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-53/full.png",
+        "sha256": "1c270c8105ceeba88ae1bff43d8b65ec7d9223117fca0f1a29fd77e21ca12dfd"
+      }
+    }
+  },
+  "kou-54": {
+    "rowSha256": "8afea039bbdb0f743f85807191c1036aaafd575e57cfc03bc7d4edab25f7959b",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-54/completed.png",
+        "sha256": "dbe5ebfb8cd2ad86935c795d1238dbefefb617b5c4c2da759a2f46b8df077c61"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-54/full.png",
+        "sha256": "4d4a9861cb5c741aeeda73a85a715bc4ff2733cba6d98fc4afcec7b09a491334"
+      }
+    }
+  },
+  "kou-55": {
+    "rowSha256": "e127b16b84d5af9e6e3ee407046d55f1bf3ef967cb445c8991506ab175d4ae59",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-55/completed.png",
+        "sha256": "e418537e17f00d2a7fe21110cb55bcf2050e7951c3c75056a6d2440daa0de89e"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-55/full.png",
+        "sha256": "e10095b9e39430f8c72a2dc49ba93dcc194b45366048f38f2206f60fc98d76b9"
+      }
+    }
+  },
+  "kou-56": {
+    "rowSha256": "332a66843bf205f1f25059f7178dfb397806be28599c88e48831563953cd4056",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-56/completed.png",
+        "sha256": "3625dff917930426992a07e096f222cf374d8e0d9ca31814c5dfad9ad9ba4475"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-56/full.png",
+        "sha256": "11be242cd1777aac574956ad5961e3665faa1ea8d6fd489cbc874156f538aa62"
+      }
+    }
+  },
+  "kou-57": {
+    "rowSha256": "41a1d7eaceddfd90f27d8d14574dd949e484f22269cf7dc07b72db7c70f2752e",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-57/completed.png",
+        "sha256": "71a79ac1e1677ddf76e86a059f4ed0c833cc0a86d787c93d5cce79ba16abe9c7"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-57/full.png",
+        "sha256": "e65dd565e26f23f458c4ad7ab18dea9cafb7c3ce0eaad1607c9ac6011969e57b"
+      }
+    }
+  },
+  "kou-60": {
+    "rowSha256": "c1f50249d3ada99472fc2009fe6f0d44bd79e4cdea93c7cf61866b02c3f1c775",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-60/completed.png",
+        "sha256": "e19c6176cb5f7e5fa8a6d066e8b8677c4f45b9d1d2081e97c05a028a15f553af"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-60/full.png",
+        "sha256": "7921e7491c70041e0d7b2415960dba67cd2073917db35e78a60a343f0c9ad47f"
+      }
+    }
+  },
+  "kou-62": {
+    "rowSha256": "aff8d487913f5af9ff7594c98bd382b7c9d9821e5dcca132d4a3ced38ad12730",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-62/completed.png",
+        "sha256": "5c9f8f8a6302b8cc59d467b500ada7e1c0efd5330884448cdbc1afb953bafd67"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-62/full.png",
+        "sha256": "9f5117aa7c5c5e43d5502fe94dcd9729769548b74ba7c83e0cc4ed1dcbbb0ce7"
+      }
+    }
+  },
+  "kou-63": {
+    "rowSha256": "b38649ede53ecabf3dba2f6a0406e387f7c8cee292b75c1748b69295acf13a21",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-63/completed.png",
+        "sha256": "e77baa45575e800f6ce9d6da0ee143b8c635ad2e7a163f2bb2ce69085f1cbe6c"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-63/full.png",
+        "sha256": "03ee7bc65dc11184d272a938b1b7680988d1a74b38481079493ec90f913b6c87"
+      }
+    }
+  },
+  "kou-64": {
+    "rowSha256": "2d29a0b39168f5e492ce691b5eb40a501f13eab9c1b7dd487828ad23f389a7b5",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-64/completed.png",
+        "sha256": "161de9f3b926db54e3f81141b6e0d105da8a739f8cf621350075079eb8e08cd6"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-64/full.png",
+        "sha256": "f7bba21ef45b3cff7657107c6f7d781960661e069006de05986edac4a52cdf74"
+      }
+    }
+  },
+  "kou-65": {
+    "rowSha256": "017d31142c622029cb9dbce4033fbc9d43397faf04dac70ed620618984a17cbd",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-65/completed.png",
+        "sha256": "7ad7b9bd2f2361e4ce51942d27540b11f1410e72a396cc13c4b90da89b163d7a"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-65/full.png",
+        "sha256": "76600b2f4976dcf3293b63b443933e567c66ced5aa632078c46c8730de804c22"
+      }
+    }
+  },
+  "kou-67": {
+    "rowSha256": "8497fdfa0e2691b9773c4d5b840742101062db1ce34b82f7c7e1d5d7537c0112",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-67/completed.png",
+        "sha256": "08d8efdbd4b93ae3662d83d0cbc753379065ab3421058a9464dd8abe10a1f97d"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-67/full.png",
+        "sha256": "5f270323417d690ddebf35366b3ffc064f3e2e1fae1e472dc8288341d2bfc9e8"
+      }
+    }
+  },
+  "kou-70": {
+    "rowSha256": "601c0a7fdd21612ee25c28d9887d1bf0432a4d4adb388816cfe46c7dda57bff3",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-70/completed.png",
+        "sha256": "a77769ea56635c25eca35d4d6e69509feb60752862570b570d594c4d6690edb0"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-70/full.png",
+        "sha256": "977dac9f51c2faee1d13c5029793c3f1feabb96982478a3c6b1d838df07e95af"
+      }
+    }
+  },
+  "kou-71": {
+    "rowSha256": "2caf21bad4b5f9857a9975b557486b4c02edcc27838b5dd5a5051f9b6a63e090",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-71/completed.png",
+        "sha256": "449cb05d06fb38b7bbee49b3d07368941683d0b5b37374ac9a54600f4a5657ae"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-71/full.png",
+        "sha256": "07a8082c94bb8bcaf194a274a6f60ca5d0f1ec36772b7a49f81d52c6ab2a42a1"
+      }
+    }
+  },
+  "kou-72": {
+    "rowSha256": "5b79ec926c99214e6643435cb3d0d5a22d609679b54d06237e708b9911fbf239",
+    "files": {
+      "image": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-72/completed.png",
+        "sha256": "baed51383a624be8ec5d863498f1fedb5f20b8868bdcf4a8fd146ce3b6b5275d"
+      },
+      "original": {
+        "path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-72/full.png",
+        "sha256": "f080b590aeb99d48f62ab696763aeb426fc139d2d1697a31a1a67d44ef49a91d"
+      }
+    }
+  }
+}

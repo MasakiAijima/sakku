@@ -1,0 +1,67 @@
+{
+  "kouId": "kou-22",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "850ddb09f1e8c74b6c40ce651c3a939031fef5b06307853505e8a734f15696cf",
+  "generation": {
+    "id": "kou-22",
+    "hash": "1d10c24aa1b43ac882188245b27c7b01bcbbad6095e6315053c0484f774785f3",
+    "reference_sha256": "26c0bedc240a446671a43674cff8b45837c84c747a30a1983a9e73dd5b016497",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese seasonal illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small brown LEAF STALK only; keep the large olive mulberry leaf and tiny ivory silkworm unchanged to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged as well. This is one small existing color field recolored to one accent hue, not a new part, not a new decoration. Preserve relative areas: the recolored field stays exactly the same SMALL area. Do not spread the accent onto the main motif. Keep the artwork centered with generous clear margins; solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:24:09.449275+00:00",
+    "completed_sha256": "d25d0fde017186398f4ee8e200b69a1ea676bc2fd889ccfc68b6304b302fc681",
+    "reused_from": "output/seasonal-assets/color-study-c/kou-22"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 537.28,
+      "y": 393.141,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      115,
+      103,
+      397,
+      409
+    ],
+    "precursorBounds": [
+      130,
+      365,
+      163,
+      409
+    ]
+  },
+  "sourceHashes": {
+    "C": "d25d0fde017186398f4ee8e200b69a1ea676bc2fd889ccfc68b6304b302fc681",
+    "Cprime": "b727d4ba468a1694915bf8e5f69a1188022f1e6327ddc1a2ee5b35779f572eda",
+    "generation": "0d6a0ec46c3137ea37832fd5d4f0e8e7323641a3b5378a3dde3cf5513a7959df"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese seasonal illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small brown LEAF STALK only; keep the large olive mulberry leaf and tiny ivory silkworm unchanged to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged as well. This is one small existing color field recolored to one accent hue, not a new part, not a new decoration. Preserve relative areas: the recolored field stays exactly the same SMALL area. Do not spread the accent onto the main motif. Keep the artwork centered with generous clear margins; solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:24:09.449275+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

@@ -1,0 +1,64 @@
+{
+  "fingerprint": "ebd210a4a995b61676edbc2fb05364927388966f7f438a41f98ede5f77109558",
+  "asset": {
+    "kouId": "kou-33",
+    "name": "鷹乃ちわざをならう",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 420.17,
+      "y": 586.202,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      147,
+      103,
+      365,
+      409
+    ],
+    "precursorBounds": [
+      232,
+      349,
+      295,
+      371
+    ],
+    "motionBounds": {
+      "x": 147,
+      "y": 103,
+      "width": 218,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        263.5,
+        360.0
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-33/initial.png",
+    "completed": "kou-33/completed.png",
+    "transition": "kou-33/transition.webp",
+    "idle": "kou-33/idle.png",
+    "provenance": "kou-33/provenance.json",
+    "hashes": {
+      "initial": "462fa993f43c10f2caff78f061bb286f5ce8b9218ae18c1243185a22759af703",
+      "completed": "5f5182448f57698536fe081e7f0867fff43c2432bcc5a67a68981097c63f5714",
+      "transition": "a41ff0802d532b78e86efaa7fcb43f14c75fcab15ad34599ea8b7b7f72e318e8",
+      "idle": "5f5182448f57698536fe081e7f0867fff43c2432bcc5a67a68981097c63f5714",
+      "provenance": "2774d2c76929696eddc99eaa5151f05f080d2ca3466ece25a746723286678c0e"
+    }
+  }
+}

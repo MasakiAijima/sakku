@@ -1,0 +1,64 @@
+{
+  "fingerprint": "135c7cf22ee3aaf9de238349b5e5296429d88b2862110488c999bd295bf024ee",
+  "asset": {
+    "kouId": "kou-65",
+    "name": "さわしかの角おつる",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 239.873,
+      "y": 185.697,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      130,
+      409,
+      381
+    ],
+    "precursorBounds": [
+      245,
+      300,
+      406,
+      376
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 130,
+      "width": 306,
+      "height": 251
+    },
+    "animation": {
+      "seed": [
+        325.5,
+        338.0
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-65/initial.png",
+    "completed": "kou-65/completed.png",
+    "transition": "kou-65/transition.webp",
+    "idle": "kou-65/idle.png",
+    "provenance": "kou-65/provenance.json",
+    "hashes": {
+      "initial": "d2f0556efc5a9b65d828d2cb2c16b4d46b0fa312ef232fbf3a16d22946de5ee0",
+      "completed": "c635b1db9ddcb082767c83d1b3147cbdf9fece4de13d3c8d42dfc2732077b3f5",
+      "transition": "658f40665eba713038af732034436acf974ff5f45621be7798ae82bb2c4b9845",
+      "idle": "c635b1db9ddcb082767c83d1b3147cbdf9fece4de13d3c8d42dfc2732077b3f5",
+      "provenance": "7651c8c8d0f138b25c9c1ea0d9cdb8ab312bf486117523e97f60715dc0bf1410"
+    }
+  }
+}

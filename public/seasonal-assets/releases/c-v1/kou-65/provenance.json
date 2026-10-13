@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-65",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "135c7cf22ee3aaf9de238349b5e5296429d88b2862110488c999bd295bf024ee",
+  "generation": {
+    "id": "kou-65",
+    "hash": "526d5a35a3bdcca115a0afcd68a1f43760ab6a6c6aaf87d004c692467253e067",
+    "reference_sha256": "7ad7b9bd2f2361e4ce51942d27540b11f1410e72a396cc13c4b90da89b163d7a",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small olive GRASS/LEAF under the brown antler only; preserve brown antler and golden cut end to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T13:16:10.632820+00:00",
+    "completed_sha256": "c635b1db9ddcb082767c83d1b3147cbdf9fece4de13d3c8d42dfc2732077b3f5"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 239.873,
+      "y": 185.697,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      130,
+      409,
+      381
+    ],
+    "precursorBounds": [
+      245,
+      300,
+      406,
+      376
+    ]
+  },
+  "sourceHashes": {
+    "C": "c635b1db9ddcb082767c83d1b3147cbdf9fece4de13d3c8d42dfc2732077b3f5",
+    "Cprime": "d2f0556efc5a9b65d828d2cb2c16b4d46b0fa312ef232fbf3a16d22946de5ee0",
+    "generation": "998af11a9c7c53409b2ab7a2ae37a71381758a7d577fa304561cc90d920a24c8"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small olive GRASS/LEAF under the brown antler only; preserve brown antler and golden cut end to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T13:16:10.632820+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

@@ -1,0 +1,64 @@
+{
+  "fingerprint": "6c3ea004aac0fb0e439c4c5e67e2929083e43d55ef15808f1c0c1264faecddc7",
+  "asset": {
+    "kouId": "kou-66",
+    "name": "雪下りて麦のびる",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 228.289,
+      "y": 132.111,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      166,
+      103,
+      346,
+      409
+    ],
+    "precursorBounds": [
+      201,
+      196,
+      337,
+      321
+    ],
+    "motionBounds": {
+      "x": 166,
+      "y": 103,
+      "width": 180,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        269.0,
+        258.5
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-66/initial.png",
+    "completed": "kou-66/completed.png",
+    "transition": "kou-66/transition.webp",
+    "idle": "kou-66/idle.png",
+    "provenance": "kou-66/provenance.json",
+    "hashes": {
+      "initial": "cbf773573dd8fbb5f3c39bdf8c21d2309381e7c77384d6794bbc671525846e08",
+      "completed": "73262578b849d176395a09aca86c11f9ac2fdd62d3109fbd36ee7f57f3792fee",
+      "transition": "0ea933390dd96f2ded961ae302c7d4ec1db976ecd14113ad6a7361f169894e29",
+      "idle": "73262578b849d176395a09aca86c11f9ac2fdd62d3109fbd36ee7f57f3792fee",
+      "provenance": "6d88bd9a1185daea3ed3190228c7a3d0833fd8b3364f352630d3393974391896"
+    }
+  }
+}

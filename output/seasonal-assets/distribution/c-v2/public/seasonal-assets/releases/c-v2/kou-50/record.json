@@ -1,0 +1,64 @@
+{
+  "fingerprint": "01e1e206a2b6ea9e9aebff2c053ed4327434de4d7172beae9a64a982d6d51516",
+  "asset": {
+    "kouId": "kou-50",
+    "name": "菊花開く",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 273.21,
+      "y": 389.204,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      106,
+      409,
+      405
+    ],
+    "precursorBounds": [
+      233,
+      266,
+      277,
+      300
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 106,
+      "width": 306,
+      "height": 299
+    },
+    "animation": {
+      "seed": [
+        255.0,
+        283.0
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-50/initial.png",
+    "completed": "kou-50/completed.png",
+    "transition": "kou-50/transition.webp",
+    "idle": "kou-50/idle.png",
+    "provenance": "kou-50/provenance.json",
+    "hashes": {
+      "initial": "0b6e97abfb0f3fb515add7bb9bae8f34d7384dc7b8514365f463a19419ea1d98",
+      "completed": "eb14da4adb936a69ebbd3be38a9d4940f6a9ea6bd0f5fd83bf60bf07cd363ef2",
+      "transition": "82e90ca0442adf722bb8d2612dbf71eb493843ce634fe834f47a3a3883fde9a7",
+      "idle": "eb14da4adb936a69ebbd3be38a9d4940f6a9ea6bd0f5fd83bf60bf07cd363ef2",
+      "provenance": "d87a547c4cf4e1012341e5bc116e100921deea24b7ccd697add9b9e21babc623"
+    }
+  }
+}

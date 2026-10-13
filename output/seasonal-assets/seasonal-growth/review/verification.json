@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "changedPixelsDuringGrowth": 548,
+  "changedPixelsAfterGrowth": 4239,
+  "ordered": 72,
+  "futurePreserved": true,
+  "pauseResume": true,
+  "finalOriginalC": true,
+  "mobile": true
+}

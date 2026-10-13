@@ -1,0 +1,64 @@
+{
+  "fingerprint": "5e7d73c3ac44676e6fa69403ecd7a973e83a6b7c8b1379154a26671d719d398f",
+  "asset": {
+    "kouId": "kou-47",
+    "name": "虫かくれて戸をふさぐ",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 152.629,
+      "y": 493.975,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      104,
+      409,
+      408
+    ],
+    "precursorBounds": [
+      141,
+      336,
+      180,
+      375
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 104,
+      "width": 306,
+      "height": 304
+    },
+    "animation": {
+      "seed": [
+        160.5,
+        355.5
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-47/initial.png",
+    "completed": "kou-47/completed.png",
+    "transition": "kou-47/transition.webp",
+    "idle": "kou-47/idle.png",
+    "provenance": "kou-47/provenance.json",
+    "hashes": {
+      "initial": "138ee4aeb24d57aad142f43efd897f5b5c3956dfa548ae33bc13399d0261bde9",
+      "completed": "6ed7bd0ad44ef8003bf19c81a85ccb37461b72f6e09a43306575d4d966de750a",
+      "transition": "7cbc3a4a8ddd24b4128a46cfa4d8282625a1d34aea16b3797988f6e207254787",
+      "idle": "6ed7bd0ad44ef8003bf19c81a85ccb37461b72f6e09a43306575d4d966de750a",
+      "provenance": "7e66d38bfeaf5b80346b2210dd891a87b5b83e21d570eb552d8eb81175aa5035"
+    }
+  }
+}

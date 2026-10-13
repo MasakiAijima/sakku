@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-44",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "d3658d1ae300e7e8d57e2e8e580e9afb38a232c7bb2e5c95da277357f93fec2d",
+  "generation": {
+    "id": "kou-44",
+    "hash": "26b148ea381f1da2ce842a9534cb0ca1740d661addc3832953e20d1a9cd989d2",
+    "reference_sha256": "90730a421fc3f82fdfc9ebd0d8955a385b9c2dc70dc4da9a5fa66651b79574b3",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small ochre STONE beneath the gray-and-ivory wagtail only; preserve bird and both bird colors to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T13:03:54.454530+00:00",
+    "completed_sha256": "e72318f303e98ccc56d64d6065fcf462ff2f67db29071ce2df2e99b15bd49684"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 196.591,
+      "y": 540.375,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      106,
+      409,
+      406
+    ],
+    "precursorBounds": [
+      123,
+      302,
+      278,
+      406
+    ]
+  },
+  "sourceHashes": {
+    "C": "e72318f303e98ccc56d64d6065fcf462ff2f67db29071ce2df2e99b15bd49684",
+    "Cprime": "2f0a420841c15382d3a550316144e8cbbda1d45d217a594a44cace4a65d5ee7f",
+    "generation": "6b2e2b941d017bc76ed180e127015cca1e6de51cb4a671ff8d55871987889db4"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small ochre STONE beneath the gray-and-ivory wagtail only; preserve bird and both bird colors to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T13:03:54.454530+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

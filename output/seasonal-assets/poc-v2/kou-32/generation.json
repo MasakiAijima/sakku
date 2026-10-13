@@ -1,0 +1,28 @@
+{
+  "id": "kou-32",
+  "name": "蓮始めて開く",
+  "prompt": "Redesign the attached faceless seasonal artwork. Use it as the style reference for unequal areas of color, long curves and how shapes overlap, not just its colors. Express one seasonal moment with a few large flat color fields and expressive organic contours. Choose one dominant motif first; use only one or two auxiliary motifs, much smaller than the dominant one. Draw long curves, uneven swelling and shallow and deep pinches. Avoid equal petals, mechanical repetition and internal bilateral symmetry. Create directional flow through leaning and projecting silhouettes. Choose only the necessary 2-4 colors from #D94B35 #ED8B35 #3159A7 #E3BC45 #72804A #E9B8B5 #B9D5DE #B58A50 #F5F3ED, giving the dominant color the largest area. Keep subtle uneven ink printing inside the fields, supporting the shapes. Make a complete static composition; do not separate parts or add gaps for animation. Keep the motif inside the central 60 percent of a square canvas. Solid chromakey magenta #FF00FF background only; no magenta in the artwork. No faces, eyes, text, logos, outlines, frames, shadows, gradients, translucency or fine decorative details. One large pink lotus flower leans to one side. Use only two or three broad petal masses, unequal in width and height, with long irregular curves and asymmetric overlap. One small muted green leaf sits close below it. Show the flower beginning to open. No visible flower center, stamens, water or extra leaves.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "medium",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "master_version": "e72212780133af95020bc7f39e95b6638d664b3d647c1f7b1077aa4ec317d649",
+  "generator_version": 2,
+  "prompt_version": 2,
+  "operation": "edit",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/imagegen/microseason-samples-v2/03-lotus-opens.png",
+  "reference_sha256": "0d11bde6bcae07840e5fe600367f036ec6b64e7475f40ac590a03e239585a36a",
+  "hash": "83cfc992cc26fdfb8f80e7955a9f58b50053549d89032cb89dc4efdd63536cd8",
+  "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v2/kou-32/original.png",
+  "provenance": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v2/kou-32/generation.json",
+  "prompt_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v2/kou-32/prompt.txt",
+  "attempted_at": "2026-10-12T07:37:37.260825+00:00",
+  "status": "succeeded",
+  "reserved_jpy": 90,
+  "actual_cost_jpy": null,
+  "image_sha256": "b5d6825a083e70d63c60cc9ab1d81dcc959048d80bdbb8403dbd9f5494c24b2f"
+}

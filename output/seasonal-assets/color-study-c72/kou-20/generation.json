@@ -1,0 +1,23 @@
+{
+  "id": "kou-20",
+  "hash": "15b2088e36c9e2478620bc068d6be65887d753fd776ff2e9dc77f62982153192",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-20/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-20/reference.png",
+  "reference_sha256": "76e2cd6d63cec76caec76c8b1003b37a006aaecb440859c585b12bf3912b41c5",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the tiny olive GRASS/SOIL PATCH at the base of the curved brown earthworm only; preserve all brown and red worm planes to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:53:59.393248+00:00",
+  "image_sha256": "776f6c6a2f659d8cf637cb0fee524ddad68353c0d8dccf7202513bc2b78c0983",
+  "completed_sha256": "bd200fe099fc0356dcbb72d892a6ceccdefecca779c7ba45ec48d3ad0c316395",
+  "cutout_sha256": "d87ba15a85493eeb90dd7e4f3fe5248fca005026a685b84da5f01ba82cf6e481"
+}

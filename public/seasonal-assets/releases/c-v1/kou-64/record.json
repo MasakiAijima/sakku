@@ -1,0 +1,64 @@
+{
+  "fingerprint": "4e93ccb126bd882d8816fbc1904cafe5cd5e471b0b34cd6506500554239dded8",
+  "asset": {
+    "kouId": "kou-64",
+    "name": "乃東生ず",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 258.169,
+      "y": 233.269,
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      156,
+      103,
+      355,
+      409
+    ],
+    "precursorBounds": [
+      191,
+      359,
+      338,
+      409
+    ],
+    "motionBounds": {
+      "x": 156,
+      "y": 103,
+      "width": 199,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        264.5,
+        384.0
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-64/initial.png",
+    "completed": "kou-64/completed.png",
+    "transition": "kou-64/transition.webp",
+    "idle": "kou-64/idle.png",
+    "provenance": "kou-64/provenance.json",
+    "hashes": {
+      "initial": "e870475d35d77ac0a156f72ce746901b7e38a002fddab53cfbea1b95d71fec50",
+      "completed": "3d0b03ed067dc54c95d40bee2fc3f3a5c3a05d9addf34377d11c7b796513294a",
+      "transition": "bea6c642aac2e5f832f007b2ec86327ac8a7ca0c341f6719dddc1ab3975cab43",
+      "idle": "3d0b03ed067dc54c95d40bee2fc3f3a5c3a05d9addf34377d11c7b796513294a",
+      "provenance": "4ffee31bc7d90a02cb910419edae0f363abb37408289fff25518933745be62f9"
+    }
+  }
+}

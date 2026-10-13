@@ -1,0 +1,64 @@
+{
+  "fingerprint": "7dc017b85f4e564ad0a02ee5024e978a88c59cbe27857dc90c3a7c528896aef8",
+  "asset": {
+    "kouId": "kou-29",
+    "name": "菖蒲はなさく",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 383.861,
+      "y": 400.877,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      154,
+      103,
+      358,
+      409
+    ],
+    "precursorBounds": [
+      233,
+      257,
+      348,
+      409
+    ],
+    "motionBounds": {
+      "x": 154,
+      "y": 103,
+      "width": 204,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        290.5,
+        333.0
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-29/initial.png",
+    "completed": "kou-29/completed.png",
+    "transition": "kou-29/transition.webp",
+    "idle": "kou-29/idle.png",
+    "provenance": "kou-29/provenance.json",
+    "hashes": {
+      "initial": "09e929be8bbf76471670e7970c231698de4300716f36807ca4486cb54ed30463",
+      "completed": "6d73bde6f4213cc7886dea3844b73fe9c8e4ccacc4ccf4b75f7d1c24c6699802",
+      "transition": "6b8611789c1c04b0fca4fc820c11f10eb716699a36fbf96795b66cd42f8b2c37",
+      "idle": "6d73bde6f4213cc7886dea3844b73fe9c8e4ccacc4ccf4b75f7d1c24c6699802",
+      "provenance": "5e97ef6579342827c08e4fda6206cf39eea3953d1e5712964ff592570f9baec5"
+    }
+  }
+}

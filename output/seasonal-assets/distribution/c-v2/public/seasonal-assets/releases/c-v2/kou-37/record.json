@@ -1,0 +1,64 @@
+{
+  "fingerprint": "d1553d4f18492dba4325ab21247c06d8f1442fa0e6e4e2278efad698ebd58c24",
+  "asset": {
+    "kouId": "kou-37",
+    "name": "涼風至る",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 320.232,
+      "y": 488.667,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      131,
+      103,
+      381,
+      409
+    ],
+    "precursorBounds": [
+      322,
+      193,
+      378,
+      229
+    ],
+    "motionBounds": {
+      "x": 131,
+      "y": 103,
+      "width": 250,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        350.0,
+        211.0
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-37/initial.png",
+    "completed": "kou-37/completed.png",
+    "transition": "kou-37/transition.webp",
+    "idle": "kou-37/idle.png",
+    "provenance": "kou-37/provenance.json",
+    "hashes": {
+      "initial": "c3abb51e8343ed21e9d02772190a3232c664a327335806368a452166012dcad7",
+      "completed": "95eac34711e9480e577b6dafea7ba9a6a99379f632134fe7a45f164d8350eabd",
+      "transition": "c736187c19fb295d9b2e55b88f971d230c8e190b5f0a8a5a7cdf7d29d518d9fa",
+      "idle": "95eac34711e9480e577b6dafea7ba9a6a99379f632134fe7a45f164d8350eabd",
+      "provenance": "971f459d02a03c4b60381ea49a400a17b8df964dd9e433b48cc280462a6cf883"
+    }
+  }
+}

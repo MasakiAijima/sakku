@@ -1,0 +1,24 @@
+{
+  "status": "pending",
+  "formatDecision": "pending browser load and visual review",
+  "contactSheetColumns": [
+    "initial",
+    "completed",
+    "transition midpoint",
+    "idle maximum sway"
+  ],
+  "qualityDecision": "changes required; do not expand to72 before review",
+  "knownConcerns": [
+    "initial geometry is approximate and requires art review",
+    "transition is provisional crossfade, not final layering",
+    "residual thin shadow",
+    "extra wind shapes",
+    "lotus dimensional center",
+    "maple extra yellow twig"
+  ],
+  "assets": [
+    "kou-01",
+    "kou-32",
+    "kou-54"
+  ]
+}

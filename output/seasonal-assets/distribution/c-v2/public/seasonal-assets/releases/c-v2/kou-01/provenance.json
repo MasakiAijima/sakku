@@ -1,0 +1,70 @@
+{
+  "kouId": "kou-01",
+  "algorithmVersion": "organic-growth-48-v2",
+  "inputFingerprint": "6b1ba0bb8c2b0013c11ae7f153a2eb24435b3e4c0927c5e318b66414d387d1f8",
+  "assetVersion": "c-v2",
+  "promptVersion": "sha256:6cd3e666c7b2e859d05da5b0273fee9c75cbca37a67ca9e1f03828c55fa8ef20",
+  "processedAtUTC": "2026-10-13T13:41:52.489534+00:00",
+  "provider": "openai",
+  "generation": {
+    "id": "kou-01",
+    "hash": "d52fd96b5483c835b4d50f07d853abf004726b4dd64b39b659ce39a3e0bac4a6",
+    "reference_sha256": "9dd5db0bb76672eadfdf950bdadff1f9350c15a22c141cb8959aa199a15effcd",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the single tiny deep-blue MELTWATER DROP next to the large pale-blue melting ice block only; keep ice and teal puddle to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:45:24.829112+00:00",
+    "completed_sha256": "1264b493129b1595ad492425f0ab5f179d6579f2c67d578b08a16501ba740d24"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 351.792,
+      "y": 160.16,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      116,
+      103,
+      396,
+      409
+    ],
+    "precursorBounds": [
+      337,
+      340,
+      368,
+      397
+    ]
+  },
+  "sourceHashes": {
+    "C": "1264b493129b1595ad492425f0ab5f179d6579f2c67d578b08a16501ba740d24",
+    "Cprime": "b14b2cad4412cdf5bb333be9734df09bd7f591b0941cbfe071e9d648c55e244f",
+    "generation": "32ca9e3446f36a3cf25cf5187bbc59de7c6ec292288fc27eb1b074926918396d"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the single tiny deep-blue MELTWATER DROP next to the large pale-blue melting ice block only; keep ice and teal puddle to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:45:24.829112+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

@@ -1,0 +1,64 @@
+{
+  "fingerprint": "c9c77dd7b1dcd78029757c80828e83680d9ecd4d3242f9632250eca8d2052e1e",
+  "asset": {
+    "kouId": "kou-70",
+    "name": "款冬華く",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 332.331,
+      "y": 227.25,
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      120,
+      103,
+      391,
+      409
+    ],
+    "precursorBounds": [
+      240,
+      280,
+      283,
+      325
+    ],
+    "motionBounds": {
+      "x": 120,
+      "y": 103,
+      "width": 271,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        261.5,
+        302.5
+      ],
+      "durationMs": 720,
+      "frames": 5,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-70/initial.png",
+    "completed": "kou-70/completed.png",
+    "transition": "kou-70/transition.webp",
+    "idle": "kou-70/idle.png",
+    "provenance": "kou-70/provenance.json",
+    "hashes": {
+      "initial": "0240ea08929cc0012e5397ea8ff0d85a240ab8a785c5a53acfc380126740ac4f",
+      "completed": "7a42360837ee0cb0a392d1918b3f3218e3fd33dd18aa8f45b5f60b48755f5016",
+      "transition": "b15583a79052792a23371eaa48a22c6116236c801f3ce26ac17f81cb8bfbc3a2",
+      "idle": "7a42360837ee0cb0a392d1918b3f3218e3fd33dd18aa8f45b5f60b48755f5016",
+      "provenance": "344eb764e6d58c8d2129864195f345ba58923d82926f67edf3496c6cbafb7258"
+    }
+  }
+}

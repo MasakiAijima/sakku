@@ -1,0 +1,64 @@
+{
+  "fingerprint": "e906d95151e13a3b6bc787c50b6c539b6e26f87c891e1abfd22f921ca0608bf3",
+  "asset": {
+    "kouId": "kou-39",
+    "name": "深き霧まとう",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 304.116,
+      "y": 596.62,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      160,
+      409,
+      352
+    ],
+    "precursorBounds": [
+      179,
+      264,
+      259,
+      324
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 160,
+      "width": 306,
+      "height": 192
+    },
+    "animation": {
+      "seed": [
+        219.0,
+        294.0
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-39/initial.png",
+    "completed": "kou-39/completed.png",
+    "transition": "kou-39/transition.webp",
+    "idle": "kou-39/idle.png",
+    "provenance": "kou-39/provenance.json",
+    "hashes": {
+      "initial": "dafcca0646fe9c4f2f8acdd12700a9d1f7f4f6fcb935b377521c8dc0079fc40e",
+      "completed": "856bd6bd23ec3d59170144466dbf7cb04b8739186da63fd76675ed5d8af9ffb4",
+      "transition": "91282d011e7a16cf9dcc97b7d7bdf66a55a06feead936212e2aed02fdeccdafc",
+      "idle": "856bd6bd23ec3d59170144466dbf7cb04b8739186da63fd76675ed5d8af9ffb4",
+      "provenance": "7c53121e5a85d6362135c0ceb2499f29c878541c267d32d84b3fba92bbb8697a"
+    }
+  }
+}

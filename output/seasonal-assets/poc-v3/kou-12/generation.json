@@ -1,0 +1,30 @@
+{
+  "id": "kou-12",
+  "name": "雷乃ち声を発す",
+  "prompt": "Use case: stylized-concept. Asset: one independent Japanese microseason illustration. The attached image is a STYLE reference only. Preserve its few large flat color planes, expressive hand-cut organic silhouette, long unequal curves, asymmetric swelling and pinches, and restrained uneven screen-print ink inside each color field. Do not copy its subject or colors. Express only the seasonal relationship specified below. One dominant motif occupies most of the artwork; at most one or two much smaller auxiliary motifs overlap it into one compact composition. Choose natural, seasonally meaningful colors from the specified palette. Never default to red. Use broad solid opaque color planes. Silhouette has character and directional flow; avoid bilateral symmetry, equally spaced petals, repeated geometry and fine outlines. The static image must be complete; do not add separate parts or gaps for animation. Center the entire compact artwork within the central 60 percent of the square, with ample clean empty margin on all sides. Solid chromakey magenta #FF00FF background; no magenta, hot pink, fuchsia, purple spill or pink reflected lighting in the artwork. Pink petals must be muted salmon #E9B8B5, distinct from the magenta background. No faces, eyes, pupils, letters, numerals, titles, borders, frames, realistic shading, gradients, shadows, translucency, fine veins, repeated decorative dots or textures outside shapes. \nSubject and seasonal relation: One large deep blue spring thundercloud with unequal swollen lobes and a long sagging underside. One much smaller thick golden lightning bend emerges from an off-center notch. A pale blue cloud edge is optional. No rain, repeated bolts or outlined cloud icon. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.\nSemantic color palette: #3159A7 (雷雲), #E3BC45 (稲妻), #B9D5DE (雲の縁)\nColor intent: 青い雲と黄色い雷で気象現象を読み取れるようにする",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "master_version": "e72212780133af95020bc7f39e95b6638d664b3d647c1f7b1077aa4ec317d649",
+  "generator_version": 3,
+  "prompt_version": 3,
+  "operation": "edit",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-01/completed.png",
+  "reference_sha256": "6a5df021d3338710836e235ba3ec90d787b6a6b8cbd7ab3fa7cc43649750a025",
+  "hash": "ba03886d4d871fcf5753123ec50b47d7cec65d008723c9143ee5192f5b4e9f66",
+  "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-12/original.png",
+  "provenance": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-12/generation.json",
+  "prompt_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-12/prompt.txt",
+  "attempted_at": "2026-10-12T11:01:19.679383+00:00",
+  "status": "succeeded",
+  "reserved_jpy": 130,
+  "actual_cost_jpy": null,
+  "image_sha256": "2989f1009180042e78511bcd8b5f2894c0c27ab5001ebb47b250542d92d5a3bd",
+  "completed_sha256": "8b49f77b15fa771bb80e05930fb754c5e93af156784f9c7c0f92e691b8465516",
+  "cutout_sha256": "82a24be29d9a9044a51f362425f78d2ce5fd5ce5ddb95ce771f0deb368c2f3b0"
+}

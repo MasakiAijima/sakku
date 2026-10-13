@@ -1,0 +1,64 @@
+{
+  "fingerprint": "dd340fd76516135387575b848a929d4feeff85c1f614c1b0041b2fe585a3b30a",
+  "asset": {
+    "kouId": "kou-26",
+    "name": "腐れたる草蛍となる",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 439.244,
+      "y": 427.566,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      112,
+      409,
+      399
+    ],
+    "precursorBounds": [
+      222,
+      278,
+      257,
+      323
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 112,
+      "width": 306,
+      "height": 287
+    },
+    "animation": {
+      "seed": [
+        239.5,
+        300.5
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-26/initial.png",
+    "completed": "kou-26/completed.png",
+    "transition": "kou-26/transition.webp",
+    "idle": "kou-26/idle.png",
+    "provenance": "kou-26/provenance.json",
+    "hashes": {
+      "initial": "dd51c86c03c857e859f96c4d58dd0d87f2ee50787383794ee8f689d36f5e4b0a",
+      "completed": "85a46466c8b8f04b05c3d128bfa49fd56bd8110eae72f727a9f5311d22c90855",
+      "transition": "8f24bfdf6a53151a33b3614b58701d848b5b68fe81f82011fafcda6fd5c6a4d9",
+      "idle": "85a46466c8b8f04b05c3d128bfa49fd56bd8110eae72f727a9f5311d22c90855",
+      "provenance": "c9d14218ee50943b5bd69f77ba9f9510a4fce97935be45f6f91064df262ed759"
+    }
+  }
+}

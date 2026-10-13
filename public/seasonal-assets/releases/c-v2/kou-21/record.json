@@ -1,0 +1,64 @@
+{
+  "fingerprint": "90eb2256bd81b532168466d9ca79883d20e099a22f2a7c034f95effde10da47e",
+  "asset": {
+    "kouId": "kou-21",
+    "name": "竹のこ生ず",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 429.751,
+      "y": 360.731,
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      153,
+      103,
+      358,
+      409
+    ],
+    "precursorBounds": [
+      272,
+      104,
+      315,
+      188
+    ],
+    "motionBounds": {
+      "x": 153,
+      "y": 103,
+      "width": 205,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        293.5,
+        146.0
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-21/initial.png",
+    "completed": "kou-21/completed.png",
+    "transition": "kou-21/transition.webp",
+    "idle": "kou-21/idle.png",
+    "provenance": "kou-21/provenance.json",
+    "hashes": {
+      "initial": "c220354c8be45541104d1a377eb99d0cf33172dfd708f6ec4e05ae2ae0360078",
+      "completed": "8db465146f8a7cc7a982b55186558abbfc80c847ce87a1a7098acc935b8c783b",
+      "transition": "61b40a6f029a2193c031de4e32f277110e5181d4e144265e6467101fa3651ac3",
+      "idle": "8db465146f8a7cc7a982b55186558abbfc80c847ce87a1a7098acc935b8c783b",
+      "provenance": "2f0851ed580930287604c6e6d712201e394bf6b07694b6809635f3276521ceaa"
+    }
+  }
+}

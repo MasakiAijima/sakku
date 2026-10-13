@@ -1,0 +1,23 @@
+{
+  "id": "kou-56",
+  "hash": "13d5464404e48ff64866fae6dfd2d0083a46643bec6bdcde9e92002430b1a39d",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-56/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c/kou-56/reference.png",
+  "reference_sha256": "3625dff917930426992a07e096f222cf374d8e0d9ca31814c5dfad9ad9ba4475",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese seasonal illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the tiny deep-blue narrow CRACK below the pale-blue ICE WEDGE only; keep ochre earth and pale-blue ice unchanged to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged as well. This is one small existing color field recolored to one accent hue, not a new part, not a new decoration. Preserve relative areas: the recolored field stays exactly the same SMALL area. Do not spread the accent onto the main motif. Keep the artwork centered with generous clear margins; solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:26:55.731503+00:00",
+  "image_sha256": "8908862281ec91d32587f1229923051857ab1e1d2ac18214b7c0ea3319729e21",
+  "completed_sha256": "15b1c6887e7166fab6a65533c6d99806b78db991fc4c3f8c0f2d0758aa31d6aa",
+  "cutout_sha256": "ff97153d2736fb10fb67ab212321d328fc26b5fe525a0eb2eceac692bbbf6361"
+}

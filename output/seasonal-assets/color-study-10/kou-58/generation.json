@@ -1,0 +1,23 @@
+{
+  "id": "kou-58",
+  "hash": "3d28cbbddf6230a64cda2e43aa6590e26027e8f8e397d56c59b07a72f842b7fa",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/revision-12/kou-58/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-10/kou-58/reference.png",
+  "reference_sha256": "9cf92777968872b843dd8507ed2a1c84121c6b8292911edc93f6a5e30922757c",
+  "prompt": "Use case: precise-object-edit. Make a COLOR-ONLY variant of the attached finished Japanese seasonal cut-paper illustration. Keep the exact subject, composition, contour, proportions, pose, number of parts, overlaps, size and position of EVERY shape. Do not redraw, redesign, simplify, add, remove or move any part. Change ONLY the large slate-blue WINTER CLOUD only, preserving the tiny rainbow fragment to saturated #F48708. This single intentionally unnatural strong color echoes bold Japanese screen-print vermilion, cobalt and orange. Keep every OTHER color exactly as in the attached image, including their muted tones. Preserve existing restrained print mottling and organic cut-paper edges. Use one newly introduced accent hue only, with slight existing ink mottling, no additional accent colors. Keep all artwork complete in the same central area with ample clean margins. Render on solid chromakey magenta #FF00FF background so it can be removed. Magenta must appear ONLY in the background. No shadows, gradients, outlines, faces, eyes, writing or new decorative marks. Output square1024. The only intended difference is the specified color substitution.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:04:29.624274+00:00",
+  "image_sha256": "d47f96f0293598a49bf45f7025bc6d8f4ae4263c8f17067bb161e16ea914fb07",
+  "completed_sha256": "54a39646621f27f0dec16541cd9e96d698adbf82e02f66e8924322c63b5f99bc",
+  "cutout_sha256": "1977f3097a68acf5988b6ffe22152361ce1043a2117fc244169fc35df92f285f"
+}

@@ -1,0 +1,64 @@
+{
+  "fingerprint": "b231ca4f0e396aac4e97d62cd88996c2995678794af0876d1133c5da3a6af50d",
+  "asset": {
+    "kouId": "kou-20",
+    "name": "みみず出ずる",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 482.693,
+      "y": 379.22,
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      130,
+      103,
+      381,
+      409
+    ],
+    "precursorBounds": [
+      174,
+      347,
+      262,
+      407
+    ],
+    "motionBounds": {
+      "x": 130,
+      "y": 103,
+      "width": 251,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        218.0,
+        377.0
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-20/initial.png",
+    "completed": "kou-20/completed.png",
+    "transition": "kou-20/transition.webp",
+    "idle": "kou-20/idle.png",
+    "provenance": "kou-20/provenance.json",
+    "hashes": {
+      "initial": "b63fe86fbe669369cacc83e7c5a87c856784f2d21c394658cf7d2b0de4e597e7",
+      "completed": "bd200fe099fc0356dcbb72d892a6ceccdefecca779c7ba45ec48d3ad0c316395",
+      "transition": "8b6712153e9097ae273e042d0eb4937459d8aaee5d27089059d2603f30c1e0cb",
+      "idle": "bd200fe099fc0356dcbb72d892a6ceccdefecca779c7ba45ec48d3ad0c316395",
+      "provenance": "e78525dca1d0df8f62a436a6782bfbc21350a00a1bdd034b4aefe95d32028fb2"
+    }
+  }
+}

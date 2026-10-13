@@ -1,0 +1,23 @@
+{
+  "id": "kou-38",
+  "hash": "12cba577f49f5bf7e5c6cd145b02dc9c90ab83b9a9db388180e5d0d5bbe24609",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-38/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-38/reference.png",
+  "reference_sha256": "4a963250f7cab303d2477368fa5d768d20fa606eaf7c8a3b0d819e5b57d6bfe9",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the narrow dark-brown TREE TRUNK visible behind the brown cicada and olive wings only; preserve cicada body and wings to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:01:11.226771+00:00",
+  "image_sha256": "c04823fc654c22af3d3264114f1c111b7842c2ebb9c1c550cf03a2741003ad8b",
+  "completed_sha256": "a77de9e3dd85d92be1c5186e829a38c3c57fbb34e938e86cf41b272a91123324",
+  "cutout_sha256": "0a92bc81a6974c3d7a2121b32dc1895c0552db346ab39b607e49849ccb1dcde7"
+}

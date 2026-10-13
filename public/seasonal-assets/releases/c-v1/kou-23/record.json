@@ -1,0 +1,64 @@
+{
+  "fingerprint": "5a02deae67f84d88b5cbba534bd63d5ed4328ec18bde557e877b047c374ae54c",
+  "asset": {
+    "kouId": "kou-23",
+    "name": "紅花栄う",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 588.857,
+      "y": 416.276,
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      145,
+      103,
+      366,
+      409
+    ],
+    "precursorBounds": [
+      182,
+      198,
+      336,
+      409
+    ],
+    "motionBounds": {
+      "x": 145,
+      "y": 103,
+      "width": 221,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        259.0,
+        303.5
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-23/initial.png",
+    "completed": "kou-23/completed.png",
+    "transition": "kou-23/transition.webp",
+    "idle": "kou-23/idle.png",
+    "provenance": "kou-23/provenance.json",
+    "hashes": {
+      "initial": "c33aad1a7a283bf9eaa4fd2917055c491d6bf9f704f41075837f57e423853ba7",
+      "completed": "5d3bb1513f8af980833835474a6a3d45bd8a846e958e1d33b54dd4dbbd3e503e",
+      "transition": "15a60af93caee6781c7f0480223b756869e957fc8ea738e2dceb209a2e66464b",
+      "idle": "5d3bb1513f8af980833835474a6a3d45bd8a846e958e1d33b54dd4dbbd3e503e",
+      "provenance": "dd88a6fb192c9adc8b193e732b46fe41ea439f23afbb43a4ab84c76401c156b6"
+    }
+  }
+}

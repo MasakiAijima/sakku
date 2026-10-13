@@ -1,0 +1,23 @@
+{
+  "id": "kou-31",
+  "hash": "f4acbcd88467b8df9e56cf31dd472e403136af786852eea197520c4b6b574a2d",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-31/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-31/reference.png",
+  "reference_sha256": "e305e8748e638fe1397435c27ed6aebfd923c1a4dfb1f4692c161d6fae508da0",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small orange WARM-AIR WISP beside the large olive summer leaf only; preserve olive and teal leaf planes to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:58:15.404491+00:00",
+  "image_sha256": "7df723a3d330650698bb9f3535f37a7f6b0aa51cbae438fdbb6edcf5f0a69cf8",
+  "completed_sha256": "734ba30aaae2390627cb51bbdc7a376578029e4c73ea5ef7513849957899283e",
+  "cutout_sha256": "ef5a9a10b980a6e9d1323d1cea258e14fccbb7949edaca91920213583eb9f8b4"
+}

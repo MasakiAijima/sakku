@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-63",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "0db5db50d789369912c9ad140a130c4cc434e5071a2cf44626ec092520c36658",
+  "generation": {
+    "id": "kou-63",
+    "hash": "a53c2f1bfbf83ff465c9600d1b9dcf360d6195ddde082ab818794ff236726fa6",
+    "reference_sha256": "cde5fc9c20005c95f7b6e5e742ddfcb3ac856fdc7f154d3ba803dc54b9d37330",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the narrow muted-red LATERAL SPAWNING BAND along the salmon flank only; preserve pale-blue body dark-slate back and blue river to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T13:14:46.763001+00:00",
+    "completed_sha256": "3f6757cd15be6830bb49fd684c71a21317c93f94a39f578677c177a9fac67338"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 176.937,
+      "y": 169.315,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      190,
+      409,
+      322
+    ],
+    "precursorBounds": [
+      188,
+      223,
+      340,
+      247
+    ]
+  },
+  "sourceHashes": {
+    "C": "3f6757cd15be6830bb49fd684c71a21317c93f94a39f578677c177a9fac67338",
+    "Cprime": "234bdbbe7ce23c1477b8de3354408e1f0bd1dbea3b029b1fe256d8c57844940a",
+    "generation": "820c5f44e11b3388880797f534339b6b758d3ea039ecdb21e77438255e85433b"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the narrow muted-red LATERAL SPAWNING BAND along the salmon flank only; preserve pale-blue body dark-slate back and blue river to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T13:14:46.763001+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

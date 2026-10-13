@@ -1,0 +1,30 @@
+{
+  "id": "kou-01",
+  "name": "東風凍を解く",
+  "prompt": "Use case: stylized-concept. Asset: one independent Japanese microseason illustration. The attached image is a STYLE reference only. Preserve its few large flat color planes, expressive hand-cut organic silhouette, long unequal curves, asymmetric swelling and pinches, and restrained uneven screen-print ink inside each color field. Do not copy its subject or colors. Express only the seasonal relationship specified below. One dominant motif occupies most of the artwork; at most one or two much smaller auxiliary motifs overlap it into one compact composition. Choose natural, seasonally meaningful colors from the specified palette. Never default to red. Use broad solid opaque color planes. Silhouette has character and directional flow; avoid bilateral symmetry, equally spaced petals, repeated geometry and fine outlines. The static image must be complete; do not add separate parts or gaps for animation. Center the entire compact artwork within the central 60 percent of the square, with ample clean empty margin on all sides. Solid chromakey magenta #FF00FF background; no magenta, hot pink, fuchsia, purple spill or pink reflected lighting in the artwork. Pink petals must be muted salmon #E9B8B5, distinct from the magenta background. No faces, eyes, pupils, letters, numerals, titles, borders, frames, realistic shading, gradients, shadows, translucency, fine veins, repeated decorative dots or textures outside shapes. \nThis is a new subject design, not a recoloring of the reference. Use the reference only for flat color planes, organic contours and print texture. Never copy its subject silhouette or arrangement. Do not use a curled ribbon, spiral, swirl or wave-shaped blob as a generic symbol for weather or water. Follow the specific seasonal scene and distinguishing silhouette below.\nSubject and seasonal relation: One large tilted pale-blue ice block with a rounded softened bottom corner, a small pale-teal meltwater puddle underneath and one blue drop. A diagonal softened edge suggests the arriving gentle spring air. Main silhouette is a compact irregular ice block, not a wind symbol. No ribbons, curling wisps, spirals, hook shapes, clouds or foliage.\nSemantic color palette: #90B8B0 (春風), #B9D5DE (氷), #3159A7 (融けた水)\nColor intent: 風は柔らかな青緑、氷は淡青で早春の冷たさと解氷を表す",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "reference_sha256": "be3727c8bfc3eff85f5f84d867b09f89c8fdaadd215f1d32d94f79683360366f",
+  "generator_version": "revision-12-v1",
+  "operation": "edit",
+  "hash": "5c35e53689ec23b2f5dfc66cb26bfe56ab684c16a8cebdc20f87bca08f0a7ed0",
+  "reference_source": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-32/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-01/reference.png",
+  "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-01/original.png",
+  "provenance": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-01/generation.json",
+  "prompt_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-01/prompt.txt",
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T11:31:16.160330+00:00",
+  "budgetPolicy": "user-waived-for-targeted-revision",
+  "actualCost": null,
+  "image_sha256": "5d2a952a0e1430ae6d052f050bbdf84ed6de3a5d36797b09e2c5dfaf3cd16eae",
+  "completed_sha256": "9dd5db0bb76672eadfdf950bdadff1f9350c15a22c141cb8959aa199a15effcd",
+  "full_sha256": "4ec568f59117c71a567f2c6c9a66697819114d53db02c045d02ddd2bbf0a1c4d",
+  "cutout_sha256": "4ec568f59117c71a567f2c6c9a66697819114d53db02c045d02ddd2bbf0a1c4d"
+}

@@ -1,0 +1,64 @@
+{
+  "fingerprint": "bd3c1100b73f94feb20f2041a4faee4878d45c3e1556fa0304c873bbf0f9c1a7",
+  "asset": {
+    "kouId": "kou-45",
+    "name": "玄鳥去る",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 330.772,
+      "y": 380.707,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      104,
+      409,
+      407
+    ],
+    "precursorBounds": [
+      325,
+      104,
+      408,
+      183
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 104,
+      "width": 306,
+      "height": 303
+    },
+    "animation": {
+      "seed": [
+        366.5,
+        143.5
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-45/initial.png",
+    "completed": "kou-45/completed.png",
+    "transition": "kou-45/transition.webp",
+    "idle": "kou-45/idle.png",
+    "provenance": "kou-45/provenance.json",
+    "hashes": {
+      "initial": "009c77bda51653a2ed916696ac9fd11815d538e4d7bb0e41a7907d45741da8d1",
+      "completed": "f9b1bc54b802f69bf35732ab344538e55162df742693590b380e370c401ebd67",
+      "transition": "90551c0feda624be6434ca09de5d481699e6bec7cfb1ecb2ccfddec93976f767",
+      "idle": "f9b1bc54b802f69bf35732ab344538e55162df742693590b380e370c401ebd67",
+      "provenance": "2c13f02939e0be8125a5a96f88b8314b4de71d190ccb65e457d47afe07fcf40f"
+    }
+  }
+}

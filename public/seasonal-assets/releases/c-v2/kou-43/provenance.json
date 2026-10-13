@@ -1,0 +1,70 @@
+{
+  "kouId": "kou-43",
+  "algorithmVersion": "organic-growth-48-v2",
+  "inputFingerprint": "739477509d484083c853b1b523657f64bfb9c9b2e203f672245697a80ad99d82",
+  "assetVersion": "c-v2",
+  "promptVersion": "sha256:8ea584ce92b366679a616678c407738a4611606e29a898d8f609e6d4893faf8b",
+  "processedAtUTC": "2026-10-13T13:42:03.821888+00:00",
+  "provider": "openai",
+  "generation": {
+    "id": "kou-43",
+    "hash": "b81ac131daa251d1ea42c2b3f77d94efe9347baf2c8283c5ea7452eeb7005dfd",
+    "reference_sha256": "07abec9a6099d23dec961b9a5d22331983fb6ec21fac673aa8a4452137673044",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the single tiny pale-blue DEWDROP on the large olive and teal leaf only; preserve both leaf planes to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T13:02:46.691264+00:00",
+    "completed_sha256": "794f2343f05d7009dba4be47e4ba3c40a2363052bb7c778a808eae676a85b2d1"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 263.711,
+      "y": 455.527,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      139,
+      409,
+      373
+    ],
+    "precursorBounds": [
+      272,
+      139,
+      322,
+      177
+    ]
+  },
+  "sourceHashes": {
+    "C": "794f2343f05d7009dba4be47e4ba3c40a2363052bb7c778a808eae676a85b2d1",
+    "Cprime": "999299805d13a7245e4f899e8cdbf9166b132a9c656cb7b194637df4fdfb6d72",
+    "generation": "e49e4a32707a567d879bc3427580d3ea64a37c3535ab09471399f1035c900e91"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the single tiny pale-blue DEWDROP on the large olive and teal leaf only; preserve both leaf planes to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T13:02:46.691264+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

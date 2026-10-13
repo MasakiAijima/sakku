@@ -1,0 +1,64 @@
+{
+  "fingerprint": "4ad54e3ba88c0ba34a2bd508ba0c402af98e29e97e682ff9021d6f0d245decdd",
+  "asset": {
+    "kouId": "kou-36",
+    "name": "大雨時にふる",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 361.729,
+      "y": 589.282,
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      131,
+      103,
+      380,
+      409
+    ],
+    "precursorBounds": [
+      238,
+      336,
+      380,
+      409
+    ],
+    "motionBounds": {
+      "x": 131,
+      "y": 103,
+      "width": 249,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        309.0,
+        372.5
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-36/initial.png",
+    "completed": "kou-36/completed.png",
+    "transition": "kou-36/transition.webp",
+    "idle": "kou-36/idle.png",
+    "provenance": "kou-36/provenance.json",
+    "hashes": {
+      "initial": "4aae2aaa3c6d46cd96bb2670a8654f3058d6a32e157b099f895825d1b7099e5d",
+      "completed": "e3cc0e5f74fc6c5ba49a9d063aa4ffb7384208d74b8e1c7c32f0fe6783a14cc6",
+      "transition": "cf6b83156c35793468601de5bd9a720609c55ef13d26a6eaa4849af36df45fef",
+      "idle": "e3cc0e5f74fc6c5ba49a9d063aa4ffb7384208d74b8e1c7c32f0fe6783a14cc6",
+      "provenance": "38b0d5c009d00c4eaac76a846d53fda74474e9dbfa2f2becdb53e8cecc4291ff"
+    }
+  }
+}

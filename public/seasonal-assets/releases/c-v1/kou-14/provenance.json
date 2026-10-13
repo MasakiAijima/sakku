@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-14",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "74831866f3fc7a45c66a76ec2c46e70340241aaa1ee6884ef344f4ce7d3c8f18",
+  "generation": {
+    "id": "kou-14",
+    "hash": "018df8b59d48b9d3b1a1cbd3a9d55745f0bd92501f84b66e9cd6d8e8b6c9cf05",
+    "reference_sha256": "db35a3b40699ad57d235fc2e2daaf4808f7f92961f2feb9950c0147fd7f15bb8",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small pale-teal WATER PLANE below the brown returning goose only; preserve brown body and dark wing to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:51:11.513915+00:00",
+    "completed_sha256": "1ff404c8815f4dc32987280192010f687450db8acad210babc7dae315a712839"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 571.41,
+      "y": 261.384,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      106,
+      103,
+      406,
+      409
+    ],
+    "precursorBounds": [
+      106,
+      360,
+      269,
+      409
+    ]
+  },
+  "sourceHashes": {
+    "C": "1ff404c8815f4dc32987280192010f687450db8acad210babc7dae315a712839",
+    "Cprime": "c9555c42b93d1f63e2cffe5fcce6db71736c3d425837962c3654b38d8ea96fd8",
+    "generation": "b920b9823350d8b3cd9f41b30c9fae354a64059b00c93bcebba9a4158ff5377d"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small pale-teal WATER PLANE below the brown returning goose only; preserve brown body and dark wing to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:51:11.513915+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

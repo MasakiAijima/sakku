@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-18",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "a1d3d6628d3172954a3f213d1df6bd93fcc00cdc79e3ffe83f17c1b988af7ee2",
+  "generation": {
+    "id": "kou-18",
+    "hash": "0a3953c15432f37c8d752fdd929dc579d5d69d45a45527688ef3729d11b08004",
+    "reference_sha256": "224a179f8e4f699ca5712b636c0cba0720b80da8c9998d8c18aafb77c200f42b",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. Make ONE local color substitution on the attached illustration. Recolor the small olive-green leaf beneath the flower at the LOWER RIGHT. Recolor that leaf raspberry pink, NEVER teal or green. Preserve every red, coral and pale pink petal unchanged. The requested accent color is raspberry pink #E73E73. The subject MUST contain this exact accent hue; do not substitute another hue. Preserve the exact composition, all silhouettes, curves, sizes, positions, part count and subtle print texture. Do not omit any motif or add anything. All other subject colors remain unchanged. Use solid chromakey #FF00FF ONLY for the empty background. The accent must remain clearly distinct from this background. No text, eyes, faces, shadows, outlines, new decorations or gradients. Square 1024.",
+    "attempted_at": "2026-10-12T13:21:03.732831+00:00",
+    "completed_sha256": "7c914b58dc790ca09236d2615bc1e180c6cbada889fe664c0e401d02b5be42ec"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 377.919,
+      "y": 342.279,
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      115,
+      103,
+      396,
+      409
+    ],
+    "precursorBounds": [
+      254,
+      325,
+      391,
+      409
+    ]
+  },
+  "sourceHashes": {
+    "C": "7c914b58dc790ca09236d2615bc1e180c6cbada889fe664c0e401d02b5be42ec",
+    "Cprime": "a9b8e4da307148b4b62c91b2bd2f2785bf87a985606c2df24277f2162e1a365e",
+    "generation": "ec13412f85603ef116f51bb22b9e1cbc8553b3ef60029f8da65b18a8adf3a470"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. Make ONE local color substitution on the attached illustration. Recolor the small olive-green leaf beneath the flower at the LOWER RIGHT. Recolor that leaf raspberry pink, NEVER teal or green. Preserve every red, coral and pale pink petal unchanged. The requested accent color is raspberry pink #E73E73. The subject MUST contain this exact accent hue; do not substitute another hue. Preserve the exact composition, all silhouettes, curves, sizes, positions, part count and subtle print texture. Do not omit any motif or add anything. All other subject colors remain unchanged. Use solid chromakey #FF00FF ONLY for the empty background. The accent must remain clearly distinct from this background. No text, eyes, faces, shadows, outlines, new decorations or gradients. Square 1024.",
+  "generatedAt": "2026-10-12T13:21:03.732831+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

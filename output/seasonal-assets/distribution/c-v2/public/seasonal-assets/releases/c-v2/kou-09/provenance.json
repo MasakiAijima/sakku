@@ -1,0 +1,70 @@
+{
+  "kouId": "kou-09",
+  "algorithmVersion": "organic-growth-48-v2",
+  "inputFingerprint": "ded6c946541dd67129baea20d4117352b66c5069a7cb53bf4fe880ecbe388bbb",
+  "assetVersion": "c-v2",
+  "promptVersion": "sha256:fa9cf1f65cd833d3dd760923a3249f49df0610cbb15590f3182c8523fc5ff75c",
+  "processedAtUTC": "2026-10-13T13:41:54.836430+00:00",
+  "provider": "openai",
+  "generation": {
+    "id": "kou-09",
+    "hash": "ed1622bc661123e0fa11c3e21f409533ee475c08c09effced68a04cb4475027d",
+    "reference_sha256": "1813fdeba5d5ddb3337d78b374a58b401c4e541064f198280dcdf0fb857729a5",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the tiny dark-gray BUTTERFLY BODY between golden-yellow wings and olive cocoon shell only; preserve wings and cocoon to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:48:25.978173+00:00",
+    "completed_sha256": "b323721adb3c6908a36d89e34855d91db8658ab3bf58504aeb1c0f6d64940646"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 445.928,
+      "y": 255.011,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      108,
+      103,
+      404,
+      409
+    ],
+    "precursorBounds": [
+      272,
+      319,
+      321,
+      383
+    ]
+  },
+  "sourceHashes": {
+    "C": "b323721adb3c6908a36d89e34855d91db8658ab3bf58504aeb1c0f6d64940646",
+    "Cprime": "1bcf04d24e97b418aa8f33767bd9d9f2870caa9ac1667c8e8162bbff15ccaac0",
+    "generation": "6b503d2e9082fcb3bff778d38554e76c3293b1732439422c5eb413e77247baa4"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the tiny dark-gray BUTTERFLY BODY between golden-yellow wings and olive cocoon shell only; preserve wings and cocoon to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:48:25.978173+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

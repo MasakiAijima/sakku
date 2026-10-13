@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-47",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "5e7d73c3ac44676e6fa69403ecd7a973e83a6b7c8b1379154a26671d719d398f",
+  "generation": {
+    "id": "kou-47",
+    "hash": "19c9f68d3214732a6a35d0fd6ae730a03a5a5f991940c919f9ac62c87d147e79",
+    "reference_sha256": "514d1d61935f6e244a6699a34ebae0d11e3c01769287053bfde7ec6371891c4c",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. Make ONE local color substitution on the attached illustration. Recolor the SMALL FILLED CHARCOAL-GRAY ROUND DISK to the lower left of the yellow leaf, on top of the brown soil band. This disk is a solid colored part, NOT empty space. Recolor only this small charcoal disk vivid orange #F48708. Preserve its exact existing shape. Keep the LARGE YELLOW LEAF yellow and the BROWN SOIL BAND brown. The requested accent color is vivid orange #F48708. The subject MUST contain this exact accent hue; do not substitute another hue. Preserve the exact composition, all silhouettes, curves, sizes, positions, part count and subtle print texture. Do not omit any motif or add anything. All other subject colors remain unchanged. Use solid chromakey #FF00FF ONLY for the empty background. The accent must remain clearly distinct from this background. No text, eyes, faces, shadows, outlines, new decorations or gradients. Square 1024.",
+    "attempted_at": "2026-10-12T13:26:30.238747+00:00",
+    "completed_sha256": "6ed7bd0ad44ef8003bf19c81a85ccb37461b72f6e09a43306575d4d966de750a"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 152.629,
+      "y": 493.975,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      104,
+      409,
+      408
+    ],
+    "precursorBounds": [
+      141,
+      336,
+      180,
+      375
+    ]
+  },
+  "sourceHashes": {
+    "C": "6ed7bd0ad44ef8003bf19c81a85ccb37461b72f6e09a43306575d4d966de750a",
+    "Cprime": "138ee4aeb24d57aad142f43efd897f5b5c3956dfa548ae33bc13399d0261bde9",
+    "generation": "1068432660b5041bf15cfec8024ed063645b466b615f35610f552a075f84a83c"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. Make ONE local color substitution on the attached illustration. Recolor the SMALL FILLED CHARCOAL-GRAY ROUND DISK to the lower left of the yellow leaf, on top of the brown soil band. This disk is a solid colored part, NOT empty space. Recolor only this small charcoal disk vivid orange #F48708. Preserve its exact existing shape. Keep the LARGE YELLOW LEAF yellow and the BROWN SOIL BAND brown. The requested accent color is vivid orange #F48708. The subject MUST contain this exact accent hue; do not substitute another hue. Preserve the exact composition, all silhouettes, curves, sizes, positions, part count and subtle print texture. Do not omit any motif or add anything. All other subject colors remain unchanged. Use solid chromakey #FF00FF ONLY for the empty background. The accent must remain clearly distinct from this background. No text, eyes, faces, shadows, outlines, new decorations or gradients. Square 1024.",
+  "generatedAt": "2026-10-12T13:26:30.238747+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

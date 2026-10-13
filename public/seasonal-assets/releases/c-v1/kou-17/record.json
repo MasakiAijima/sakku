@@ -1,0 +1,64 @@
+{
+  "fingerprint": "bf5485d92fc10a4c0b50c7c525a80d695e00aef2f3db5a8cc9e36c3e1d1d12ae",
+  "asset": {
+    "kouId": "kou-17",
+    "name": "霜止で苗出ずる",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 533.169,
+      "y": 337.649,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      126,
+      103,
+      386,
+      409
+    ],
+    "precursorBounds": [
+      129,
+      366,
+      252,
+      409
+    ],
+    "motionBounds": {
+      "x": 126,
+      "y": 103,
+      "width": 260,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        190.5,
+        387.5
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-17/initial.png",
+    "completed": "kou-17/completed.png",
+    "transition": "kou-17/transition.webp",
+    "idle": "kou-17/idle.png",
+    "provenance": "kou-17/provenance.json",
+    "hashes": {
+      "initial": "ecf5147d06f6c65e642c70550f1b8670e252409ecf89ca20ecb0a5f24e54aa44",
+      "completed": "947e119dd5970626c17a7a66d98c8514e8d4e953dec79bb77897797d7ff51620",
+      "transition": "becc71f1d7d893e97a55192eb3a696bbc58cd1a0147a848c5efa3d28c48797f1",
+      "idle": "947e119dd5970626c17a7a66d98c8514e8d4e953dec79bb77897797d7ff51620",
+      "provenance": "ed39613f0b1ecd30dd20cce517fc721d2d2fef8e9d3ec4937148c1cf6af435ee"
+    }
+  }
+}

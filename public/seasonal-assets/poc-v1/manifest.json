@@ -1,0 +1,129 @@
+{
+  "version": "poc-v1",
+  "status": "draft",
+  "assets": [
+    {
+      "kouId": "kou-01",
+      "name": "東風凍を解く",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "width": 512,
+      "height": 512,
+      "format": "png+animated-webp",
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "review": "pending",
+      "provenance": "kou-01/provenance.json",
+      "initial": "kou-01/initial.png",
+      "completed": "kou-01/completed.png",
+      "transition": "kou-01/transition.webp",
+      "idle": "kou-01/idle.webp",
+      "idleSpriteCandidate": {
+        "src": "kou-01/idle-sprite.png",
+        "frames": 12,
+        "frameDurationMs": 100,
+        "frameWidth": 512,
+        "frameHeight": 512,
+        "bytes": 429586,
+        "sha256": "ca947747f078da78edbfadddb4e28270f469bf978b397c5df32d9b31b7e60914"
+      },
+      "animation": {
+        "transitionFrameDurationMs": 70,
+        "idleFrameDurationMs": 100,
+        "frames": 12,
+        "loop": true
+      },
+      "formatComparisonBytes": {
+        "completed.png": 60470,
+        "completed.webp": 44090,
+        "idle.webp": 521024,
+        "idle-sprite.png": 429586
+      },
+      "completedWebpCandidate": "kou-01/completed.webp"
+    },
+    {
+      "kouId": "kou-32",
+      "name": "蓮始めて開く",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "width": 512,
+      "height": 512,
+      "format": "png+animated-webp",
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "review": "pending",
+      "provenance": "kou-32/provenance.json",
+      "initial": "kou-32/initial.png",
+      "completed": "kou-32/completed.png",
+      "transition": "kou-32/transition.webp",
+      "idle": "kou-32/idle.webp",
+      "idleSpriteCandidate": {
+        "src": "kou-32/idle-sprite.png",
+        "frames": 12,
+        "frameDurationMs": 100,
+        "frameWidth": 512,
+        "frameHeight": 512,
+        "bytes": 559776,
+        "sha256": "1db0e821e7a204884079cd52cc30cd3fc231151fe9fa7cea3a796dbcf71055f0"
+      },
+      "animation": {
+        "transitionFrameDurationMs": 70,
+        "idleFrameDurationMs": 100,
+        "frames": 12,
+        "loop": true
+      },
+      "formatComparisonBytes": {
+        "completed.png": 78440,
+        "completed.webp": 54668,
+        "idle.webp": 624360,
+        "idle-sprite.png": 559776
+      },
+      "completedWebpCandidate": "kou-32/completed.webp"
+    },
+    {
+      "kouId": "kou-54",
+      "name": "楓蔦黄ばむ",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "width": 512,
+      "height": 512,
+      "format": "png+animated-webp",
+      "transparent": true,
+      "colorSpace": "sRGB",
+      "review": "pending",
+      "provenance": "kou-54/provenance.json",
+      "initial": "kou-54/initial.png",
+      "completed": "kou-54/completed.png",
+      "transition": "kou-54/transition.webp",
+      "idle": "kou-54/idle.webp",
+      "idleSpriteCandidate": {
+        "src": "kou-54/idle-sprite.png",
+        "frames": 12,
+        "frameDurationMs": 100,
+        "frameWidth": 512,
+        "frameHeight": 512,
+        "bytes": 533217,
+        "sha256": "7c740439553792c0815538fd055185f982bdfd0fc08b0100d5f82846225da649"
+      },
+      "animation": {
+        "transitionFrameDurationMs": 70,
+        "idleFrameDurationMs": 100,
+        "frames": 12,
+        "loop": true
+      },
+      "formatComparisonBytes": {
+        "completed.png": 75946,
+        "completed.webp": 50386,
+        "idle.webp": 605450,
+        "idle-sprite.png": 533217
+      },
+      "completedWebpCandidate": "kou-54/completed.webp"
+    }
+  ]
+}

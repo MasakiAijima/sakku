@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-26",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "d4b5e660e9afe1d0fee3738f8fd1887d6ab17642a0d1a89c33bdd6a1d90ab3b1",
+  "generation": {
+    "id": "kou-26",
+    "hash": "11a3e2b266284201a77ceed3e6be60076d5598a6d5e87cb71e117b0896e7eb59",
+    "reference_sha256": "d137a75f1b359ac18c6df3fe3eab1ebee4de2a56fa4933afd26843367f614b87",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the tiny dark-gray FIREFLY BODY nestled in the broad blue nighttime grass only; preserve blue grass and tiny gold glowing abdomen to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:55:27.185020+00:00",
+    "completed_sha256": "85a46466c8b8f04b05c3d128bfa49fd56bd8110eae72f727a9f5311d22c90855"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 439.244,
+      "y": 427.566,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      112,
+      409,
+      399
+    ],
+    "precursorBounds": [
+      222,
+      278,
+      257,
+      323
+    ]
+  },
+  "sourceHashes": {
+    "C": "85a46466c8b8f04b05c3d128bfa49fd56bd8110eae72f727a9f5311d22c90855",
+    "Cprime": "dd51c86c03c857e859f96c4d58dd0d87f2ee50787383794ee8f689d36f5e4b0a",
+    "generation": "375e05b709d47486ca7df4ab4323e624697d1526bb2b2f9b9acd30ad4749469c"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the tiny dark-gray FIREFLY BODY nestled in the broad blue nighttime grass only; preserve blue grass and tiny gold glowing abdomen to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:55:27.185020+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

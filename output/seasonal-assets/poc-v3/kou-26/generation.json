@@ -1,0 +1,30 @@
+{
+  "id": "kou-26",
+  "name": "腐れたる草蛍となる",
+  "prompt": "Use case: stylized-concept. Asset: one independent Japanese microseason illustration. The attached image is a STYLE reference only. Preserve its few large flat color planes, expressive hand-cut organic silhouette, long unequal curves, asymmetric swelling and pinches, and restrained uneven screen-print ink inside each color field. Do not copy its subject or colors. Express only the seasonal relationship specified below. One dominant motif occupies most of the artwork; at most one or two much smaller auxiliary motifs overlap it into one compact composition. Choose natural, seasonally meaningful colors from the specified palette. Never default to red. Use broad solid opaque color planes. Silhouette has character and directional flow; avoid bilateral symmetry, equally spaced petals, repeated geometry and fine outlines. The static image must be complete; do not add separate parts or gaps for animation. Center the entire compact artwork within the central 60 percent of the square, with ample clean empty margin on all sides. Solid chromakey magenta #FF00FF background; no magenta, hot pink, fuchsia, purple spill or pink reflected lighting in the artwork. Pink petals must be muted salmon #E9B8B5, distinct from the magenta background. No faces, eyes, pupils, letters, numerals, titles, borders, frames, realistic shading, gradients, shadows, translucency, fine veins, repeated decorative dots or textures outside shapes. \nSubject and seasonal relation: One dominant deep blue night-grass mass curves inward around one much smaller firefly with a golden yellow abdomen and a tiny charcoal body. The yellow is an opaque flat shape without a halo. No glow blur, faces or transformation of rotten grass into insects. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.\nSemantic color palette: #3159A7 (夜の草陰), #E3BC45 (蛍の腹), #4C4A43 (蛍の胴)\nColor intent: 暗青の草と黄色い腹の明暗差で蛍火を示す",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "master_version": "e72212780133af95020bc7f39e95b6638d664b3d647c1f7b1077aa4ec317d649",
+  "generator_version": 3,
+  "prompt_version": 3,
+  "operation": "edit",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-01/completed.png",
+  "reference_sha256": "6a5df021d3338710836e235ba3ec90d787b6a6b8cbd7ab3fa7cc43649750a025",
+  "hash": "96bc84d5ba606fb1cf08d979cd0d7ec4cccbd2b61736513aa37fb4849ad00bcf",
+  "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-26/original.png",
+  "provenance": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-26/generation.json",
+  "prompt_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/poc-v3/kou-26/prompt.txt",
+  "attempted_at": "2026-10-12T11:07:00.061878+00:00",
+  "status": "succeeded",
+  "reserved_jpy": 130,
+  "actual_cost_jpy": null,
+  "image_sha256": "4d65fb61a8e8a46d942547b802292ec36fc4d36cf3508afba1f4189385740f98",
+  "completed_sha256": "d137a75f1b359ac18c6df3fe3eab1ebee4de2a56fa4933afd26843367f614b87",
+  "cutout_sha256": "4e4e68bf07735f8bbd1dc05c35f6b61eb03c264479a02c82dcdc41de1035e4ad"
+}

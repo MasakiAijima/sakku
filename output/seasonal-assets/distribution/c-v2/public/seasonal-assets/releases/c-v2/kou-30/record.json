@@ -1,0 +1,64 @@
+{
+  "fingerprint": "19bf43b8a712867c1153e13c27f1d25c722533a3027fe5ed29e96f30e1e2bfdc",
+  "asset": {
+    "kouId": "kou-30",
+    "name": "半夏生ず",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 480.688,
+      "y": 558.225,
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      164,
+      103,
+      347,
+      409
+    ],
+    "precursorBounds": [
+      217,
+      259,
+      267,
+      349
+    ],
+    "motionBounds": {
+      "x": 164,
+      "y": 103,
+      "width": 183,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        242.0,
+        304.0
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-30/initial.png",
+    "completed": "kou-30/completed.png",
+    "transition": "kou-30/transition.webp",
+    "idle": "kou-30/idle.png",
+    "provenance": "kou-30/provenance.json",
+    "hashes": {
+      "initial": "0da316da56ad2b31cc30471c3e0ec27209257c497ad67a05f33e10ca1f2ea8df",
+      "completed": "02f4fb5bb55a2299c5f56a23b58731295d6052333e78bdca9c0ac9112d10a7a5",
+      "transition": "ad9d48ea9abc78c79316d7ceb12669607470299601056c98a57781e65ab474bb",
+      "idle": "02f4fb5bb55a2299c5f56a23b58731295d6052333e78bdca9c0ac9112d10a7a5",
+      "provenance": "ed7952e415f6d0421ddca6d63de2d81a27203e0af452310c43764ee5c63de5af"
+    }
+  }
+}

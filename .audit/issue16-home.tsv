@@ -1,0 +1,8 @@
+date	decision	reason	evidence	result
+2026-10-14	Close #19 without actual billing reconciliation	Explicit user instruction	GitHub #19 closedAt 2026-10-13T21:43:18Z	CLOSED; actualCost remains null
+2026-10-14	Use approved C/Cprime, saved700 geometry,720ms/45ms,static idle	Approved product direction supersedes old circle and sway specification	c-v2 manifest and home 0/12/42/72 live test	Integrated into existing home
+2026-10-14	Validate approved manifest at load boundary	Model the Domain: authoritative manifest carries geometry/state contract	seasonal-art unit tests reject tamper,unapproved,path,geometry,ordering	No placeholder artwork on invalid release
+2026-10-14	Share one organic renderer between React and offline page	Avoid divergent animation and positioning	Bytecopy assertion and real Chrome renderer/home tests	Identical frame placement and growth rules
+2026-10-14	Cache public offline shell instead of authenticated home	Seasonal display survives reload without storing private records/settings	Offline root reload and cache path assertions	Public-only offline seasonal display
+2026-10-14	Keep #16 open for real device and final visual review	Emulated widths do not prove physical-device performance or screen-reader behavior	MacChrome responsive/ARIA tests plus docs limitations	Implementation reviewable; external validation remains
+2026-10-14	Preserve SVG focus during selection reordering	Independent review reproduced Enter then ArrowRight losing activeElement	Added activeElement assertions after Enter,ArrowRight,Space in home live test	Restores focused group without stealing list focus

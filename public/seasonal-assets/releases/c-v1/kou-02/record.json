@@ -1,0 +1,64 @@
+{
+  "fingerprint": "826350876454c22ae2fa5ea7ef92e43a2fa771c959a9144e1f985b4a8da2a4b8",
+  "asset": {
+    "kouId": "kou-02",
+    "name": "うぐいす鳴く",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 400.633,
+      "y": 110.74,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      104,
+      409,
+      408
+    ],
+    "precursorBounds": [
+      136,
+      242,
+      245,
+      335
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 104,
+      "width": 306,
+      "height": 304
+    },
+    "animation": {
+      "seed": [
+        190.5,
+        288.5
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-02/initial.png",
+    "completed": "kou-02/completed.png",
+    "transition": "kou-02/transition.webp",
+    "idle": "kou-02/idle.png",
+    "provenance": "kou-02/provenance.json",
+    "hashes": {
+      "initial": "0f4a53e86daf23352df053d471f3ab6e4d2799c965c54997b2eeca582fa66c55",
+      "completed": "492794a5d8ed3e4f2ca5ef8af24770f8236d1aa6a0591624b69271c08d826859",
+      "transition": "faf34c3e89e2938e7714179670c8f6c7f6bc5f52413c93fd836585e7d3232ec6",
+      "idle": "492794a5d8ed3e4f2ca5ef8af24770f8236d1aa6a0591624b69271c08d826859",
+      "provenance": "3c5134edcbff01b25c999688db7b59e935f8b63f07800567a62cc6708793f208"
+    }
+  }
+}

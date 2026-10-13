@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-66",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "042ef0982698067204539bdac2f09a3049493641dd6ae04e631a933afd06f126",
+  "generation": {
+    "id": "kou-66",
+    "hash": "d32f615ac835b2d0f10739a0aec779cb6909c7765d73f4d137a701d279ab09c2",
+    "reference_sha256": "5915cd39978cff903b675080422ed9a94a7e85ab0f02068e36c2bb0991216294",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the few very small olive LEAVES attached to the three slender pale-teal wheat STEMS only; preserve all three stems and ivory snow to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T13:16:15.079444+00:00",
+    "completed_sha256": "73262578b849d176395a09aca86c11f9ac2fdd62d3109fbd36ee7f57f3792fee"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 228.289,
+      "y": 132.111,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      166,
+      103,
+      346,
+      409
+    ],
+    "precursorBounds": [
+      201,
+      196,
+      337,
+      321
+    ]
+  },
+  "sourceHashes": {
+    "C": "73262578b849d176395a09aca86c11f9ac2fdd62d3109fbd36ee7f57f3792fee",
+    "Cprime": "cbf773573dd8fbb5f3c39bdf8c21d2309381e7c77384d6794bbc671525846e08",
+    "generation": "c67d9d7f4bf0842c6d5337e9adec7df200b110f03454b3a036cd9d295ad277a8"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the few very small olive LEAVES attached to the three slender pale-teal wheat STEMS only; preserve all three stems and ivory snow to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T13:16:15.079444+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

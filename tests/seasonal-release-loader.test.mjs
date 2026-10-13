@@ -1,0 +1,10 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {parseManifest,sourceFor} from '../public/seasonal-assets/poc-loader.js';
+const pointer=JSON.parse(readFileSync(new URL('../public/seasonal-assets/current.json',import.meta.url)));
+const manifest=JSON.parse(readFileSync(new URL('../public/seasonal-assets/'+pointer.manifest,import.meta.url)));
+const version=pointer.version;
+const url=`https://local.test/seasonal-assets/releases/${version}/manifest.json`;
+test('formal72 parser and selected-only animation use four saved states',()=>{const assets=parseManifest(manifest,url);assert.equal(assets.length,72);assert.equal(sourceFor({asset:assets[0],state:'initial',selected:false,reducedMotion:false}),`https://local.test/seasonal-assets/releases/${version}/kou-01/initial.png`);for(const selected of [false,true])assert.equal(sourceFor({asset:assets[0],state:'transition',selected,reducedMotion:false}),selected?assets[0].urls.transition:assets[0].urls.completed);assert.equal(sourceFor({asset:assets[0],state:'transition',selected:true,reducedMotion:true}),assets[0].urls.completed);assert.equal(assets[0].urls.idle,`https://local.test/seasonal-assets/releases/${version}/kou-01/idle.png`);});
+test('formal parser rejects duplicate/missing states, untrusted paths, and geometry/metadata damage',()=>{for(const change of [m=>m.assets.pop(),m=>m.assets[1].kouId='kou-01',m=>m.assets[0].idle=null,m=>m.assets[0].provenance='../secret.json',m=>m.assets[0].placement.visibleCenter=[0,0],m=>m.assets[0].animation.seed=[0,0],m=>m.assets[0].hashes.initial='bad',m=>m.assets[0].motionBounds.width=1]){const m=structuredClone(manifest);change(m);assert.throws(()=>parseManifest(m,url));}});

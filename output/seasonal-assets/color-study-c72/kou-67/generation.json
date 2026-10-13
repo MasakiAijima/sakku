@@ -1,0 +1,23 @@
+{
+  "id": "kou-67",
+  "hash": "d4a2d1d403ddc44d508c97104d547446a85fdcfa8750a07d88dfa31965113969",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-67/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-67/reference.png",
+  "reference_sha256": "08d8efdbd4b93ae3662d83d0cbc753379065ab3421058a9464dd8abe10a1f97d",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the single small pale-teal YOUNG LEAF at the base of the large olive celery leaves only; preserve large olive leaves and dark-blue water to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:16:15.153143+00:00",
+  "image_sha256": "9d10cef85797c30c1289c1ac97effd6d48c67762bbe030ff2676ab3af30ce5b3",
+  "completed_sha256": "e9d8109a6e6f404d47add4ab7e7f14d7571100ba1c3abef49ef97d0144537a49",
+  "cutout_sha256": "60a89930d23c3bc762fc5102f996240d3728179f2333d0845c8f81281f5c0239"
+}

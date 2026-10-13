@@ -1,0 +1,70 @@
+{
+  "kouId": "kou-04",
+  "algorithmVersion": "organic-growth-48-v2",
+  "inputFingerprint": "2422646caa00c84c138fc87e20897fd7a07ae61733786d45f3743140338d92b0",
+  "assetVersion": "c-v2",
+  "promptVersion": "sha256:5ff7ab1f47e710a20bccc588d4f5181312d4f9d3496206a2a5dcad5afc6b0a57",
+  "processedAtUTC": "2026-10-13T13:41:53.402628+00:00",
+  "provider": "openai",
+  "generation": {
+    "id": "kou-04",
+    "hash": "c079ab6528ec55628677ec05ca4f8d81b6124e1ab5e3f5d7e45b2b01b7e68e56",
+    "reference_sha256": "f35a35ac3d7d06213c93183bf838571094740e1e1810502ab9f8186059cbc977",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small pale-teal MELTWATER PUDDLE at the foot of the broad ochre earth shape only; preserve all ochre earth planes to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:46:50.796437+00:00",
+    "completed_sha256": "912fef639aa30aa7fd2023be4c5852c48dda55fa87f2e042308ff67a110c181e"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 394.444,
+      "y": 201.683,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      162,
+      409,
+      349
+    ],
+    "precursorBounds": [
+      210,
+      272,
+      339,
+      349
+    ]
+  },
+  "sourceHashes": {
+    "C": "912fef639aa30aa7fd2023be4c5852c48dda55fa87f2e042308ff67a110c181e",
+    "Cprime": "c53508e8c1cbcaa15cec836a56a046ef9e818126185b2d167d21487e535ae924",
+    "generation": "38aa39fe6e78832128d7c80bd46b5e3e8f7c7f4ec68cd75d205d52a0ea4ba52a"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small pale-teal MELTWATER PUDDLE at the foot of the broad ochre earth shape only; preserve all ochre earth planes to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:46:50.796437+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

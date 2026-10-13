@@ -1,0 +1,23 @@
+{
+  "id": "kou-25",
+  "hash": "23a7c3e8cd3fff109cb61d7a4a9d880225908ad048ae9da74fa2ca5f051c75f1",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-25/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-10/kou-25/reference.png",
+  "reference_sha256": "2b1eaa1e9d6073851492bbea58dd0cea55927f189e95d5012cdccd8aa89dbfa4",
+  "prompt": "Use case: precise-object-edit. Make a COLOR-ONLY variant of the attached finished Japanese seasonal cut-paper illustration. Keep the exact subject, composition, contour, proportions, pose, number of parts, overlaps, size and position of EVERY shape. Do not redraw, redesign, simplify, add, remove or move any part. Change ONLY the pale-teal body and limbs of the mantis only to saturated #F48708. This single intentionally unnatural strong color echoes bold Japanese screen-print vermilion, cobalt and orange. Keep every OTHER color exactly as in the attached image, including their muted tones. Preserve existing restrained print mottling and organic cut-paper edges. Use one newly introduced accent hue only, with slight existing ink mottling, no additional accent colors. Keep all artwork complete in the same central area with ample clean margins. Render on solid chromakey magenta #FF00FF background so it can be removed. Magenta must appear ONLY in the background. No shadows, gradients, outlines, faces, eyes, writing or new decorative marks. Output square1024. The only intended difference is the specified color substitution.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:02:59.196241+00:00",
+  "image_sha256": "8b9ce8e2604d8bd7ee831dd6ab6c1463ee26582ff6e019c066fcb03eafd6bdd0",
+  "completed_sha256": "412646d72440174770a3235bb394119b3db7ac5bfed53e45f25bad6bd433fdb5",
+  "cutout_sha256": "c8858b3402305104b400e10966ff91dc063f951287aac60c8bf6e2b1b0719347"
+}

@@ -1,0 +1,64 @@
+{
+  "fingerprint": "80f6a7f36c4079e8dc1eed2ecdbca385ff23bfafa78d69515484b7d70183da17",
+  "asset": {
+    "kouId": "kou-57",
+    "name": "金盞香",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 307.655,
+      "y": 328.159,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      115,
+      103,
+      397,
+      409
+    ],
+    "precursorBounds": [
+      223,
+      321,
+      386,
+      409
+    ],
+    "motionBounds": {
+      "x": 115,
+      "y": 103,
+      "width": 282,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        304.5,
+        365.0
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-57/initial.png",
+    "completed": "kou-57/completed.png",
+    "transition": "kou-57/transition.webp",
+    "idle": "kou-57/idle.png",
+    "provenance": "kou-57/provenance.json",
+    "hashes": {
+      "initial": "e5c69dbc479db9da00bfb6ddd5fe8b6f753a0e7b94d86912176f80d5a5aaf5b1",
+      "completed": "41d68058a6c06a9f87cc166e902d76731e77b852b94d15dbeec7a18d29c2f59c",
+      "transition": "39285e148e47642a0d70a828405dadd56a9818e4764b69ff01add7521bc97f29",
+      "idle": "41d68058a6c06a9f87cc166e902d76731e77b852b94d15dbeec7a18d29c2f59c",
+      "provenance": "fc1fbc7079604292b67df275a73500ab01ae7670dfa9d35ecd52142f0d2fd63c"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "corrections": [
+    {
+      "id": "kou-07",
+      "reason": "Small grass remained olive instead of spring pink."
+    },
+    {
+      "id": "kou-15",
+      "reason": "Cloud missing after edit; must preserve existing cloud shape in distinct spring pink."
+    },
+    {
+      "id": "kou-18",
+      "reason": "Leaf changed teal instead of spring pink."
+    },
+    {
+      "id": "kou-47",
+      "reason": "Small charcoal disk initially disappeared; final revision changes only that filled disk to orange and preserves the brown soil."
+    },
+    {
+      "id": "kou-61",
+      "reason": "Blue spread to sky/ground; use small snow shadow only."
+    },
+    {
+      "id": "kou-70",
+      "reason": "Blue spread to main mint shoots; use tiny flower cluster only."
+    }
+  ],
+  "additionalGenerationCount": 7
+}

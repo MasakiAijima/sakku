@@ -1,0 +1,64 @@
+{
+  "fingerprint": "b1e3b73fe11eb91724f135ce749228b0622a0ba333775de693d7b0bf11235cb5",
+  "asset": {
+    "kouId": "kou-11",
+    "name": "桜始めて開く",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 560.177,
+      "y": 213.433,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      134,
+      409,
+      377
+    ],
+    "precursorBounds": [
+      274,
+      292,
+      356,
+      371
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 134,
+      "width": 306,
+      "height": 243
+    },
+    "animation": {
+      "seed": [
+        315.0,
+        331.5
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-11/initial.png",
+    "completed": "kou-11/completed.png",
+    "transition": "kou-11/transition.webp",
+    "idle": "kou-11/idle.png",
+    "provenance": "kou-11/provenance.json",
+    "hashes": {
+      "initial": "39cca9b579b0bc83f893c2f30edaaf7ae9e1e873b274bc455284be76103f1705",
+      "completed": "007ff74ea6bc5fdce49b3fb7348d12088afbc52de5eab97a47034c1f2609074d",
+      "transition": "d3e0f91f35ff18fca59d9c597a25fb92fd758af1af27861999ba423dc860b58e",
+      "idle": "007ff74ea6bc5fdce49b3fb7348d12088afbc52de5eab97a47034c1f2609074d",
+      "provenance": "fac8ffb158aca47ef0fa4d469e017d14bc97f90735c8bb37882adf3dc1637f88"
+    }
+  }
+}

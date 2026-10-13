@@ -1,0 +1,64 @@
+{
+  "fingerprint": "2d82739083de7499c1758327eab834bdccdf0129011926fe2af9ff2a102cb2b0",
+  "asset": {
+    "kouId": "kou-24",
+    "name": "麦秋至る",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 495.039,
+      "y": 438.459,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      185,
+      103,
+      327,
+      409
+    ],
+    "precursorBounds": [
+      208,
+      305,
+      327,
+      409
+    ],
+    "motionBounds": {
+      "x": 185,
+      "y": 103,
+      "width": 142,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        267.5,
+        357.0
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-24/initial.png",
+    "completed": "kou-24/completed.png",
+    "transition": "kou-24/transition.webp",
+    "idle": "kou-24/idle.png",
+    "provenance": "kou-24/provenance.json",
+    "hashes": {
+      "initial": "f9c9feb6adc650241bb355a184b76cb40e8e9d27b8fb6aa6a403dbe3e3ce8158",
+      "completed": "bdf74a96424183c30062516ec6058f4861958936fd34b0a192e17dd127200bdf",
+      "transition": "193560efea0aefd5512182d4e3af103411b205eb14d1752aab3247f936be292f",
+      "idle": "bdf74a96424183c30062516ec6058f4861958936fd34b0a192e17dd127200bdf",
+      "provenance": "aaac6206e9b7a21a555d53fa55bbc67a50ee24c0fa28d4d4b4d868865875150a"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "kou-37",
+  "hash": "3c065e9e246db9cbbda798b41ddd300ca40befbe421a95da3837b3b969f5ae25",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/revision-12/kou-37/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-37/reference.png",
+  "reference_sha256": "4eff274a47c0f9bb0912fe57aff4e4f34d27ae600ce2b4c35afbc0375c344caa",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the tiny ochre SEED HEAD on the slender stalk beside the two broad pale-teal wind-bent grass leaves only; preserve teal leaves to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:01:03.627349+00:00",
+  "image_sha256": "4ac1aa66b4447330a250fdb09e81b7082e0aa2df4ef463aebbd2b98af8db4d64",
+  "completed_sha256": "95eac34711e9480e577b6dafea7ba9a6a99379f632134fe7a45f164d8350eabd",
+  "cutout_sha256": "fb83dcb1b268df017e9467d2bd039c04ab70ecc7a3e1875d73389da1b15205a1"
+}

@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-20",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "f11e292327b907560abe808637915d8b2888198c48c1d8e81f54e29efc022e66",
+  "generation": {
+    "id": "kou-20",
+    "hash": "15b2088e36c9e2478620bc068d6be65887d753fd776ff2e9dc77f62982153192",
+    "reference_sha256": "76e2cd6d63cec76caec76c8b1003b37a006aaecb440859c585b12bf3912b41c5",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the tiny olive GRASS/SOIL PATCH at the base of the curved brown earthworm only; preserve all brown and red worm planes to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:53:59.393248+00:00",
+    "completed_sha256": "bd200fe099fc0356dcbb72d892a6ceccdefecca779c7ba45ec48d3ad0c316395"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 482.693,
+      "y": 379.22,
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      130,
+      103,
+      381,
+      409
+    ],
+    "precursorBounds": [
+      174,
+      347,
+      262,
+      407
+    ]
+  },
+  "sourceHashes": {
+    "C": "bd200fe099fc0356dcbb72d892a6ceccdefecca779c7ba45ec48d3ad0c316395",
+    "Cprime": "b63fe86fbe669369cacc83e7c5a87c856784f2d21c394658cf7d2b0de4e597e7",
+    "generation": "92eb6ac8300fc6501aa10667983d40f7f3a98fb0b99dd06d515c454d35f4593c"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the tiny olive GRASS/SOIL PATCH at the base of the curved brown earthworm only; preserve all brown and red worm planes to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:53:59.393248+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

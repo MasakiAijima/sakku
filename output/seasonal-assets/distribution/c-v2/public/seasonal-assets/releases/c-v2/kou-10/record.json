@@ -1,0 +1,64 @@
+{
+  "fingerprint": "3c1d6be5600607fb4112f407c88f9317c4b015d41f965e9b9cd76212ea258e74",
+  "asset": {
+    "kouId": "kou-10",
+    "name": "雀始めて巣くう",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 503.224,
+      "y": 236.04,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      111,
+      409,
+      400
+    ],
+    "precursorBounds": [
+      249,
+      111,
+      305,
+      211
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 111,
+      "width": 306,
+      "height": 289
+    },
+    "animation": {
+      "seed": [
+        277.0,
+        161.0
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-10/initial.png",
+    "completed": "kou-10/completed.png",
+    "transition": "kou-10/transition.webp",
+    "idle": "kou-10/idle.png",
+    "provenance": "kou-10/provenance.json",
+    "hashes": {
+      "initial": "b53adfcbfeee61a0f1f56d747c700efbec5ff881d3c99de5528c92720daf7aa7",
+      "completed": "72373ed3692f8edcc5b2a981769f397f639f467dffce4956168744203c112894",
+      "transition": "a056e2b8c8b771551872c571ab14334f42bd040dc6d50aac89fe77a09da6a802",
+      "idle": "72373ed3692f8edcc5b2a981769f397f639f467dffce4956168744203c112894",
+      "provenance": "4b896d47a3a51d357dfa650527fd73f399b763111b2a7306da1c0e5e7dae572a"
+    }
+  }
+}

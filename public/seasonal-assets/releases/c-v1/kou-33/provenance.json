@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-33",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "829c3ece070699b17f08ea5db84552edce3ea3f58854ddd4db578b2379502d91",
+  "generation": {
+    "id": "kou-33",
+    "hash": "cbea8499d46c569997cf37b550809789e478dec6cbc4324a8916ed8404ffcebf",
+    "reference_sha256": "5082b878d8a667aab2754bb073ad68eda059bfb99b8fb541c97dc9bb4ee04c97",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small olive MOSS PATCH on the rock beneath the brown young hawk only; preserve brown hawk and dark wings and brown rock to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:58:31.327314+00:00",
+    "completed_sha256": "5f5182448f57698536fe081e7f0867fff43c2432bcc5a67a68981097c63f5714"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 420.17,
+      "y": 586.202,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      147,
+      103,
+      365,
+      409
+    ],
+    "precursorBounds": [
+      232,
+      349,
+      295,
+      371
+    ]
+  },
+  "sourceHashes": {
+    "C": "5f5182448f57698536fe081e7f0867fff43c2432bcc5a67a68981097c63f5714",
+    "Cprime": "462fa993f43c10f2caff78f061bb286f5ce8b9218ae18c1243185a22759af703",
+    "generation": "3276e91f6c695c8db4d50c759a4711c6da1bd4ea348eb58fb05dbcda20b988ad"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small olive MOSS PATCH on the rock beneath the brown young hawk only; preserve brown hawk and dark wings and brown rock to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:58:31.327314+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

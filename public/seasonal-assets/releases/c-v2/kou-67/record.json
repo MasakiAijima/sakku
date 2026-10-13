@@ -1,0 +1,64 @@
+{
+  "fingerprint": "cc5b0d237d38db16cff488048cf637ceedd2cc7b6872c629a3340e96463fee94",
+  "asset": {
+    "kouId": "kou-67",
+    "name": "芹乃ち栄う",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 308.479,
+      "y": 270.872,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      127,
+      103,
+      385,
+      409
+    ],
+    "precursorBounds": [
+      254,
+      320,
+      311,
+      365
+    ],
+    "motionBounds": {
+      "x": 127,
+      "y": 103,
+      "width": 258,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        282.5,
+        342.5
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-67/initial.png",
+    "completed": "kou-67/completed.png",
+    "transition": "kou-67/transition.webp",
+    "idle": "kou-67/idle.png",
+    "provenance": "kou-67/provenance.json",
+    "hashes": {
+      "initial": "c2960c8bc8e40b3818ba60e327bb4aed106adfc51de62c3ccb596258d0540992",
+      "completed": "e9d8109a6e6f404d47add4ab7e7f14d7571100ba1c3abef49ef97d0144537a49",
+      "transition": "c94f1c1ef59ae1e1f825954ec8d4e7fcb8cf76980b12c3fdab33c0ea1d9ee62f",
+      "idle": "e9d8109a6e6f404d47add4ab7e7f14d7571100ba1c3abef49ef97d0144537a49",
+      "provenance": "57ce42a26a4af281f962b3d549ca30881059a5de0a1ee09e2ba0a23b8f643204"
+    }
+  }
+}

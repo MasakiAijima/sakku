@@ -1,0 +1,23 @@
+{
+  "id": "kou-07",
+  "hash": "a4effab1ba4024fc960d947d9507124dfcb04aa0df2581b250669e3ec60b01aa",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-07/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-07/reference.png",
+  "reference_sha256": "c99afc3594da8b24e783ddaae26f25da894148ca3bf078f4599bf9f4c47744ee",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small olive GRASS TUFT at the entrance of the ochre earth mound only; preserve mound and dark beetle to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:48:14.089308+00:00",
+  "image_sha256": "4090f4277fac8ec5b4f34aab95f337e7e841baa8c0b0b234c5d566146a9a9d1b",
+  "completed_sha256": "ce21236759cfdd8e87981e16273bbcff48b91b90c9ecead4352e1f035e468700",
+  "cutout_sha256": "95ab936d9da6963c63fd1f56e003de61283cc7827f4fe8de18a027ec2cd06b0b"
+}

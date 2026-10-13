@@ -1,0 +1,23 @@
+{
+  "id": "kou-24",
+  "hash": "4b7deaf13defd57051c9b5b415b162756c9ab4dc1b62c9946641f0eb8989759c",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-24/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-10/kou-24/reference.png",
+  "reference_sha256": "b41bd5fea5b7521a0bfa11d8a9b4d54c94e6737efb9eb1aec25dd52d5af3f43c",
+  "prompt": "Use case: precise-object-edit. Make a COLOR-ONLY variant of the attached finished Japanese seasonal cut-paper illustration. Keep the exact subject, composition, contour, proportions, pose, number of parts, overlaps, size and position of EVERY shape. Do not redraw, redesign, simplify, add, remove or move any part. Change ONLY the golden wheat grain head only to saturated #F04420. This single intentionally unnatural strong color echoes bold Japanese screen-print vermilion, cobalt and orange. Keep every OTHER color exactly as in the attached image, including their muted tones. Preserve existing restrained print mottling and organic cut-paper edges. Use one newly introduced accent hue only, with slight existing ink mottling, no additional accent colors. Keep all artwork complete in the same central area with ample clean margins. Render on solid chromakey magenta #FF00FF background so it can be removed. Magenta must appear ONLY in the background. No shadows, gradients, outlines, faces, eyes, writing or new decorative marks. Output square1024. The only intended difference is the specified color substitution.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:02:59.197076+00:00",
+  "image_sha256": "bf9a22fbfebf9b343cf50dc6e639bd1ddd8597a74017526e5596ba3e9ae085a1",
+  "completed_sha256": "d2b0024155f5aedd982354ce0074638b2bb5df61e295fbe96f1b43f912b8fd79",
+  "cutout_sha256": "b4201b856c57351b164ae3a52de04a912cfda9ef821a2a6a7906e1e0e95bf4ae"
+}

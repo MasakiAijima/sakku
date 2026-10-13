@@ -1,0 +1,23 @@
+{
+  "id": "kou-60",
+  "hash": "3db59f8ea4a8ff75942b4e55f2134f6c0c1d323376f50d1cccbe2e039e166947",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-60/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-60/reference.png",
+  "reference_sha256": "e19c6176cb5f7e5fa8a6d066e8b8677c4f45b9d1d2081e97c05a028a15f553af",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small olive LEAF above the golden-orange citrus fruit only; preserve yellow and orange fruit planes to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:11:15.306052+00:00",
+  "image_sha256": "11de08839012cd8f8d68ff86d94fe5c2fb34b82b4088bfa71b20cf0f9303ee6f",
+  "completed_sha256": "4d4142767c449f2bd3a1c70b17d67fb6833e28b973a6cd155bfd31a4b5aedbff",
+  "cutout_sha256": "1d8c82512baa593403943cf0196ce01b805aaea2061703e5f24802e3b7c00368"
+}

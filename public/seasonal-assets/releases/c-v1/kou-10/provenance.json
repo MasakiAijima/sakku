@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-10",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "cd895432b2a3e7c9a48fbde795df4a90494e1e71344f9af44d1525f148fd3e61",
+  "generation": {
+    "id": "kou-10",
+    "hash": "2614c4251e9c25a585841d2323bf7066d545c3e2e2c9214d7bcac5acab7346da",
+    "reference_sha256": "e55b794e9dce007d27bb1f1c4904e648ab04a19ac049226c13b043cc7302de6d",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the few small gold STRAW STALKS rising from the ochre nest only; preserve ochre nest and small dark sparrow to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:49:43.845436+00:00",
+    "completed_sha256": "72373ed3692f8edcc5b2a981769f397f639f467dffce4956168744203c112894"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 503.224,
+      "y": 236.04,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      111,
+      409,
+      400
+    ],
+    "precursorBounds": [
+      249,
+      111,
+      305,
+      211
+    ]
+  },
+  "sourceHashes": {
+    "C": "72373ed3692f8edcc5b2a981769f397f639f467dffce4956168744203c112894",
+    "Cprime": "b53adfcbfeee61a0f1f56d747c700efbec5ff881d3c99de5528c92720daf7aa7",
+    "generation": "4b6881de5ef9e63e55332924ce0fe4bdac188e75bb4ab1506bd4dad6b75520b1"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the few small gold STRAW STALKS rising from the ochre nest only; preserve ochre nest and small dark sparrow to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:49:43.845436+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

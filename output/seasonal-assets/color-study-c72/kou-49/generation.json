@@ -1,0 +1,23 @@
+{
+  "id": "kou-49",
+  "hash": "acb2487b772434bbaf1502af735fae8846f6637a9c9c9fe7dd948251893d3ba4",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-49/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-49/reference.png",
+  "reference_sha256": "cc5064233e0ee179a7171889b51a55f399b444561d1c0deddccfe517b5a6190c",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small pale-teal WATER RIPPLE beneath the brown goose only; preserve brown body and dark wing to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:05:37.152410+00:00",
+  "image_sha256": "7c15d1fc043f2b608458842412a1117d69aaa199a59b787cdf499d97f3463288",
+  "completed_sha256": "8f64400fc3cfc2491e1ba5dc9540e2d313dee3466c9d4f0a553f5edd28add3de",
+  "cutout_sha256": "428f7b78ef7d9abe4ca3a4b18852ccc9b5b067a8bb77e2102e89f6d6cd643561"
+}

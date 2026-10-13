@@ -1,0 +1,64 @@
+{
+  "fingerprint": "ea2098ab1773f4cc4dc8c95503f22efcaf277a9afd3c2b0dcbd299018074a765",
+  "asset": {
+    "kouId": "kou-08",
+    "name": "桃始めてさく",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 510.374,
+      "y": 172.541,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      112,
+      103,
+      400,
+      409
+    ],
+    "precursorBounds": [
+      280,
+      363,
+      349,
+      409
+    ],
+    "motionBounds": {
+      "x": 112,
+      "y": 103,
+      "width": 288,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        314.5,
+        386.0
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-08/initial.png",
+    "completed": "kou-08/completed.png",
+    "transition": "kou-08/transition.webp",
+    "idle": "kou-08/idle.png",
+    "provenance": "kou-08/provenance.json",
+    "hashes": {
+      "initial": "490a5c9da4e1510942e4d8d7c458c7f9047502c1b6ae58bd8e473261b78a7ac2",
+      "completed": "1a826e68a9686f39111068db7cb0e02411db9587b37c6f466381b326f105b4e6",
+      "transition": "1f0a3528b11e0c143e0c665f4ad54623b1161d42b5e0c3d7cbf58e2ef50fc425",
+      "idle": "1a826e68a9686f39111068db7cb0e02411db9587b37c6f466381b326f105b4e6",
+      "provenance": "bcefb6d4ef14c8544774605c3e9d5f26f85136ff6965e22c2f38f7633e930c9a"
+    }
+  }
+}

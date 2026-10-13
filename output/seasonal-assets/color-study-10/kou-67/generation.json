@@ -1,0 +1,23 @@
+{
+  "id": "kou-67",
+  "hash": "8a06db713fe2903636b7a83fe16849c7c0d73eacacb8b55517c3bf4694333710",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-67/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-10/kou-67/reference.png",
+  "reference_sha256": "08d8efdbd4b93ae3662d83d0cbc753379065ab3421058a9464dd8abe10a1f97d",
+  "prompt": "Use case: precise-object-edit. Make a COLOR-ONLY variant of the attached finished Japanese seasonal cut-paper illustration. Keep the exact subject, composition, contour, proportions, pose, number of parts, overlaps, size and position of EVERY shape. Do not redraw, redesign, simplify, add, remove or move any part. Change ONLY the broad olive-green CELERY LEAVES only, preserving the blue water and small pale-teal plane to saturated #F04420. This single intentionally unnatural strong color echoes bold Japanese screen-print vermilion, cobalt and orange. Keep every OTHER color exactly as in the attached image, including their muted tones. Preserve existing restrained print mottling and organic cut-paper edges. Use one newly introduced accent hue only, with slight existing ink mottling, no additional accent colors. Keep all artwork complete in the same central area with ample clean margins. Render on solid chromakey magenta #FF00FF background so it can be removed. Magenta must appear ONLY in the background. No shadows, gradients, outlines, faces, eyes, writing or new decorative marks. Output square1024. The only intended difference is the specified color substitution.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:05:53.947348+00:00",
+  "image_sha256": "2a9bc0a092c3633164ae4e826fc8cc245e95a324319d8079ec83faa6c3e2a381",
+  "completed_sha256": "cce4230035fd715dd33d11316aa7fd42445ad3d7bf645db167878831eeb71a5f",
+  "cutout_sha256": "2b19df2dd1f0491f3d9fb4ffb1ec86554523ca29d0bd1226015fa08cfc998cc4"
+}

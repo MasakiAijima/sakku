@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-07",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "e1c740ffcb7ec02c169d8d8e59aa387683bb65f5c3308373cac1bf36cf943ff9",
+  "generation": {
+    "id": "kou-07",
+    "hash": "19002583095d5cca15c7b88b8ff004e16edeca6698cb5773321012ba8c64645a",
+    "reference_sha256": "c99afc3594da8b24e783ddaae26f25da894148ca3bf078f4599bf9f4c47744ee",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. Make ONE local color substitution on the attached illustration. Recolor the small three-bladed olive grass tuft at the LOWER LEFT edge of the ochre mound, to the LEFT of the dark beetle. The whole grass tuft must become raspberry pink; the mound and beetle retain their original colors. The requested accent color is raspberry pink #E73E73. The subject MUST contain this exact accent hue; do not substitute another hue. Preserve the exact composition, all silhouettes, curves, sizes, positions, part count and subtle print texture. Do not omit any motif or add anything. All other subject colors remain unchanged. Use solid chromakey #FF00FF ONLY for the empty background. The accent must remain clearly distinct from this background. No text, eyes, faces, shadows, outlines, new decorations or gradients. Square 1024.",
+    "attempted_at": "2026-10-12T13:21:03.733286+00:00",
+    "completed_sha256": "ce6df88e9bb729efab2efc73f67bda30b3958fd1544675485cde3081f4b8bb88"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 453.15,
+      "y": 198.233,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      110,
+      103,
+      402,
+      409
+    ],
+    "precursorBounds": [
+      123,
+      304,
+      183,
+      377
+    ]
+  },
+  "sourceHashes": {
+    "C": "ce6df88e9bb729efab2efc73f67bda30b3958fd1544675485cde3081f4b8bb88",
+    "Cprime": "92b86f8e38692ebca0cff14e2400589c4539239b3e1027440654d648c42f012f",
+    "generation": "b38c4db2b24e1883f48bc535e70ed416ffa3c26bb0e491d5a982a7e62cfac1d0"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. Make ONE local color substitution on the attached illustration. Recolor the small three-bladed olive grass tuft at the LOWER LEFT edge of the ochre mound, to the LEFT of the dark beetle. The whole grass tuft must become raspberry pink; the mound and beetle retain their original colors. The requested accent color is raspberry pink #E73E73. The subject MUST contain this exact accent hue; do not substitute another hue. Preserve the exact composition, all silhouettes, curves, sizes, positions, part count and subtle print texture. Do not omit any motif or add anything. All other subject colors remain unchanged. Use solid chromakey #FF00FF ONLY for the empty background. The accent must remain clearly distinct from this background. No text, eyes, faces, shadows, outlines, new decorations or gradients. Square 1024.",
+  "generatedAt": "2026-10-12T13:21:03.733286+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

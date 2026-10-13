@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-46",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "b8e0b434f8517c5a7e03fc692bc0087192d496f6889162a4fc12b385674bf12c",
+  "generation": {
+    "id": "kou-46",
+    "hash": "faab85d2699176f9591588dba724854d1ed7d68634a09e388f891625f1b1265e",
+    "reference_sha256": "58172320c2a31654c601449ed79221ad15a8c74af794b345a01abe5daf8f42e8",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small IVORY QUIET GAP at the bottom edge of the broad blue thundercloud only; preserve dark-blue and pale-blue cloud planes to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T13:04:11.778329+00:00",
+    "completed_sha256": "9e52a9703d43fa8db8dafe53bc53e983afda318315807885a312ba86a8cf778e"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 210.122,
+      "y": 485.599,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      172,
+      409,
+      340
+    ],
+    "precursorBounds": [
+      234,
+      258,
+      308,
+      336
+    ]
+  },
+  "sourceHashes": {
+    "C": "9e52a9703d43fa8db8dafe53bc53e983afda318315807885a312ba86a8cf778e",
+    "Cprime": "9354181c975dbce045ccc0f01b06cb9cca32e60b241dc58304fd018f223694d7",
+    "generation": "0a12dc0ef26df0047f6fd4962877d85a9cf092dae1419bc9c43dc2819b94bfc9"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small IVORY QUIET GAP at the bottom edge of the broad blue thundercloud only; preserve dark-blue and pale-blue cloud planes to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T13:04:11.778329+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

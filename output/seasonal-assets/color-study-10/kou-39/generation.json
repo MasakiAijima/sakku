@@ -1,0 +1,23 @@
+{
+  "id": "kou-39",
+  "hash": "6f6aa52c9ac66120ed401e3cf1688fb767ecdb6cafb980853accc181aaed6019",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-39/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-10/kou-39/reference.png",
+  "reference_sha256": "ecc5255684f4f435b100d20e65ff0a88482bdd4bba604ea7473c323de7396caf",
+  "prompt": "Use case: precise-object-edit. Make a COLOR-ONLY variant of the attached finished Japanese seasonal cut-paper illustration. Keep the exact subject, composition, contour, proportions, pose, number of parts, overlaps, size and position of EVERY shape. Do not redraw, redesign, simplify, add, remove or move any part. Change ONLY the dominant pale-blue FOG shape only to saturated #155DD8. This single intentionally unnatural strong color echoes bold Japanese screen-print vermilion, cobalt and orange. Keep every OTHER color exactly as in the attached image, including their muted tones. Preserve existing restrained print mottling and organic cut-paper edges. Use one newly introduced accent hue only, with slight existing ink mottling, no additional accent colors. Keep all artwork complete in the same central area with ample clean margins. Render on solid chromakey magenta #FF00FF background so it can be removed. Magenta must appear ONLY in the background. No shadows, gradients, outlines, faces, eyes, writing or new decorative marks. Output square1024. The only intended difference is the specified color substitution.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:04:24.088044+00:00",
+  "image_sha256": "3e61daf9bcd401924602e0d3c0ce7ca7875fd779ef1d97ba40d526246c1ae3b2",
+  "completed_sha256": "9fa114d3b51cdfb16bc35961820507b0d09866e9cef927d012bf45790853c8d9",
+  "cutout_sha256": "96c5b036126a7ebe4778a751de22be85927d23c8210dbe60f20d6a2ca130bf08"
+}

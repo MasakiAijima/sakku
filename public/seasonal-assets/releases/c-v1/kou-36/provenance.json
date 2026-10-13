@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-36",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "494f7d96764f21d06b5aa406c837b368f1c8ffe6d36acab01f9bb33f68f3ef63",
+  "generation": {
+    "id": "kou-36",
+    "hash": "2e723a04422b7e82256ab2196fd6146b47d8f909c0b8aacf8bb7a09d33cb6bbc",
+    "reference_sha256": "2fcb4610a6540d04995c9bf9f6b675ace377b710b0b77b265109c8e251222481",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small pale-teal WATER SPLASH below the broad blue rain planes only; preserve dark-blue rain and pale-blue cloud to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:59:56.887340+00:00",
+    "completed_sha256": "e3cc0e5f74fc6c5ba49a9d063aa4ffb7384208d74b8e1c7c32f0fe6783a14cc6"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 361.729,
+      "y": 589.282,
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      131,
+      103,
+      380,
+      409
+    ],
+    "precursorBounds": [
+      238,
+      336,
+      380,
+      409
+    ]
+  },
+  "sourceHashes": {
+    "C": "e3cc0e5f74fc6c5ba49a9d063aa4ffb7384208d74b8e1c7c32f0fe6783a14cc6",
+    "Cprime": "4aae2aaa3c6d46cd96bb2670a8654f3058d6a32e157b099f895825d1b7099e5d",
+    "generation": "d6260e3d2d5971de915baaa632d8d0148bdda401cc075290794a10120bec6480"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small pale-teal WATER SPLASH below the broad blue rain planes only; preserve dark-blue rain and pale-blue cloud to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:59:56.887340+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

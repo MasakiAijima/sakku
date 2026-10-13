@@ -1,0 +1,23 @@
+{
+  "id": "kou-06",
+  "hash": "59a30b72a0c1a3f8bc04c9f4093f04a8a8fc39816e77492557a55c4cf9c04278",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-06/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c/kou-06/reference.png",
+  "reference_sha256": "15bebabf5504d1a310af44489a013c905fa87bcc2c53d1c096461e3f0efbab16",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese seasonal illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small brown woody BRANCH at the base only to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged as well. This is one small existing color field recolored to one accent hue, not a new part, not a new decoration. Preserve relative areas: the recolored field stays exactly the same SMALL area. Do not spread the accent onto the main motif. Keep the artwork centered with generous clear margins; solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:24:09.449308+00:00",
+  "image_sha256": "4bdd5e240bacdc79136aab03175aa48a960cabe3969a278f3ae3f897d6907d55",
+  "completed_sha256": "1004804edcd217fa0a03da89642a96e39a731bd0e24c23cc15d1eda9afcebbdc",
+  "cutout_sha256": "79a412038c82ce7a1cb313af2415df35ecf19435503ddfb89f70a99a1f0aeed1"
+}

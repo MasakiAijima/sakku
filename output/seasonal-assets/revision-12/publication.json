@@ -1,0 +1,22 @@
+{
+  "published_at": "2026-10-12T11:37:26.451600+00:00",
+  "ids": [
+    "kou-01",
+    "kou-05",
+    "kou-37",
+    "kou-41",
+    "kou-51",
+    "kou-52",
+    "kou-58",
+    "kou-59",
+    "kou-61",
+    "kou-66",
+    "kou-68",
+    "kou-69"
+  ],
+  "unchangedCount": 60,
+  "unchangedSnapshot": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/before/unchanged-60.json",
+  "semanticDataSha256": "7d54db4bfe15c6e4e4b9b062d82e5a0fdedd51dcab803fa4434d367cb0a137df",
+  "budgetPolicy": "user-waived-for-targeted-revision",
+  "actualCost": null
+}

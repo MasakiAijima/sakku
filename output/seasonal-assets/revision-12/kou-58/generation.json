@@ -1,0 +1,30 @@
+{
+  "id": "kou-58",
+  "name": "虹かくれて見えず",
+  "prompt": "Use case: stylized-concept. Asset: one independent Japanese microseason illustration. The attached image is a STYLE reference only. Preserve its few large flat color planes, expressive hand-cut organic silhouette, long unequal curves, asymmetric swelling and pinches, and restrained uneven screen-print ink inside each color field. Do not copy its subject or colors. Express only the seasonal relationship specified below. One dominant motif occupies most of the artwork; at most one or two much smaller auxiliary motifs overlap it into one compact composition. Choose natural, seasonally meaningful colors from the specified palette. Never default to red. Use broad solid opaque color planes. Silhouette has character and directional flow; avoid bilateral symmetry, equally spaced petals, repeated geometry and fine outlines. The static image must be complete; do not add separate parts or gaps for animation. Center the entire compact artwork within the central 60 percent of the square, with ample clean empty margin on all sides. Solid chromakey magenta #FF00FF background; no magenta, hot pink, fuchsia, purple spill or pink reflected lighting in the artwork. Pink petals must be muted salmon #E9B8B5, distinct from the magenta background. No faces, eyes, pupils, letters, numerals, titles, borders, frames, realistic shading, gradients, shadows, translucency, fine veins, repeated decorative dots or textures outside shapes. \nThis is a new subject design, not a recoloring of the reference. Use the reference only for flat color planes, organic contours and print texture. Never copy its subject silhouette or arrangement. Do not use a curled ribbon, spiral, swirl or wave-shaped blob as a generic symbol for weather or water. Follow the specific seasonal scene and distinguishing silhouette below.\nSubject and seasonal relation: One large dense slate-pale-blue winter cloud with three broad unequal rounded lobes. One very small fragment of a muted gold and salmon rainbow arch is almost concealed BEHIND the lower left edge; only a short upside-down-U segment remains visible. The silhouette is a heavy broad cloud, not a curling breeze. No spiral, hook, pointed tail, wind ribbon, ice fragment or water drop. No fully visible rainbow.\nSemantic color palette: #667D94 (冬雲), #B9D5DE (冷たい空気), #F1EBDD (雪・光), #B58A50 (大地), #E3BC45 (隠れる虹の黄色)\nColor intent: 冬雲の青を広くし、虹の色は短い断片に限定する",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "reference_sha256": "be3727c8bfc3eff85f5f84d867b09f89c8fdaadd215f1d32d94f79683360366f",
+  "generator_version": "revision-12-v1",
+  "operation": "edit",
+  "hash": "79e518eb901ca33bdf4d4140090160fdd1ccb5f7d859857f1f4be8a72dea3eed",
+  "reference_source": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-32/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-58/reference.png",
+  "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-58/original.png",
+  "provenance": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-58/generation.json",
+  "prompt_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-58/prompt.txt",
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T11:34:09.647971+00:00",
+  "budgetPolicy": "user-waived-for-targeted-revision",
+  "actualCost": null,
+  "image_sha256": "b0c42e716aba0d87f2c455a6aa480773be7f6af8c724fac0ff4c2b1ec56f597b",
+  "completed_sha256": "9cf92777968872b843dd8507ed2a1c84121c6b8292911edc93f6a5e30922757c",
+  "full_sha256": "a089d361393f8285d005158b5039e4e9124c85061a52711bdba8e4e7656532da",
+  "cutout_sha256": "a089d361393f8285d005158b5039e4e9124c85061a52711bdba8e4e7656532da"
+}

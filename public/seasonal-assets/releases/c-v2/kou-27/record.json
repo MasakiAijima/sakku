@@ -1,0 +1,64 @@
+{
+  "fingerprint": "260e7cf0c8bb65ec081633d954d6fa9c1715c5ac9ea70f8c5862d5fdbff19042",
+  "asset": {
+    "kouId": "kou-27",
+    "name": "梅のみ黄ばむ",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 530.952,
+      "y": 514.486,
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      111,
+      103,
+      400,
+      409
+    ],
+    "precursorBounds": [
+      279,
+      104,
+      400,
+      270
+    ],
+    "motionBounds": {
+      "x": 111,
+      "y": 103,
+      "width": 289,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        339.5,
+        187.0
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-27/initial.png",
+    "completed": "kou-27/completed.png",
+    "transition": "kou-27/transition.webp",
+    "idle": "kou-27/idle.png",
+    "provenance": "kou-27/provenance.json",
+    "hashes": {
+      "initial": "b93a13f9bd928b1c596172662ef15baabc1be40b2c1a08d95e7e49faf15b384d",
+      "completed": "3f337632d806de3be8d3ef4b7e6a7c1bce8492bb45eccd87a6653b03f073fd16",
+      "transition": "70b6abd0f861bd0ba5dfc5889281f0687a310201da19a100575b754ede2d5f99",
+      "idle": "3f337632d806de3be8d3ef4b7e6a7c1bce8492bb45eccd87a6653b03f073fd16",
+      "provenance": "df6a8af7055000b21ef7e58b30c98ee54f270aa3eb48f7c26864e327674d9397"
+    }
+  }
+}

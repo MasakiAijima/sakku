@@ -1,0 +1,70 @@
+{
+  "kouId": "kou-21",
+  "algorithmVersion": "organic-growth-48-v2",
+  "inputFingerprint": "90eb2256bd81b532168466d9ca79883d20e099a22f2a7c034f95effde10da47e",
+  "assetVersion": "c-v2",
+  "promptVersion": "sha256:6cd290344def017defd1e25dcbbd1d1ea2ed84cfe1c27dad91919ab979776c6b",
+  "processedAtUTC": "2026-10-13T13:41:57.952279+00:00",
+  "provider": "openai",
+  "generation": {
+    "id": "kou-21",
+    "hash": "88f8c4566922c4c424dae6d7c92bbe8201c505ed2e1c9e2307d305abc92ec8ae",
+    "reference_sha256": "e0ed0ec3f27378904f49dec1e40a84ec8548861454537b9353d930ad2f203777",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small olive TIP at the top of the broad ochre bamboo shoot only; preserve ochre and gold shoot skins to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:54:13.203341+00:00",
+    "completed_sha256": "8db465146f8a7cc7a982b55186558abbfc80c847ce87a1a7098acc935b8c783b"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 429.751,
+      "y": 360.731,
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      153,
+      103,
+      358,
+      409
+    ],
+    "precursorBounds": [
+      272,
+      104,
+      315,
+      188
+    ]
+  },
+  "sourceHashes": {
+    "C": "8db465146f8a7cc7a982b55186558abbfc80c847ce87a1a7098acc935b8c783b",
+    "Cprime": "c220354c8be45541104d1a377eb99d0cf33172dfd708f6ec4e05ae2ae0360078",
+    "generation": "3d4a0cd3fd2ec67356bb4e544f1dd37dbce3054549aa65b828c5307cca68efc7"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small olive TIP at the top of the broad ochre bamboo shoot only; preserve ochre and gold shoot skins to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:54:13.203341+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

@@ -1,0 +1,70 @@
+{
+  "kouId": "kou-17",
+  "algorithmVersion": "organic-growth-48-v2",
+  "inputFingerprint": "f5d7b26f0a35d984c07de02c0f0b70c054ca187fb481d902ef8f49d732b60faf",
+  "assetVersion": "c-v2",
+  "promptVersion": "sha256:beb06a00d7c2e525176ee5841566956d5b72093434a298d56a11fb5348366d72",
+  "processedAtUTC": "2026-10-13T13:41:56.883019+00:00",
+  "provider": "openai",
+  "generation": {
+    "id": "kou-17",
+    "hash": "58235deff613323118e086655e6fc59678f43aa2408a8b0c01e376d459c10e01",
+    "reference_sha256": "991451f415c142a7f150396da4256e9066386c417241f514e21d66f9d2c1d02e",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the low tiny ochre SOIL PATCH below the pale-teal seedling only; preserve pale-teal leaves and olive shadow to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:52:34.197079+00:00",
+    "completed_sha256": "947e119dd5970626c17a7a66d98c8514e8d4e953dec79bb77897797d7ff51620"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 533.169,
+      "y": 337.649,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      126,
+      103,
+      386,
+      409
+    ],
+    "precursorBounds": [
+      129,
+      366,
+      252,
+      409
+    ]
+  },
+  "sourceHashes": {
+    "C": "947e119dd5970626c17a7a66d98c8514e8d4e953dec79bb77897797d7ff51620",
+    "Cprime": "ecf5147d06f6c65e642c70550f1b8670e252409ecf89ca20ecb0a5f24e54aa44",
+    "generation": "c349f284335da9226ca6f0733bbe9fb7f8514d6060cc417543ea3ccd809bc509"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the low tiny ochre SOIL PATCH below the pale-teal seedling only; preserve pale-teal leaves and olive shadow to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:52:34.197079+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

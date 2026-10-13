@@ -1,0 +1,23 @@
+{
+  "id": "kou-23",
+  "hash": "92d90a6cf5abc1bddf859e9a553748a21dfc1ace93255bd304fa1fdb1d845767",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-23/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-23/reference.png",
+  "reference_sha256": "1a60f154a0c83de09824107411eba562ef3f4d8020049a4e7a7487014a67e6ac",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small olive CALYX at the base of the orange safflower only; preserve orange flower and vermilion inner plane to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:55:23.746176+00:00",
+  "image_sha256": "7a164886821ddc60b8475c6eff0b701550b65b26254b50e8568a704c19c7af31",
+  "completed_sha256": "5d3bb1513f8af980833835474a6a3d45bd8a846e958e1d33b54dd4dbbd3e503e",
+  "cutout_sha256": "7122c38621427ec993a398b17330d4c701a1c5fc19557055084f8b540fd1cb79"
+}

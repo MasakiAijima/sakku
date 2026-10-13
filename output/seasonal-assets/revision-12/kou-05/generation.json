@@ -1,0 +1,30 @@
+{
+  "id": "kou-05",
+  "name": "霞始めてたなびく",
+  "prompt": "Use case: stylized-concept. Asset: one independent Japanese microseason illustration. The attached image is a STYLE reference only. Preserve its few large flat color planes, expressive hand-cut organic silhouette, long unequal curves, asymmetric swelling and pinches, and restrained uneven screen-print ink inside each color field. Do not copy its subject or colors. Express only the seasonal relationship specified below. One dominant motif occupies most of the artwork; at most one or two much smaller auxiliary motifs overlap it into one compact composition. Choose natural, seasonally meaningful colors from the specified palette. Never default to red. Use broad solid opaque color planes. Silhouette has character and directional flow; avoid bilateral symmetry, equally spaced petals, repeated geometry and fine outlines. The static image must be complete; do not add separate parts or gaps for animation. Center the entire compact artwork within the central 60 percent of the square, with ample clean empty margin on all sides. Solid chromakey magenta #FF00FF background; no magenta, hot pink, fuchsia, purple spill or pink reflected lighting in the artwork. Pink petals must be muted salmon #E9B8B5, distinct from the magenta background. No faces, eyes, pupils, letters, numerals, titles, borders, frames, realistic shading, gradients, shadows, translucency, fine veins, repeated decorative dots or textures outside shapes. \nThis is a new subject design, not a recoloring of the reference. Use the reference only for flat color planes, organic contours and print texture. Never copy its subject silhouette or arrangement. Do not use a curled ribbon, spiral, swirl or wave-shaped blob as a generic symbol for weather or water. Follow the specific seasonal scene and distinguishing silhouette below.\nSubject and seasonal relation: Two broad unequal horizontal bands of muted salmon and warm ivory spring haze, with subtly uneven scalloped upper edges and tapering ends. They overlap one very small muted-olive rounded distant hill at the lower edge. The main silhouette is low, wide and horizontal. Flat opaque planes, no translucency. No curled ends, spirals, hooks, large wave or ribbon wind glyph. Do not depict a flower.\nSemantic color palette: #E9B8B5 (春霞), #72804A (丘), #B9D5DE (霞の冷色)\nColor intent: 霞は淡桃と淡青、丘は芽吹き前のオリーブで穏やかにする",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "reference_sha256": "be3727c8bfc3eff85f5f84d867b09f89c8fdaadd215f1d32d94f79683360366f",
+  "generator_version": "revision-12-v1",
+  "operation": "edit",
+  "hash": "e710d6e1dc11e7a1a5f0c8d66da4080c2d2580f147c271e1439efb3c975fca8f",
+  "reference_source": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-32/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-05/reference.png",
+  "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-05/original.png",
+  "provenance": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-05/generation.json",
+  "prompt_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-05/prompt.txt",
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T11:31:16.160063+00:00",
+  "budgetPolicy": "user-waived-for-targeted-revision",
+  "actualCost": null,
+  "image_sha256": "d0fd6db6375e1ad477698c1a6f437b578cd9cfd9a7d487caea391dbd37e21dd0",
+  "completed_sha256": "c71271827b48afb76d2b079576aa0cb570a18a927f1688a61054576dabc94396",
+  "full_sha256": "e280abe8eed6024d92719335431d2e18c1469afe4da96fd7af31d26f8d2464d6",
+  "cutout_sha256": "e280abe8eed6024d92719335431d2e18c1469afe4da96fd7af31d26f8d2464d6"
+}

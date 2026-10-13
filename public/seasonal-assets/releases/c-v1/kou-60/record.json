@@ -1,0 +1,64 @@
+{
+  "fingerprint": "526f887670dfedf66f31cd640c499b7b6ba21b07ea1f81387abaddc82c74d649",
+  "asset": {
+    "kouId": "kou-60",
+    "name": "橘始めて黄ばむ",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 254.839,
+      "y": 295.564,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      123,
+      103,
+      389,
+      409
+    ],
+    "precursorBounds": [
+      235,
+      103,
+      376,
+      193
+    ],
+    "motionBounds": {
+      "x": 123,
+      "y": 103,
+      "width": 266,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        305.5,
+        148.0
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-60/initial.png",
+    "completed": "kou-60/completed.png",
+    "transition": "kou-60/transition.webp",
+    "idle": "kou-60/idle.png",
+    "provenance": "kou-60/provenance.json",
+    "hashes": {
+      "initial": "0eebc112a21fef69320c5ddd3e702897e18cf262b1601b20e4f40a401fe40928",
+      "completed": "4d4142767c449f2bd3a1c70b17d67fb6833e28b973a6cd155bfd31a4b5aedbff",
+      "transition": "254e714bb381e5d43ed888c283c260230f2a36805350b1af71298aad5baf3535",
+      "idle": "4d4142767c449f2bd3a1c70b17d67fb6833e28b973a6cd155bfd31a4b5aedbff",
+      "provenance": "4020ef66417faf3322699c70353d40c23cbea94d132c62aeaa681a7d1a207d1f"
+    }
+  }
+}

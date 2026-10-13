@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-31",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "fa7e6472ca49e5e0d57581ceaba1eb513baf9477eb73df7ab902ee18df4d8bad",
+  "generation": {
+    "id": "kou-31",
+    "hash": "f4acbcd88467b8df9e56cf31dd472e403136af786852eea197520c4b6b574a2d",
+    "reference_sha256": "e305e8748e638fe1397435c27ed6aebfd923c1a4dfb1f4692c161d6fae508da0",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small orange WARM-AIR WISP beside the large olive summer leaf only; preserve olive and teal leaf planes to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:58:15.404491+00:00",
+    "completed_sha256": "734ba30aaae2390627cb51bbdc7a376578029e4c73ea5ef7513849957899283e"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 423.188,
+      "y": 480.65,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      142,
+      409,
+      370
+    ],
+    "precursorBounds": [
+      349,
+      254,
+      402,
+      326
+    ]
+  },
+  "sourceHashes": {
+    "C": "734ba30aaae2390627cb51bbdc7a376578029e4c73ea5ef7513849957899283e",
+    "Cprime": "46444fcbd405e1f02507fff95d33efc941191e9145adede181ba5cd067fb9a29",
+    "generation": "29d05f391ef82d3000b32a5869e066b7a47bb223a5f7f071cb99072e9e9cb36b"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small orange WARM-AIR WISP beside the large olive summer leaf only; preserve olive and teal leaf planes to saturated #F24B20. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:58:15.404491+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

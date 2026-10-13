@@ -1,0 +1,65 @@
+[
+  {
+    "action": "promote",
+    "at": "2026-10-13T13:35:47.960Z",
+    "previous": null,
+    "current": {
+      "schemaVersion": 1,
+      "version": "c-v1",
+      "manifest": "releases/c-v1/manifest.json",
+      "sha256": "512b38c5aad1cf5c60d065cccb1ce132f374d9290a1fe6f79cb6a1cac51dffa6"
+    },
+    "manifestSHA256": "512b38c5aad1cf5c60d065cccb1ce132f374d9290a1fe6f79cb6a1cac51dffa6"
+  },
+  {
+    "action": "promote",
+    "at": "2026-10-13T13:42:16.101Z",
+    "previous": {
+      "schemaVersion": 1,
+      "version": "c-v1",
+      "manifest": "releases/c-v1/manifest.json",
+      "sha256": "512b38c5aad1cf5c60d065cccb1ce132f374d9290a1fe6f79cb6a1cac51dffa6"
+    },
+    "current": {
+      "schemaVersion": 1,
+      "version": "c-v2",
+      "manifest": "releases/c-v2/manifest.json",
+      "sha256": "f1a8e0a13c641aee10a66a69abc12d1844206312db49c59b9b414ad8a046d58b"
+    },
+    "manifestSHA256": "f1a8e0a13c641aee10a66a69abc12d1844206312db49c59b9b414ad8a046d58b"
+  },
+  {
+    "action": "rollback",
+    "at": "2026-10-13T13:42:17.464Z",
+    "previous": {
+      "schemaVersion": 1,
+      "version": "c-v2",
+      "manifest": "releases/c-v2/manifest.json",
+      "sha256": "f1a8e0a13c641aee10a66a69abc12d1844206312db49c59b9b414ad8a046d58b"
+    },
+    "current": {
+      "schemaVersion": 1,
+      "version": "c-v1",
+      "manifest": "releases/c-v1/manifest.json",
+      "sha256": "512b38c5aad1cf5c60d065cccb1ce132f374d9290a1fe6f79cb6a1cac51dffa6"
+    },
+    "manifestSHA256": "512b38c5aad1cf5c60d065cccb1ce132f374d9290a1fe6f79cb6a1cac51dffa6"
+  },
+  {
+    "action": "promote",
+    "at": "2026-10-13T13:42:18.755Z",
+    "previous": {
+      "schemaVersion": 1,
+      "version": "c-v1",
+      "manifest": "releases/c-v1/manifest.json",
+      "sha256": "512b38c5aad1cf5c60d065cccb1ce132f374d9290a1fe6f79cb6a1cac51dffa6"
+    },
+    "current": {
+      "schemaVersion": 1,
+      "version": "c-v2",
+      "manifest": "releases/c-v2/manifest.json",
+      "sha256": "f1a8e0a13c641aee10a66a69abc12d1844206312db49c59b9b414ad8a046d58b"
+    },
+    "manifestSHA256": "f1a8e0a13c641aee10a66a69abc12d1844206312db49c59b9b414ad8a046d58b"
+  }
+]

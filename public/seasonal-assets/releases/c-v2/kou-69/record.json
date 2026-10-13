@@ -1,0 +1,64 @@
+{
+  "fingerprint": "5f14741cb63b027350a844675ba432a8568eb6e3003d5639341211a1d437921b",
+  "asset": {
+    "kouId": "kou-69",
+    "name": "雉始めてなく",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 285.807,
+      "y": 123.556,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      136,
+      409,
+      375
+    ],
+    "precursorBounds": [
+      115,
+      149,
+      134,
+      174
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 136,
+      "width": 306,
+      "height": 239
+    },
+    "animation": {
+      "seed": [
+        124.5,
+        161.5
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-69/initial.png",
+    "completed": "kou-69/completed.png",
+    "transition": "kou-69/transition.webp",
+    "idle": "kou-69/idle.png",
+    "provenance": "kou-69/provenance.json",
+    "hashes": {
+      "initial": "f1b270670594bb080e62cb697949c2176cdd04f222f60163d765e8c6a4abae4b",
+      "completed": "831edc084d00ef2aa9fdc5132a9f38db922e4b8acb78de738aadd93a2c58cbd5",
+      "transition": "baedd5288a474624127a5b27a71dccc2a0addc901149e422784e51e96c6a6869",
+      "idle": "831edc084d00ef2aa9fdc5132a9f38db922e4b8acb78de738aadd93a2c58cbd5",
+      "provenance": "8e0446ff68e8ecd633cac30f9c9fef3c8cd9cdba81a7766c0358a25643b6719b"
+    }
+  }
+}

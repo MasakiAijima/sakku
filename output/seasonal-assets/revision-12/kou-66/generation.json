@@ -1,0 +1,30 @@
+{
+  "id": "kou-66",
+  "name": "雪下りて麦のびる",
+  "prompt": "Use case: stylized-concept. Asset: one independent Japanese microseason illustration. The attached image is a STYLE reference only. Preserve its few large flat color planes, expressive hand-cut organic silhouette, long unequal curves, asymmetric swelling and pinches, and restrained uneven screen-print ink inside each color field. Do not copy its subject or colors. Express only the seasonal relationship specified below. One dominant motif occupies most of the artwork; at most one or two much smaller auxiliary motifs overlap it into one compact composition. Choose natural, seasonally meaningful colors from the specified palette. Never default to red. Use broad solid opaque color planes. Silhouette has character and directional flow; avoid bilateral symmetry, equally spaced petals, repeated geometry and fine outlines. The static image must be complete; do not add separate parts or gaps for animation. Center the entire compact artwork within the central 60 percent of the square, with ample clean empty margin on all sides. Solid chromakey magenta #FF00FF background; no magenta, hot pink, fuchsia, purple spill or pink reflected lighting in the artwork. Pink petals must be muted salmon #E9B8B5, distinct from the magenta background. No faces, eyes, pupils, letters, numerals, titles, borders, frames, realistic shading, gradients, shadows, translucency, fine veins, repeated decorative dots or textures outside shapes. \nThis is a new subject design, not a recoloring of the reference. Use the reference only for flat color planes, organic contours and print texture. Never copy its subject silhouette or arrangement. Do not use a curled ribbon, spiral, swirl or wave-shaped blob as a generic symbol for weather or water. Follow the specific seasonal scene and distinguishing silhouette below.\nSubject and seasonal relation: A compact young WHEAT SEEDLING emerging from a low irregular warm-ivory cushion of snow. Two short broad fresh teal-green lance-shaped juvenile leaves unfold close to the ground in a squat open V, with a tiny darker olive emerging central leaf. Leaves are thick rounded folded planes with visible width and curved tips, not long narrow stalks. Their height above the snow is only about the snow cushion width. No visible stem, no long stalk, no reed, no grass-like tall narrow blade, no branch, no flowers or grain head. Emphasize the small tender sprout opening under the snow.\nSemantic color palette: #90B8B0 (麦の新芽), #72804A (芽の濃色), #F5F3ED (雪)\nColor intent: 麦の新緑と雪の白を使い、成長の関係を表す",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "reference_sha256": "be3727c8bfc3eff85f5f84d867b09f89c8fdaadd215f1d32d94f79683360366f",
+  "generator_version": "revision-12-v1",
+  "operation": "edit",
+  "hash": "272427a3cb748d33dee92a1cebfc94e0b8ee49f5104cb87f51492804fe4b38af",
+  "reference_source": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-32/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-66/reference.png",
+  "output": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-66/original.png",
+  "provenance": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-66/generation.json",
+  "prompt_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/revision-12/kou-66/prompt.txt",
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T11:35:33.610241+00:00",
+  "budgetPolicy": "user-waived-for-targeted-revision",
+  "actualCost": null,
+  "image_sha256": "655a15cd0e4a4483be785a3874883d88bb7f71b35bb193650c0111a8c593781f",
+  "completed_sha256": "d8e67687645c4898f55f0a2dce8b90585f5622486923977275200712080b9858",
+  "full_sha256": "b428ad7b0c13692d9e683906ab69efb17cacc4237d3c12220de4de54cc0c07d4",
+  "cutout_sha256": "b428ad7b0c13692d9e683906ab69efb17cacc4237d3c12220de4de54cc0c07d4"
+}

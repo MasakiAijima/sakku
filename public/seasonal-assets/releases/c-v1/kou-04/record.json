@@ -1,0 +1,64 @@
+{
+  "fingerprint": "a29bec1a238475765d406683300d6655be02608785b0fcb6e4ccd6ae0e4fa501",
+  "asset": {
+    "kouId": "kou-04",
+    "name": "土脉潤い起こる",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 394.444,
+      "y": 201.683,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      162,
+      409,
+      349
+    ],
+    "precursorBounds": [
+      210,
+      272,
+      339,
+      349
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 162,
+      "width": 306,
+      "height": 187
+    },
+    "animation": {
+      "seed": [
+        274.5,
+        310.5
+      ],
+      "durationMs": 720,
+      "frames": 5,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-04/initial.png",
+    "completed": "kou-04/completed.png",
+    "transition": "kou-04/transition.webp",
+    "idle": "kou-04/idle.png",
+    "provenance": "kou-04/provenance.json",
+    "hashes": {
+      "initial": "c53508e8c1cbcaa15cec836a56a046ef9e818126185b2d167d21487e535ae924",
+      "completed": "912fef639aa30aa7fd2023be4c5852c48dda55fa87f2e042308ff67a110c181e",
+      "transition": "e8d0da69d93863c090b65f79129900a83060b035c38e4a94cb97098521d8ac23",
+      "idle": "912fef639aa30aa7fd2023be4c5852c48dda55fa87f2e042308ff67a110c181e",
+      "provenance": "fb6dfffbe10f9ab17cc9519daff59b924b47882ff5985b28022c732569258f29"
+    }
+  }
+}

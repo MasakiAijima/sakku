@@ -1,0 +1,67 @@
+{
+  "kouId": "kou-39",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "e906d95151e13a3b6bc787c50b6c539b6e26f87c891e1abfd22f921ca0608bf3",
+  "generation": {
+    "id": "kou-39",
+    "hash": "0aecb69d7c9b76b26e5759a8524b4129fe5c51d5458256d9d49386014cde40d4",
+    "reference_sha256": "ecc5255684f4f435b100d20e65ff0a88482bdd4bba604ea7473c323de7396caf",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese seasonal illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small DARK-BLUE distant tree/shadow plane beside the olive conifer and within the pale-blue fog only to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged as well. This is one small existing color field recolored to one accent hue, not a new part, not a new decoration. Preserve relative areas: the recolored field stays exactly the same SMALL area. Do not spread the accent onto the main motif. Keep the artwork centered with generous clear margins; solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:25:39.345286+00:00",
+    "completed_sha256": "856bd6bd23ec3d59170144466dbf7cb04b8739186da63fd76675ed5d8af9ffb4",
+    "reused_from": "output/seasonal-assets/color-study-c/kou-39"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 304.116,
+      "y": 596.62,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      160,
+      409,
+      352
+    ],
+    "precursorBounds": [
+      179,
+      264,
+      259,
+      324
+    ]
+  },
+  "sourceHashes": {
+    "C": "856bd6bd23ec3d59170144466dbf7cb04b8739186da63fd76675ed5d8af9ffb4",
+    "Cprime": "dafcca0646fe9c4f2f8acdd12700a9d1f7f4f6fcb935b377521c8dc0079fc40e",
+    "generation": "9c2d5fca29a2a817753766ebb4e26dfc0395782c7e688686df3b662fe901e2cd"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese seasonal illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small DARK-BLUE distant tree/shadow plane beside the olive conifer and within the pale-blue fog only to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged as well. This is one small existing color field recolored to one accent hue, not a new part, not a new decoration. Preserve relative areas: the recolored field stays exactly the same SMALL area. Do not spread the accent onto the main motif. Keep the artwork centered with generous clear margins; solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:25:39.345286+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

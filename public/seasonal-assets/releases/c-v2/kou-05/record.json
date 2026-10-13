@@ -1,0 +1,64 @@
+{
+  "fingerprint": "5e9ee8343897c52a1f8238ff547c20e14edb4e3c6343c90e6c0554daf7785d1e",
+  "asset": {
+    "kouId": "kou-05",
+    "name": "霞始めてたなびく",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 388.458,
+      "y": 245.318,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      172,
+      409,
+      340
+    ],
+    "precursorBounds": [
+      191,
+      301,
+      368,
+      340
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 172,
+      "width": 306,
+      "height": 168
+    },
+    "animation": {
+      "seed": [
+        279.5,
+        320.5
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-05/initial.png",
+    "completed": "kou-05/completed.png",
+    "transition": "kou-05/transition.webp",
+    "idle": "kou-05/idle.png",
+    "provenance": "kou-05/provenance.json",
+    "hashes": {
+      "initial": "0d5d296b0be694420971c504d4eadca075d9dacca2a2a8b36ba2aeb81d1f1cb0",
+      "completed": "748eb2c6758ff9fdc260fa5c35c143d3b572215efe0835895032635f4afa63ae",
+      "transition": "29acaeb5d785b90af406410135220bb79cc9c229c867e59e54e6a3b149d86d04",
+      "idle": "748eb2c6758ff9fdc260fa5c35c143d3b572215efe0835895032635f4afa63ae",
+      "provenance": "b3458b51c3b49845c23bcaa68bab0297d0aaa374bd636806cb60268e6bb3c51b"
+    }
+  }
+}

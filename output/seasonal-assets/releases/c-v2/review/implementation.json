@@ -1,0 +1,25 @@
+{
+  "version": "c-v2",
+  "assets": 72,
+  "stateFiles": 288,
+  "unit": 55,
+  "packagerTests": 8,
+  "retryTests": 5,
+  "productionManifestTests": 2,
+  "promotionTests": 2,
+  "browserPoC": [
+    "kou-01",
+    "kou-32",
+    "kou-54"
+  ],
+  "offlineReload": 72,
+  "rollback": [
+    "c-v2",
+    "c-v1",
+    "c-v2"
+  ],
+  "distribution": "output/seasonal-assets/distribution/c-v2",
+  "runtimeGenerationCalls": 0,
+  "actualCost": null,
+  "homeIntegrationIssue": 16
+}

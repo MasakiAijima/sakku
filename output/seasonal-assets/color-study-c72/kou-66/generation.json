@@ -1,0 +1,23 @@
+{
+  "id": "kou-66",
+  "hash": "d32f615ac835b2d0f10739a0aec779cb6909c7765d73f4d137a701d279ab09c2",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/revision-3/kou-66/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-66/reference.png",
+  "reference_sha256": "5915cd39978cff903b675080422ed9a94a7e85ab0f02068e36c2bb0991216294",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the few very small olive LEAVES attached to the three slender pale-teal wheat STEMS only; preserve all three stems and ivory snow to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:16:15.079444+00:00",
+  "image_sha256": "3550c64d00fea7624cdfd8c507c648b587df2ecaffdda7f767cc1a9753cc8c1f",
+  "completed_sha256": "73262578b849d176395a09aca86c11f9ac2fdd62d3109fbd36ee7f57f3792fee",
+  "cutout_sha256": "9a05d4b8a6725fa6fd65275520ecd9d71e0132e4244e02aa8aa390a154b75154"
+}

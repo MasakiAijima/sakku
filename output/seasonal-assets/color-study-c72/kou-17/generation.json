@@ -1,0 +1,23 @@
+{
+  "id": "kou-17",
+  "hash": "58235deff613323118e086655e6fc59678f43aa2408a8b0c01e376d459c10e01",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-17/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-17/reference.png",
+  "reference_sha256": "991451f415c142a7f150396da4256e9066386c417241f514e21d66f9d2c1d02e",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the low tiny ochre SOIL PATCH below the pale-teal seedling only; preserve pale-teal leaves and olive shadow to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:52:34.197079+00:00",
+  "image_sha256": "7eac6af4541ebb8cfda885289d289b11001ef5f2c4cb3fabef6da02989f0ddc9",
+  "completed_sha256": "947e119dd5970626c17a7a66d98c8514e8d4e953dec79bb77897797d7ff51620",
+  "cutout_sha256": "011822c33955cfe04fb89d2404b1401a262134c6b97341400c1004965108603f"
+}

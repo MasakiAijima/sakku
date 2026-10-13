@@ -1,0 +1,64 @@
+{
+  "fingerprint": "9eac671c49459af40962dc26bc38db7f6b9acbb8c987425a176502d3fd56b048",
+  "asset": {
+    "kouId": "kou-06",
+    "name": "草木萌え動る",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 467.504,
+      "y": 130.986,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      164,
+      103,
+      348,
+      409
+    ],
+    "precursorBounds": [
+      164,
+      328,
+      298,
+      409
+    ],
+    "motionBounds": {
+      "x": 164,
+      "y": 103,
+      "width": 184,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        231.0,
+        368.5
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-06/initial.png",
+    "completed": "kou-06/completed.png",
+    "transition": "kou-06/transition.webp",
+    "idle": "kou-06/idle.png",
+    "provenance": "kou-06/provenance.json",
+    "hashes": {
+      "initial": "08c212e3f0bd2a18f0fb79c460ecdaab78aa461434e5c40e00d3bba69c0f20fd",
+      "completed": "696f7c880259911c00a049df740179ee09d26972cf5e354f25320c4b918bc924",
+      "transition": "31401933d945b5db8b85531a9dd28a0b97f166639ca16547df4443fada7c0f2a",
+      "idle": "696f7c880259911c00a049df740179ee09d26972cf5e354f25320c4b918bc924",
+      "provenance": "0c811407221c222318480e687e0e43335079836647e2cee99fe8dac43872ccd8"
+    }
+  }
+}

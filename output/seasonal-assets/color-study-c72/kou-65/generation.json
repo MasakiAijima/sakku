@@ -1,0 +1,23 @@
+{
+  "id": "kou-65",
+  "hash": "526d5a35a3bdcca115a0afcd68a1f43760ab6a6c6aaf87d004c692467253e067",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-65/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-65/reference.png",
+  "reference_sha256": "7ad7b9bd2f2361e4ce51942d27540b11f1410e72a396cc13c4b90da89b163d7a",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small olive GRASS/LEAF under the brown antler only; preserve brown antler and golden cut end to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:16:10.632820+00:00",
+  "image_sha256": "127606a179df7360ea2e552eee500baa76a8cc2f3300169c72ca2d9cd759df26",
+  "completed_sha256": "c635b1db9ddcb082767c83d1b3147cbdf9fece4de13d3c8d42dfc2732077b3f5",
+  "cutout_sha256": "7e874e0682c035cfbe32e50db50c5ea0fc57e609ae843191082bb888ee033af9"
+}

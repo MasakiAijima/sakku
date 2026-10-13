@@ -1,0 +1,801 @@
+{
+  "schemaVersion": 1,
+  "status": "sample-artwork-layout",
+  "seed": 1972,
+  "masterVersion": "e72212780133af95020bc7f39e95b6638d664b3d647c1f7b1077aa4ec317d649",
+  "viewBox": [
+    0,
+    0,
+    700,
+    700
+  ],
+  "packingBoundary": {
+    "cx": 350,
+    "cy": 350,
+    "radius": 285.0
+  },
+  "commonVisibleLongEdge": 55.31,
+  "minimumHullGap": 3.0,
+  "algorithm": "sunflower / discrete Lloyd / silhouette-convex-hull relaxation",
+  "sources": {
+    "kou-01": {
+      "path": "review/kou-01-revised.png",
+      "sha256": "7e02fa47c5f26c7a41ae5d12ca5bdd26dcce78b24de9fb861543abdc8a5d6fec",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        145,
+        409,
+        367
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-32": {
+      "path": "review/kou-32-revised.png",
+      "sha256": "db8119726362c97e898956a641b86147b21e6530ca67648fd7f1da6f06ac4410",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        120,
+        409,
+        392
+      ],
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "kou-54": {
+      "path": "review/kou-54-revised.png",
+      "sha256": "a24123f5a05e7e93d55970e1e224521bb567bb0e34db1258c98195ac23058a72",
+      "canvas": [
+        512,
+        512
+      ],
+      "visibleBounds": [
+        103,
+        116,
+        409,
+        395
+      ],
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    }
+  },
+  "entries": [
+    {
+      "id": "kou-01",
+      "name": "東風凍を解く",
+      "sekkiId": "sekki-01",
+      "season": "spring",
+      "sourceId": "kou-01",
+      "placeholder": false,
+      "x": 351.792,
+      "y": 160.16
+    },
+    {
+      "id": "kou-02",
+      "name": "うぐいす鳴く",
+      "sekkiId": "sekki-01",
+      "season": "spring",
+      "sourceId": "kou-01",
+      "placeholder": true,
+      "x": 400.633,
+      "y": 110.74
+    },
+    {
+      "id": "kou-03",
+      "name": "魚氷を上る",
+      "sekkiId": "sekki-01",
+      "season": "spring",
+      "sourceId": "kou-01",
+      "placeholder": true,
+      "x": 410.808,
+      "y": 156.573
+    },
+    {
+      "id": "kou-04",
+      "name": "土脉潤い起こる",
+      "sekkiId": "sekki-02",
+      "season": "spring",
+      "sourceId": "kou-01",
+      "placeholder": true,
+      "x": 394.444,
+      "y": 201.683
+    },
+    {
+      "id": "kou-05",
+      "name": "霞始めてたなびく",
+      "sekkiId": "sekki-02",
+      "season": "spring",
+      "sourceId": "kou-01",
+      "placeholder": true,
+      "x": 388.458,
+      "y": 245.318
+    },
+    {
+      "id": "kou-06",
+      "name": "草木萌え動る",
+      "sekkiId": "sekki-02",
+      "season": "spring",
+      "sourceId": "kou-01",
+      "placeholder": true,
+      "x": 467.504,
+      "y": 130.986
+    },
+    {
+      "id": "kou-07",
+      "name": "すごもりの虫戸を開く",
+      "sekkiId": "sekki-03",
+      "season": "spring",
+      "sourceId": "kou-01",
+      "placeholder": true,
+      "x": 453.15,
+      "y": 198.233
+    },
+    {
+      "id": "kou-08",
+      "name": "桃始めてさく",
+      "sekkiId": "sekki-03",
+      "season": "spring",
+      "sourceId": "kou-01",
+      "placeholder": true,
+      "x": 510.374,
+      "y": 172.541
+    },
+    {
+      "id": "kou-09",
+      "name": "菜虫蝶となる",
+      "sekkiId": "sekki-03",
+      "season": "spring",
+      "sourceId": "kou-01",
+      "placeholder": true,
+      "x": 445.928,
+      "y": 255.011
+    },
+    {
+      "id": "kou-10",
+      "name": "雀始めて巣くう",
+      "sekkiId": "sekki-04",
+      "season": "spring",
+      "sourceId": "kou-01",
+      "placeholder": true,
+      "x": 503.224,
+      "y": 236.04
+    },
+    {
+      "id": "kou-11",
+      "name": "桜始めて開く",
+      "sekkiId": "sekki-04",
+      "season": "spring",
+      "sourceId": "kou-01",
+      "placeholder": true,
+      "x": 560.177,
+      "y": 213.433
+    },
+    {
+      "id": "kou-12",
+      "name": "雷乃ち声を発す",
+      "sekkiId": "sekki-04",
+      "season": "spring",
+      "sourceId": "kou-01",
+      "placeholder": true,
+      "x": 421.439,
+      "y": 298.571
+    },
+    {
+      "id": "kou-13",
+      "name": "玄鳥至る",
+      "sekkiId": "sekki-05",
+      "season": "spring",
+      "sourceId": "kou-01",
+      "placeholder": true,
+      "x": 514.117,
+      "y": 280.394
+    },
+    {
+      "id": "kou-14",
+      "name": "鴻雁かえる",
+      "sekkiId": "sekki-05",
+      "season": "spring",
+      "sourceId": "kou-01",
+      "placeholder": true,
+      "x": 571.41,
+      "y": 261.384
+    },
+    {
+      "id": "kou-15",
+      "name": "虹始めてあらわる",
+      "sekkiId": "sekki-05",
+      "season": "spring",
+      "sourceId": "kou-01",
+      "placeholder": true,
+      "x": 476.314,
+      "y": 324.209
+    },
+    {
+      "id": "kou-16",
+      "name": "葭始めて生ず",
+      "sekkiId": "sekki-06",
+      "season": "spring",
+      "sourceId": "kou-01",
+      "placeholder": true,
+      "x": 589.71,
+      "y": 310.397
+    },
+    {
+      "id": "kou-17",
+      "name": "霜止で苗出ずる",
+      "sekkiId": "sekki-06",
+      "season": "spring",
+      "sourceId": "kou-01",
+      "placeholder": true,
+      "x": 533.169,
+      "y": 337.649
+    },
+    {
+      "id": "kou-18",
+      "name": "牡丹はなさく",
+      "sekkiId": "sekki-06",
+      "season": "spring",
+      "sourceId": "kou-01",
+      "placeholder": true,
+      "x": 377.919,
+      "y": 342.279
+    },
+    {
+      "id": "kou-19",
+      "name": "蛙始めて鳴く",
+      "sekkiId": "sekki-07",
+      "season": "summer",
+      "sourceId": "kou-32",
+      "placeholder": true,
+      "x": 592.111,
+      "y": 363.503
+    },
+    {
+      "id": "kou-20",
+      "name": "みみず出ずる",
+      "sekkiId": "sekki-07",
+      "season": "summer",
+      "sourceId": "kou-32",
+      "placeholder": true,
+      "x": 482.693,
+      "y": 379.22
+    },
+    {
+      "id": "kou-21",
+      "name": "竹のこ生ず",
+      "sekkiId": "sekki-07",
+      "season": "summer",
+      "sourceId": "kou-32",
+      "placeholder": true,
+      "x": 429.751,
+      "y": 360.731
+    },
+    {
+      "id": "kou-22",
+      "name": "蚕起きて桑を食む",
+      "sekkiId": "sekki-08",
+      "season": "summer",
+      "sourceId": "kou-32",
+      "placeholder": true,
+      "x": 537.28,
+      "y": 393.141
+    },
+    {
+      "id": "kou-23",
+      "name": "紅花栄う",
+      "sekkiId": "sekki-08",
+      "season": "summer",
+      "sourceId": "kou-32",
+      "placeholder": true,
+      "x": 588.857,
+      "y": 416.276
+    },
+    {
+      "id": "kou-24",
+      "name": "麦秋至る",
+      "sekkiId": "sekki-08",
+      "season": "summer",
+      "sourceId": "kou-32",
+      "placeholder": true,
+      "x": 495.039,
+      "y": 438.459
+    },
+    {
+      "id": "kou-25",
+      "name": "蟷螂生ず",
+      "sekkiId": "sekki-09",
+      "season": "summer",
+      "sourceId": "kou-32",
+      "placeholder": true,
+      "x": 546.971,
+      "y": 461.714
+    },
+    {
+      "id": "kou-26",
+      "name": "腐れたる草蛍となる",
+      "sekkiId": "sekki-09",
+      "season": "summer",
+      "sourceId": "kou-32",
+      "placeholder": true,
+      "x": 439.244,
+      "y": 427.566
+    },
+    {
+      "id": "kou-27",
+      "name": "梅のみ黄ばむ",
+      "sekkiId": "sekki-09",
+      "season": "summer",
+      "sourceId": "kou-32",
+      "placeholder": true,
+      "x": 530.952,
+      "y": 514.486
+    },
+    {
+      "id": "kou-28",
+      "name": "乃東枯る",
+      "sekkiId": "sekki-10",
+      "season": "summer",
+      "sourceId": "kou-32",
+      "placeholder": true,
+      "x": 478.783,
+      "y": 492.039
+    },
+    {
+      "id": "kou-29",
+      "name": "菖蒲はなさく",
+      "sekkiId": "sekki-10",
+      "season": "summer",
+      "sourceId": "kou-32",
+      "placeholder": true,
+      "x": 383.861,
+      "y": 400.877
+    },
+    {
+      "id": "kou-30",
+      "name": "半夏生ず",
+      "sekkiId": "sekki-10",
+      "season": "summer",
+      "sourceId": "kou-32",
+      "placeholder": true,
+      "x": 480.688,
+      "y": 558.225
+    },
+    {
+      "id": "kou-31",
+      "name": "温風至る",
+      "sekkiId": "sekki-11",
+      "season": "summer",
+      "sourceId": "kou-32",
+      "placeholder": true,
+      "x": 423.188,
+      "y": 480.65
+    },
+    {
+      "id": "kou-32",
+      "name": "蓮始めて開く",
+      "sekkiId": "sekki-11",
+      "season": "summer",
+      "sourceId": "kou-32",
+      "placeholder": false,
+      "x": 429.21,
+      "y": 533.425
+    },
+    {
+      "id": "kou-33",
+      "name": "鷹乃ちわざをならう",
+      "sekkiId": "sekki-11",
+      "season": "summer",
+      "sourceId": "kou-32",
+      "placeholder": true,
+      "x": 420.17,
+      "y": 586.202
+    },
+    {
+      "id": "kou-34",
+      "name": "桐始めて花を結ぶ",
+      "sekkiId": "sekki-12",
+      "season": "summer",
+      "sourceId": "kou-32",
+      "placeholder": true,
+      "x": 372.428,
+      "y": 453.645
+    },
+    {
+      "id": "kou-35",
+      "name": "土潤いてむし暑し",
+      "sekkiId": "sekki-12",
+      "season": "summer",
+      "sourceId": "kou-32",
+      "placeholder": true,
+      "x": 373.317,
+      "y": 522.844
+    },
+    {
+      "id": "kou-36",
+      "name": "大雨時にふる",
+      "sekkiId": "sekki-12",
+      "season": "summer",
+      "sourceId": "kou-32",
+      "placeholder": true,
+      "x": 361.729,
+      "y": 589.282
+    },
+    {
+      "id": "kou-37",
+      "name": "涼風至る",
+      "sekkiId": "sekki-13",
+      "season": "autumn",
+      "sourceId": "kou-54",
+      "placeholder": true,
+      "x": 320.232,
+      "y": 488.667
+    },
+    {
+      "id": "kou-38",
+      "name": "寒蝉鳴く",
+      "sekkiId": "sekki-13",
+      "season": "autumn",
+      "sourceId": "kou-54",
+      "placeholder": true,
+      "x": 317.905,
+      "y": 542.694
+    },
+    {
+      "id": "kou-39",
+      "name": "深き霧まとう",
+      "sekkiId": "sekki-13",
+      "season": "autumn",
+      "sourceId": "kou-54",
+      "placeholder": true,
+      "x": 304.116,
+      "y": 596.62
+    },
+    {
+      "id": "kou-40",
+      "name": "綿のはなしべ開く",
+      "sekkiId": "sekki-14",
+      "season": "autumn",
+      "sourceId": "kou-54",
+      "placeholder": true,
+      "x": 318.966,
+      "y": 434.819
+    },
+    {
+      "id": "kou-41",
+      "name": "天地始めてさむし",
+      "sekkiId": "sekki-14",
+      "season": "autumn",
+      "sourceId": "kou-54",
+      "placeholder": true,
+      "x": 264.959,
+      "y": 509.608
+    },
+    {
+      "id": "kou-42",
+      "name": "禾乃ちみのる",
+      "sekkiId": "sekki-14",
+      "season": "autumn",
+      "sourceId": "kou-54",
+      "placeholder": true,
+      "x": 251.538,
+      "y": 563.665
+    },
+    {
+      "id": "kou-43",
+      "name": "草露白し",
+      "sekkiId": "sekki-15",
+      "season": "autumn",
+      "sourceId": "kou-54",
+      "placeholder": true,
+      "x": 263.711,
+      "y": 455.527
+    },
+    {
+      "id": "kou-44",
+      "name": "鶺鴒鳴く",
+      "sekkiId": "sekki-15",
+      "season": "autumn",
+      "sourceId": "kou-54",
+      "placeholder": true,
+      "x": 196.591,
+      "y": 540.375
+    },
+    {
+      "id": "kou-45",
+      "name": "玄鳥去る",
+      "sekkiId": "sekki-15",
+      "season": "autumn",
+      "sourceId": "kou-54",
+      "placeholder": true,
+      "x": 330.772,
+      "y": 380.707
+    },
+    {
+      "id": "kou-46",
+      "name": "雷乃ち声を収む",
+      "sekkiId": "sekki-16",
+      "season": "autumn",
+      "sourceId": "kou-54",
+      "placeholder": true,
+      "x": 210.122,
+      "y": 485.599
+    },
+    {
+      "id": "kou-47",
+      "name": "虫かくれて戸をふさぐ",
+      "sekkiId": "sekki-16",
+      "season": "autumn",
+      "sourceId": "kou-54",
+      "placeholder": true,
+      "x": 152.629,
+      "y": 493.975
+    },
+    {
+      "id": "kou-48",
+      "name": "水始めて涸る",
+      "sekkiId": "sekki-16",
+      "season": "autumn",
+      "sourceId": "kou-54",
+      "placeholder": true,
+      "x": 164.91,
+      "y": 440.002
+    },
+    {
+      "id": "kou-49",
+      "name": "鴻雁来る",
+      "sekkiId": "sekki-17",
+      "season": "autumn",
+      "sourceId": "kou-54",
+      "placeholder": true,
+      "x": 218.504,
+      "y": 410.112
+    },
+    {
+      "id": "kou-50",
+      "name": "菊花開く",
+      "sekkiId": "sekki-17",
+      "season": "autumn",
+      "sourceId": "kou-54",
+      "placeholder": true,
+      "x": 273.21,
+      "y": 389.204
+    },
+    {
+      "id": "kou-51",
+      "name": "蟋蟀戸にあり",
+      "sekkiId": "sekki-17",
+      "season": "autumn",
+      "sourceId": "kou-54",
+      "placeholder": true,
+      "x": 110.694,
+      "y": 414.312
+    },
+    {
+      "id": "kou-52",
+      "name": "霜始めて降る",
+      "sekkiId": "sekki-18",
+      "season": "autumn",
+      "sourceId": "kou-54",
+      "placeholder": true,
+      "x": 164.014,
+      "y": 382.908
+    },
+    {
+      "id": "kou-53",
+      "name": "小雨ときどきふる",
+      "sekkiId": "sekki-18",
+      "season": "autumn",
+      "sourceId": "kou-54",
+      "placeholder": true,
+      "x": 108.661,
+      "y": 360.327
+    },
+    {
+      "id": "kou-54",
+      "name": "楓蔦黄ばむ",
+      "sekkiId": "sekki-18",
+      "season": "autumn",
+      "sourceId": "kou-54",
+      "placeholder": false,
+      "x": 222.469,
+      "y": 352.946
+    },
+    {
+      "id": "kou-55",
+      "name": "山茶始めて開く",
+      "sekkiId": "sekki-19",
+      "season": "winter",
+      "sourceId": "kou-01",
+      "placeholder": true,
+      "x": 162.003,
+      "y": 334.071
+    },
+    {
+      "id": "kou-56",
+      "name": "地始めて凍る",
+      "sekkiId": "sekki-19",
+      "season": "winter",
+      "sourceId": "kou-32",
+      "placeholder": true,
+      "x": 96.594,
+      "y": 307.0
+    },
+    {
+      "id": "kou-57",
+      "name": "金盞香",
+      "sekkiId": "sekki-19",
+      "season": "winter",
+      "sourceId": "kou-54",
+      "placeholder": true,
+      "x": 307.655,
+      "y": 328.159
+    },
+    {
+      "id": "kou-58",
+      "name": "虹かくれて見えず",
+      "sekkiId": "sekki-20",
+      "season": "winter",
+      "sourceId": "kou-01",
+      "placeholder": true,
+      "x": 197.686,
+      "y": 290.45
+    },
+    {
+      "id": "kou-59",
+      "name": "朔風葉を払う",
+      "sekkiId": "sekki-20",
+      "season": "winter",
+      "sourceId": "kou-32",
+      "placeholder": true,
+      "x": 141.858,
+      "y": 266.295
+    },
+    {
+      "id": "kou-60",
+      "name": "橘始めて黄ばむ",
+      "sekkiId": "sekki-20",
+      "season": "winter",
+      "sourceId": "kou-54",
+      "placeholder": true,
+      "x": 254.839,
+      "y": 295.564
+    },
+    {
+      "id": "kou-61",
+      "name": "閉塞冬となる",
+      "sekkiId": "sekki-21",
+      "season": "winter",
+      "sourceId": "kou-01",
+      "placeholder": true,
+      "x": 140.615,
+      "y": 218.136
+    },
+    {
+      "id": "kou-62",
+      "name": "熊穴にこもる",
+      "sekkiId": "sekki-21",
+      "season": "winter",
+      "sourceId": "kou-32",
+      "placeholder": true,
+      "x": 200.932,
+      "y": 237.583
+    },
+    {
+      "id": "kou-63",
+      "name": "さけの魚群がる",
+      "sekkiId": "sekki-21",
+      "season": "winter",
+      "sourceId": "kou-54",
+      "placeholder": true,
+      "x": 176.937,
+      "y": 169.315
+    },
+    {
+      "id": "kou-64",
+      "name": "乃東生ず",
+      "sekkiId": "sekki-22",
+      "season": "winter",
+      "sourceId": "kou-01",
+      "placeholder": true,
+      "x": 258.169,
+      "y": 233.269
+    },
+    {
+      "id": "kou-65",
+      "name": "さわしかの角おつる",
+      "sekkiId": "sekki-22",
+      "season": "winter",
+      "sourceId": "kou-32",
+      "placeholder": true,
+      "x": 239.873,
+      "y": 185.697
+    },
+    {
+      "id": "kou-66",
+      "name": "雪下りて麦のびる",
+      "sekkiId": "sekki-22",
+      "season": "winter",
+      "sourceId": "kou-54",
+      "placeholder": true,
+      "x": 228.289,
+      "y": 132.111
+    },
+    {
+      "id": "kou-67",
+      "name": "芹乃ち栄う",
+      "sekkiId": "sekki-23",
+      "season": "winter",
+      "sourceId": "kou-01",
+      "placeholder": true,
+      "x": 308.479,
+      "y": 270.872
+    },
+    {
+      "id": "kou-68",
+      "name": "水泉動",
+      "sekkiId": "sekki-23",
+      "season": "winter",
+      "sourceId": "kou-32",
+      "placeholder": true,
+      "x": 297.911,
+      "y": 180.467
+    },
+    {
+      "id": "kou-69",
+      "name": "雉始めてなく",
+      "sekkiId": "sekki-23",
+      "season": "winter",
+      "sourceId": "kou-54",
+      "placeholder": true,
+      "x": 285.807,
+      "y": 123.556
+    },
+    {
+      "id": "kou-70",
+      "name": "款冬華く",
+      "sekkiId": "sekki-24",
+      "season": "winter",
+      "sourceId": "kou-01",
+      "placeholder": true,
+      "x": 332.331,
+      "y": 227.25
+    },
+    {
+      "id": "kou-71",
+      "name": "水沢氷つめる",
+      "sekkiId": "sekki-24",
+      "season": "winter",
+      "sourceId": "kou-32",
+      "placeholder": true,
+      "x": 342.035,
+      "y": 108.564
+    },
+    {
+      "id": "kou-72",
+      "name": "鶏始めてとやにつく",
+      "sekkiId": "sekki-24",
+      "season": "winter",
+      "sourceId": "kou-54",
+      "placeholder": true,
+      "x": 362.483,
+      "y": 293.942
+    }
+  ]
+}

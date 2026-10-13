@@ -1,0 +1,23 @@
+{
+  "id": "kou-01",
+  "hash": "d52fd96b5483c835b4d50f07d853abf004726b4dd64b39b659ce39a3e0bac4a6",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/revision-12/kou-01/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-01/reference.png",
+  "reference_sha256": "9dd5db0bb76672eadfdf950bdadff1f9350c15a22c141cb8959aa199a15effcd",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the single tiny deep-blue MELTWATER DROP next to the large pale-blue melting ice block only; keep ice and teal puddle to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:45:24.829112+00:00",
+  "image_sha256": "b100844c6e44e3a90cff60e596db7a2c3686e4e965af32cc3927749a207de2d1",
+  "completed_sha256": "1264b493129b1595ad492425f0ab5f179d6579f2c67d578b08a16501ba740d24",
+  "cutout_sha256": "d8878645c1c469acafed19250385881d5ae2dc31e72b3e6d78502add2eacf1ce"
+}

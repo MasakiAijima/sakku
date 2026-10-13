@@ -1,0 +1,70 @@
+{
+  "kouId": "kou-67",
+  "algorithmVersion": "organic-growth-48-v2",
+  "inputFingerprint": "cc5b0d237d38db16cff488048cf637ceedd2cc7b6872c629a3340e96463fee94",
+  "assetVersion": "c-v2",
+  "promptVersion": "sha256:c680e01590a229cae53de4eadfa0c2c78d06d8b14687b3341ca679018351e10b",
+  "processedAtUTC": "2026-10-13T13:42:10.695000+00:00",
+  "provider": "openai",
+  "generation": {
+    "id": "kou-67",
+    "hash": "d4a2d1d403ddc44d508c97104d547446a85fdcfa8750a07d88dfa31965113969",
+    "reference_sha256": "08d8efdbd4b93ae3662d83d0cbc753379065ab3421058a9464dd8abe10a1f97d",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the single small pale-teal YOUNG LEAF at the base of the large olive celery leaves only; preserve large olive leaves and dark-blue water to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T13:16:15.153143+00:00",
+    "completed_sha256": "e9d8109a6e6f404d47add4ab7e7f14d7571100ba1c3abef49ef97d0144537a49"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 308.479,
+      "y": 270.872,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      127,
+      103,
+      385,
+      409
+    ],
+    "precursorBounds": [
+      254,
+      320,
+      311,
+      365
+    ]
+  },
+  "sourceHashes": {
+    "C": "e9d8109a6e6f404d47add4ab7e7f14d7571100ba1c3abef49ef97d0144537a49",
+    "Cprime": "c2960c8bc8e40b3818ba60e327bb4aed106adfc51de62c3ccb596258d0540992",
+    "generation": "d4a58db857265062ae363ebd129fbcb2b88f2a9cccbc7fa21a6daa07ba6cf163"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the single small pale-teal YOUNG LEAF at the base of the large olive celery leaves only; preserve large olive leaves and dark-blue water to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T13:16:15.153143+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

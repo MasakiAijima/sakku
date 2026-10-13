@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>72候の図案比較</title>
+<style>
+:root{color-scheme:light;background:#f7f2e8;color:#463f33;font-family:system-ui,sans-serif}body{margin:0 auto;padding:28px 16px 64px;max-width:1120px}h1{font-size:26px}h2{font-size:20px;margin-top:38px}p{line-height:1.8}a{color:#537359}.labels,.pair{display:grid;grid-template-columns:1fr 1fr;gap:16px}.labels{font-weight:600;text-align:center}.pair img{width:100%;display:block;background:#f7f2e8}.row{margin:24px 0}.row h3{margin-bottom:8px;font-size:17px}.pair figure{margin:0;border:1px solid #e1d9ca;border-radius:8px;overflow:hidden}.references{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.references img{width:100%;display:block}.references figure{margin:0}.references figcaption{text-align:center;font-size:13px}.circles{display:grid;grid-template-columns:1fr;gap:24px}.circles svg{display:block;width:100%;height:auto;max-height:75vh}.circle-card{box-sizing:border-box;width:100%;max-width:900px;margin:0 auto;padding:24px;border:1px solid #e1d9ca;border-radius:12px;text-align:center}.circle-card h3{font-size:16px}.note{font-size:13px;color:#706857}@media(max-width:600px){.circles svg{max-height:none}body{padding:20px 12px}.pair,.labels{gap:8px}.circle-card{padding:16px}.references{gap:8px}}
+</style>
+</head>
+<body>
+<h1>72候の図案比較</h1>
+<p>同じ背景、同じ見かけの大きさで前案と改訂案を比較します。各画像は512pxの正方形に収め、絵の長辺を306pxにそろえています。改訂案は静止画で評価します。</p>
+<p><a href="gallery.html">全72候のギャラリーへ</a> · <a href="poc.html">前回の検証ページへ</a></p>
+<section aria-labelledby="filled-heading" id="filled-preview"><h2 id="filled-heading">72候の固定配置</h2><p>図案の見かけの長辺をそろえ、中心から外周まで密度を整えた配置です。72候それぞれの座標を保存し、表示時は同じ配置を読み込みます。図案は切り抜きません。</p><div class="circles"><div class="circle-card" style="border:0;padding:24px"><svg id="filled-circle" viewBox="0 0 700 700" role="img" aria-label="保存された72候の座標に、均等サイズの図案を配置した試作"></svg></div></div><p class="note" id="uniform-note">保存された座標を読み込んでいます。</p><p class="note">修正した12候を含む、全72候の最新図案を表示しています。保存済みの座標を維持し、新しい輪郭で重なりと外周へのはみ出しを確認しています。<a href="poc-v3/layout.json">72候の座標JSON</a></p></section>
+<section aria-labelledby="comparison-heading"><h2 id="comparison-heading">前案と改訂案</h2><div class="labels"><span>前案</span><span>改訂案</span></div><div id="comparisons"></div></section>
+<section aria-labelledby="circle-heading"><h2 id="circle-heading">実際の円環表示サイズ</h2><p>600 × 600の座標系に、半径220、72候を5度刻みで配置します。画像枠は24 × 24、絵の長辺は約14.4です。円環は本体と同じ幅・余白で表示します。幅320pxの画面ではSVGの幅が262pxになります。デスクトップでは外枠の最大幅900px、内部余白24px、高さの上限75vhです。実際の画像は3候のみで、残り69候は点で示しています。</p><div class="circles"><div class="circle-card"><h3>前案</h3><svg id="previous-circle" viewBox="0 0 600 600" role="img" aria-label="前案の円環表示"></svg></div><div class="circle-card"><h3>改訂案</h3><svg id="revised-circle" viewBox="0 0 600 600" role="img" aria-label="改訂案の円環表示"></svg></div></div></section>
+<section aria-labelledby="reference-heading"><h2 id="reference-heading">画風の基準</h2><p class="note">顔なし3点の元画像です。色面の面積差、曲線、重なり方を参照します。背景を含む元画像のため、上の等サイズ比較とは分けて掲載しています。</p><div id="references" class="references"></div></section>
+<script>
+const candidates=[{id:'kou-01',name:'東風凍を解く',index:0},{id:'kou-32',name:'蓮始めて開く',index:31},{id:'kou-54',name:'楓蔦黄ばむ',index:53}];
+const directory='poc-v2/review/';
+const comparisons=document.getElementById('comparisons');
+const references=document.getElementById('references');
+for(const item of candidates){
+  const row=document.createElement('article');row.className='row';
+  const heading=document.createElement('h3');heading.textContent=item.name;row.append(heading);
+  const pair=document.createElement('div');pair.className='pair';
+  for(const version of ['previous','revised']){const figure=document.createElement('figure');const img=document.createElement('img');img.src=`${directory}${item.id}-${version}.png`;img.width=512;img.height=512;img.alt=`${item.name} ${version==='previous'?'前案':'改訂案'}`;figure.append(img);pair.append(figure);}
+  row.append(pair);comparisons.append(row);
+  const figure=document.createElement('figure');const img=document.createElement('img');img.src=`${directory}${item.id}-style-reference.png`;img.alt=`${item.name}の画風基準`;const caption=document.createElement('figcaption');caption.textContent=item.name;figure.append(img,caption);references.append(figure);
+}
+const namespace='http://www.w3.org/2000/svg';
+const filled=document.getElementById('filled-circle');
+(async()=>{
+  const response=await fetch('poc-v3/layout.json',{cache:'no-store'});
+  if(!response.ok)throw new Error('座標ファイルを読み込めません');
+  const layout=await response.json();
+  const ids=layout.entries.map(entry=>entry.id);
+  if(layout.schemaVersion!==1||ids.length!==72||new Set(ids).size!==72||ids.some((id,index)=>id!==`kou-${String(index+1).padStart(2,'0')}`))throw new Error('72候の座標データが不正です');
+  filled.setAttribute('viewBox',layout.viewBox.join(' '));
+  const loaded=await Promise.all(Object.entries(layout.sources).map(async([id,source])=>{
+    const image=new Image();image.src=`poc-v3/${source.path}?v=${source.sha256.slice(0,12)}`;await image.decode();
+    if(image.naturalWidth!==source.canvas[0]||image.naturalHeight!==source.canvas[1])throw new Error('図案のサイズが保存時と異なります');
+    return [id,image];
+  }));
+  const images=Object.fromEntries(loaded);
+  for(const entry of layout.entries){
+    const source=layout.sources[entry.sourceId];
+    if(!source||!Number.isFinite(entry.x)||!Number.isFinite(entry.y))throw new Error('候の座標または図案が不正です');
+    const scale=layout.commonVisibleLongEdge/source.visibleLongEdge;
+    const image=document.createElementNS(namespace,'image');
+    const attributes={href:images[entry.sourceId].src,x:entry.x-source.visibleCenter[0]*scale,y:entry.y-source.visibleCenter[1]*scale,width:source.canvas[0]*scale,height:source.canvas[1]*scale,'data-kou-id':entry.id,'data-season':entry.season,'data-center-x':entry.x,'data-center-y':entry.y,'data-visible-size':layout.commonVisibleLongEdge};
+    for(const [key,value] of Object.entries(attributes))image.setAttribute(key,value);
+    const title=document.createElementNS(namespace,'title');title.textContent=entry.name+(entry.placeholder?'・仮図案':'');image.append(title);filled.append(image);
+  }
+  document.getElementById('uniform-note').textContent=`72候の固定座標を読み込みました。共通の長辺は${layout.commonVisibleLongEdge.toFixed(1)}、輪郭間の余裕は${layout.minimumHullGap}以上です。`;
+  filled.dataset.ready='true';
+})().catch(error=>{filled.dataset.error=error.message;document.getElementById('uniform-note').textContent=error.message;console.error(error);});
+
+for(const version of ['previous','revised']){
+  const svg=document.getElementById(`${version}-circle`);
+  const ring=document.createElementNS(namespace,'circle');for(const [key,value] of Object.entries({cx:300,cy:300,r:220,fill:'none',stroke:'#ddd4c5','stroke-width':1}))ring.setAttribute(key,value);svg.append(ring);
+  for(let index=0;index<72;index++){
+    const angle=(-135+index*5)*Math.PI/180;const x=300+220*Math.cos(angle);const y=300+220*Math.sin(angle);const item=candidates.find(candidate=>candidate.index===index);
+    const node=document.createElementNS(namespace,item?'image':'circle');const attributes=item?{href:`${directory}${item.id}-${version}.png`,x:x-12,y:y-12,width:24,height:24}:{cx:x,cy:y,r:2,fill:'#c7beaf'};
+    for(const [key,value] of Object.entries(attributes))node.setAttribute(key,value);svg.append(node);
+  }
+}
+</script>
+</body>
+</html>

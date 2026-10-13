@@ -1,0 +1,23 @@
+{
+  "id": "kou-68",
+  "hash": "a440062980be068cd9e79edf2a7655e2cc39bc1e25817c5f6bb8923c8acdd1ea",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/revision-12/kou-68/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-10/kou-68/reference.png",
+  "reference_sha256": "8106904b8c050f13765e5f5c22da11569f0f5f84d00b54cb5a952d708141ea21",
+  "prompt": "Use case: precise-object-edit. Make a COLOR-ONLY variant of the attached finished Japanese seasonal cut-paper illustration. Keep the exact subject, composition, contour, proportions, pose, number of parts, overlaps, size and position of EVERY shape. Do not redraw, redesign, simplify, add, remove or move any part. Change ONLY the ochre STONE RIM around the spring pool only, preserving blue water and pale-teal upwelling to saturated #F04420. This single intentionally unnatural strong color echoes bold Japanese screen-print vermilion, cobalt and orange. Keep every OTHER color exactly as in the attached image, including their muted tones. Preserve existing restrained print mottling and organic cut-paper edges. Use one newly introduced accent hue only, with slight existing ink mottling, no additional accent colors. Keep all artwork complete in the same central area with ample clean margins. Render on solid chromakey magenta #FF00FF background so it can be removed. Magenta must appear ONLY in the background. No shadows, gradients, outlines, faces, eyes, writing or new decorative marks. Output square1024. The only intended difference is the specified color substitution.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:05:55.868044+00:00",
+  "image_sha256": "e7304c483c8a03453ddf7d3b68d2cce8548d22d7419ea0d010ce24d446290402",
+  "completed_sha256": "cf4fbc17352869b4afe7da305c915a05db5b7b81dc68c6a0d2de602a7502fe21",
+  "cutout_sha256": "68a67ed02084d159d6ef0e872e75b974ab6d8f02e66607d865c4eeb9f6c5661c"
+}

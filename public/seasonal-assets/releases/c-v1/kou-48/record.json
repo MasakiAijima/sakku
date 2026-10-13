@@ -1,0 +1,64 @@
+{
+  "fingerprint": "4415ad25d6c6ba5c43b83887745cec1ebeaa63715f069f2551878dd6d6c11458",
+  "asset": {
+    "kouId": "kou-48",
+    "name": "水始めて涸る",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 164.91,
+      "y": 440.002,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      155,
+      409,
+      356
+    ],
+    "precursorBounds": [
+      303,
+      267,
+      409,
+      356
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 155,
+      "width": 306,
+      "height": 201
+    },
+    "animation": {
+      "seed": [
+        356.0,
+        311.5
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-48/initial.png",
+    "completed": "kou-48/completed.png",
+    "transition": "kou-48/transition.webp",
+    "idle": "kou-48/idle.png",
+    "provenance": "kou-48/provenance.json",
+    "hashes": {
+      "initial": "00cd14a28c3e6d423879d5d97e602b87fe725a819bd7ce40d0f78701ac751c16",
+      "completed": "522871cf47ed668d76a3507a1f57d1f3c7201d90ba1801cbddf4fcd9371858c5",
+      "transition": "0a84ff6396f186c3e8debfea1375ab30220801d881657cefa00e69384a399eb5",
+      "idle": "522871cf47ed668d76a3507a1f57d1f3c7201d90ba1801cbddf4fcd9371858c5",
+      "provenance": "a582fb5dcc64a9ce01a534f3012e6745660fe387c354a71a252a5d86d1029915"
+    }
+  }
+}

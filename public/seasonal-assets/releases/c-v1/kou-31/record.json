@@ -1,0 +1,64 @@
+{
+  "fingerprint": "fa7e6472ca49e5e0d57581ceaba1eb513baf9477eb73df7ab902ee18df4d8bad",
+  "asset": {
+    "kouId": "kou-31",
+    "name": "温風至る",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 423.188,
+      "y": 480.65,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      142,
+      409,
+      370
+    ],
+    "precursorBounds": [
+      349,
+      254,
+      402,
+      326
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 142,
+      "width": 306,
+      "height": 228
+    },
+    "animation": {
+      "seed": [
+        375.5,
+        290.0
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-31/initial.png",
+    "completed": "kou-31/completed.png",
+    "transition": "kou-31/transition.webp",
+    "idle": "kou-31/idle.png",
+    "provenance": "kou-31/provenance.json",
+    "hashes": {
+      "initial": "46444fcbd405e1f02507fff95d33efc941191e9145adede181ba5cd067fb9a29",
+      "completed": "734ba30aaae2390627cb51bbdc7a376578029e4c73ea5ef7513849957899283e",
+      "transition": "10568b7a31e901472dda89bdd84eccfc576d30927538591abfb697073d7c4497",
+      "idle": "734ba30aaae2390627cb51bbdc7a376578029e4c73ea5ef7513849957899283e",
+      "provenance": "20e0521bc70f3aef0902877d538ce9f80e6f75704491318f7c4d2af6d0ae681d"
+    }
+  }
+}

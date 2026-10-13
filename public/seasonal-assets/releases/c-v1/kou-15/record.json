@@ -1,0 +1,64 @@
+{
+  "fingerprint": "a3b6ef833f738ce34f071c4a89757dd6aee307ad396629c260191de4d8ca5d81",
+  "asset": {
+    "kouId": "kou-15",
+    "name": "虹始めてあらわる",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 476.314,
+      "y": 324.209,
+      "visibleCenter": [
+        256.0,
+        255.5
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      146,
+      409,
+      365
+    ],
+    "precursorBounds": [
+      281,
+      283,
+      409,
+      359
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 146,
+      "width": 306,
+      "height": 219
+    },
+    "animation": {
+      "seed": [
+        345.0,
+        321.0
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-15/initial.png",
+    "completed": "kou-15/completed.png",
+    "transition": "kou-15/transition.webp",
+    "idle": "kou-15/idle.png",
+    "provenance": "kou-15/provenance.json",
+    "hashes": {
+      "initial": "0f7e98badade756cbdd2b7f04b7a6fbe44e515a2d2930eda1ff7866241535b15",
+      "completed": "07eda5b1c24ea7c6dba88c0ecc532a804a7e47bf2d578ba3967ecfb3b1ae85ac",
+      "transition": "b38cdb7a4c2458175c3b3620d7aa127156b5f7563e392580dd0809f94d03d581",
+      "idle": "07eda5b1c24ea7c6dba88c0ecc532a804a7e47bf2d578ba3967ecfb3b1ae85ac",
+      "provenance": "837fb9680c07e78073341e52a331c63cd8a3f22e5d385342a8c3ceb6d68d1a2f"
+    }
+  }
+}

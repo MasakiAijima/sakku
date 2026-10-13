@@ -1,0 +1,70 @@
+{
+  "kouId": "kou-62",
+  "algorithmVersion": "organic-growth-48-v2",
+  "inputFingerprint": "a7d99f24102b36e61b30594f4fba0eff4c7d309385d0b4321970342f1921d81c",
+  "assetVersion": "c-v2",
+  "promptVersion": "sha256:ee7ce1f37cc34cee6e55972d922b1346bf3bf3f8c57447a1e4b412e3627fcf9f",
+  "processedAtUTC": "2026-10-13T13:42:09.386064+00:00",
+  "provider": "openai",
+  "generation": {
+    "id": "kou-62",
+    "hash": "056e69f1542ef195cb8b716243c0e9333042f90c94861243d79cb4932b5e62ea",
+    "reference_sha256": "5c9f8f8a6302b8cc59d467b500ada7e1c0efd5330884448cdbc1afb953bafd67",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small golden-yellow DRY BED/SOIL PATCH under the dark hibernating bear at the cave mouth only; preserve bear and ochre cave rim to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T13:14:41.535181+00:00",
+    "completed_sha256": "408e4667f5db4b4c1932ab31b619d34d3d2b704bec4a073bb5fa8b0e7f50ec1c"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 200.932,
+      "y": 237.583,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      124,
+      409,
+      388
+    ],
+    "precursorBounds": [
+      103,
+      315,
+      409,
+      388
+    ]
+  },
+  "sourceHashes": {
+    "C": "408e4667f5db4b4c1932ab31b619d34d3d2b704bec4a073bb5fa8b0e7f50ec1c",
+    "Cprime": "f84886713ae9998d0572fe0e393c24f0ece6230f0e634c77ee1abef8b6f4e430",
+    "generation": "11dea29a9c56bc83323eb683b397e35b27422d5a2cd4e2bee44850e10a212946"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small golden-yellow DRY BED/SOIL PATCH under the dark hibernating bear at the cave mouth only; preserve bear and ochre cave rim to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T13:14:41.535181+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

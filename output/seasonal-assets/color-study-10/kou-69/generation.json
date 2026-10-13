@@ -1,0 +1,23 @@
+{
+  "id": "kou-69",
+  "hash": "12f31dcba903322ab9f8431a142f40ac1168125d654ce7a0f069548194390aa8",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/revision-12/kou-69/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-10/kou-69/reference.png",
+  "reference_sha256": "e4162e94c2050d7d36588a66fae265b63e016b19571d770c61503ba90fd443eb",
+  "prompt": "Use case: precise-object-edit. Make a COLOR-ONLY variant of the attached finished Japanese seasonal cut-paper illustration. Keep the exact subject, composition, contour, proportions, pose, number of parts, overlaps, size and position of EVERY shape. Do not redraw, redesign, simplify, add, remove or move any part. Change ONLY the olive-green BODY, NECK and HEAD planes of the pheasant only, preserving the dark wing, warm-brown long tail, red cheek and legs to saturated #155DD8. This single intentionally unnatural strong color echoes bold Japanese screen-print vermilion, cobalt and orange. Keep every OTHER color exactly as in the attached image, including their muted tones. Preserve existing restrained print mottling and organic cut-paper edges. Use one newly introduced accent hue only, with slight existing ink mottling, no additional accent colors. Keep all artwork complete in the same central area with ample clean margins. Render on solid chromakey magenta #FF00FF background so it can be removed. Magenta must appear ONLY in the background. No shadows, gradients, outlines, faces, eyes, writing or new decorative marks. Output square1024. The only intended difference is the specified color substitution.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:07:17.994709+00:00",
+  "image_sha256": "a73debf083c370504ff3e844149efc42087ccade3446698defaf237ba90e98f5",
+  "completed_sha256": "3b518ccfc8eb9f102e7a194a8c9d91e63b1e5bdaa05bede844a0a70ceafe52c5",
+  "cutout_sha256": "a522fed09df0a5b146e4d5b746073c4294583612840a474f8a91432caad61fb5"
+}

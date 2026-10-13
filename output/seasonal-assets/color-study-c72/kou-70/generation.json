@@ -1,0 +1,23 @@
+{
+  "id": "kou-70",
+  "hash": "77927611e6285598a3c2bfa82b259ee9a4a4d73926018e8bc06366db5d965fd3",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-70/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-70/reference.png",
+  "reference_sha256": "a77769ea56635c25eca35d4d6e69509feb60752862570b570d594c4d6690edb0",
+  "prompt": "Use case: precise-object-edit. Make ONE local color substitution on the attached illustration. Recolor the TINY GOLD FLOWER CLUSTER in the lower central gap between the three broad pale mint shoots. Recolor ONLY the tiny gold flower dots to cobalt blue #155DD8. Keep ALL three LARGE mint shoots PALE MINT, and keep the olive outer leaves OLIVE. Do NOT recolor the large mint shoots, and do NOT make the tiny flower cluster white. The requested accent color is cobalt blue #155DD8. The subject MUST contain this exact accent hue; do not substitute another hue. Preserve the exact composition, all silhouettes, curves, sizes, positions, part count and subtle print texture. Do not omit any motif or add anything. All other subject colors remain unchanged. Use solid chromakey #FF00FF ONLY for the empty background. The accent must remain clearly distinct from this background. No text, eyes, faces, shadows, outlines, new decorations or gradients. Square 1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:24:30.626183+00:00",
+  "image_sha256": "6a4658398704eb863390eb646f00180b2be2a1e16d095cc0c7badec5e6431639",
+  "completed_sha256": "7a42360837ee0cb0a392d1918b3f3218e3fd33dd18aa8f45b5f60b48755f5016",
+  "cutout_sha256": "9fccd785bf889d93fad33c745845734e3e2f72d46e2b5fdbf57b8a322c06212d"
+}

@@ -1,0 +1,64 @@
+{
+  "fingerprint": "145f9b3921e3e786d1e39de77ee830a1d50062f21f470c47984c3c43fa2ca1a7",
+  "asset": {
+    "kouId": "kou-42",
+    "name": "禾乃ちみのる",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 251.538,
+      "y": 563.665,
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      115,
+      103,
+      396,
+      409
+    ],
+    "precursorBounds": [
+      115,
+      103,
+      189,
+      409
+    ],
+    "motionBounds": {
+      "x": 115,
+      "y": 103,
+      "width": 281,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        152.0,
+        256.0
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-42/initial.png",
+    "completed": "kou-42/completed.png",
+    "transition": "kou-42/transition.webp",
+    "idle": "kou-42/idle.png",
+    "provenance": "kou-42/provenance.json",
+    "hashes": {
+      "initial": "914fc06d8d279a0bfa384a0d4677336da67e286b2235d6e9c9dddd0df4f31391",
+      "completed": "512f2fa0407a280e60bb6651b63ce9b1fff535e206105f11d89cbe01f19bf82d",
+      "transition": "f315145150ff322474b20018b53bdf550335c5d4537edcc4ba0ad362bd0db7b8",
+      "idle": "512f2fa0407a280e60bb6651b63ce9b1fff535e206105f11d89cbe01f19bf82d",
+      "provenance": "6e5220f74376797e3c60edebf8a47abcf33230d405efaa04b63879240601adee"
+    }
+  }
+}

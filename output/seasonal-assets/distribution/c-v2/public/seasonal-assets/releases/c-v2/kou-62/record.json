@@ -1,0 +1,64 @@
+{
+  "fingerprint": "a7d99f24102b36e61b30594f4fba0eff4c7d309385d0b4321970342f1921d81c",
+  "asset": {
+    "kouId": "kou-62",
+    "name": "熊穴にこもる",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 200.932,
+      "y": 237.583,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      124,
+      409,
+      388
+    ],
+    "precursorBounds": [
+      103,
+      315,
+      409,
+      388
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 124,
+      "width": 306,
+      "height": 264
+    },
+    "animation": {
+      "seed": [
+        256.0,
+        351.5
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-62/initial.png",
+    "completed": "kou-62/completed.png",
+    "transition": "kou-62/transition.webp",
+    "idle": "kou-62/idle.png",
+    "provenance": "kou-62/provenance.json",
+    "hashes": {
+      "initial": "f84886713ae9998d0572fe0e393c24f0ece6230f0e634c77ee1abef8b6f4e430",
+      "completed": "408e4667f5db4b4c1932ab31b619d34d3d2b704bec4a073bb5fa8b0e7f50ec1c",
+      "transition": "386847c598c248d0fa5ac7a4aaad3b17545dbb2bf9b79d01b888141beb2ceae3",
+      "idle": "408e4667f5db4b4c1932ab31b619d34d3d2b704bec4a073bb5fa8b0e7f50ec1c",
+      "provenance": "89b02d5d61b9b9ba75237d1f8fe7a1c8e3179cbe2424206b2b86086f748fca5b"
+    }
+  }
+}

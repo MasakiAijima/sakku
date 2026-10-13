@@ -1,0 +1,64 @@
+{
+  "fingerprint": "90e33df0b733d32018d597ac6084291a03f2ee171ff6ff383e30df4e61603770",
+  "asset": {
+    "kouId": "kou-03",
+    "name": "魚氷を上る",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 410.808,
+      "y": 156.573,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      158,
+      409,
+      354
+    ],
+    "precursorBounds": [
+      103,
+      282,
+      306,
+      354
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 158,
+      "width": 306,
+      "height": 196
+    },
+    "animation": {
+      "seed": [
+        204.5,
+        318.0
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-03/initial.png",
+    "completed": "kou-03/completed.png",
+    "transition": "kou-03/transition.webp",
+    "idle": "kou-03/idle.png",
+    "provenance": "kou-03/provenance.json",
+    "hashes": {
+      "initial": "5739f82e59961c64be3db1abfd74a0c2676708c2c9125daaceb1518b0d456cd9",
+      "completed": "765c00a27a0bf2c907246bb8973b54f8126150b5dc5cd69c2d03ac386818a855",
+      "transition": "33683a71df466087418204ed9deabd9009e69d6a4255bb4341cb86ad9251af0f",
+      "idle": "765c00a27a0bf2c907246bb8973b54f8126150b5dc5cd69c2d03ac386818a855",
+      "provenance": "30401dadf1b6b6e73e1eb67200bffcebaf6b05e7a44e16d229d7c1bc21b96e02"
+    }
+  }
+}

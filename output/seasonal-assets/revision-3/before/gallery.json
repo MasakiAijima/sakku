@@ -1,0 +1,2267 @@
+{
+  "schemaVersion": 3,
+  "model": "gpt-image-2",
+  "quality": "high",
+  "entries": [
+    {
+      "id": "kou-01",
+      "name": "東風凍を解く",
+      "sekkiId": "sekki-01",
+      "sekki": "立春",
+      "season": "spring",
+      "meaning": "春風で氷が解ける",
+      "relation": "大きな氷の塊が春風でほどける",
+      "composition": "傾いた淡青の氷に青緑の融水と一滴を添える",
+      "palette": [
+        {
+          "hex": "#90B8B0",
+          "role": "春風"
+        },
+        {
+          "hex": "#B9D5DE",
+          "role": "氷"
+        },
+        {
+          "hex": "#3159A7",
+          "role": "融けた水"
+        }
+      ],
+      "colorReason": "風は柔らかな青緑、氷は淡青で早春の冷たさと解氷を表す",
+      "subjectPrompt": "One large tilted pale-blue ice block with a rounded softened bottom corner, a small pale-teal meltwater puddle underneath and one blue drop. A diagonal softened edge suggests the arriving gentle spring air. Main silhouette is a compact irregular ice block, not a wind symbol. No ribbons, curling wisps, spirals, hook shapes, clouds or foliage.",
+      "referenceId": "kou-01",
+      "status": "succeeded",
+      "image": "../revision-12/kou-01/completed.png?v=5c35e53689ec",
+      "original": "../revision-12/kou-01/full.png?v=5c35e53689ec",
+      "generationHash": "5c35e53689ec23b2f5dfc66cb26bfe56ab684c16a8cebdc20f87bca08f0a7ed0",
+      "revisionReason": "ユーザーレビューによる対象12候だけの形と構図の見直し"
+    },
+    {
+      "id": "kou-02",
+      "name": "うぐいす鳴く",
+      "sekkiId": "sekki-01",
+      "sekki": "立春",
+      "season": "spring",
+      "meaning": "うぐいすが鳴き始める",
+      "relation": "小枝にとまるうぐいすが春の訪れを告げる",
+      "composition": "ふっくらしたオリーブの鳥を斜めに置き、短い枝を添える",
+      "palette": [
+        {
+          "hex": "#72804A",
+          "role": "うぐいす"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "枝"
+        },
+        {
+          "hex": "#E3BC45",
+          "role": "胸の淡い色"
+        }
+      ],
+      "colorReason": "うぐいすの自然なオリーブ褐色を主役にする",
+      "subjectPrompt": "One plump Japanese bush warbler in olive brown perched on one much smaller warm brown twig. Its rounded breast and long tapering back form one asymmetrical sweeping silhouette. A tiny muted gold breast plane is optional. No eyes, face, musical notes or sound marks. Do not make a bright green parrot. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "kou-02/completed.png",
+      "original": "kou-02/full.png",
+      "generationHash": "da477d84b7768a53c2ce3ebb7ecfe9257b815a65fa5641a113263d0eccd0cf07"
+    },
+    {
+      "id": "kou-03",
+      "name": "魚氷を上る",
+      "sekkiId": "sekki-01",
+      "sekki": "立春",
+      "season": "spring",
+      "meaning": "魚が氷の下から現れる",
+      "relation": "魚がゆるんだ氷の間へ浮かび上がる",
+      "composition": "大きく曲がる青い魚に、小さな氷片を一つ添える",
+      "palette": [
+        {
+          "hex": "#3159A7",
+          "role": "魚"
+        },
+        {
+          "hex": "#B9D5DE",
+          "role": "氷"
+        },
+        {
+          "hex": "#90B8B0",
+          "role": "水"
+        }
+      ],
+      "colorReason": "淡青の氷と深青の魚で冷たい水面を表す",
+      "subjectPrompt": "One broad dark blue fish arches upward beside one much smaller pale blue broken ice slab. Give the fish a soft uneven belly, a curved tapering tail and only a single broad fin. A small muted teal water plane may touch its lower body. No fish eye, scales or repeated ice pieces. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-01",
+      "status": "succeeded",
+      "image": "kou-03/completed.png",
+      "original": "kou-03/full.png",
+      "generationHash": "bf0e2b744147673bf73f5cb023360f1d5bfcf56c96521d52bbe8fd90190b55e7"
+    },
+    {
+      "id": "kou-04",
+      "name": "土脉潤い起こる",
+      "sekkiId": "sekki-02",
+      "sekki": "雨水",
+      "season": "spring",
+      "meaning": "土が湿り始める",
+      "relation": "雪解け水が土にしみ込む",
+      "composition": "大きな褐色の土塊に、短い青い水の舌を重ねる",
+      "palette": [
+        {
+          "hex": "#B58A50",
+          "role": "土"
+        },
+        {
+          "hex": "#90B8B0",
+          "role": "しみ込む水"
+        },
+        {
+          "hex": "#B9D5DE",
+          "role": "融雪水"
+        }
+      ],
+      "colorReason": "潤う土の褐色と冷たい雪解け水の青緑を選ぶ",
+      "subjectPrompt": "One broad warm brown mound of thawing earth with an irregular low arch. One much smaller pale teal tongue of meltwater enters a shallow notch. Use a single deep blue inset only if needed to read wet soil. No sprouts, rain cloud or repeated water channels. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-01",
+      "status": "succeeded",
+      "image": "kou-04/completed.png",
+      "original": "kou-04/full.png",
+      "generationHash": "eb39025f51ddaf67ac0d9216dbb67b3e91a4fb1004dd0b5f0debcfda3fa3aa0a"
+    },
+    {
+      "id": "kou-05",
+      "name": "霞始めてたなびく",
+      "sekkiId": "sekki-02",
+      "sekki": "雨水",
+      "season": "spring",
+      "meaning": "春霞がたなびく",
+      "relation": "丘の前に薄い霞が横にたなびく",
+      "composition": "幅の違う淡桃と生成りの霞が低い丘を横切る",
+      "palette": [
+        {
+          "hex": "#E9B8B5",
+          "role": "春霞"
+        },
+        {
+          "hex": "#72804A",
+          "role": "丘"
+        },
+        {
+          "hex": "#B9D5DE",
+          "role": "霞の冷色"
+        }
+      ],
+      "colorReason": "霞は淡桃と淡青、丘は芽吹き前のオリーブで穏やかにする",
+      "subjectPrompt": "Two broad unequal horizontal bands of muted salmon and warm ivory spring haze, with subtly uneven scalloped upper edges and tapering ends. They overlap one very small muted-olive rounded distant hill at the lower edge. The main silhouette is low, wide and horizontal. Flat opaque planes, no translucency. No curled ends, spirals, hooks, large wave or ribbon wind glyph. Do not depict a flower.",
+      "referenceId": "kou-01",
+      "status": "succeeded",
+      "image": "../revision-12/kou-05/completed.png?v=e710d6e1dc11",
+      "original": "../revision-12/kou-05/full.png?v=e710d6e1dc11",
+      "generationHash": "e710d6e1dc11e7a1a5f0c8d66da4080c2d2580f147c271e1439efb3c975fca8f",
+      "revisionReason": "ユーザーレビューによる対象12候だけの形と構図の見直し"
+    },
+    {
+      "id": "kou-06",
+      "name": "草木萌え動る",
+      "sekkiId": "sekki-02",
+      "sekki": "雨水",
+      "season": "spring",
+      "meaning": "草木が芽吹く",
+      "relation": "枝先の芽が膨らんでほどける",
+      "composition": "大きな青緑の芽を短い枝先へ傾け、もう一つの小芽を添える",
+      "palette": [
+        {
+          "hex": "#90B8B0",
+          "role": "若芽"
+        },
+        {
+          "hex": "#72804A",
+          "role": "芽の外皮"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "枝"
+        }
+      ],
+      "colorReason": "芽の成長を若い青緑とオリーブ、枝を自然な褐色で表す",
+      "subjectPrompt": "One large swelling pale teal bud opens at the end of one short brown twig, with one much smaller olive side bud. Let two unequal rounded bud planes overlap along a deep off-center pinch. The bud dominates the twig. No red fruit, full flowers or ground. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-32",
+      "status": "succeeded",
+      "image": "kou-06/completed.png",
+      "original": "kou-06/full.png",
+      "generationHash": "da9234deb9d52e5a7790d8f55f97b948eec2c44137aba30a704e51a85ce61e95"
+    },
+    {
+      "id": "kou-07",
+      "name": "すごもりの虫戸を開く",
+      "sekkiId": "sekki-03",
+      "sekki": "啓蟄",
+      "season": "spring",
+      "meaning": "冬ごもりの虫が出てくる",
+      "relation": "冬ごもりの虫が土の入口から現れる",
+      "composition": "褐色の土の開口を主役に、小さな甲虫を半身だけ見せる",
+      "palette": [
+        {
+          "hex": "#B58A50",
+          "role": "土"
+        },
+        {
+          "hex": "#4C4A43",
+          "role": "甲虫"
+        },
+        {
+          "hex": "#72804A",
+          "role": "入口の草"
+        }
+      ],
+      "colorReason": "土は褐色、甲虫は暗い自然色で冬眠からの目覚めを表す",
+      "subjectPrompt": "One broad asymmetric warm brown earth arch with a generous open doorway. One much smaller charcoal beetle emerges halfway from its lower edge. A single tiny olive grass shape may touch the arch. The insect has no eyes or detailed legs. Keep the opening visibly open, unlike an autumn sealed burrow. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "kou-07/completed.png",
+      "original": "kou-07/full.png",
+      "generationHash": "cbf58e0601d7fac49f0715b467fdb20363b8f88cc2e5497249aa63c54122d2f2"
+    },
+    {
+      "id": "kou-08",
+      "name": "桃始めてさく",
+      "sekkiId": "sekki-03",
+      "sekki": "啓蟄",
+      "season": "spring",
+      "meaning": "桃の花が咲き始める",
+      "relation": "桃の花が一輪ほどけ始める",
+      "composition": "不揃いの丸い花弁で大きな一輪をつくり、小さなつぼみを添える",
+      "palette": [
+        {
+          "hex": "#E9B8B5",
+          "role": "桃の花"
+        },
+        {
+          "hex": "#D94B35",
+          "role": "つぼみ"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "短枝"
+        }
+      ],
+      "colorReason": "桃の淡桃を主色にし、つぼみだけを濃い赤桃にする",
+      "subjectPrompt": "One dominant pale pink peach blossom made of three to five broad unequal rounded petal masses, with an off-center fold. One much smaller deep coral pink bud and a tiny brown twig. Peach petal tips stay rounded, without cherry notches. Avoid evenly spaced petals, a decorative center and stamens. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-32",
+      "status": "succeeded",
+      "image": "kou-08/completed.png",
+      "original": "kou-08/full.png",
+      "generationHash": "8ee049f5cbb170a979d44f10f3248a592f450a3331c0d08191727764c28787fe"
+    },
+    {
+      "id": "kou-09",
+      "name": "菜虫蝶となる",
+      "sekkiId": "sekki-03",
+      "sekki": "啓蟄",
+      "season": "spring",
+      "meaning": "青虫が蝶になる",
+      "relation": "蛹を離れた蝶が翅を広げる",
+      "composition": "大小の差がある黄色い翅を主役に、小さな空の蛹殻を添える",
+      "palette": [
+        {
+          "hex": "#E3BC45",
+          "role": "蝶"
+        },
+        {
+          "hex": "#72804A",
+          "role": "蛹殻"
+        },
+        {
+          "hex": "#4C4A43",
+          "role": "胴"
+        }
+      ],
+      "colorReason": "菜の花の季節に合う黄色い蝶と自然な蛹の色を選ぶ",
+      "subjectPrompt": "One golden yellow spring butterfly just opening its wings beside one much smaller empty olive chrysalis. The near wing is broad and swollen, the far wing distinctly smaller and tilted. A tiny charcoal body joins the wings. No bilateral mechanical symmetry, spots, eyes or thin antennae. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-32",
+      "status": "succeeded",
+      "image": "kou-09/completed.png",
+      "original": "kou-09/full.png",
+      "generationHash": "26253830a5052e9dddc74fc8117c1d9f8496a3f6f1ccc1dfd6aaec93d6e22c3d"
+    },
+    {
+      "id": "kou-10",
+      "name": "雀始めて巣くう",
+      "sekkiId": "sekki-04",
+      "sekki": "春分",
+      "season": "spring",
+      "meaning": "雀が巣作りを始める",
+      "relation": "雀が巣へ一本の草を運ぶ",
+      "composition": "大きな褐色の椀形の巣へ、小さな雀を寄せる",
+      "palette": [
+        {
+          "hex": "#B58A50",
+          "role": "巣"
+        },
+        {
+          "hex": "#4C4A43",
+          "role": "雀の背"
+        },
+        {
+          "hex": "#E3BC45",
+          "role": "巣材"
+        }
+      ],
+      "colorReason": "巣と雀を茶系でまとめ、一本の枯草を黄土色にする",
+      "subjectPrompt": "One dominant warm brown bowl-shaped sparrow nest with a long uneven rim and a deep off-center hollow. One much smaller brown charcoal sparrow rests on the rim beside a single short golden grass piece. No woven line texture, eggs, face or eyes. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "kou-10/completed.png",
+      "original": "kou-10/full.png",
+      "generationHash": "41823f59086fd13908515ea9e8e29e69cbb2cda618b044bff6a0355c8b6beb45"
+    },
+    {
+      "id": "kou-11",
+      "name": "桜始めて開く",
+      "sekkiId": "sekki-04",
+      "sekki": "春分",
+      "season": "spring",
+      "meaning": "桜が開花する",
+      "relation": "桜の枝で花が開き始める",
+      "composition": "淡桃の大きな花に、十分小さな一輪を斜めに重ねる",
+      "palette": [
+        {
+          "hex": "#E9B8B5",
+          "role": "桜"
+        },
+        {
+          "hex": "#F5F3ED",
+          "role": "花の明るい面"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "枝"
+        }
+      ],
+      "colorReason": "桜は淡桃と生成り、枝は褐色に限定する",
+      "subjectPrompt": "One dominant pale pink cherry blossom cluster reduced to a large irregular flower mass and one much smaller bloom on a tiny brown twig. Give a few broad petals shallow notches at their tips, unequal lobes and an oblique overlap. Keep pale pink dominant. No regular rosette or fine stamens. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-32",
+      "status": "succeeded",
+      "image": "kou-11/completed.png",
+      "original": "kou-11/full.png",
+      "generationHash": "d12701d5eef41fd9a68c31b98da25fc123bdae68631fe9207da9d03bc64be611"
+    },
+    {
+      "id": "kou-12",
+      "name": "雷乃ち声を発す",
+      "sekkiId": "sekki-04",
+      "sekki": "春分",
+      "season": "spring",
+      "meaning": "春の雷が鳴り始める",
+      "relation": "春の雲から初めて雷が鳴る",
+      "composition": "大きな青い雲の切れ目から、小さな太い稲妻を出す",
+      "palette": [
+        {
+          "hex": "#3159A7",
+          "role": "雷雲"
+        },
+        {
+          "hex": "#E3BC45",
+          "role": "稲妻"
+        },
+        {
+          "hex": "#B9D5DE",
+          "role": "雲の縁"
+        }
+      ],
+      "colorReason": "青い雲と黄色い雷で気象現象を読み取れるようにする",
+      "subjectPrompt": "One large deep blue spring thundercloud with unequal swollen lobes and a long sagging underside. One much smaller thick golden lightning bend emerges from an off-center notch. A pale blue cloud edge is optional. No rain, repeated bolts or outlined cloud icon. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-01",
+      "status": "succeeded",
+      "image": "kou-12/completed.png",
+      "original": "kou-12/full.png",
+      "generationHash": "ba03886d4d871fcf5753123ec50b47d7cec65d008723c9143ee5192f5b4e9f66"
+    },
+    {
+      "id": "kou-13",
+      "name": "玄鳥至る",
+      "sekkiId": "sekki-05",
+      "sekki": "清明",
+      "season": "spring",
+      "meaning": "燕が渡ってくる",
+      "relation": "渡ってきた燕が軒へ近づく",
+      "composition": "しなやかな濃青の燕を主役に、小さな軒の端を添える",
+      "palette": [
+        {
+          "hex": "#3159A7",
+          "role": "燕"
+        },
+        {
+          "hex": "#F5F3ED",
+          "role": "腹"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "軒"
+        }
+      ],
+      "colorReason": "燕の暗い青と白い腹、木の軒の褐色を使う",
+      "subjectPrompt": "One dominant deep blue swallow approaches one short much smaller brown eave edge. Its long curved wing sweeps diagonally, its belly has one small cream plane, and its tail has a clear deep fork. No eyes, flock or nest. Use unequal wing sizes and a strong tilted flow. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "kou-13/completed.png",
+      "original": "kou-13/full.png",
+      "generationHash": "2dde61c37d28c5be7414f3f94019f9e63bfea744802e4cc208bce8fe9a9189a3"
+    },
+    {
+      "id": "kou-14",
+      "name": "鴻雁かえる",
+      "sekkiId": "sekki-05",
+      "sekki": "清明",
+      "season": "spring",
+      "meaning": "雁が北へ帰る",
+      "relation": "雁が岸を離れて北へ帰る",
+      "composition": "長い首の褐色の雁を斜め上へ伸ばし、小さな岸を添える",
+      "palette": [
+        {
+          "hex": "#B58A50",
+          "role": "雁"
+        },
+        {
+          "hex": "#4C4A43",
+          "role": "翼"
+        },
+        {
+          "hex": "#90B8B0",
+          "role": "水"
+        }
+      ],
+      "colorReason": "雁の自然な褐色と暗い翼、春の水の青緑を使う",
+      "subjectPrompt": "One dominant brown goose lifts diagonally away from one much smaller teal shore-water shape. A long curved neck, a broad uneven dark wing and a rounded belly carry the motion. One short water wake at most. No eyes or red goose. Distinguish departure from an autumn landing. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "kou-14/completed.png",
+      "original": "kou-14/full.png",
+      "generationHash": "6221ad3194cb85885cc28fd3198e21e4ab827ac3753ec3ec5566a76424c39b9a"
+    },
+    {
+      "id": "kou-15",
+      "name": "虹始めてあらわる",
+      "sekkiId": "sekki-05",
+      "sekki": "清明",
+      "season": "spring",
+      "meaning": "春に虹が見え始める",
+      "relation": "春の空に虹の弧が現れる",
+      "composition": "幅に差のある太い虹の弧を主役に、小さな雲を一つ添える",
+      "palette": [
+        {
+          "hex": "#D94B35",
+          "role": "虹の暖色"
+        },
+        {
+          "hex": "#E3BC45",
+          "role": "虹の黄"
+        },
+        {
+          "hex": "#3159A7",
+          "role": "虹の青"
+        },
+        {
+          "hex": "#F5F3ED",
+          "role": "雲"
+        }
+      ],
+      "colorReason": "虹の暖色・黄・青の順を保ち、色数を三帯に簡略化する",
+      "subjectPrompt": "One dominant broad rainbow arch made of three opaque nested bands, coral red outside, golden yellow middle and blue inside. The arch bends unevenly and leans to one side. One much smaller cream cloud touches a single foot. Show the whole rainbow with no mechanical concentric perfection or extra scenery. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-01",
+      "status": "succeeded",
+      "image": "kou-15/completed.png",
+      "original": "kou-15/full.png",
+      "generationHash": "eaaa6e6440876179cd12543f1e314a0a62c61ed573b8c2ec7baa9b9a4bb9a7ae"
+    },
+    {
+      "id": "kou-16",
+      "name": "葭始めて生ず",
+      "sekkiId": "sekki-06",
+      "sekki": "穀雨",
+      "season": "spring",
+      "meaning": "葦が芽を出す",
+      "relation": "水辺で葦の槍芽が伸びる",
+      "composition": "長いオリーブの槍芽を主役に、小さな水面を根元へ置く",
+      "palette": [
+        {
+          "hex": "#72804A",
+          "role": "葦の芽"
+        },
+        {
+          "hex": "#90B8B0",
+          "role": "水"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "根元"
+        }
+      ],
+      "colorReason": "葦の芽は緑、水辺は青緑、根元は褐色にする",
+      "subjectPrompt": "One dominant olive reed spear shoot rises in a long curved taper from one much smaller muted teal water pool. A second shoot may be very short and tucked at the base. Broad simple planes, unequal growth, no repeated grass blades, rice fan or tiny leaf veins. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "kou-16/completed.png",
+      "original": "kou-16/full.png",
+      "generationHash": "c21af36fc82c6a8aff6e288728f804cb9d3c119410ef3aa1e1e1c1be5565ca01"
+    },
+    {
+      "id": "kou-17",
+      "name": "霜止で苗出ずる",
+      "sekkiId": "sekki-06",
+      "sekki": "穀雨",
+      "season": "spring",
+      "meaning": "霜が終わり苗が育つ",
+      "relation": "霜の終わった苗床で苗が伸びる",
+      "composition": "扇状に広がる緑の苗を、大きな一つの葉のまとまりとして描く",
+      "palette": [
+        {
+          "hex": "#90B8B0",
+          "role": "若苗"
+        },
+        {
+          "hex": "#72804A",
+          "role": "苗の影面"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "苗床"
+        }
+      ],
+      "colorReason": "新しい苗の柔らかな緑と土の褐色を使う",
+      "subjectPrompt": "One dominant fresh teal green rice seedling tuft spreads as two or three unequal broad bending blades joined into one sweeping fan. One much smaller brown nursery soil base supports it. Long curved silhouettes, no frost, mature rice heads or repeated thin grass pattern. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "kou-17/completed.png",
+      "original": "kou-17/full.png",
+      "generationHash": "a037b4571350282cddea2d593d14635c86fa0d9b589197afba520e0b142ddd1e"
+    },
+    {
+      "id": "kou-18",
+      "name": "牡丹はなさく",
+      "sekkiId": "sekki-06",
+      "sekki": "穀雨",
+      "season": "spring",
+      "meaning": "牡丹が咲く",
+      "relation": "牡丹の大きな花が重なって開く",
+      "composition": "幅広い赤桃の花弁を不均等に重ね、小さな葉を添える",
+      "palette": [
+        {
+          "hex": "#D94B35",
+          "role": "牡丹の濃い花弁"
+        },
+        {
+          "hex": "#E9B8B5",
+          "role": "花の内側"
+        },
+        {
+          "hex": "#72804A",
+          "role": "葉"
+        }
+      ],
+      "colorReason": "牡丹の赤桃と淡桃を広く使い、葉の緑は小さく添える",
+      "subjectPrompt": "One dominant peony bloom made of four broad overlapping coral and pale pink petal masses of strongly different areas. Use deep soft pinches and a tilted swelling outer petal. One much smaller olive leaf supports the blossom. No concentric fine petals, rosette repetition or visible stamens. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-32",
+      "status": "succeeded",
+      "image": "kou-18/completed.png",
+      "original": "kou-18/full.png",
+      "generationHash": "5c3d96ebe9661262225deeaa340e8848bc0cceafa94628e4480cf0d33afbf3ff"
+    },
+    {
+      "id": "kou-19",
+      "name": "蛙始めて鳴く",
+      "sekkiId": "sekki-07",
+      "sekki": "立夏",
+      "season": "summer",
+      "meaning": "蛙が鳴き始める",
+      "relation": "水辺の蛙の喉が膨らむ",
+      "composition": "丸い緑の蛙を主役に、小さな黄色い喉と水片を添える",
+      "palette": [
+        {
+          "hex": "#72804A",
+          "role": "蛙"
+        },
+        {
+          "hex": "#E3BC45",
+          "role": "膨らむ喉"
+        },
+        {
+          "hex": "#90B8B0",
+          "role": "浅い水"
+        }
+      ],
+      "colorReason": "蛙は自然な緑、喉は淡い黄、水は青緑にする",
+      "subjectPrompt": "One dominant olive green frog in side profile with a broad rounded back and one folded hind leg merged into the silhouette. A much smaller pale golden vocal sac swells under its throat and one tiny teal water plane touches its foot. No face or eyes, sound symbols or extra limbs. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-32",
+      "status": "succeeded",
+      "image": "kou-19/completed.png",
+      "original": "kou-19/full.png",
+      "generationHash": "706cc933aee4076a54ac91b9083c07e09367094658aabfa79a0c9cc5b7c81364"
+    },
+    {
+      "id": "kou-20",
+      "name": "みみず出ずる",
+      "sekkiId": "sekki-07",
+      "sekki": "立夏",
+      "season": "summer",
+      "meaning": "みみずが地上へ出る",
+      "relation": "湿った土へみみずが姿を出す",
+      "composition": "太く柔らかな赤褐色のS字を主役に、小さな土片を添える",
+      "palette": [
+        {
+          "hex": "#B58A50",
+          "role": "みみず"
+        },
+        {
+          "hex": "#D94B35",
+          "role": "赤褐色の一面"
+        },
+        {
+          "hex": "#72804A",
+          "role": "土の草"
+        }
+      ],
+      "colorReason": "みみずの湿った赤褐色を主体にし、鮮やかな赤だけにしない",
+      "subjectPrompt": "One dominant warm reddish brown earthworm forms one thick continuous irregular S curve above one much smaller brown soil clod. A muted coral inset can warm one bend. Swell one end and pinch the middle gently. No face, segments, repeated rings or multiple worms. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "kou-20/completed.png",
+      "original": "kou-20/full.png",
+      "generationHash": "da1946e85b53a115ff7eb8341bb8339583c74d16f6caae89c32bdb27373a68df"
+    },
+    {
+      "id": "kou-21",
+      "name": "竹のこ生ず",
+      "sekkiId": "sekki-07",
+      "sekki": "立夏",
+      "season": "summer",
+      "meaning": "竹の子が生える",
+      "relation": "土を押し上げて竹の子が出る",
+      "composition": "ずんぐりした褐色の竹の子に、短い緑の先端を添える",
+      "palette": [
+        {
+          "hex": "#B58A50",
+          "role": "竹の子の皮"
+        },
+        {
+          "hex": "#72804A",
+          "role": "先端"
+        },
+        {
+          "hex": "#E3BC45",
+          "role": "若い皮"
+        }
+      ],
+      "colorReason": "竹の皮の黄褐色と先端の緑を使う",
+      "subjectPrompt": "One dominant stout bamboo shoot leans out of the earth. Three unequal broad overlapping warm brown and ochre sheath planes make a rounded tapered form, with one much smaller olive pointed tip. No repeated equal stripes, bamboo forest or decorative fine fibers. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "kou-21/completed.png",
+      "original": "kou-21/full.png",
+      "generationHash": "2f5fd8d44e0f04bdae1c93d50c34b0530604dc3d1d374f19d38db07850100796"
+    },
+    {
+      "id": "kou-22",
+      "name": "蚕起きて桑を食む",
+      "sekkiId": "sekki-08",
+      "sekki": "小満",
+      "season": "summer",
+      "meaning": "蚕が桑を食べる",
+      "relation": "桑葉の縁を蚕が食べる",
+      "composition": "大きなオリーブの桑葉に、小さな生成りの蚕を重ねる",
+      "palette": [
+        {
+          "hex": "#72804A",
+          "role": "桑葉"
+        },
+        {
+          "hex": "#F5F3ED",
+          "role": "蚕"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "葉柄"
+        }
+      ],
+      "colorReason": "桑は緑、蚕は生成りで食べる関係を自然な色にする",
+      "subjectPrompt": "One dominant olive mulberry leaf bends in a broad asymmetrical heart shape with a single uneven bite missing from its edge. One much smaller cream silkworm lies along that bite. A short brown petiole is optional. No face, eye, detailed segments or thin veins. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-32",
+      "status": "succeeded",
+      "image": "kou-22/completed.png",
+      "original": "kou-22/full.png",
+      "generationHash": "4786ba308612aca0b1b06fef588069af2901cd1f9b8c0c807171d0c8d911f025"
+    },
+    {
+      "id": "kou-23",
+      "name": "紅花栄う",
+      "sekkiId": "sekki-08",
+      "sekki": "小満",
+      "season": "summer",
+      "meaning": "紅花が盛んに咲く",
+      "relation": "紅花の花頭が橙色に盛り上がる",
+      "composition": "橙色の不均等な房を主役に、小さな緑のがくを添える",
+      "palette": [
+        {
+          "hex": "#ED8B35",
+          "role": "紅花"
+        },
+        {
+          "hex": "#D94B35",
+          "role": "花の濃色"
+        },
+        {
+          "hex": "#72804A",
+          "role": "がく"
+        }
+      ],
+      "colorReason": "紅花の自然な黄橙から朱の花色を使う",
+      "subjectPrompt": "One dominant safflower head expands as a broad uneven orange brush-shaped tuft with a small coral fold. One much smaller olive vase-shaped calyx cups its base. Use a few large blunt lobes, not thin repeated bristles, a round daisy or mechanically equal petals. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-32",
+      "status": "succeeded",
+      "image": "kou-23/completed.png",
+      "original": "kou-23/full.png",
+      "generationHash": "4160b806c5eea01afd6680bf014340486db46a46103a5419fd285f366b769a18"
+    },
+    {
+      "id": "kou-24",
+      "name": "麦秋至る",
+      "sekkiId": "sekki-08",
+      "sekki": "小満",
+      "season": "summer",
+      "meaning": "麦が熟す",
+      "relation": "麦穂が金色に熟して傾く",
+      "composition": "太い黄金色の麦穂を一本大きく描き、短い茎を添える",
+      "palette": [
+        {
+          "hex": "#E3BC45",
+          "role": "熟した麦穂"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "穂の濃い面"
+        },
+        {
+          "hex": "#72804A",
+          "role": "茎"
+        }
+      ],
+      "colorReason": "麦秋の金色と黄褐色を主役にする",
+      "subjectPrompt": "One dominant ripe wheat ear in golden yellow with one warm brown folded plane, leaning only slightly on a much smaller olive stem. Suggest grain as three broad unequal fused lobes and only a few short thick awns. No drooping rice panicle or repeated tiny kernels. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "kou-24/completed.png",
+      "original": "kou-24/full.png",
+      "generationHash": "242fdba3a68e62ec341464ad0dee971a1c6a7ed4089f581a15954b3f13aba47a"
+    },
+    {
+      "id": "kou-25",
+      "name": "蟷螂生ず",
+      "sekkiId": "sekki-09",
+      "sekki": "芒種",
+      "season": "summer",
+      "meaning": "かまきりが生まれる",
+      "relation": "生まれたかまきりが鎌を伸ばす",
+      "composition": "青緑の幼いかまきりを大きく曲げ、小さな卵鞘を添える",
+      "palette": [
+        {
+          "hex": "#90B8B0",
+          "role": "幼いかまきり"
+        },
+        {
+          "hex": "#72804A",
+          "role": "鎌"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "卵鞘"
+        }
+      ],
+      "colorReason": "若いかまきりの淡緑と褐色の卵鞘を使う",
+      "subjectPrompt": "One dominant pale teal young praying mantis curves its slim body and folds two broad olive sickle forelegs. Merge its triangular head into a faceless silhouette. One much smaller brown egg case rests near its base. No eyes, thin many-legged diagram or decorative anatomy. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "kou-25/completed.png",
+      "original": "kou-25/full.png",
+      "generationHash": "f26deaf9603533476909857037d3e3683a184c6402e571dfb39da33e92f73e0e"
+    },
+    {
+      "id": "kou-26",
+      "name": "腐れたる草蛍となる",
+      "sekkiId": "sekki-09",
+      "sekki": "芒種",
+      "season": "summer",
+      "meaning": "湿った草むらで蛍が現れる",
+      "relation": "草陰で蛍の腹が明るく見える",
+      "composition": "暗い草の塊を主役に、小さな黄色い蛍火を一つ置く",
+      "palette": [
+        {
+          "hex": "#3159A7",
+          "role": "夜の草陰"
+        },
+        {
+          "hex": "#E3BC45",
+          "role": "蛍の腹"
+        },
+        {
+          "hex": "#4C4A43",
+          "role": "蛍の胴"
+        }
+      ],
+      "colorReason": "暗青の草と黄色い腹の明暗差で蛍火を示す",
+      "subjectPrompt": "One dominant deep blue night-grass mass curves inward around one much smaller firefly with a golden yellow abdomen and a tiny charcoal body. The yellow is an opaque flat shape without a halo. No glow blur, faces or transformation of rotten grass into insects. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-01",
+      "status": "succeeded",
+      "image": "kou-26/completed.png",
+      "original": "kou-26/full.png",
+      "generationHash": "96bc84d5ba606fb1cf08d979cd0d7ec4cccbd2b61736513aa37fb4849ad00bcf"
+    },
+    {
+      "id": "kou-27",
+      "name": "梅のみ黄ばむ",
+      "sekkiId": "sekki-09",
+      "sekki": "芒種",
+      "season": "summer",
+      "meaning": "梅の実が黄色く熟す",
+      "relation": "梅の実が枝で黄色く熟す",
+      "composition": "大きな黄色い梅の実に、十分小さなもう一果と短枝を添える",
+      "palette": [
+        {
+          "hex": "#E3BC45",
+          "role": "熟した梅"
+        },
+        {
+          "hex": "#72804A",
+          "role": "残る緑"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "枝"
+        }
+      ],
+      "colorReason": "名前どおり熟した梅の黄色を最大面積にする",
+      "subjectPrompt": "One dominant ripe golden yellow Japanese plum with an uneven rounded silhouette, accompanied by one much smaller olive-yellow plum on a short brown twig. A shallow off-center cleft may identify the fruit. No orange citrus, large leaves or a cluster of identical circles. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-32",
+      "status": "succeeded",
+      "image": "kou-27/completed.png",
+      "original": "kou-27/full.png",
+      "generationHash": "ee77bde24e790eead0be4885997572c4bd8eb94002a1180ccd712628ebc95378"
+    },
+    {
+      "id": "kou-28",
+      "name": "乃東枯る",
+      "sekkiId": "sekki-10",
+      "sekki": "夏至",
+      "season": "summer",
+      "meaning": "うつぼぐさの花穂が枯れる",
+      "relation": "うつぼぐさの花穂が枯れて傾く",
+      "composition": "大きな黄褐色の短い花穂を傾け、小さな萎れ葉を添える",
+      "palette": [
+        {
+          "hex": "#B58A50",
+          "role": "枯れた花穂"
+        },
+        {
+          "hex": "#72804A",
+          "role": "萎れ葉"
+        },
+        {
+          "hex": "#E3BC45",
+          "role": "乾いた面"
+        }
+      ],
+      "colorReason": "枯れ穂の黄褐色とくすんだ緑で夏至の枯れを表す",
+      "subjectPrompt": "One dominant dried self-heal flower spike forms a short irregular warm brown oval leaning sideways, with two unequal fused lobes. One much smaller dull olive wilted leaf bends below it. A tiny ochre dry plane may overlap. No fresh purple flowers or winter basal sprouts. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "kou-28/completed.png",
+      "original": "kou-28/full.png",
+      "generationHash": "527d13a9b88414ed2dd6ad993d17c32259ab0d6be9a15bb44adba8e79e473371"
+    },
+    {
+      "id": "kou-29",
+      "name": "菖蒲はなさく",
+      "sekkiId": "sekki-10",
+      "sekki": "夏至",
+      "season": "summer",
+      "meaning": "あやめの花が咲く",
+      "relation": "あやめの花弁が水辺へ垂れる",
+      "composition": "青い花弁を大小三面にまとめ、小さな剣形の葉を添える",
+      "palette": [
+        {
+          "hex": "#3159A7",
+          "role": "あやめ"
+        },
+        {
+          "hex": "#B9D5DE",
+          "role": "明るい花弁"
+        },
+        {
+          "hex": "#72804A",
+          "role": "剣形の葉"
+        }
+      ],
+      "colorReason": "あやめの青紫を深青と淡青で表し、葉は緑にする",
+      "subjectPrompt": "One dominant blue iris bloom with one broad upright petal and two unequal long drooping petals. Pale blue overlaps deepen the organic folds. One much smaller olive sword-shaped leaf leans underneath. No coral red petals, round many-petal flower or striped petal veins. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-32",
+      "status": "succeeded",
+      "image": "kou-29/completed.png",
+      "original": "kou-29/full.png",
+      "generationHash": "8576e6b1613669cfd45939dff6e3db47e8f190db1d6291eec3f04c4a150fbb4c"
+    },
+    {
+      "id": "kou-30",
+      "name": "半夏生ず",
+      "sekkiId": "sekki-10",
+      "sekki": "夏至",
+      "season": "summer",
+      "meaning": "半夏が生える",
+      "relation": "半夏の苞から細長い穂が伸びる",
+      "composition": "巻いた緑の苞を主役に、小さな曲がる穂をのぞかせる",
+      "palette": [
+        {
+          "hex": "#72804A",
+          "role": "半夏の苞"
+        },
+        {
+          "hex": "#90B8B0",
+          "role": "苞の若い面"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "突出する穂"
+        }
+      ],
+      "colorReason": "半夏の緑の仏炎苞と穂の褐色を用いる",
+      "subjectPrompt": "One dominant green Pinellia spathe curls into a broad uneven hood. One much smaller warm brown spadix emerges as a short bent tongue. A tiny muted teal folded plane suggests its rolled edge. No white-tipped Hangesho leaves, calla lily bloom or extra foliage. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-32",
+      "status": "succeeded",
+      "image": "kou-30/completed.png",
+      "original": "kou-30/full.png",
+      "generationHash": "4876d1dabc398267a25c8631020c45b091ce2331b5cd6fae0e9fe54dd1aca6ae"
+    },
+    {
+      "id": "kou-31",
+      "name": "温風至る",
+      "sekkiId": "sekki-11",
+      "sekki": "小暑",
+      "season": "summer",
+      "meaning": "暖かい風が吹く",
+      "relation": "温かい風に大葉がたわむ",
+      "composition": "青緑の大葉を横へ大きく曲げ、小さな暖色の風片を添える",
+      "palette": [
+        {
+          "hex": "#72804A",
+          "role": "夏の大葉"
+        },
+        {
+          "hex": "#90B8B0",
+          "role": "葉の折れ面"
+        },
+        {
+          "hex": "#ED8B35",
+          "role": "暖かい風"
+        }
+      ],
+      "colorReason": "葉は夏の緑、温風だけを小さな橙色で表す",
+      "subjectPrompt": "One dominant olive summer leaf bends in a long deep curve, its pale teal folded plane asymmetrically swelling to one side. One much smaller muted orange breeze ribbon presses beside its edge. The leaf dominates, the warm breeze stays small. No ice or autumn seeds. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-01",
+      "status": "succeeded",
+      "image": "kou-31/completed.png",
+      "original": "kou-31/full.png",
+      "generationHash": "a6771606ed006fecd7c71028c7de252f8f8c42ca21c8fa3321c89e9424103786"
+    },
+    {
+      "id": "kou-32",
+      "name": "蓮始めて開く",
+      "sekkiId": "sekki-11",
+      "sekki": "小暑",
+      "season": "summer",
+      "meaning": "蓮の花が開く",
+      "relation": "蓮の花が葉の上でほどける",
+      "composition": "大小差のある淡桃の三面を重ね、小さなオリーブの葉を添える",
+      "palette": [
+        {
+          "hex": "#E9B8B5",
+          "role": "蓮の花"
+        },
+        {
+          "hex": "#D94B35",
+          "role": "花弁の深い折れ"
+        },
+        {
+          "hex": "#72804A",
+          "role": "小さな浮葉"
+        }
+      ],
+      "colorReason": "蓮の淡桃を広く保ち、葉は自然なオリーブにする",
+      "subjectPrompt": "One dominant pale blush lotus flower composed of three broad unequal petal masses. A small muted coral pink overlap may deepen one fold but pink must dominate. A single much smaller olive floating leaf tucks close below one side. Use an inclined silhouette and deep shallow alternating pinches. No flower center, water disc, stems or symmetrical rosette. Preserve the approved lotus's organic simplicity. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-32",
+      "status": "succeeded",
+      "image": "kou-32/completed.png",
+      "original": "kou-32/full.png",
+      "generationHash": "27bb0ff3a8c558a2aec46ed48110ebc36732eccdd315824257082d211fdb0bb6"
+    },
+    {
+      "id": "kou-33",
+      "name": "鷹乃ちわざをならう",
+      "sekkiId": "sekki-11",
+      "sekki": "小暑",
+      "season": "summer",
+      "meaning": "若い鷹が飛び方を覚える",
+      "relation": "若い鷹が岩の上で翼を試す",
+      "composition": "褐色の広い翼を不均等に開き、小さな岩を下へ置く",
+      "palette": [
+        {
+          "hex": "#B58A50",
+          "role": "若鷹"
+        },
+        {
+          "hex": "#4C4A43",
+          "role": "翼の暗い面"
+        },
+        {
+          "hex": "#72804A",
+          "role": "岩の苔"
+        }
+      ],
+      "colorReason": "鷹は褐色と暗色、岩は自然な土色にする",
+      "subjectPrompt": "One dominant young brown hawk practices spreading its wings above one much smaller brown rock with a tiny olive moss plane. One wing is high and broad, the other shorter and lowered. Use only a few blunt feather lobes. No eyes, face or departing migratory-bird pose. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "kou-33/completed.png",
+      "original": "kou-33/full.png",
+      "generationHash": "c16f8a18d277efbb632454dc2865a99e28def0e76d928cabfcf52dae0537ecda"
+    },
+    {
+      "id": "kou-34",
+      "name": "桐始めて花を結ぶ",
+      "sekkiId": "sekki-12",
+      "sekki": "大暑",
+      "season": "summer",
+      "meaning": "桐が実を結び始める",
+      "relation": "桐の枝で実が膨らみ始める",
+      "composition": "大きな緑褐色の卵形の実に、小さな実と短枝を添える",
+      "palette": [
+        {
+          "hex": "#72804A",
+          "role": "若い桐の実"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "枝"
+        },
+        {
+          "hex": "#E3BC45",
+          "role": "実の明るい面"
+        }
+      ],
+      "colorReason": "若い桐の実は緑から黄褐色、枝は褐色にする",
+      "subjectPrompt": "One dominant green-ochre egg-shaped paulownia seed capsule swells on a short brown branch. One much smaller capsule rests at the branch fork. Broad slightly pointed irregular ovals, a single golden folded plane at most. No purple flower cluster or many repeating seeds. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-32",
+      "status": "succeeded",
+      "image": "kou-34/completed.png",
+      "original": "kou-34/full.png",
+      "generationHash": "e4d397e4731c7626ee03904fd72f1cf6e820002cd66e51ebcc819392a6c8165c"
+    },
+    {
+      "id": "kou-35",
+      "name": "土潤いてむし暑し",
+      "sekkiId": "sekki-12",
+      "sekki": "大暑",
+      "season": "summer",
+      "meaning": "土が湿って蒸し暑くなる",
+      "relation": "湿った土から熱気が立つ",
+      "composition": "赤褐色の土塊に、淡い黄土の大きな熱気のうねりを重ねる",
+      "palette": [
+        {
+          "hex": "#B58A50",
+          "role": "湿った土"
+        },
+        {
+          "hex": "#E3BC45",
+          "role": "湿熱"
+        },
+        {
+          "hex": "#ED8B35",
+          "role": "土の暖かい面"
+        }
+      ],
+      "colorReason": "土の褐色と湿熱の暖かな黄を使う",
+      "subjectPrompt": "One dominant heavy warm brown moist soil mound meets one much smaller golden humid-air curl rising from an off-center notch. A muted orange folded soil plane suggests summer warmth. The air curl is broad and opaque, not many thin steam lines. No rain drops or sprouts. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-01",
+      "status": "succeeded",
+      "image": "kou-35/completed.png",
+      "original": "kou-35/full.png",
+      "generationHash": "62aa2ff2d6ac925818bc58b5fc67c0adb9a2aa80e8996e106848a32fd030a014"
+    },
+    {
+      "id": "kou-36",
+      "name": "大雨時にふる",
+      "sekkiId": "sekki-12",
+      "sekki": "大暑",
+      "season": "summer",
+      "meaning": "時折激しい雨が降る",
+      "relation": "激しい雨が水面を打つ",
+      "composition": "深青の大きな雨の塊を斜めに落とし、小さな水はねを添える",
+      "palette": [
+        {
+          "hex": "#3159A7",
+          "role": "大雨"
+        },
+        {
+          "hex": "#B9D5DE",
+          "role": "雨の明るい面"
+        },
+        {
+          "hex": "#90B8B0",
+          "role": "水はね"
+        }
+      ],
+      "colorReason": "強い雨は青の大きな面、水はねは淡い青緑にする",
+      "subjectPrompt": "One dominant deep blue summer downpour mass sweeps diagonally downward as two unequal thick connected rain tongues below a small cloud shoulder. One much smaller pale teal splash curls at its foot. Broad opaque blue planes, no thin repeated rain lines or red water splash. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-01",
+      "status": "succeeded",
+      "image": "kou-36/completed.png",
+      "original": "kou-36/full.png",
+      "generationHash": "d562c4adfe508da4d8d560ec8efe62f0571b34ab5f46b296ca52720b3eb834c1"
+    },
+    {
+      "id": "kou-37",
+      "name": "涼風至る",
+      "sekkiId": "sekki-13",
+      "sekki": "立秋",
+      "season": "autumn",
+      "meaning": "涼しい風が吹く",
+      "relation": "涼風で草の葉先が片側へ傾く",
+      "composition": "二枚の大きな青緑の草葉が同じ方向になびく",
+      "palette": [
+        {
+          "hex": "#B9D5DE",
+          "role": "涼風"
+        },
+        {
+          "hex": "#90B8B0",
+          "role": "風の折れ"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "翼果"
+        }
+      ],
+      "colorReason": "涼しさを淡青、乾いた翼果を自然な黄褐色で表す",
+      "subjectPrompt": "Two broad pale-teal late-summer grass blades rooted together, unequal heights, both bending gently toward the right, with one small muted-gold seed head leaning with them. The cool breeze is shown only through the bending plant. An open airy asymmetrical silhouette, with large full leaf planes, no drawn wind glyph, no spiral, no wave, no ice or cloud. Do not make a flower.",
+      "referenceId": "kou-01",
+      "status": "succeeded",
+      "image": "../revision-12/kou-37/completed.png?v=7a37719d0cf5",
+      "original": "../revision-12/kou-37/full.png?v=7a37719d0cf5",
+      "generationHash": "7a37719d0cf57517cf8c251cfdfb00be7bcd5e4fe0ba3961b083b0741db04153",
+      "revisionReason": "ユーザーレビューによる対象12候だけの形と構図の見直し"
+    },
+    {
+      "id": "kou-38",
+      "name": "寒蝉鳴く",
+      "sekkiId": "sekki-13",
+      "sekki": "立秋",
+      "season": "autumn",
+      "meaning": "ひぐらしが鳴く",
+      "relation": "幹にとまったひぐらしが鳴く",
+      "composition": "褐色の長い蝉を主役に、小さな木の幹の一片を添える",
+      "palette": [
+        {
+          "hex": "#B58A50",
+          "role": "ひぐらし"
+        },
+        {
+          "hex": "#72804A",
+          "role": "翅"
+        },
+        {
+          "hex": "#4C4A43",
+          "role": "幹の暗部"
+        }
+      ],
+      "colorReason": "ひぐらしの自然な褐色とくすんだ緑の翅を使う",
+      "subjectPrompt": "One dominant brown evening cicada rests diagonally against one much smaller dark brown tree-bark strip. Its two olive opaque wings overlap with unequal rounded lengths over a short tapered body. No eyes, wing veins, sound arcs or red trunk. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "kou-38/completed.png",
+      "original": "kou-38/full.png",
+      "generationHash": "9f35b7bfbd89a7ef1969e6a0f19947b7755445fcbf8a6d3a19b8ac6b910c8742"
+    },
+    {
+      "id": "kou-39",
+      "name": "深き霧まとう",
+      "sekkiId": "sekki-13",
+      "sekki": "立秋",
+      "season": "autumn",
+      "meaning": "深い霧が立ち込める",
+      "relation": "濃い霧が杉の輪郭を隠す",
+      "composition": "淡青の大きな霧の塊から、小さな杉の先端をのぞかせる",
+      "palette": [
+        {
+          "hex": "#B9D5DE",
+          "role": "深い霧"
+        },
+        {
+          "hex": "#72804A",
+          "role": "杉"
+        },
+        {
+          "hex": "#3159A7",
+          "role": "遠い杉の陰"
+        }
+      ],
+      "colorReason": "霧は淡青、杉は深い緑と青の落ち着いた色にする",
+      "subjectPrompt": "One dominant pale blue fog mass with long swollen irregular contours envelops one much smaller dark olive cedar tip. A tiny deep blue forest inset may sit behind it. No outlined trees or row of triangles. Unlike spring haze, make fog a deep enclosing mass, not horizontal stripes over a hill. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-01",
+      "status": "succeeded",
+      "image": "kou-39/completed.png",
+      "original": "kou-39/full.png",
+      "generationHash": "21c2494f8f40ecb93067b3a4a63991f5d47a9199ed3aa343ac05458d263d2c19"
+    },
+    {
+      "id": "kou-40",
+      "name": "綿のはなしべ開く",
+      "sekkiId": "sekki-14",
+      "sekki": "処暑",
+      "season": "autumn",
+      "meaning": "綿の実がはじける",
+      "relation": "綿の殻が開いて白い綿が広がる",
+      "composition": "生成りの大きな綿塊を主役に、小さな褐色の殻を添える",
+      "palette": [
+        {
+          "hex": "#F5F3ED",
+          "role": "綿"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "開いた殻"
+        },
+        {
+          "hex": "#72804A",
+          "role": "がく"
+        }
+      ],
+      "colorReason": "綿の生成りと乾いた殻の褐色を自然に保つ",
+      "subjectPrompt": "One dominant cream cotton boll bulges into three strongly unequal soft joined masses. One much smaller warm brown split husk cups its lower edge, with a tiny olive calyx plane. Avoid regular three-lobed symmetry, blue outlines, snow crystals or decorative fibers. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-32",
+      "status": "succeeded",
+      "image": "kou-40/completed.png",
+      "original": "kou-40/full.png",
+      "generationHash": "655514f20118e6b8f0af5af5c2be86b76573beb36f44f3c1e0e3e9b30291396a"
+    },
+    {
+      "id": "kou-41",
+      "name": "天地始めてさむし",
+      "sekkiId": "sekki-14",
+      "sekki": "処暑",
+      "season": "autumn",
+      "meaning": "空と地面が冷え始める",
+      "relation": "空と大地の間に秋の冷たさが広がる",
+      "composition": "淡青の広い空と黄褐色の低い大地を上下に重ねる",
+      "palette": [
+        {
+          "hex": "#B9D5DE",
+          "role": "冷えた空気"
+        },
+        {
+          "hex": "#3159A7",
+          "role": "空の深い面"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "地面"
+        }
+      ],
+      "colorReason": "冷気を淡青と深青、地面を褐色で表す",
+      "subjectPrompt": "An abstract miniature landscape of exactly two large broad opaque planes: a cool pale-blue uneven trapezoid of autumn sky above a low warm-ochre rolling ground plane. A narrow irregular ivory seam between them suggests cooling air. The overall silhouette is broad and roughly rectangular with gently organic edges, visibly layered sky above earth. No wind curl, ribbon, hook, cloud puff, droplet or leaf. No outlined frame.",
+      "referenceId": "kou-01",
+      "status": "succeeded",
+      "image": "../revision-12/kou-41/completed.png?v=46f33e9b9c4b",
+      "original": "../revision-12/kou-41/full.png?v=46f33e9b9c4b",
+      "generationHash": "46f33e9b9c4b4723ab09c27c271148befbfe44894b1a5932dec6d64abeda750c",
+      "revisionReason": "ユーザーレビューによる対象12候だけの形と構図の見直し"
+    },
+    {
+      "id": "kou-42",
+      "name": "禾乃ちみのる",
+      "sekkiId": "sekki-14",
+      "sekki": "処暑",
+      "season": "autumn",
+      "meaning": "穀物が実る",
+      "relation": "稲穂が実って深く垂れる",
+      "composition": "金色の稲穂の房を大きく曲げ、短いオリーブの茎を添える",
+      "palette": [
+        {
+          "hex": "#E3BC45",
+          "role": "実った稲"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "籾の濃色"
+        },
+        {
+          "hex": "#72804A",
+          "role": "茎"
+        }
+      ],
+      "colorReason": "実りの黄金色と自然な籾の黄褐色を使う",
+      "subjectPrompt": "One dominant golden ripe rice panicle bows deeply in a long curved droop. Suggest full grains as three unequal joined rounded masses, with one brown overlap. One much smaller olive stalk supports its arc. No straight wheat ear, awns or many identical kernels. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "kou-42/completed.png",
+      "original": "kou-42/full.png",
+      "generationHash": "88a2b925683c8a10eaf660940abfef79f7c08cb6ac83bde9841546771fb7bfbe"
+    },
+    {
+      "id": "kou-43",
+      "name": "草露白し",
+      "sekkiId": "sekki-15",
+      "sekki": "白露",
+      "season": "autumn",
+      "meaning": "草に露が白く見える",
+      "relation": "曲がった草葉に朝露が残る",
+      "composition": "大きな緑の曲がる葉に、小さな淡青の露を一滴置く",
+      "palette": [
+        {
+          "hex": "#72804A",
+          "role": "草葉"
+        },
+        {
+          "hex": "#B9D5DE",
+          "role": "露"
+        },
+        {
+          "hex": "#90B8B0",
+          "role": "葉の若い面"
+        }
+      ],
+      "colorReason": "草の自然な緑と朝露の淡青を選ぶ",
+      "subjectPrompt": "One dominant olive grass leaf curves into a broad low arch with an unequal pale teal folded plane. One much smaller opaque pale blue dew drop rests on its upper bend. No transparent glass effect, highlight sparkle, many droplets or thin repeated grass blades. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-32",
+      "status": "succeeded",
+      "image": "kou-43/completed.png",
+      "original": "kou-43/full.png",
+      "generationHash": "3c85f1576012185794469335bdb9863abf79eedbaab942bdb51be66d5c46e733"
+    },
+    {
+      "id": "kou-44",
+      "name": "鶺鴒鳴く",
+      "sekkiId": "sekki-15",
+      "sekki": "白露",
+      "season": "autumn",
+      "meaning": "せきれいが鳴く",
+      "relation": "長い尾のせきれいが石にとまる",
+      "composition": "細身の白黒の鳥を大きく傾け、小さな石を添える",
+      "palette": [
+        {
+          "hex": "#4C4A43",
+          "role": "せきれいの背"
+        },
+        {
+          "hex": "#F5F3ED",
+          "role": "腹"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "石"
+        }
+      ],
+      "colorReason": "せきれいらしい白黒と石の褐色を使う",
+      "subjectPrompt": "One dominant slender charcoal wagtail perches on one much smaller warm brown pebble. A cream belly plane contrasts with its dark back. Its long tail sweeps downward and outward in a soft asymmetrical curve. No eyes, red tail, sound marks or nest. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "kou-44/completed.png",
+      "original": "kou-44/full.png",
+      "generationHash": "7470b18b01cf8ec65ddfb07e678add9d667ccff26713d9c0c0eb21541ce2bbae"
+    },
+    {
+      "id": "kou-45",
+      "name": "玄鳥去る",
+      "sekkiId": "sekki-15",
+      "sekki": "白露",
+      "season": "autumn",
+      "meaning": "燕が南へ去る",
+      "relation": "燕が去ったあと巣が空になる",
+      "composition": "大きな褐色の空巣を主役に、遠い小さな燕を一羽添える",
+      "palette": [
+        {
+          "hex": "#B58A50",
+          "role": "空巣"
+        },
+        {
+          "hex": "#4C4A43",
+          "role": "巣の内側"
+        },
+        {
+          "hex": "#3159A7",
+          "role": "遠い燕"
+        }
+      ],
+      "colorReason": "泥巣の褐色を広くし、去る燕を小さな暗青で表す",
+      "subjectPrompt": "One dominant empty brown swallow mud nest with a broad uneven bowl rim and a dark off-center hollow. One much smaller deep blue fork-tailed swallow recedes above one side. The empty nest dominates. No eyes, eggs, twig carried by a bird or arrival eave scene. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "kou-45/completed.png",
+      "original": "kou-45/full.png",
+      "generationHash": "b17fed89f6d6a8021019ffc610daa2f50a36ee4e7d0cffa3d6aced59ecc67a43"
+    },
+    {
+      "id": "kou-46",
+      "name": "雷乃ち声を収む",
+      "sekkiId": "sekki-16",
+      "sekki": "秋分",
+      "season": "autumn",
+      "meaning": "雷が鳴らなくなる",
+      "relation": "雷の雲の切れ目が静かに閉じる",
+      "composition": "青い大きな雲の片側に、小さな淡青の雲片を寄せる",
+      "palette": [
+        {
+          "hex": "#3159A7",
+          "role": "雲"
+        },
+        {
+          "hex": "#B9D5DE",
+          "role": "雲の明るい面"
+        },
+        {
+          "hex": "#F5F3ED",
+          "role": "静かな切れ間"
+        }
+      ],
+      "colorReason": "青系の雲に静かな生成りの隙間を残す",
+      "subjectPrompt": "One dominant deep blue autumn cloud mass folds toward one much smaller pale blue cloud lobe, almost closing an irregular cream gap. Use uneven long curves and a quiet low silhouette. No lightning, yellow bolt, rain or repeated scalloped cloud icon. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-01",
+      "status": "succeeded",
+      "image": "kou-46/completed.png",
+      "original": "kou-46/full.png",
+      "generationHash": "9bd59d839903f65b6bf13e1ca67a835c5e4b22312fd325d9362f4bcebe143c58"
+    },
+    {
+      "id": "kou-47",
+      "name": "虫かくれて戸をふさぐ",
+      "sekkiId": "sekki-16",
+      "sekki": "秋分",
+      "season": "autumn",
+      "meaning": "虫が隠れて入口を塞ぐ",
+      "relation": "虫の穴を一枚の落葉がふさぐ",
+      "composition": "大きな黄褐色の落葉を低い土の入口へ重ねる",
+      "palette": [
+        {
+          "hex": "#E3BC45",
+          "role": "落葉"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "土"
+        },
+        {
+          "hex": "#4C4A43",
+          "role": "穴"
+        }
+      ],
+      "colorReason": "秋の落葉は黄土、土と穴は自然な褐色と暗色にする",
+      "subjectPrompt": "One dominant golden brown fallen leaf with unequal broad lobes covers a much smaller low brown insect burrow opening. A tiny charcoal hollow remains visible at one edge. Leaf and earth overlap closely. No visible insect, open tall arch, thin veins or red door frame. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "kou-47/completed.png",
+      "original": "kou-47/full.png",
+      "generationHash": "7329ccfc7f237143f6a5b9aed888256362789de6cb1b52893e577ecbda0ab490"
+    },
+    {
+      "id": "kou-48",
+      "name": "水始めて涸る",
+      "sekkiId": "sekki-16",
+      "sekki": "秋分",
+      "season": "autumn",
+      "meaning": "田の水が涸れ始める",
+      "relation": "田の水が引いて小さな水たまりが残る",
+      "composition": "大きな褐色の乾いた曲線の中へ、小さな青緑の水を置く",
+      "palette": [
+        {
+          "hex": "#B58A50",
+          "role": "乾き始めた土"
+        },
+        {
+          "hex": "#90B8B0",
+          "role": "残る水"
+        },
+        {
+          "hex": "#E3BC45",
+          "role": "土の明るい面"
+        }
+      ],
+      "colorReason": "乾く土の黄褐色と残った水の青緑を使う",
+      "subjectPrompt": "One dominant warm brown dried irrigation-channel bank curls around one much smaller muted teal residual pool. A single ochre folded bank plane may touch the pool. Shape one broad irregular dry gap, without repeated cracked-earth lines. No ice, fish or large flood. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-01",
+      "status": "succeeded",
+      "image": "kou-48/completed.png",
+      "original": "kou-48/full.png",
+      "generationHash": "e086464363aca2e02ff2486ff879b7c0946933f08ce57319aacc6b42c4733b03"
+    },
+    {
+      "id": "kou-49",
+      "name": "鴻雁来る",
+      "sekkiId": "sekki-17",
+      "sekki": "寒露",
+      "season": "autumn",
+      "meaning": "雁が渡ってくる",
+      "relation": "渡ってきた雁が水へ降りる",
+      "composition": "長い首の褐色の雁を下向きに傾け、小さな水紋を添える",
+      "palette": [
+        {
+          "hex": "#B58A50",
+          "role": "雁"
+        },
+        {
+          "hex": "#4C4A43",
+          "role": "翼"
+        },
+        {
+          "hex": "#90B8B0",
+          "role": "水紋"
+        }
+      ],
+      "colorReason": "雁の褐色と暗い翼、水面の青緑を使う",
+      "subjectPrompt": "One dominant natural brown goose lowers toward one much smaller muted teal water ripple. Its long curved neck, dark folded wing and broad belly make an uneven tilted silhouette. A short foot may approach the water. No eyes, red body, shore departure or multiple ripple rings. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "kou-49/completed.png",
+      "original": "kou-49/full.png",
+      "generationHash": "4918f76fd6d64d39910daf166b1433b6308a83868de2ec93379b7d4864ed8511"
+    },
+    {
+      "id": "kou-50",
+      "name": "菊花開く",
+      "sekkiId": "sekki-17",
+      "sekki": "寒露",
+      "season": "autumn",
+      "meaning": "菊が開花する",
+      "relation": "黄色い菊が大きく開く",
+      "composition": "不均等な長い花弁を一つの黄色い塊へまとめ、小葉を添える",
+      "palette": [
+        {
+          "hex": "#E3BC45",
+          "role": "菊"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "花の中心"
+        },
+        {
+          "hex": "#72804A",
+          "role": "葉"
+        }
+      ],
+      "colorReason": "秋の黄色い菊を主色にし、中心と葉は小さくする",
+      "subjectPrompt": "One dominant golden yellow chrysanthemum opens as one irregular mass of a few broad elongated petals. Unequal lengths and deep shallow alternating pinches break radial symmetry. One tiny ochre center and one much smaller olive leaf. No regular daisy wheel or many fine repeated petals. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-32",
+      "status": "succeeded",
+      "image": "kou-50/completed.png",
+      "original": "kou-50/full.png",
+      "generationHash": "ad753086d6e012dc462f4439b60d3fe5b89a24d1ac867d3376f8593d54438cf3"
+    },
+    {
+      "id": "kou-51",
+      "name": "蟋蟀戸にあり",
+      "sekkiId": "sekki-17",
+      "sekki": "寒露",
+      "season": "autumn",
+      "meaning": "戸の近くで秋の虫が鳴く",
+      "relation": "秋の戸口に小さな蟋蟀が寄る",
+      "composition": "大きな木の戸口の足元に丸い小さな蟋蟀を添える",
+      "palette": [
+        {
+          "hex": "#B58A50",
+          "role": "木の戸口"
+        },
+        {
+          "hex": "#72804A",
+          "role": "小さな蟋蟀"
+        },
+        {
+          "hex": "#4C493B",
+          "role": "戸口の陰"
+        }
+      ],
+      "colorReason": "温かな木の褐色を広く使い、蟋蟀は小さなオリーブ色の形に抑える",
+      "subjectPrompt": "A warm-brown wooden doorway corner and short threshold are the LARGE MAIN motif, made of two broad soft-edged solid planes with an olive shaded recess. Nestled at the foot is ONE VERY SMALL friendly abstract cricket silhouette, less than one quarter of the doorway height: a tiny rounded olive-brown bean body, a small head, one broad folded hind-leg wedge and at most two short simple legs. No antennae, no eyes, no hairs, no segmented abdomen, no thin spidery legs, no sharp claws, no anatomical detail, no realistic insect close-up. Calm welcoming warm-paper composition. The insect must be small and unobtrusive.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "../revision-12/kou-51/completed.png?v=0a0467227111",
+      "original": "../revision-12/kou-51/full.png?v=0a0467227111",
+      "generationHash": "0a04672271119fa4ba938ad7332d8cebd0280afe524ce036c92969d30eba6b3c",
+      "revisionReason": "ユーザーレビューによる対象12候だけの形と構図の見直し"
+    },
+    {
+      "id": "kou-52",
+      "name": "霜始めて降る",
+      "sekkiId": "sekki-18",
+      "sekki": "霜降",
+      "season": "autumn",
+      "meaning": "初霜が降りる",
+      "relation": "地面の草に初霜が置く",
+      "composition": "低い黄褐色の地面に太く短い白い霜の草束を置く",
+      "palette": [
+        {
+          "hex": "#B58A50",
+          "role": "落葉"
+        },
+        {
+          "hex": "#F5F3ED",
+          "role": "初霜"
+        },
+        {
+          "hex": "#B9D5DE",
+          "role": "冷たい陰"
+        }
+      ],
+      "colorReason": "生成りの初霜と淡青の冷たさを、黄褐色の地面へ重ねる",
+      "subjectPrompt": "A low warm-ochre uneven patch of ground supports one compact cluster of THREE unequal short broad grass blades coated in thick warm-ivory first frost. A small pale-blue shadow plane lies at the base. The frosted blades have chunky gently jagged edges, no tiny crystal lines. Main shape is a pale frost-covered low tuft, not a leaf lying flat. No maple, ivy, autumn leaf, snowflake diagram, decorative repeated crystals, tall stems or curling wind.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "../revision-12/kou-52/completed.png?v=47ea458515ff",
+      "original": "../revision-12/kou-52/full.png?v=47ea458515ff",
+      "generationHash": "47ea458515ffcf269a02b12a2c57fa46f0dea1ee06c6eebba9f493e928b01dd0",
+      "revisionReason": "ユーザーレビューによる対象12候だけの形と構図の見直し"
+    },
+    {
+      "id": "kou-53",
+      "name": "小雨ときどきふる",
+      "sekkiId": "sekki-18",
+      "sekki": "霜降",
+      "season": "autumn",
+      "meaning": "時折小雨が降る",
+      "relation": "小雨が静かな水面へ落ちる",
+      "composition": "大きな青緑の浅い水紋へ、小さな淡青の滴を一つ添える",
+      "palette": [
+        {
+          "hex": "#90B8B0",
+          "role": "水紋"
+        },
+        {
+          "hex": "#B9D5DE",
+          "role": "小雨"
+        },
+        {
+          "hex": "#3159A7",
+          "role": "水紋の折れ"
+        }
+      ],
+      "colorReason": "小雨の淡青と静かな水面の青緑を使う",
+      "subjectPrompt": "One dominant muted teal shallow oval ripple bends unevenly around a small open center. One much smaller pale blue raindrop falls toward its off-center edge. A tiny deep blue overlapping water plane is optional. No cloud, heavy rain columns or repeated concentric rings. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-01",
+      "status": "succeeded",
+      "image": "kou-53/completed.png",
+      "original": "kou-53/full.png",
+      "generationHash": "46593e53d8db321d3d10dd55a209345903dd2e40086d40c86816d1d88a230e38"
+    },
+    {
+      "id": "kou-54",
+      "name": "楓蔦黄ばむ",
+      "sekkiId": "sekki-18",
+      "sekki": "霜降",
+      "season": "autumn",
+      "meaning": "楓や蔦が色づく",
+      "relation": "楓の大葉が黄色くなり、蔦の葉が寄り添う",
+      "composition": "黄金色の大きな楓葉に、小さな自然なオリーブの蔦葉を重ねる",
+      "palette": [
+        {
+          "hex": "#E3BC45",
+          "role": "黄ばむ楓"
+        },
+        {
+          "hex": "#ED8B35",
+          "role": "黄葉の暖かい折れ"
+        },
+        {
+          "hex": "#72804A",
+          "role": "小さな蔦葉"
+        }
+      ],
+      "colorReason": "候名の黄ばむを優先し、楓の最大面積を黄金色にする。蔦は自然なオリーブにする",
+      "subjectPrompt": "One dominant golden yellow maple leaf with broad uneven rounded palmate lobes, long organic outer curves and alternating deep and shallow pinches. One much smaller natural olive ivy leaf nestles beside its lower edge. A small muted ochre orange overlap may warm one fold, but the maple must remain primarily golden YELLOW, never vermilion or red. Ivy is olive green, never blue. No tiny veins, twig or third leaf. Preserve the approved maple's large organic silhouette while correcting its color. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "kou-54/completed.png",
+      "original": "kou-54/full.png",
+      "generationHash": "1c9724a2067a896df76ff8a1a450b31efe9a655f11194947a135eae47485c687"
+    },
+    {
+      "id": "kou-55",
+      "name": "山茶始めて開く",
+      "sekkiId": "sekki-19",
+      "sekki": "立冬",
+      "season": "winter",
+      "meaning": "冬の入口に山茶の花が咲く",
+      "relation": "山茶花が冬の入口で開く",
+      "composition": "赤桃の大きな椀形の花に、小さな厚い緑の葉を添える",
+      "palette": [
+        {
+          "hex": "#D94B35",
+          "role": "山茶花"
+        },
+        {
+          "hex": "#E9B8B5",
+          "role": "花弁の明るい面"
+        },
+        {
+          "hex": "#72804A",
+          "role": "常緑葉"
+        }
+      ],
+      "colorReason": "山茶花の赤桃と常緑のオリーブを使う",
+      "subjectPrompt": "One dominant coral pink sasanqua camellia blossom tilts in side profile as a broad asymmetric cup. A pale pink folded petal overlaps its rim. One much smaller thick olive evergreen leaf supports one side. No regular frontal peach blossom, thin stamens or large yellow center. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-32",
+      "status": "succeeded",
+      "image": "kou-55/completed.png",
+      "original": "kou-55/full.png",
+      "generationHash": "18962586529ffa84e572716f6be0e93074ed5a7778cd231e67cdd3016c7c5119"
+    },
+    {
+      "id": "kou-56",
+      "name": "地始めて凍る",
+      "sekkiId": "sekki-19",
+      "sekki": "立冬",
+      "season": "winter",
+      "meaning": "地面が凍り始める",
+      "relation": "地面の割れ目が凍り始める",
+      "composition": "大きな褐色の土塊のくびれへ、小さな淡青の氷を入れる",
+      "palette": [
+        {
+          "hex": "#B58A50",
+          "role": "凍り始めた土"
+        },
+        {
+          "hex": "#B9D5DE",
+          "role": "氷"
+        },
+        {
+          "hex": "#3159A7",
+          "role": "冷たい割れ目"
+        }
+      ],
+      "colorReason": "褐色の地面と淡青の氷で凍土を表す",
+      "subjectPrompt": "One dominant warm brown frozen-earth clod splits at one deep off-center notch. One much smaller pale blue ice wedge enters that notch, with a tiny deep blue cold inset. Broad flat irregular planes. No water surface slab, snow, fish or repeated cracks. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-01",
+      "status": "succeeded",
+      "image": "kou-56/completed.png",
+      "original": "kou-56/full.png",
+      "generationHash": "892c50f2d79211e6a516cc10fdb967205ffb08cca352ba720a5d879f690e3114"
+    },
+    {
+      "id": "kou-57",
+      "name": "金盞香",
+      "sekkiId": "sekki-19",
+      "sekki": "立冬",
+      "season": "winter",
+      "meaning": "水仙が咲き香る",
+      "relation": "白い水仙が黄色い杯を開く",
+      "composition": "生成りの大きな花弁の塊へ、小さな黄色い杯を偏らせて置く",
+      "palette": [
+        {
+          "hex": "#F5F3ED",
+          "role": "水仙の花弁"
+        },
+        {
+          "hex": "#E3BC45",
+          "role": "黄色い杯"
+        },
+        {
+          "hex": "#72804A",
+          "role": "葉"
+        }
+      ],
+      "colorReason": "水仙の白い花弁と黄色い杯を正しく使う",
+      "subjectPrompt": "One dominant cream narcissus flower forms a few broad unequal petal lobes around one much smaller golden yellow cup set off center. One tiny olive strap leaf may lean below. Soft pinches and a tilted overlap, no mechanical six-point star. This is narcissus, never orange marigold. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-32",
+      "status": "succeeded",
+      "image": "kou-57/completed.png",
+      "original": "kou-57/full.png",
+      "generationHash": "f5ca87f3be8dd6ce061f94a0186965e7346992f247a43aa72f3a8503c78c06b9"
+    },
+    {
+      "id": "kou-58",
+      "name": "虹かくれて見えず",
+      "sekkiId": "sekki-20",
+      "sekki": "小雪",
+      "season": "winter",
+      "meaning": "冬に虹が見えなくなる",
+      "relation": "冬雲に虹が隠れていく",
+      "composition": "大きな灰青の雲が虹の弧をほとんど覆う",
+      "palette": [
+        {
+          "hex": "#667D94",
+          "role": "冬雲"
+        },
+        {
+          "hex": "#B9D5DE",
+          "role": "冷たい空気"
+        },
+        {
+          "hex": "#F1EBDD",
+          "role": "雪・光"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "大地"
+        },
+        {
+          "hex": "#E3BC45",
+          "role": "隠れる虹の黄色"
+        }
+      ],
+      "colorReason": "冬雲の青を広くし、虹の色は短い断片に限定する",
+      "subjectPrompt": "One large dense slate-pale-blue winter cloud with three broad unequal rounded lobes. One very small fragment of a muted gold and salmon rainbow arch is almost concealed BEHIND the lower left edge; only a short upside-down-U segment remains visible. The silhouette is a heavy broad cloud, not a curling breeze. No spiral, hook, pointed tail, wind ribbon, ice fragment or water drop. No fully visible rainbow.",
+      "referenceId": "kou-01",
+      "status": "succeeded",
+      "image": "../revision-12/kou-58/completed.png?v=79e518eb901c",
+      "original": "../revision-12/kou-58/full.png?v=79e518eb901c",
+      "generationHash": "79e518eb901ca33bdf4d4140090160fdd1ccb5f7d859857f1f4be8a72dea3eed",
+      "revisionReason": "ユーザーレビューによる対象12候だけの形と構図の見直し"
+    },
+    {
+      "id": "kou-59",
+      "name": "朔風葉を払う",
+      "sekkiId": "sekki-20",
+      "sekki": "小雪",
+      "season": "winter",
+      "meaning": "北風が木の葉を払う",
+      "relation": "北風が黄葉を枝から払う",
+      "composition": "斜めに流れる二枚の黄葉と小さな裸枝",
+      "palette": [
+        {
+          "hex": "#B9D5DE",
+          "role": "北風"
+        },
+        {
+          "hex": "#E3BC45",
+          "role": "落葉"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "裸枝"
+        }
+      ],
+      "colorReason": "北風は冷たい淡青、落葉は黄、裸枝は褐色にする",
+      "subjectPrompt": "Two broad irregular autumn leaves, one golden yellow and one warm ochre, tumble diagonally down to the right away from one much smaller bare twig at the upper left. One leaf is broad with a shallow uneven notch, the other slender and tilted, avoid maple lobes. Their offset tilted silhouettes convey a strong north wind WITHOUT drawing any wind glyph. No curl, spiral, blue wind shape, cloud, repeated tiny leaves or thin veins.",
+      "referenceId": "kou-01",
+      "status": "succeeded",
+      "image": "../revision-12/kou-59/completed.png?v=42518f54fe1d",
+      "original": "../revision-12/kou-59/full.png?v=42518f54fe1d",
+      "generationHash": "42518f54fe1db942fbacefae5d885434b331f937590d801024583b2cf1ca5cac",
+      "revisionReason": "ユーザーレビューによる対象12候だけの形と構図の見直し"
+    },
+    {
+      "id": "kou-60",
+      "name": "橘始めて黄ばむ",
+      "sekkiId": "sekki-20",
+      "sekki": "小雪",
+      "season": "winter",
+      "meaning": "橘の実が黄色くなる",
+      "relation": "橘の実が黄色く熟す",
+      "composition": "大きな黄色い一果へ、小さな厚いオリーブの葉を添える",
+      "palette": [
+        {
+          "hex": "#E3BC45",
+          "role": "黄ばむ橘"
+        },
+        {
+          "hex": "#ED8B35",
+          "role": "実の暖かい面"
+        },
+        {
+          "hex": "#72804A",
+          "role": "厚い葉"
+        }
+      ],
+      "colorReason": "候名どおり橘の黄色を主役にし、橙は小さな面に留める",
+      "subjectPrompt": "One dominant ripe golden YELLOW tachibana citrus fruit has a gently uneven rounded contour and a small warm orange folded plane. One much smaller thick olive leaf tucks close at its top. No red calyx, many fruit, plum cleft or evenly perfect circle. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-32",
+      "status": "succeeded",
+      "image": "kou-60/completed.png",
+      "original": "kou-60/full.png",
+      "generationHash": "757a62be0e18fb2e3c083a0cb59e95b6e0c8ca3febccc6693dc22bd9d5cc0aee"
+    },
+    {
+      "id": "kou-61",
+      "name": "閉塞冬となる",
+      "sekkiId": "sekki-21",
+      "sekki": "大雪",
+      "season": "winter",
+      "meaning": "空が塞がり冬になる",
+      "relation": "重い冬雲が山を閉ざす",
+      "composition": "平たい濃灰青の雲蓋を低い山にかぶせる",
+      "palette": [
+        {
+          "hex": "#667D94",
+          "role": "冬雲"
+        },
+        {
+          "hex": "#B9D5DE",
+          "role": "冷たい空気"
+        },
+        {
+          "hex": "#F1EBDD",
+          "role": "雪・光"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "大地"
+        }
+      ],
+      "colorReason": "重い冬空の青と山の褐色を使う",
+      "subjectPrompt": "A very wide LOW FLAT dark slate-blue overcast cloud lid, with an almost level top edge and a heavy slightly sagging bottom edge, presses down over a smaller angular ivory snow-covered hill with an ochre base. The cloud and hill overlap into one dense closed compact composition. Distinct flattened slab silhouette, NOT a fluffy rounded cloud and NOT a curved wind ribbon. No rainbow, hooks, curls, spirals, droplet or trees.",
+      "referenceId": "kou-01",
+      "status": "succeeded",
+      "image": "../revision-12/kou-61/completed.png?v=f10c21a04564",
+      "original": "../revision-12/kou-61/full.png?v=f10c21a04564",
+      "generationHash": "f10c21a045647d396754bc6996cbaa81555665e6c0c9583d18b7f77096999075",
+      "revisionReason": "ユーザーレビューによる対象12候だけの形と構図の見直し"
+    },
+    {
+      "id": "kou-62",
+      "name": "熊穴にこもる",
+      "sekkiId": "sekki-21",
+      "sekki": "大雪",
+      "season": "winter",
+      "meaning": "熊が穴で冬ごもりする",
+      "relation": "熊が穴の中で背を丸める",
+      "composition": "大きな濃褐色の熊の背へ、小さな土の穴の縁を添える",
+      "palette": [
+        {
+          "hex": "#4C4A43",
+          "role": "冬ごもりの熊"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "穴の縁"
+        },
+        {
+          "hex": "#E3BC45",
+          "role": "乾いた土"
+        }
+      ],
+      "colorReason": "熊の自然な暗褐色と穴の褐色を使う",
+      "subjectPrompt": "One dominant dark brown hibernating bear curls into a large uneven rounded back. One small round ear and a much smaller warm brown den lip imply a sheltered hollow. A tiny ochre earth plane is optional. No face, eyes, blue bear or literal circular enclosing border. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "kou-62/completed.png",
+      "original": "kou-62/full.png",
+      "generationHash": "dba57592f2e35a8cb67a40795d049eb33527f5492afaae4c2df47d614db27fb8"
+    },
+    {
+      "id": "kou-63",
+      "name": "さけの魚群がる",
+      "sekkiId": "sekki-21",
+      "sekki": "大雪",
+      "season": "winter",
+      "meaning": "鮭が群れをなす",
+      "relation": "鮭が流れに逆らって遡る",
+      "composition": "大きな灰青の鮭を上向きに曲げ、小さなもう一尾と流れを添える",
+      "palette": [
+        {
+          "hex": "#90B8B0",
+          "role": "鮭の銀灰色"
+        },
+        {
+          "hex": "#3159A7",
+          "role": "流れ"
+        },
+        {
+          "hex": "#D94B35",
+          "role": "鮭の婚姻色の小面"
+        }
+      ],
+      "colorReason": "鮭は灰青を主体にし、婚姻色の赤は小さな面に限定する",
+      "subjectPrompt": "One dominant silver teal salmon bends upward against one much smaller deep blue current tongue. One much smaller second salmon follows close behind. A small muted coral spawning-color plane may mark the dominant fish's flank. No eyes, scales, ice slab or three identical fish. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "kou-63/completed.png",
+      "original": "kou-63/full.png",
+      "generationHash": "10c8f4ce8a046c4c04d8c8c539ec8e7a88281fb5bfd8fca4dfc117ccfbeb7593"
+    },
+    {
+      "id": "kou-64",
+      "name": "乃東生ず",
+      "sekkiId": "sekki-22",
+      "sekki": "冬至",
+      "season": "winter",
+      "meaning": "うつぼぐさが芽を出す",
+      "relation": "うつぼぐさの根元で新芽が出る",
+      "composition": "地面に沿う大きな緑の葉のまとまりへ、小さな淡緑の芽を添える",
+      "palette": [
+        {
+          "hex": "#72804A",
+          "role": "越冬する葉"
+        },
+        {
+          "hex": "#90B8B0",
+          "role": "新芽"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "地面"
+        }
+      ],
+      "colorReason": "冬の緑葉と淡い新芽、褐色の土を使う",
+      "subjectPrompt": "One dominant low olive self-heal basal rosette is reduced to two broad unequal opposite leaf planes hugging the ground. One much smaller pale teal new shoot emerges at their off-center join above a tiny brown soil base. No red bud, dried flower spike or repeated leaf wheel. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-32",
+      "status": "succeeded",
+      "image": "kou-64/completed.png",
+      "original": "kou-64/full.png",
+      "generationHash": "62ca4ace32d2eb8fe935b0ad90f623da6440776504aec32e96092f600af997c9"
+    },
+    {
+      "id": "kou-65",
+      "name": "さわしかの角おつる",
+      "sekkiId": "sekki-22",
+      "sekki": "冬至",
+      "season": "winter",
+      "meaning": "鹿の角が落ちる",
+      "relation": "鹿の角が地面へ落ちる",
+      "composition": "黄褐色の太い枝角を横へ寝かせ、小さな地片を添える",
+      "palette": [
+        {
+          "hex": "#B58A50",
+          "role": "落ちた角"
+        },
+        {
+          "hex": "#E3BC45",
+          "role": "角の明るい面"
+        },
+        {
+          "hex": "#72804A",
+          "role": "地面の草"
+        }
+      ],
+      "colorReason": "鹿角の自然な黄褐色と草の緑を使う",
+      "subjectPrompt": "One dominant shed deer antler lies diagonally low, its broad warm brown main curve splitting into two or three unequal blunt organic tines. One much smaller olive ground patch supports one tip. A small ochre antler plane is optional. No deer head, eyes or thin branching tree. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "kou-65/completed.png",
+      "original": "kou-65/full.png",
+      "generationHash": "19d843998ff6b0e48e5dc7c7774ac355e1d7fa65d0e14adf8fefb4cc570d7d48"
+    },
+    {
+      "id": "kou-66",
+      "name": "雪下りて麦のびる",
+      "sekkiId": "sekki-22",
+      "sekki": "冬至",
+      "season": "winter",
+      "meaning": "雪の下で麦が伸びる",
+      "relation": "雪の下から麦の若葉が開き始める",
+      "composition": "丸い雪の隙間から短く幅のある緑の若葉が開く",
+      "palette": [
+        {
+          "hex": "#90B8B0",
+          "role": "麦の新芽"
+        },
+        {
+          "hex": "#72804A",
+          "role": "芽の濃色"
+        },
+        {
+          "hex": "#F5F3ED",
+          "role": "雪"
+        }
+      ],
+      "colorReason": "麦の新緑と雪の白を使い、成長の関係を表す",
+      "subjectPrompt": "A compact young WHEAT SEEDLING emerging from a low irregular warm-ivory cushion of snow. Two short broad fresh teal-green lance-shaped juvenile leaves unfold close to the ground in a squat open V, with a tiny darker olive emerging central leaf. Leaves are thick rounded folded planes with visible width and curved tips, not long narrow stalks. Their height above the snow is only about the snow cushion width. No visible stem, no long stalk, no reed, no grass-like tall narrow blade, no branch, no flowers or grain head. Emphasize the small tender sprout opening under the snow.",
+      "referenceId": "kou-32",
+      "status": "succeeded",
+      "image": "../revision-12/kou-66/completed.png?v=272427a3cb74",
+      "original": "../revision-12/kou-66/full.png?v=272427a3cb74",
+      "generationHash": "272427a3cb748d33dee92a1cebfc94e0b8ee49f5104cb87f51492804fe4b38af",
+      "revisionReason": "ユーザーレビューによる対象12候だけの形と構図の見直し"
+    },
+    {
+      "id": "kou-67",
+      "name": "芹乃ち栄う",
+      "sekkiId": "sekki-23",
+      "sekki": "小寒",
+      "season": "winter",
+      "meaning": "芹が茂る",
+      "relation": "冷たい流れの中で芹が茂る",
+      "composition": "丸みのある緑の芹葉を大きくまとめ、小さな流水を添える",
+      "palette": [
+        {
+          "hex": "#72804A",
+          "role": "芹の葉"
+        },
+        {
+          "hex": "#90B8B0",
+          "role": "若い葉"
+        },
+        {
+          "hex": "#3159A7",
+          "role": "流れ"
+        }
+      ],
+      "colorReason": "芹の自然な緑と冬の水の青を使う",
+      "subjectPrompt": "One dominant olive water-dropwort sprig grows as two unequal broad paired rounded leaf masses on one short thick petiole. One much smaller deep blue stream curve touches its base. A small pale teal new leaf plane is optional. No reed spear, thin leaf veins or many identical round leaves. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-32",
+      "status": "succeeded",
+      "image": "kou-67/completed.png",
+      "original": "kou-67/full.png",
+      "generationHash": "b6d90b302f6e165d9da98991658fa2c0361d98b8e3262581e3e6bc11052dc03a"
+    },
+    {
+      "id": "kou-68",
+      "name": "水泉動",
+      "sekkiId": "sekki-23",
+      "sekki": "小寒",
+      "season": "winter",
+      "meaning": "地中の泉が動き始める",
+      "relation": "地面の泉が内側から動き始める",
+      "composition": "岩に囲まれた低い楕円の水面と中央の小さな湧き口",
+      "palette": [
+        {
+          "hex": "#90B8B0",
+          "role": "湧く水"
+        },
+        {
+          "hex": "#3159A7",
+          "role": "水の折れ"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "岩"
+        }
+      ],
+      "colorReason": "泉の水を青緑と深青、岩を自然な褐色にする",
+      "subjectPrompt": "A broad low irregular oval pool of deep blue spring water nestled within a thick asymmetrical pale-ochre stone rim. In the middle, one small upright rounded pale-teal mound of upwelling water quietly rises, without splash. Top-down oblique view, wide bowl-like outline, flat solid planes. The main silhouette is an enclosed oval basin. No S curves, curved tongue, stream ribbon, wind glyph, spirals, hook or separate raindrop.",
+      "referenceId": "kou-01",
+      "status": "succeeded",
+      "image": "../revision-12/kou-68/completed.png?v=def182b094aa",
+      "original": "../revision-12/kou-68/full.png?v=def182b094aa",
+      "generationHash": "def182b094aad7d32f52fe22f4dfc4e1f67b558de788869421ff6dc94beeaef3",
+      "revisionReason": "ユーザーレビューによる対象12候だけの形と構図の見直し"
+    },
+    {
+      "id": "kou-69",
+      "name": "雉始めてなく",
+      "sekkiId": "sekki-23",
+      "sekki": "小寒",
+      "season": "winter",
+      "meaning": "雉が鳴き始める",
+      "relation": "長い尾の雄雉が地上で鳴き始める",
+      "composition": "細い首と小さな頭、体より長い尾をもつ雄雉",
+      "palette": [
+        {
+          "hex": "#72804A",
+          "role": "雉の胸"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "長い尾"
+        },
+        {
+          "hex": "#D94B35",
+          "role": "首の小さな色面"
+        }
+      ],
+      "colorReason": "雉の緑の胸と褐色の長尾、赤は首の小面だけにする",
+      "subjectPrompt": "One recognisable male Japanese green pheasant standing in SIDE PROFILE on two short sturdy legs. Small head, visibly slender upright neck, elongated horizontal dark-olive body, a small vermilion cheek/neck color patch without eye or facial detail, and an unmistakably VERY LONG narrow copper-brown tapering tail extending diagonally behind it, at least 1.5 times body length. A broad asymmetric dark wing plane. Keep head small, breast slender, tail long. Absolutely not a dove, pigeon, round songbird, duck or chicken. No eyes, pupils, beak expression, thin feather lines or repeated feather texture.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "../revision-12/kou-69/completed.png?v=3efde0911dc8",
+      "original": "../revision-12/kou-69/full.png?v=3efde0911dc8",
+      "generationHash": "3efde0911dc8e3727579e3dff18c0b9b66b5da1c4935918c400bd2bf9d4587e4",
+      "revisionReason": "ユーザーレビューによる対象12候だけの形と構図の見直し"
+    },
+    {
+      "id": "kou-70",
+      "name": "款冬華く",
+      "sekkiId": "sekki-24",
+      "sekki": "大寒",
+      "season": "winter",
+      "meaning": "ふきのとうが顔を出す",
+      "relation": "ふきのとうが包葉を開いて顔を出す",
+      "composition": "淡緑の大きな包葉を不均等に重ね、小さな黄色い花塊を添える",
+      "palette": [
+        {
+          "hex": "#90B8B0",
+          "role": "ふきのとうの若い包葉"
+        },
+        {
+          "hex": "#72804A",
+          "role": "外側の包葉"
+        },
+        {
+          "hex": "#E3BC45",
+          "role": "小さな花塊"
+        }
+      ],
+      "colorReason": "ふきのとうの淡緑とくすんだ緑、小さな黄の花を使う",
+      "subjectPrompt": "One dominant pale teal butterbur shoot opens three broad unequal rounded bracts with deeper olive overlaps. One much smaller pale golden flower cluster sits low in an off-center fold. No segmented bamboo sheath, thin florets, red bud or symmetrical lotus arrangement. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-32",
+      "status": "succeeded",
+      "image": "kou-70/completed.png",
+      "original": "kou-70/full.png",
+      "generationHash": "02c3e30d19c0800439903d003db2560855aa09114ea71063dc9f401a4d802f5a"
+    },
+    {
+      "id": "kou-71",
+      "name": "水沢氷つめる",
+      "sekkiId": "sekki-24",
+      "sekki": "大寒",
+      "season": "winter",
+      "meaning": "沢の水が厚く凍る",
+      "relation": "沢の水を厚い氷がふさぐ",
+      "composition": "淡青の大きな氷板に、小さな褐色の岸と水片を添える",
+      "palette": [
+        {
+          "hex": "#B9D5DE",
+          "role": "厚い氷"
+        },
+        {
+          "hex": "#3159A7",
+          "role": "沢の水"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "岸"
+        }
+      ],
+      "colorReason": "凍った沢の淡青と深青、岸の褐色を使う",
+      "subjectPrompt": "One dominant broad pale blue ice slab bridges a narrow deep blue stream. One much smaller warm brown bank shoulder touches one side. Shape the ice as a long uneven plate with shallow and deep pinches. No fish, dripping thaw, snow cap or frozen-soil crack. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-01",
+      "status": "succeeded",
+      "image": "kou-71/completed.png",
+      "original": "kou-71/full.png",
+      "generationHash": "0066a4e1dd68260a623ce7bcbfad57081cf8bc9504fcc9c926be61227b7eef82"
+    },
+    {
+      "id": "kou-72",
+      "name": "鶏始めてとやにつく",
+      "sekkiId": "sekki-24",
+      "sekki": "大寒",
+      "season": "winter",
+      "meaning": "鶏が産卵のため小屋に入る",
+      "relation": "鶏が産卵のため小屋へ入る",
+      "composition": "生成りの大きな鶏の横姿へ、小さな卵と戸口を添える",
+      "palette": [
+        {
+          "hex": "#F5F3ED",
+          "role": "鶏と卵"
+        },
+        {
+          "hex": "#D94B35",
+          "role": "小さな鶏冠"
+        },
+        {
+          "hex": "#B58A50",
+          "role": "小屋の戸口"
+        }
+      ],
+      "colorReason": "鶏と卵は生成り、鶏冠だけを朱、木の小屋は褐色にする",
+      "subjectPrompt": "One dominant cream hen curves its broad body toward one much smaller warm brown coop doorway corner. A single small cream egg sits near the opening, and a tiny coral comb identifies the hen. No face, eyes, feather details or molting scene. The bird dominates the doorway. Render one complete isolated static cut-paper and screenprint illustration with a few large opaque color planes. Use one dominant motif and at most one or two much smaller auxiliary motifs. Express contours with long curves, unequal swellings, and alternating shallow and deep pinches. Asymmetric tilted composition, overlapping broad shapes, restrained print mottling inside color planes only. Keep every motif fully visible with generous clear margins on all sides. No faces, eyes, outlines, gradients, shadows, thin veins, small decorative details, mechanical repetition, labels, letters, frames or background scenery. Color meaning takes priority over copying a reference palette.",
+      "referenceId": "kou-54",
+      "status": "succeeded",
+      "image": "kou-72/completed.png",
+      "original": "kou-72/full.png",
+      "generationHash": "5e054c32b1e5c1f2975159fafdff7fe145d187b8e70dbf77939753055f564b78"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "kou-56",
+  "hash": "07946fb787dd52ef283a3aef1cd4056d3fc61debc4731ba16312658fc7d365d0",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-56/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-10/kou-56/reference.png",
+  "reference_sha256": "3625dff917930426992a07e096f222cf374d8e0d9ca31814c5dfad9ad9ba4475",
+  "prompt": "Use case: precise-object-edit. Make a COLOR-ONLY variant of the attached finished Japanese seasonal cut-paper illustration. Keep the exact subject, composition, contour, proportions, pose, number of parts, overlaps, size and position of EVERY shape. Do not redraw, redesign, simplify, add, remove or move any part. Change ONLY the large ochre-brown EARTH shape only, preserving the small pale-blue ice wedge to saturated #F04420. This single intentionally unnatural strong color echoes bold Japanese screen-print vermilion, cobalt and orange. Keep every OTHER color exactly as in the attached image, including their muted tones. Preserve existing restrained print mottling and organic cut-paper edges. Use one newly introduced accent hue only, with slight existing ink mottling, no additional accent colors. Keep all artwork complete in the same central area with ample clean margins. Render on solid chromakey magenta #FF00FF background so it can be removed. Magenta must appear ONLY in the background. No shadows, gradients, outlines, faces, eyes, writing or new decorative marks. Output square1024. The only intended difference is the specified color substitution.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T12:04:26.009205+00:00",
+  "image_sha256": "42f81b4e949caa3a0eafa00b3ba922be492303f87d9431f0b0292a83094c3d1c",
+  "completed_sha256": "503fe48fa6e5912130211737a1262cbd028afdd777025e094a93fb47c289e42b",
+  "cutout_sha256": "4e8bd07cead2e04e1224257c1e32497801e9f8914fba97ef2b1c4363e8c75f05"
+}

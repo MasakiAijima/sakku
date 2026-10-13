@@ -1,0 +1,23 @@
+{
+  "id": "kou-51",
+  "hash": "06cb11df85606d915802b0f888607da6e19dff15585ec844f5206366bba12619",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/revision-12/kou-51/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-51/reference.png",
+  "reference_sha256": "344e53ac5d4a8a612d6cc3802352eb1058340bf35d746c49b5a5ae3cbcd67814",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the VERY SMALL olive CRICKET at the bottom of the warm-brown doorway only; preserve brown doorway and dark recess to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:06:56.858361+00:00",
+  "image_sha256": "df80b5ef0dea28b0915c43dd4e4ca984561d4730d262dae2ba38de442b48f448",
+  "completed_sha256": "e9778fcb754fc57e69a0931e9ab67d6d9630e5eed409e5d7d317c9ab06864244",
+  "cutout_sha256": "81bec2f52fbd38f2ef26b81c15c7976b51deb720aac755c75bbf68c0cfbf00e6"
+}

@@ -1,0 +1,70 @@
+{
+  "kouId": "kou-57",
+  "algorithmVersion": "organic-growth-48-v2",
+  "inputFingerprint": "992e57f6d2016ee87c1d78119db73db416acb38569464f1bb0dc4c6e4a3ccc41",
+  "assetVersion": "c-v2",
+  "promptVersion": "sha256:22ca9698ed7f9185d5ee46cc6bdf92df0a41563a0ff1f536fc3d67b578f19ec2",
+  "processedAtUTC": "2026-10-13T13:42:07.900084+00:00",
+  "provider": "openai",
+  "generation": {
+    "id": "kou-57",
+    "hash": "5475760dfa48b7b22f2d323f13c3c30640dd2c5f925c539c605183a880286213",
+    "reference_sha256": "71a79ac1e1677ddf76e86a059f4ed0c833cc0a86d787c93d5cce79ba16abe9c7",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small olive LEAF under the large ivory narcissus petals only; preserve ivory flower and golden cup to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T13:09:49.726997+00:00",
+    "completed_sha256": "41d68058a6c06a9f87cc166e902d76731e77b852b94d15dbeec7a18d29c2f59c"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 307.655,
+      "y": 328.159,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      115,
+      103,
+      397,
+      409
+    ],
+    "precursorBounds": [
+      223,
+      321,
+      386,
+      409
+    ]
+  },
+  "sourceHashes": {
+    "C": "41d68058a6c06a9f87cc166e902d76731e77b852b94d15dbeec7a18d29c2f59c",
+    "Cprime": "e5c69dbc479db9da00bfb6ddd5fe8b6f753a0e7b94d86912176f80d5a5aaf5b1",
+    "generation": "8c966b60ac904ef6c27ec14c389448d27e2bc3c35aaf2bbcb63506c08dbb30ce"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small olive LEAF under the large ivory narcissus petals only; preserve ivory flower and golden cup to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T13:09:49.726997+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

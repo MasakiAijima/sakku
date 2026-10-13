@@ -1,0 +1,64 @@
+{
+  "fingerprint": "cbcf687eb5275a2f03b8d23a34dd285b34e5bbfffd97b1e889a694ba70805df1",
+  "asset": {
+    "kouId": "kou-55",
+    "name": "山茶始めて開く",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 162.003,
+      "y": 334.071,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      117,
+      103,
+      395,
+      409
+    ],
+    "precursorBounds": [
+      245,
+      269,
+      395,
+      409
+    ],
+    "motionBounds": {
+      "x": 117,
+      "y": 103,
+      "width": 278,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        320.0,
+        339.0
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-55/initial.png",
+    "completed": "kou-55/completed.png",
+    "transition": "kou-55/transition.webp",
+    "idle": "kou-55/idle.png",
+    "provenance": "kou-55/provenance.json",
+    "hashes": {
+      "initial": "fd0d2384ef377bb901c35c3fb73bcc8628222497e7981d2a2dee2bd5d2f76597",
+      "completed": "58d5c8f5ad6647db0721c5b5b088bc361e5b53b9bf98c709cc0fb7999faa333b",
+      "transition": "a40f8e8a6084f44e6bec5c528fd66e5f015e3ae864059bd14ccfd8fb4220c022",
+      "idle": "58d5c8f5ad6647db0721c5b5b088bc361e5b53b9bf98c709cc0fb7999faa333b",
+      "provenance": "734fe12499a6cc995e8dd49a8ecd78e103afcaca2414e797160098b319c48b3c"
+    }
+  }
+}

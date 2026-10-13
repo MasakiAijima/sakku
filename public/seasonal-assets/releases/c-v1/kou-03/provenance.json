@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-03",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "479ef49c2d93a37107db07599dfce2a75f34d3b6801d277ea1745766f377c7e1",
+  "generation": {
+    "id": "kou-03",
+    "hash": "4e72a62914b056cf405439c4939cd3d38e226fe41c3ffe6d569993a6c8991ee2",
+    "reference_sha256": "7a72aa1c6d8e2e389c55ca5fb26646eb9ddea80020d17a85015a6c98a04d78aa",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small pale-teal WATER PLANE under the blue fish only; preserve blue fish and pale-blue ice to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T12:45:24.829154+00:00",
+    "completed_sha256": "765c00a27a0bf2c907246bb8973b54f8126150b5dc5cd69c2d03ac386818a855"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 410.808,
+      "y": 156.573,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      158,
+      409,
+      354
+    ],
+    "precursorBounds": [
+      103,
+      282,
+      306,
+      354
+    ]
+  },
+  "sourceHashes": {
+    "C": "765c00a27a0bf2c907246bb8973b54f8126150b5dc5cd69c2d03ac386818a855",
+    "Cprime": "5739f82e59961c64be3db1abfd74a0c2676708c2c9125daaceb1518b0d456cd9",
+    "generation": "f6e49cea8e3891df85cd724600516749a37699b43f2daf090af70e57a4a27f99"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small pale-teal WATER PLANE under the blue fish only; preserve blue fish and pale-blue ice to saturated #E73E73. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T12:45:24.829154+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

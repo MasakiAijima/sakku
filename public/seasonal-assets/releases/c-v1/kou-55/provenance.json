@@ -1,0 +1,66 @@
+{
+  "kouId": "kou-55",
+  "algorithmVersion": "organic-growth-48-v1",
+  "inputFingerprint": "fe94554794316bd3225999f78fbe32e5f1318fffab8462e1386d648e324811cc",
+  "generation": {
+    "id": "kou-55",
+    "hash": "fc4b68ba51fa830c31cab562c602c73d30c455ddf1aea3cea820749538411105",
+    "reference_sha256": "e418537e17f00d2a7fe21110cb55bcf2050e7951c3c75056a6d2440daa0de89e",
+    "conditions": {
+      "model": "gpt-image-2",
+      "size": "1024x1024",
+      "quality": "high",
+      "background": "opaque",
+      "output_format": "png",
+      "n": 1
+    },
+    "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small olive EVERGREEN LEAF below the broad red-and-pink camellia only; preserve red and pink petals to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+    "attempted_at": "2026-10-12T13:08:28.875712+00:00",
+    "completed_sha256": "58d5c8f5ad6647db0721c5b5b088bc361e5b53b9bf98c709cc0fb7999faa333b"
+  },
+  "sourceGeometry": {
+    "placement": {
+      "x": 162.003,
+      "y": 334.071,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      117,
+      103,
+      395,
+      409
+    ],
+    "precursorBounds": [
+      245,
+      269,
+      395,
+      409
+    ]
+  },
+  "sourceHashes": {
+    "C": "58d5c8f5ad6647db0721c5b5b088bc361e5b53b9bf98c709cc0fb7999faa333b",
+    "Cprime": "fd0d2384ef377bb901c35c3fb73bcc8628222497e7981d2a2dee2bd5d2f76597",
+    "generation": "cc6dbd8ec0a9280bf946dfc7405631efdd7d123f4d575b1380799277c8d43811"
+  },
+  "model": "gpt-image-2",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small olive EVERGREEN LEAF below the broad red-and-pink camellia only; preserve red and pink petals to saturated #155DD8. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "generatedAt": "2026-10-12T13:08:28.875712+00:00",
+  "actualCost": null,
+  "license": {
+    "reference": "user-provided reference artwork",
+    "rightsReview": "user approved C and Cprime; reference ownership not independently verified"
+  },
+  "alphaComparison": "Endpoint visible RGBA and alpha exact; RGB under fully transparent pixels is immaterial"
+}

@@ -1,0 +1,64 @@
+{
+  "fingerprint": "55f10935783b872d481d0ae696c6ccf4f1c82bbbad591d2471179111b4cd7c22",
+  "asset": {
+    "kouId": "kou-58",
+    "name": "虹かくれて見えず",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 197.686,
+      "y": 290.45,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      103,
+      126,
+      409,
+      386
+    ],
+    "precursorBounds": [
+      116,
+      324,
+      176,
+      367
+    ],
+    "motionBounds": {
+      "x": 103,
+      "y": 126,
+      "width": 306,
+      "height": 260
+    },
+    "animation": {
+      "seed": [
+        146.0,
+        345.5
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-58/initial.png",
+    "completed": "kou-58/completed.png",
+    "transition": "kou-58/transition.webp",
+    "idle": "kou-58/idle.png",
+    "provenance": "kou-58/provenance.json",
+    "hashes": {
+      "initial": "395e971ab5c345bea0327fc5ef32e01178c2399248eb104a3fc94daba2452103",
+      "completed": "e19b5cfc65d9a9fa7df9a6226eea9b7a89d7281c462010339bf85a4845f22123",
+      "transition": "2923c54b5343262ad58cf51490e1b6bfb5ceb615c91098db31a43bdffc29804c",
+      "idle": "e19b5cfc65d9a9fa7df9a6226eea9b7a89d7281c462010339bf85a4845f22123",
+      "provenance": "5aa4f71dadbb7f58135bff0e9f3de41032ac64637f72947feed3ac227ddbf017"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "fingerprint": "5c1a81e5099add251e69f18c81a72a741af6dbe135aadb2fd47318590a9e58b4",
+  "asset": {
+    "kouId": "kou-51",
+    "name": "蟋蟀戸にあり",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 110.694,
+      "y": 414.312,
+      "visibleCenter": [
+        256.0,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      138,
+      103,
+      374,
+      409
+    ],
+    "precursorBounds": [
+      229,
+      329,
+      260,
+      352
+    ],
+    "motionBounds": {
+      "x": 138,
+      "y": 103,
+      "width": 236,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        244.5,
+        340.5
+      ],
+      "durationMs": 720,
+      "frames": 7,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-51/initial.png",
+    "completed": "kou-51/completed.png",
+    "transition": "kou-51/transition.webp",
+    "idle": "kou-51/idle.png",
+    "provenance": "kou-51/provenance.json",
+    "hashes": {
+      "initial": "b75d6a2d7c840d7860fafaae1ea330104f8d3df74c83af7abd44838ced082951",
+      "completed": "e9778fcb754fc57e69a0931e9ab67d6d9630e5eed409e5d7d317c9ab06864244",
+      "transition": "f9b102305347bb2e32e458f9d39df41397d58960f06af14259e5b985fd3aa0d4",
+      "idle": "e9778fcb754fc57e69a0931e9ab67d6d9630e5eed409e5d7d317c9ab06864244",
+      "provenance": "abb4f8085e8751e418fd01a27050ed0f8008972d64faeabc0094d37c17665f3c"
+    }
+  }
+}

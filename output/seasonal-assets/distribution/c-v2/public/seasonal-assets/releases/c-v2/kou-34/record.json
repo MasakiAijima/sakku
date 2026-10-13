@@ -1,0 +1,64 @@
+{
+  "fingerprint": "a9e2cf2d6351b7b3d692e9276e8ef35867547531a01cdeb8e9ffa361cd774293",
+  "asset": {
+    "kouId": "kou-34",
+    "name": "桐始めて花を結ぶ",
+    "width": 512,
+    "height": 512,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "placement": {
+      "x": 372.428,
+      "y": 453.645,
+      "visibleCenter": [
+        255.5,
+        256.0
+      ],
+      "visibleLongEdge": 306
+    },
+    "visibleBounds": [
+      165,
+      103,
+      346,
+      409
+    ],
+    "precursorBounds": [
+      174,
+      113,
+      346,
+      329
+    ],
+    "motionBounds": {
+      "x": 165,
+      "y": 103,
+      "width": 181,
+      "height": 306
+    },
+    "animation": {
+      "seed": [
+        260.0,
+        221.0
+      ],
+      "durationMs": 720,
+      "frames": 6,
+      "loop": false,
+      "idle": "static"
+    },
+    "initial": "kou-34/initial.png",
+    "completed": "kou-34/completed.png",
+    "transition": "kou-34/transition.webp",
+    "idle": "kou-34/idle.png",
+    "provenance": "kou-34/provenance.json",
+    "hashes": {
+      "initial": "5750e16f5d081828e46275d7a6c3bcae2f50e3095079e7352b4a35b59d490799",
+      "completed": "9ac6895e802626b20ebaa8beb8c4382c490eb314cc5270261d0c565288cd9c06",
+      "transition": "00d0960eb33ed837d56dfbd18326f96d55c134eedd011c841886f9f162645ec8",
+      "idle": "9ac6895e802626b20ebaa8beb8c4382c490eb314cc5270261d0c565288cd9c06",
+      "provenance": "44a3da3c41555de4e209c73700fea8426718d2939475c4c194d76560a3370582"
+    }
+  }
+}

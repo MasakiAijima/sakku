@@ -1,0 +1,23 @@
+{
+  "id": "kou-44",
+  "hash": "26b148ea381f1da2ce842a9534cb0ca1740d661addc3832953e20d1a9cd989d2",
+  "source_path": "/Users/aijimamasaki/Documents/Codex/sakku/public/seasonal-assets/poc-v3/kou-44/completed.png",
+  "reference_path": "/Users/aijimamasaki/Documents/Codex/sakku/output/seasonal-assets/color-study-c72/kou-44/reference.png",
+  "reference_sha256": "90730a421fc3f82fdfc9ebd0d8955a385b9c2dc70dc4da9a5fa66651b79574b3",
+  "prompt": "Use case: precise-object-edit. COLOR SUBSTITUTION ONLY on the attached finished Japanese microseason illustration. Preserve exactly the original composition, silhouettes, organic contours, size, position, posture, overlaps, part count and restrained print mottling. Do not add, remove, move, stretch or redesign anything. Change ONLY the small ochre STONE beneath the gray-and-ivory wagtail only; preserve bird and both bird colors to saturated #F48708. Leave the LARGE MAIN color and SECONDARY color exactly as in the input. All other small colors are unchanged. This is one SMALL EXISTING auxiliary color field recolored to one accent hue, not a new part or decoration. Preserve its existing small area. Never spread the accent onto the main motif. Keep every element complete and centered with ample margin. Solid #FF00FF chromakey background ONLY behind the artwork. No magenta in subject, no shadows, gradients, outlines, text, faces, eyes, or new marks. Output square1024.",
+  "conditions": {
+    "model": "gpt-image-2",
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "opaque",
+    "output_format": "png",
+    "n": 1
+  },
+  "budgetPolicy": "User explicitly waived the previous budget for these requested color studies.",
+  "actual_cost_jpy": null,
+  "status": "succeeded",
+  "attempted_at": "2026-10-12T13:03:54.454530+00:00",
+  "image_sha256": "a6be0375db76cf287667a0fa2c51c537d12b6bb73ef385ff7e965c903c469953",
+  "completed_sha256": "e72318f303e98ccc56d64d6065fcf462ff2f67db29071ce2df2e99b15bd49684",
+  "cutout_sha256": "d0fb97a7e3f85292525f8a9f3e77706b239de6dc7d16f4441b46db9f2b9ac2f0"
+}
