@@ -1,4 +1,5 @@
 # Dependencies
+node_modules
 node_modules/
 
 # Environment files and local secrets
@@ -37,3 +38,10 @@ coverage/
 
 # TypeScript incremental cache
 *.tsbuildinfo
+
+# Python and seasonal processing state
+__pycache__/
+*.py[cod]
+output/seasonal-assets/.generation.lock
+public/seasonal-assets/releases/.*.package.lock
+public/seasonal-assets/.release-operation.lock/
