@@ -17,10 +17,20 @@ async function open(now,{language='日本語',reducedMotion='reduce',unavailable
  page.on('pageerror',error=>errors.push(error.message));
  page.on('request',request=>{if(/\/api\/.*(?:haiku|generat)/i.test(request.url()))generationRequests.push(request.url());});
  await page.clock.install({time:new Date(now)});await page.clock.pauseAt(new Date(now+1));
+ let records=[];
  await page.route('**/api/**',route=>{
   const path=new URL(route.request().url()).pathname;
   if(path==='/api/settings')return route.fulfill({json:{settings:{name:'',style:'自由詩に近いHaiku',expression:'',appLanguage:language}}});
-  if(path==='/api/records')return route.fulfill({json:{records:[]}});
+  if(path==='/api/haiku/translate')return route.fulfill({json:{translation:{title:'雨',lines:['窓に雨','手の中のカップ','静かな部屋'],keyTerms:[],nuance:'情景の翻訳'}}});
+  if(path==='/api/haiku')return route.fulfill({json:{jobId:'00000000-0000-4000-8000-000000000003',candidates:Array.from({length:3},(_,i)=>({title:'Candidate '+i,lines:['rain at the window','a cup warms my hands','the room is quiet']}))}});
+  if(path==='/api/records'){
+   if(route.request().method()==='POST'){
+    const input=route.request().postDataJSON();
+    const record={id:'00000000-0000-4000-8000-000000000001',record_date:input.recordDate,scene_text:input.sceneText,haiku_text:input.haikuText,event_text:input.eventText,emotion_text:input.emotionText,status:input.status,revision:1};
+    records=[record];return route.fulfill({json:{record}});
+   }
+   return route.fulfill({json:{records}});
+  }
   return route.continue();
  });
  await page.goto(base);
@@ -113,7 +123,58 @@ try{
  await animated.evaluate(()=>{window.__seasonalMutations=0;const observer=new MutationObserver(records=>{window.__seasonalMutations+=records.length;});observer.observe(document.querySelector('.orbit-svg'),{subtree:true,attributes:true,childList:true});});
  await animated.clock.fastForward(1000);
  assert.equal(await animated.evaluate(()=>window.__seasonalMutations),0,'Static idle must leave SVG unchanged');
+ assert.deepEqual(generationRequests,[],'Home must never call haiku/image generation');
+ await animated.locator('nav [data-go=edit]').click();
+ await animated.locator('#scene').fill('窓に雨音がする。カップを両手で持っている。');
+ await animated.locator('#to-result').click();
+ await animated.locator('[data-candidate="0"]').click();
+ await animated.locator('#save').click();
+ await animated.locator('#edit-record').waitFor();
+ assert.deepEqual(generationRequests.map(url=>new URL(url).pathname),['/api/haiku','/api/haiku/translate'],'Only explicit record actions call fixture generation APIs');
+ await animated.locator('nav [data-go=home]').click();
+ await countFull(animated,12);
+ await animated.clock.fastForward(1000);
+ assert.equal(await animated.locator('[data-phase=growing]').count(),0,'Saving a haiku must not replay seasonal growth');
+ assert.equal(await animated.locator('.orbit-svg').getAttribute('data-state'),'complete');
  await animated.close();
- assert.deepEqual(generationRequests,[],'Home must never call haiku/image generation');assert.deepEqual(errors,[]);
- console.log('PASS seasonal home: real C/Cprime frames,0/12/42/72,anchors,selection,keyboard,language,responsive,text200%,visibility,rollover,resume,missing year,organic stagger,no generation');
+ const overlapping=await open(instant(24),{reducedMotion:'no-preference'});
+ await overlapping.evaluate(async()=>{
+  const {mountSeasonalArt}=await import('/seasonal-assets/seasonal-art-runtime.js');
+  const manifest=await(await fetch('/seasonal-assets/releases/c-v2/manifest.json')).json();
+  const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.id='growth-limit-probe';document.body.append(svg);
+  const controller=mountSeasonalArt({svg,manifest,assetBase:new URL('/seasonal-assets/releases/c-v2/',location.href).href,onSelect:()=>{}});
+  await controller.ready;
+  const state=count=>({year:2026,slots:manifest.assets.map((asset,index)=>({id:asset.kouId,kind:index<count?'visited':'upcoming',completed:index<count})),reducedMotion:false,visible:true});
+  window.__growthProbe={controller,state};controller.update(state(12));
+ });
+ await overlapping.clock.fastForward(100);
+ await overlapping.evaluate(()=>window.__growthProbe.controller.update(window.__growthProbe.state(24)));
+ let peakGrowing=0;
+ for(let step=0;step<40;step++){
+  await overlapping.clock.fastForward(50);
+  peakGrowing=Math.max(peakGrowing,await overlapping.locator('#growth-limit-probe [data-phase=growing]').count());
+ }
+ assert.ok(peakGrowing<=16,`Expected at most 16 concurrent growing assets, got ${peakGrowing}`);
+ assert.equal(await overlapping.locator('#growth-limit-probe [data-phase=full]').count(),24);
+ await overlapping.evaluate(()=>window.__growthProbe.controller.update(window.__growthProbe.state(25)));
+ await overlapping.clock.fastForward(50);
+ assert.equal(await overlapping.locator('#growth-limit-probe [data-phase=full]').count(),24,'Previously completed assets stay static on an additional arrival');
+ assert.equal(await overlapping.locator('#growth-limit-probe [data-phase=growing]').count(),1);
+ await overlapping.clock.fastForward(800);
+ await overlapping.evaluate(()=>window.__growthProbe.controller.update({...window.__growthProbe.state(24),year:2027}));
+ assert.equal(await overlapping.locator('#growth-limit-probe [data-phase=prime]').count(),72,'Changing year resets growth before the new stagger starts');
+ await overlapping.clock.fastForward(2000);
+ assert.equal(await overlapping.locator('#growth-limit-probe [data-phase=full]').count(),24);
+ await overlapping.evaluate(()=>window.__growthProbe.controller.update({...window.__growthProbe.state(30),year:2027,visible:false}));
+ assert.equal(await overlapping.locator('#growth-limit-probe [data-phase=full]').count(),30,'Hidden artwork completes without animation');
+ await overlapping.evaluate(()=>window.__growthProbe.controller.update({...window.__growthProbe.state(30),year:2027,visible:true}));
+ await overlapping.clock.fastForward(50);
+ assert.equal(await overlapping.locator('#growth-limit-probe [data-phase=growing]').count(),0,'Returning to the foreground must not replay completed growth');
+ await overlapping.evaluate(()=>window.__growthProbe.controller.update({...window.__growthProbe.state(24),year:2028,reducedMotion:true}));
+ assert.equal(await overlapping.locator('#growth-limit-probe [data-phase=full]').count(),24,'Reduced Motion completes a newly selected year immediately');
+ await overlapping.evaluate(()=>{window.__growthProbe.controller.dispose();document.querySelector('#growth-limit-probe').remove();});
+ await overlapping.close();
+ assert.deepEqual(generationRequests.map(url=>new URL(url).pathname),['/api/haiku','/api/haiku/translate'],'Later home and renderer operations must not generate');
+ assert.deepEqual(errors,[]);
+ console.log('PASS seasonal home: real C/Cprime frames,0/12/42/72,anchors,selection,keyboard,language,responsive,text200%,visibility,rollover,resume,missing year,organic stagger,concurrent growth limit,save does not replay,no home generation');
 }finally{await browser.close();}
