@@ -1,10 +1,15 @@
 import {env} from "cloudflare:workers";
-import {handle,identity,database} from "../../../../lib/http";
-import {InputError,UUID} from "../../../../lib/validation";
+import {handle,identity,database,json} from "../../../../lib/http";
+import {InputError} from "../../../../lib/validation";
+import {getPhoto,deletePhoto} from "../../../../lib/photos";
 export const dynamic="force-dynamic";
 export const GET=(_:Request,c:{params:Promise<{id:string}>})=>handle(async()=>{
- const owner=await identity(),{id}=await c.params;if(!UUID.test(id)||!env.BUCKET)throw new InputError("写真が見つかりません。",404);
- const row=await database().prepare("SELECT object_key,mime_type FROM attachments WHERE id=? AND owner_id=?").bind(id,owner).first<{object_key:string;mime_type:string}>();if(!row)throw new InputError("写真が見つかりません。",404);
- const object=await env.BUCKET.get(row.object_key);if(!object)throw new InputError("写真が見つかりません。",404);
- return new Response(object.body,{headers:{"Content-Type":row.mime_type,"Cache-Control":"private, no-store","X-Content-Type-Options":"nosniff"}});
+ const owner=await identity(),{id}=await c.params;if(!env.BUCKET)throw new InputError("写真の保存は準備中です。",503);
+ return getPhoto(database(),env.BUCKET,owner,id);
+});
+export const DELETE=(r:Request,c:{params:Promise<{id:string}>})=>handle(async()=>{
+ const owner=await identity(),{id}=await c.params;if(!env.BUCKET)throw new InputError("写真の保存は準備中です。",503);
+ const origin=r.headers.get("origin");if(origin&&origin!==new URL(r.url).origin)throw new InputError("この操作を実行できません。",403);
+ const result=await deletePhoto(database(),env.BUCKET,owner,id);
+ return result.deleted?new Response(null,{status:204,headers:{"Cache-Control":"private, no-store"}}):json({photo:{id,status:"deleting"},retryable:true},202);
 });
