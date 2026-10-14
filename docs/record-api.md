@@ -26,15 +26,19 @@ API応答はprivate,no-store。例外の内部情報を返さない。
 
 ## 生成
 POST /api/haikuは現在503 AI_NOT_CONFIGURED。生成済みとは扱わない。
-画像生成・写真アップロード・削除・暦取得・同期APIは未実装。
+画像生成・暦取得・同期APIは未実装。
 
 画面は01→02→03。Haiku入力欄は設けない。将来の生成応答はcandidates:[{title:string,lines:[string,string,string]}]の3候補として検証する。現在の503に対して架空の候補へフォールバックしない。候補履歴の保存や、本番生成の応答は未実装。
 
 ## 追加した基盤API
 GET /api/settings、PUT /api/settings：本人の名前・style・expression。
-POST /api/photos：multipartのphoto。縮小した写真をアップロードしid・urlを返す。
+POST /api/photos：multipartのphoto。1MB以内、縦横1000px以内の静止JPEG・PNG・WebPを構造検証しid・urlを返す。
+GET /api/photos：本人の写真を状態付きでページ取得。DELETE /api/photos/:id：本人の参照されていない写真を明示削除。
+POST /api/photos/recover：開始済みの削除だけを再試行。契約と未確定uploadingの手順は[写真保存API](photo-storage.md)。
 GET /api/photos/:id：本人の写真のみ返す。他人は404。Cache-Controlはprivate,no-store。
-記録にphotoIdを追加。省略更新は保持、空文字は添付解除。他人のphotoIdは拒否。
+記録にphotoIdを追加。省略更新は保持、空文字は添付解除。同じ本人のready写真だけを新しく添付できる。
+DBトリガーで削除開始との競合を防ぐ。既知の写真参照競合は409。その他のDB障害は409に置き換えない。
+移行前の不正参照は変更せず、photoIdを変えない編集は許可する。添付解除・置換で写真を自動削除しない。
 POST /api/haiku：sceneText、requestKey(UUID)、任意refine・previousHaiku。本人設定も入力に含む。
 鍵／モデルなしは503。成功済み同一requestKeyの再送は保持結果を返し、異なる入力なら409。
 実APIコードは実装済みだが本番疎通は未確認。金額計測とモデル採用は設定後に検証する。

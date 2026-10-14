@@ -98,7 +98,7 @@ test("情景変更後は再選択するまで完成保存できない",()=>{
 import {getPreferences,savePreferences} from "../.sites-runtime/test-lib/lib/preferences.js";
 import {generateHaiku,listGenerationHistory} from "../.sites-runtime/test-lib/lib/haiku-provider.js";
 import {translateHaiku} from "../.sites-runtime/test-lib/lib/haiku-translation.js";
-import {photoType} from "../.sites-runtime/test-lib/shared/photo.js";
+import {parsePhoto} from "../.sites-runtime/test-lib/shared/photo.js";
 test("設定を本人別に保存し、他人の設定を返さない",async()=>{
  const db=database();await savePreferences(db,'alice',{name:'A',style:'自由詩に近いHaiku',expression:'simple words',appLanguage:'English'});
  assert.equal((await getPreferences(db,'alice')).appLanguage,'English');assert.equal((await getPreferences(db,'bob')).appLanguage,'日本語');
@@ -117,15 +117,15 @@ test("翻訳は不正入力、外部失敗、不正応答を拒否する",async(
  await assert.rejects(()=>translateHaiku(body,config,async()=>new Response(JSON.stringify({choices:[{message:{content:'{"title":"bad"}'}}]}),{status:200})),e=>e.status===502);
 });
 test("他人の写真を記録に紐づけられない",async()=>{
- const db=database(),photo=crypto.randomUUID();db.sql.prepare('INSERT INTO attachments VALUES(?,?,?,?,?,?)').run(photo,'alice','photos/'+photo,'image/jpeg',10,'now');
+ const db=database(),photo=crypto.randomUUID();db.sql.prepare('INSERT INTO attachments(id,owner_id,object_key,mime_type,size,created_at) VALUES(?,?,?,?,?,?)').run(photo,'alice','photos/'+photo,'image/jpeg',10,'now');
  const r=await createRecord(db,'alice',input({photoId:photo}));assert.equal(r.photo_id,photo);
  await assert.rejects(()=>createRecord(db,'bob',input({photoId:photo})),e=>e.status===404);
  const u=await updateRecord(db,'alice',r.id,input({revision:1}));assert.equal(u.photo_id,photo);db.sql.close();
 });
 test("写真は許可したバイナリ形式のみ受け付ける",()=>{
- assert.equal(photoType(new Uint8Array([255,216,255])),'image/jpeg');
- assert.equal(photoType(new TextEncoder().encode('<svg></svg>')),null);
- assert.equal(photoType(new Uint8Array([])),null);
+ assert.throws(()=>parsePhoto(new Uint8Array([255,216,255])));
+ assert.throws(()=>parsePhoto(new TextEncoder().encode('<svg></svg>')));
+ assert.throws(()=>parsePhoto(new Uint8Array([])));
 });
 function responseFixture(){return new Response(JSON.stringify({status:'completed',output:[{content:[{type:'output_text',text:JSON.stringify({candidates:Array.from({length:3},(_,i)=>({title:'Fixture '+i,lines:['one','two','three']}))})}]}],usage:{input_tokens:10,output_tokens:20}}),{status:200,headers:{'Content-Type':'application/json'}})}
 test("前後空白のある生成履歴から保存・更新でき、別の情景と他人の履歴は拒否する",async()=>{
