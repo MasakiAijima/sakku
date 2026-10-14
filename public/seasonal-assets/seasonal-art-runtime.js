@@ -89,8 +89,9 @@ export function mountSeasonalArt({svg, manifest, assetBase, onSelect, onStatus =
       completed = new Set();
       for (const item of nodes) prime(item);
     }
-    let offset = 0;
     const now = window.performance.now();
+    let nextStart = now;
+    for (const start of animations.values()) nextStart = Math.max(nextStart, start + manifest.animation.staggerMs);
     for (const item of nodes) {
       const slot = slots.get(item.id);
       item.group.dataset.kind = slot?.kind || 'upcoming';
@@ -100,8 +101,8 @@ export function mountSeasonalArt({svg, manifest, assetBase, onSelect, onStatus =
       if (!nextCompleted.has(item.id)) prime(item);
       else if (state.reducedMotion || !state.visible || !item.hasInitial || !item.hasCompleted) finish(item);
       else if (!completed.has(item.id)) {
-        animations.set(item, now + offset * manifest.animation.staggerMs);
-        offset++;
+        animations.set(item, nextStart);
+        nextStart += manifest.animation.staggerMs;
       }
     }
     completed = nextCompleted;
