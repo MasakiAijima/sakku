@@ -25,6 +25,8 @@ export async function translateHaiku(body:unknown,config:{provider?:string;key?:
  const provider=config.provider?.toLowerCase()||"openai",endpoint=provider==="groq"?"https://api.groq.com/openai/v1/chat/completions":provider==="openai"?"https://api.openai.com/v1/responses":"";
  if(!config.key||!config.model)throw new InputError("翻訳の接続は準備中です。",503);if(!endpoint)throw new InputError("翻訳の接続先を確認してください。",503);
  const input=JSON.stringify(parsed.data),payload=provider==="groq"?{model:config.model,messages:[{role:"system",content:instructions},{role:"user",content:input}],response_format:{type:"json_schema",json_schema:{name:"haiku_translation",strict:true,schema}}}:{model:config.model,store:false,instructions,input,max_output_tokens:1000,text:{format:{type:"json_schema",name:"haiku_translation",strict:true,schema}}};
- const response=await transport(endpoint,{method:"POST",headers:{Authorization:`Bearer ${config.key}`,"Content-Type":"application/json"},signal:AbortSignal.timeout(45_000),body:JSON.stringify(payload)});if(!response.ok)throw new InputError("翻訳できませんでした。もう一度お試しください。",502);
+ let response:Response;
+ try{response=await transport(endpoint,{method:"POST",headers:{Authorization:`Bearer ${config.key}`,"Content-Type":"application/json"},signal:AbortSignal.timeout(45_000),body:JSON.stringify(payload)});}catch{throw new InputError("翻訳できませんでした。もう一度お試しください。",502);}
+ if(!response.ok)throw new InputError("翻訳できませんでした。もう一度お試しください。",502);
  try{const result=providerResultSchema.parse(await response.json()),text=provider==="groq"?result.choices?.[0]?.message?.content:result.output?.flatMap(item=>item.content||[]).find(item=>item.type==="output_text")?.text;if(!text)throw Error();return translationSchema.parse(JSON.parse(text));}catch{throw new InputError("翻訳結果を読み取れませんでした。もう一度お試しください。",502);}
 }

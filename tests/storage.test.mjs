@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import {DatabaseSync} from "node:sqlite";
 import {readFileSync,readdirSync} from "node:fs";
 import {createRecord,getRecord,listRecords,listRecordPage,updateRecord} from "../.sites-runtime/test-lib/lib/records.js";
-import {parseRecord} from "../.sites-runtime/test-lib/lib/validation.js";
+import {InputError,parseRecord} from "../.sites-runtime/test-lib/lib/validation.js";
 function database(){
  const sql=new DatabaseSync(":memory:");for(const file of readdirSync(new URL("../drizzle/",import.meta.url)).filter(f=>f.endsWith(".sql")).sort())sql.exec(readFileSync(new URL("../drizzle/"+file,import.meta.url),"utf8"));
  return {sql,prepare(query){let values=[];const stmt=sql.prepare(query);return {bind(...v){values=v;return this},async run(){const r=stmt.run(...values);return {meta:{changes:Number(r.changes)}}},async first(){return stmt.get(...values)??null},async all(){return {results:stmt.all(...values)}}}}};
@@ -184,4 +184,70 @@ import {boundedBody} from "../.sites-runtime/test-lib/lib/bounded-body.js";
 test("リクエスト本文を読み込み中に上限で拒否する",async()=>{
  const request=new Request('https://example.test',{method:'POST',body:'12345'});assert.equal((await boundedBody(request,5)).byteLength,5);
  await assert.rejects(()=>boundedBody(new Request('https://example.test',{method:'POST',body:'123456'}),5),e=>e.status===413);
+});
+
+function preferencesInput(extra={}){return {name:'A',style:'自由詩に近いHaiku',expression:'simple words',appLanguage:'English',...extra};}
+test("設定の不正本文は422で拒否し保存済みの内容を変えない",async()=>{
+ const db=database();
+ try{
+  await savePreferences(db,'alice',preferencesInput());
+  const saved=await getPreferences(db,'alice'),stored=db.sql.prepare('SELECT * FROM preferences WHERE owner_id=?').get('alice');
+  for(const body of [null,undefined,[],false,'bad',{},preferencesInput({appLanguage:'French'}),preferencesInput({appLanguage:12}),preferencesInput({name:'A'.repeat(101)}),preferencesInput({style:'invalid'}),preferencesInput({expression:null}),preferencesInput({expression:'a'.repeat(2001)})]){
+   await assert.rejects(()=>savePreferences(db,'alice',body),e=>e instanceof InputError&&e.status===422);
+   assert.deepEqual(await getPreferences(db,'alice'),saved);
+   assert.deepEqual(db.sql.prepare('SELECT * FROM preferences WHERE owner_id=?').get('alice'),stored);
+  }
+ }finally{db.sql.close();}
+});
+test("設定を2人分再取得し、旧形式とnullの表示言語は日本語で保存する",async()=>{
+ const db=database();
+ try{
+  await savePreferences(db,'alice',preferencesInput());
+  await savePreferences(db,'bob',preferencesInput({name:'B',appLanguage:'日本語'}));
+  assert.equal((await getPreferences(db,'alice')).appLanguage,'English');
+  assert.equal((await getPreferences(db,'bob')).name,'B');
+  assert.equal((await getPreferences(db,'bob')).appLanguage,'日本語');
+  for(const value of [undefined,null]){
+   await savePreferences(db,'alice',preferencesInput({appLanguage:value}));
+   assert.equal((await getPreferences(db,'alice')).appLanguage,'日本語');
+   assert.equal((await getPreferences(db,'bob')).name,'B');
+  }
+ }finally{db.sql.close();}
+});
+test("表示言語の移行で既存設定を保持し日本語を既定にする",()=>{
+ const sql=new DatabaseSync(':memory:');
+ try{
+  for(const file of ['0000_careless_night_nurse.sql','0001_adorable_emma_frost.sql','0002_unique_albert_cleary.sql'])sql.exec(readFileSync(new URL('../drizzle/'+file,import.meta.url),'utf8'));
+  sql.prepare('INSERT INTO preferences(owner_id,name,style,expression,updated_at) VALUES(?,?,?,?,?)').run('alice','Existing','情景を中心とするHaiku','old expression','now');
+  sql.exec(readFileSync(new URL('../drizzle/0003_add_app_language.sql',import.meta.url),'utf8'));
+  const row=sql.prepare('SELECT name,style,expression,app_language FROM preferences WHERE owner_id=?').get('alice');
+  assert.deepEqual({...row},{name:'Existing',style:'情景を中心とするHaiku',expression:'old expression',app_language:'日本語'});
+ }finally{sql.close();}
+});
+const translationBody={title:'After Rain',lines:['a leaf lets go','one clear drop','the phone stays still'],targetLanguage:'English'};
+const translationConfig={provider:'openai',key:'fixture',model:'fixture'};
+test("翻訳の通信例外と中断は詳細を漏らさず502にする",async()=>{
+ for(const failure of [new TypeError('private provider endpoint detail'),new DOMException('private abort detail','AbortError'),new DOMException('private timeout detail','TimeoutError')]){
+  await assert.rejects(()=>translateHaiku(translationBody,translationConfig,async()=>{throw failure}),e=>{
+   assert.ok(e instanceof InputError);assert.equal(e.status,502);
+   assert.equal(e.message,'翻訳できませんでした。もう一度お試しください。');return true;
+  });
+ }
+});
+test("翻訳の不正入力と未設定は通信を行わず422と503を返す",async()=>{
+ let calls=0;const transport=async()=>{calls++;throw Error('must not call')};
+ for(const body of [null,{}, {...translationBody,targetLanguage:'French'}, {...translationBody,lines:['one',' ','three']}])await assert.rejects(()=>translateHaiku(body,translationConfig,transport),e=>e instanceof InputError&&e.status===422);
+ await assert.rejects(()=>translateHaiku(translationBody,{},transport),e=>e instanceof InputError&&e.status===503);
+ await assert.rejects(()=>translateHaiku(translationBody,{...translationConfig,provider:'unknown'},transport),e=>e instanceof InputError&&e.status===503);
+ assert.equal(calls,0);
+});
+test("英語への翻訳指定を送りOpenAI応答の本文と解説を検証する",async()=>{
+ const expected={title:'After Rain',lines:['a leaf lets go','one clear drop','the phone stays still'],keyTerms:[{term:'lets go',meaning:'releases a drop'}],nuance:'Quiet hesitation.'};let request;
+ const transport=async(url,init)=>{request={url,payload:JSON.parse(init.body)};return new Response(JSON.stringify({output:[{content:[{type:'output_text',text:JSON.stringify(expected)}]}]}),{status:200})};
+ assert.deepEqual(await translateHaiku(translationBody,translationConfig,transport),expected);
+ assert.equal(request.url,'https://api.openai.com/v1/responses');
+ assert.equal(JSON.parse(request.payload.input).targetLanguage,'English');
+ assert.deepEqual(JSON.parse(request.payload.input).lines,translationBody.lines);
+ assert.equal(request.payload.text.format.type,'json_schema');
+ for(const result of [{...expected,lines:['one','two']},{...expected,keyTerms:[]},{...expected,nuance:' '}])await assert.rejects(()=>translateHaiku(translationBody,translationConfig,async()=>new Response(JSON.stringify({output:[{content:[{type:'output_text',text:JSON.stringify(result)}]}]}))),e=>e.status===502);
 });
