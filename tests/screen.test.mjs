@@ -60,8 +60,8 @@ try{
  await page.locator('#period-kind').selectOption('sekki');await page.locator('#period-from').fill('2025-01-01');await page.locator('#period-to').fill('2025-02-01');await submit();
  assert.match(await page.locator('.empty').innerText(),/書かなかった日/);
  failArchive=true;await submit();assert.equal(await page.locator('.empty').count(),0);assert.match(await page.locator('main').innerText(),/Fixture archive failure/);failArchive=false;
- await page.locator('#new').click();assert.equal(await page.locator('.helper-inputs').getAttribute('open'),null);
- await page.locator('#scene').fill('My own scene');await page.locator('#date').fill('2024-03-02');await page.locator('.helper-inputs summary').click();await page.locator('#event').fill('private event');await page.locator('.helper-inputs summary').click();await page.locator('.helper-inputs summary').click();assert.equal(await page.locator('#event').inputValue(),'private event');
+ await page.locator('#new').click();assert.equal(await page.locator('#guided-inputs').isHidden(),true);
+ await page.locator('#scene').fill('My own scene');await page.locator('#date').fill('2024-03-02');await page.locator('[name=input-mode][value=guided]').check();await page.locator('#event').fill('private event');await page.locator('[name=input-mode][value=free]').check();await page.locator('[name=input-mode][value=guided]').check();assert.equal(await page.locator('#event').inputValue(),'private event');
  await page.locator('#to-result').click();await page.locator('[data-candidate]').first().waitFor();await page.locator('[data-candidate="0"]').click();await page.waitForFunction(()=>!document.querySelector('#save').disabled);
  const edited='edited line\nsecond line\nthird line';await page.locator('#poem').fill(edited);
  await page.locator('[data-candidate="0"]').click();assert.equal(await page.locator('#poem').inputValue(),edited);
