@@ -68,6 +68,17 @@ test('PNG CRC, legal IHDR fields, chunk ordering, and both dimension limits are 
  const chunks=[];for(let at=8;at<png.length;){const len=new DataView(png.buffer).getUint32(at)+12;chunks.push(png.slice(at,at+len));at+=len}
  assert.equal(photoType(new Uint8Array([...png.slice(0,8),...chunks.at(-1),...chunks.slice(0,-1).flatMap(c=>[...c])])),null);
 });
+test('PNG rejects a palette after an empty image-data chunk',()=>{
+ const chunk=(type,payload)=>{
+  const bytes=new Uint8Array(payload.length+12),view=new DataView(bytes.buffer);
+  view.setUint32(0,payload.length);bytes.set(new TextEncoder().encode(type),4);bytes.set(payload,8);
+  view.setUint32(bytes.length-4,crc(bytes.subarray(4,bytes.length-4)));return bytes;
+ };
+ let imageDataAt=8;while(new TextDecoder().decode(png.subarray(imageDataAt+4,imageDataAt+8))!=='IDAT')imageDataAt+=new DataView(png.buffer).getUint32(imageDataAt)+12;
+ const malformedPNG=new Uint8Array([...png.slice(0,imageDataAt),...chunk('IDAT',[]),...chunk('PLTE',[0,0,0]),...png.slice(imageDataAt)]);
+ assert.equal(photoType(malformedPNG),null);
+ assert.equal(photoType(fixture('palette.png')),'image/png');
+});
 test('JPEG bounded segments, SOF dimensions, empty quantization and empty scans are rejected',()=>{
  const bytes=fixture('baseline.jpg');
  const badLength=bytes.slice();new DataView(badLength.buffer).setUint16(4,65535);assert.equal(photoType(badLength),null);

@@ -55,7 +55,7 @@ export async function uploadPhoto(db: D1Database, bucket: PhotoBucket, owner: st
       try {
         const claimed = await db.prepare("UPDATE attachments SET status='deleting' WHERE id=? AND owner_id=? AND status='uploading'").bind(row.id, owner).run();
         if (claimed.meta.changes) await finishDelete(db, bucket, {...row, status: "deleting"});
-      } catch { /* The journal retains the uncertain publication. */ }
+      } catch {}
       throw error;
     }
     return {id: row.id, url: "/api/photos/" + row.id};

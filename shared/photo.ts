@@ -35,7 +35,7 @@ function png(bytes: Uint8Array, view: DataView): PhotoInfo {
         break;
       }
       case "PLTE":
-        if (palette || data || color === 0 || color === 4 || !length || length % 3 || length > 768 || (color === 3 && length / 3 > 2 ** bytes[24])) invalid();
+        if (palette || sawData || color === 0 || color === 4 || !length || length % 3 || length > 768 || (color === 3 && length / 3 > 2 ** bytes[24])) invalid();
         palette = true; break;
       case "IDAT":
         if (dataEnded || (color === 3 && !palette)) invalid();
