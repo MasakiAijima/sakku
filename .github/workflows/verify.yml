@@ -62,6 +62,7 @@ jobs:
       - name: Test screen interactions in Chrome
         run: |
           pnpm test:screen
+          node tests/input-language-screen.test.mjs
           node tests/sources-screen.test.mjs
           node tests/seasonal-home-live.test.mjs
         env:
