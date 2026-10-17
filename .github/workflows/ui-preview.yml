@@ -1,0 +1,78 @@
+name: Static UI preview
+
+on:
+  push:
+    branches: [main, codex/static-ui-preview]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ui-preview-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PREVIEW_BASE_PATH: ${{ vars.UI_PREVIEW_BASE_PATH || '/sakku/' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Install dependencies
+        run: |
+          npm install --global pnpm@11.25.0
+          pnpm install --frozen-lockfile
+      - name: Typecheck
+        run: pnpm typecheck
+      - name: Build static UI
+        run: pnpm build:preview
+      - name: Install browser tools
+        run: |
+          npm install --prefix "$RUNNER_TEMP/browser-test" --package-lock=false --ignore-scripts playwright@1.64.0
+          node "$RUNNER_TEMP/browser-test/node_modules/playwright/cli.js" install --with-deps chrome
+      - name: Verify mobile interactions
+        run: node tests/preview.test.mjs
+        env:
+          PLAYWRIGHT_MODULE: ${{ runner.temp }}/browser-test/node_modules/playwright/index.mjs
+      - name: Upload verified static site
+        uses: actions/upload-artifact@v4
+        with:
+          name: ui-preview-site
+          path: dist-preview/
+          include-hidden-files: true
+          retention-days: 7
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ui-preview-screenshots
+          path: .test-artifacts/ui-preview-*.png
+          if-no-files-found: ignore
+          retention-days: 7
+      - uses: actions/upload-pages-artifact@v4
+        if: vars.UI_PREVIEW_PAGES == 'true' && github.event_name != 'pull_request'
+        with:
+          path: dist-preview
+
+  deploy:
+    if: vars.UI_PREVIEW_PAGES == 'true' && github.event_name != 'pull_request' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/codex/static-ui-preview')
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - name: Publish UI preview
+        id: deployment
+        uses: actions/deploy-pages@v4
