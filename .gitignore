@@ -45,3 +45,6 @@ __pycache__/
 output/seasonal-assets/.generation.lock
 public/seasonal-assets/releases/.*.package.lock
 public/seasonal-assets/.release-operation.lock/
+
+dist-preview/
+.preview-public/
