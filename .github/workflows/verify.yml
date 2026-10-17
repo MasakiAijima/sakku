@@ -39,6 +39,8 @@ jobs:
         run: pnpm test
       - name: Build
         run: pnpm build
+      - name: Verify built Worker bindings and storage
+        run: node scripts/verify-worker-bindings.mjs
       - name: Install browser test tools
         run: |
           npm install --prefix "$RUNNER_TEMP/browser-test" --package-lock=false --ignore-scripts playwright@1.64.0
