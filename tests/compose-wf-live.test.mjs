@@ -56,6 +56,7 @@ async function swipe(index,dx){
  const box=await page.locator('.elaboration-candidate').nth(index).boundingBox();
  const x=dx>0?box.x+20:box.x+box.width-20,y=box.y+60;
  await page.mouse.move(x,y);await page.mouse.down();await page.mouse.move(x+dx,y+3,{steps:8});await page.mouse.up();
+ await page.waitForFunction(({index,selected})=>document.querySelector(`[data-candidate="${index}"]`)?.getAttribute('aria-pressed')===String(selected),{index,selected:dx>0});
 }
 async function noOverflow(){assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'Page must not overflow horizontally');}
 try{
@@ -88,10 +89,12 @@ try{
  await first.locator('.haiku-thumbnails button').first().click();await page.getByRole('dialog').waitFor();await page.keyboard.press('ArrowRight');
  assert.match(await page.locator('dialog[open] img').getAttribute('src'),new RegExp(id(51)+'$'));await page.keyboard.press('Escape');
  await card.click({position:{x:10,y:10}});assert.equal(await card.getAttribute('data-card-face'),'poem');
+ assert.equal(await card.evaluate(node=>!node.dispatchEvent(new DragEvent('dragstart',{bubbles:true,cancelable:true}))),true,'Native text drag must not take over a card swipe');
  await swipe(0,140);assert.equal(await first.locator('[data-candidate]').getAttribute('aria-pressed'),'true');assert.equal(await card.getAttribute('data-card-face'),'poem','Swipe must not also cycle the card');
  await swipe(0,-140);assert.equal(await first.locator('[data-candidate]').getAttribute('aria-pressed'),'false');
  const edge=await first.boundingBox(),start=edge.x+edge.width-80;
  await page.mouse.move(start,edge.y+60);await page.mouse.down();await page.mouse.move(start+90,edge.y+62,{steps:8});await page.mouse.up();
+ await page.waitForFunction(()=>document.querySelector('[data-candidate="0"]')?.getAttribute('aria-pressed')==='true');
  assert.equal(await first.locator('[data-candidate]').getAttribute('aria-pressed'),'true','A swipe ending outside the card still selects');
  await swipe(0,-140);
  await first.locator('[data-candidate]').click();await page.locator('[data-candidate="1"]').click();

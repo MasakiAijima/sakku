@@ -19,7 +19,7 @@ function Candidate({candidate,snapshot}:{candidate:Snapshot['candidates'][number
     const observer=new IntersectionObserver(entries=>setVisible(entries.some(entry=>entry.isIntersecting)),{rootMargin:'100px'});
     observer.observe(node);return ()=>observer.disconnect();
   },[]);
-  return <article ref={element} className="elaboration-candidate" data-selected={candidate.selected} onPointerDown={event=>{
+  return <article ref={element} className="elaboration-candidate" data-selected={candidate.selected} onDragStart={event=>event.preventDefault()} onPointerDown={event=>{
     suppressClick.current=false;
     if(disabled||!event.isPrimary||event.button!==0||event.target instanceof Element&&event.target.closest('button,a,input,textarea,dialog,[role="tooltip"]'))return;
     gesture.current={x:event.clientX,y:event.clientY,pointer:event.pointerId};
