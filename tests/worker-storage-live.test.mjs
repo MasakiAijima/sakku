@@ -1,5 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import {readFileSync} from "node:fs";
 
 const base = process.env.WORKER_TEST_URL;
 assert.ok(base, "Set WORKER_TEST_URL to a local Worker with D1 migrations applied");
@@ -8,7 +9,7 @@ const headers = {
   "oai-authenticated-user-id": "issue30-storage-test",
   "oai-authenticated-user-email": "issue30@sites.test",
 };
-const png = Buffer.from("iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+jRZkAAAAASUVORK5CYII=", "base64");
+const png = readFileSync(new URL("./fixtures/photos/rgb.png", import.meta.url));
 
 test("photo API persists R2 bytes and D1 metadata and links a record", async () => {
   const form = new FormData();

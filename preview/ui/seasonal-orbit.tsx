@@ -11,11 +11,11 @@ import {mountSeasonalArt,type SeasonalArtController} from '../../shared/seasonal
 type KouName={id:string;name:string;reading:string;sekki:string};
 const statusNames={upcoming:'未到来',current:'いまの候',visited:'訪問済み'};
 export default function SeasonalOrbitView({calendar,names,art}:{calendar:unknown;names:KouName[];years:number[];art:SeasonalArt|null}) {
-  const [view,setView]=useState({home:true,english:false,username:'',hasDraft:false});
+  const [view,setView]=useState({home:true,english:false,username:'',haikuLanguage:'English'});
   const [mode,setMode]=useState<'orbit'|'haiku'>('orbit');
   const [latestRequest,setLatestRequest]=useState(0);
   useEffect(()=>{
-    const refresh=()=>setView({home:document.documentElement.dataset.sakkuScreen==='home',english:document.documentElement.dataset.sakkuLanguage==='English',username:document.documentElement.dataset.sakkuUsername??'',hasDraft:document.documentElement.dataset.sakkuHasDraft==='true'});
+    const refresh=()=>setView({home:document.documentElement.dataset.sakkuScreen==='home',english:document.documentElement.dataset.sakkuLanguage==='English',username:document.documentElement.dataset.sakkuUsername??'',haikuLanguage:document.documentElement.dataset.sakkuHaikuLanguage??'English'});
     refresh();window.addEventListener('sakku-view-change',refresh);window.dispatchEvent(new Event('sakku-home-ready'));
     return ()=>window.removeEventListener('sakku-view-change',refresh);
   },[]);
@@ -122,7 +122,7 @@ export default function SeasonalOrbitView({calendar,names,art}:{calendar:unknown
         {artStatus&&artStatus!=='七十二候の画像を読み込みました。'&&<p className="art-status" role="status">{text(artStatus,'Some seasonal images are unavailable.')}</p>}
       </>}
     </div>
-    <div hidden={mode!=='haiku'}>{orbit?.kind==='ready'?<HaikuView slots={slots} names={names} art={art} english={view.english} username={view.username} latestRequest={latestRequest} active={mode==='haiku'&&view.home} hasDraft={view.hasDraft}/>:<p className="home-status" role="status">{!orbit?text('季節暦を読み込んでいます…','Loading the seasonal calendar…'):text('現在の季節暦を利用できません。','The current seasonal calendar is unavailable.')}</p>}</div>
+    <div hidden={mode!=='haiku'}>{orbit?.kind==='ready'?<HaikuView slots={slots} names={names} art={art} english={view.english} username={view.username} latestRequest={latestRequest} active={mode==='haiku'&&view.home} haikuLanguage={view.haikuLanguage}/>:<p className="home-status" role="status">{!orbit?text('季節暦を読み込んでいます…','Loading the seasonal calendar…'):text('現在の季節暦を利用できません。','The current seasonal calendar is unavailable.')}</p>}</div>
     {offlineReady&&<span className="sr-only">{text('季節の表示をオフラインで利用できます。','Seasonal artwork is available offline.')}</span>}
     <nav ref={switchRef} className="home-switch" aria-label={text('表示切り替え','Switch view')}><button aria-label="Orbit view" aria-pressed={mode==='orbit'} onClick={()=>setMode('orbit')}><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" strokeWidth="1.5"/></svg></button><button aria-label="Haiku view" aria-pressed={mode==='haiku'} onClick={()=>{setMode('haiku');setLatestRequest(value=>value+1);}}><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" aria-hidden="true"><line x1="7" y1="6" x2="17" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="7" y1="18" x2="17" y2="18"/></svg></button></nav>
   </section>;
