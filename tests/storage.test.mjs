@@ -2,7 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import {DatabaseSync} from "node:sqlite";
 import {readFileSync,readdirSync} from "node:fs";
-import {createRecord,getRecord,listRecords,listRecordPage,updateRecord} from "../.sites-runtime/test-lib/lib/records.js";
+import {createRecord,getRecord,listRecords,listRecordPage,updateRecord,publicRecord} from "../.sites-runtime/test-lib/lib/records.js";
 import {parseRecord} from "../.sites-runtime/test-lib/lib/validation.js";
 function database(){
  const sql=new DatabaseSync(":memory:");for(const file of readdirSync(new URL("../drizzle/",import.meta.url)).filter(f=>f.endsWith(".sql")).sort())sql.exec(readFileSync(new URL("../drizzle/"+file,import.meta.url),"utf8"));
@@ -98,7 +98,7 @@ test("情景変更後は再選択するまで完成保存できない",()=>{
 import {getPreferences,savePreferences} from "../.sites-runtime/test-lib/lib/preferences.js";
 import {generateHaiku,listGenerationHistory} from "../.sites-runtime/test-lib/lib/haiku-provider.js";
 import {translateHaiku} from "../.sites-runtime/test-lib/lib/haiku-translation.js";
-import {photoType} from "../.sites-runtime/test-lib/shared/photo.js";
+import {parsePhoto} from "../.sites-runtime/test-lib/shared/photo.js";
 test("設定を本人別に保存し、他人の設定を返さない",async()=>{
  const db=database();await savePreferences(db,'alice',{name:'A',style:'自由詩に近いHaiku',expression:'simple words',appLanguage:'English'});
  assert.equal((await getPreferences(db,'alice')).appLanguage,'English');assert.equal((await getPreferences(db,'bob')).appLanguage,'日本語');
@@ -116,16 +116,29 @@ test("翻訳は不正入力、外部失敗、不正応答を拒否する",async(
  await assert.rejects(()=>translateHaiku(body,config,async()=>new Response('',{status:500})),e=>e.status===502);
  await assert.rejects(()=>translateHaiku(body,config,async()=>new Response(JSON.stringify({choices:[{message:{content:'{"title":"bad"}'}}]}),{status:200})),e=>e.status===502);
 });
+test("保存できる長い行のHaikuも省略せず翻訳できる",async()=>{
+ const poem='a'.repeat(996)+'\nb\nc';
+ const saved=parseRecord(input({haikuText:poem}));let submitted;
+ const transport=async(_,init)=>{
+  submitted=JSON.parse(init.body).messages[1].content;
+  return new Response(JSON.stringify({choices:[{message:{content:JSON.stringify({title:'訳',lines:['一','二','三'],keyTerms:[{term:'a',meaning:'説明'}],nuance:'訳語の説明'})}}]}));
+ };
+ const config={provider:'groq',key:'fixture',model:'fixture'};
+ const result=await translateHaiku({title:'Haiku',lines:saved.haikuText.split('\n'),targetLanguage:'日本語'},config,transport);
+ assert.equal(result.lines.join('\n'),'一\n二\n三');
+ assert.equal(JSON.parse(submitted).lines.join('\n'),poem);
+ await assert.rejects(()=>translateHaiku({title:'Haiku',lines:['a'.repeat(997),'b','c'],targetLanguage:'日本語'},config,transport),error=>error.status===422);
+});
 test("他人の写真を記録に紐づけられない",async()=>{
- const db=database(),photo=crypto.randomUUID();db.sql.prepare('INSERT INTO attachments VALUES(?,?,?,?,?,?)').run(photo,'alice','photos/'+photo,'image/jpeg',10,'now');
+ const db=database(),photo=crypto.randomUUID();db.sql.prepare('INSERT INTO attachments(id,owner_id,object_key,mime_type,size,created_at) VALUES(?,?,?,?,?,?)').run(photo,'alice','photos/'+photo,'image/jpeg',10,'now');
  const r=await createRecord(db,'alice',input({photoId:photo}));assert.equal(r.photo_id,photo);
  await assert.rejects(()=>createRecord(db,'bob',input({photoId:photo})),e=>e.status===404);
  const u=await updateRecord(db,'alice',r.id,input({revision:1}));assert.equal(u.photo_id,photo);db.sql.close();
 });
 test("写真は許可したバイナリ形式のみ受け付ける",()=>{
- assert.equal(photoType(new Uint8Array([255,216,255])),'image/jpeg');
- assert.equal(photoType(new TextEncoder().encode('<svg></svg>')),null);
- assert.equal(photoType(new Uint8Array([])),null);
+ assert.throws(()=>parsePhoto(new Uint8Array([255,216,255])));
+ assert.throws(()=>parsePhoto(new TextEncoder().encode('<svg></svg>')));
+ assert.throws(()=>parsePhoto(new Uint8Array([])));
 });
 function responseFixture(){return new Response(JSON.stringify({status:'completed',output:[{content:[{type:'output_text',text:JSON.stringify({candidates:Array.from({length:3},(_,i)=>({title:'Fixture '+i,lines:['one','two','three']}))})}]}],usage:{input_tokens:10,output_tokens:20}}),{status:200,headers:{'Content-Type':'application/json'}})}
 test("前後空白のある生成履歴から保存・更新でき、別の情景と他人の履歴は拒否する",async()=>{
@@ -161,6 +174,45 @@ test("生成失敗は保存を壊さず、同じ操作を勝手に再実行し�
  await assert.rejects(()=>generateHaiku(db,'alice',request,config,transport),e=>e.status===502);
  await assert.rejects(()=>generateHaiku(db,'alice',request,config,transport),e=>e.status===409);assert.equal(calls,1);assert.equal((await getRecord(db,'alice',record.id)).scene_text,'窓の雨を見ている。');db.sql.close();
 });
+test("Groqの形式エラーは接続エラーと区別し、非公開の応答を返さず再送もしない",async()=>{
+ const db=database(),record=await createRecord(db,'alice',input()),request={sceneText:'本人の情景',requestKey:crypto.randomUUID()},config={provider:'groq',key:'test-fixture',model:'test-fixture'};let calls=0;
+ const transport=async()=>{calls++;return Response.json({error:{code:'json_validate_failed',type:'invalid_request_error',message:'private upstream text fixture-secret',failed_generation:'private generated scene'}},{status:400})};
+ await assert.rejects(()=>generateHaiku(db,'alice',request,config,transport),e=>{
+  assert.equal(e.status,502);assert.equal(e.message,'生成結果の形式を確認できませんでした。情景文は保持されています。新しく詠む操作で再試行してください。');return true;
+ });
+ const [job]=await listGenerationHistory(db,'alice');assert.equal(job.error_code,'groq_400_json_validate_failed');assert.equal(job.status,'failed');assert.equal(job.input.sceneText,'本人の情景');
+ assert.doesNotMatch(JSON.stringify(job),/fixture-secret|private upstream|private generated/);
+ await assert.rejects(()=>generateHaiku(db,'alice',request,config,transport),e=>e.status===409);
+ assert.equal(calls,1);assert.equal((await getRecord(db,'alice',record.id)).scene_text,'窓の雨を見ている。');db.sql.close();
+});
+test("GroqのHTTP状態と許可したコードだけで安全な診断を保存する",async t=>{
+ for(const fixture of [
+  {status:401,code:'invalid_api_key',suffix:'authentication',message:'GroqのAPIキーを確認してください。情景文は保持されています。'},
+  {status:403,code:'permission_error',suffix:'access_denied',message:'GroqのAPIキーとモデルの利用権限を確認してください。情景文は保持されています。'},
+  {status:404,code:'model_not_found',suffix:'model_not_found',message:'Groqのモデル設定と利用権限を確認してください。情景文は保持されています。'},
+  {status:429,code:'rate_limit_exceeded',suffix:'rate_limited',message:'Groqの生成上限に達しました。時間をおいて新しく詠んでください。情景文は保持されています。'},
+  {status:429,type:'insufficient_quota',suffix:'quota_exceeded',message:'Groqの利用枠を確認してください。情景文は保持されています。'},
+  {status:400,code:'context_length_exceeded',suffix:'context_length_exceeded',message:'生成サービスの文字数・トークン上限を超えました。情景文を短くして新しく詠んでください。'},
+  {status:400,code:'max_tokens_exceeded',suffix:'token_limit_exceeded',message:'生成サービスの文字数・トークン上限を超えました。情景文を短くして新しく詠んでください。'},
+  {status:503,code:'private unrecognized code',suffix:'service_unavailable',message:'Groqで一時的な障害が発生しています。時間をおいて新しく詠んでください。情景文は保持されています。'},
+  {status:422,code:'private unrecognized code',suffix:'http_error',message:'Groqが生成リクエストを受け付けませんでした（HTTP 422）。情景文は保持されています。'},
+  {status:400,malformed:true,suffix:'http_error',message:'Groqが生成リクエストを受け付けませんでした（HTTP 400）。情景文は保持されています。'},
+  {status:400,code:17,suffix:'http_error',message:'Groqが生成リクエストを受け付けませんでした（HTTP 400）。情景文は保持されています。'},
+ ])await t.test(fixture.status+' '+fixture.suffix+' '+String(fixture.code),async()=>{
+  const db=database();const transport=async()=>fixture.malformed?new Response('<html>private upstream</html>',{status:fixture.status}):Response.json({error:{code:fixture.code,type:fixture.type,message:'private upstream fixture-secret'}},{status:fixture.status});
+  await assert.rejects(()=>generateHaiku(db,'alice',{sceneText:'情景',requestKey:crypto.randomUUID()},{provider:'groq',key:'fixture',model:'fixture'},transport),e=>{assert.equal(e.status,fixture.status===429?429:502);assert.equal(e.message,fixture.message);return true;});
+  const [job]=await listGenerationHistory(db,'alice');assert.equal(job.error_code,`groq_${fixture.status}_${fixture.suffix}`);assert.doesNotMatch(JSON.stringify(job),/private|fixture-secret/);db.sql.close();
+ });
+});
+test("Groq診断の追加でOpenAIのエラーとタイムアウトの扱いを変えない",async()=>{
+ for(const provider of ['groq','openai']){
+  const db=database(),config={provider,key:'fixture',model:'fixture'};
+  await assert.rejects(()=>generateHaiku(db,'alice',{sceneText:'情景',requestKey:crypto.randomUUID()},config,async()=>{throw new DOMException('private timeout','TimeoutError')}),e=>{assert.equal(e.status,502);assert.equal(e.message,'生成がタイムアウトしました。情景文は保持されています。');return true;});
+  const [job]=await listGenerationHistory(db,'alice');assert.equal(job.status,'timed_out');assert.equal(job.error_code,'timeout');db.sql.close();
+ }
+ const db=database();await assert.rejects(()=>generateHaiku(db,'alice',{sceneText:'情景',requestKey:crypto.randomUUID()},{provider:'openai',key:'fixture',model:'fixture'},async()=>Response.json({error:{code:'json_validate_failed',message:'private upstream'}},{status:400})),e=>{assert.equal(e.status,502);assert.equal(e.message,'Haikuを生成できませんでした。接続設定をご確認ください。');return true;});
+ const [job]=await listGenerationHistory(db,'alice');assert.equal(job.error_code,'provider_error');db.sql.close();
+});
 test("生成の試用上限を超えると外部呼出しを行わない",async()=>{
  const db=database(),config={key:'test-fixture',model:'test-fixture'};let calls=0;
  const transport=async()=>{calls++;return responseFixture()};
@@ -184,4 +236,68 @@ import {boundedBody} from "../.sites-runtime/test-lib/lib/bounded-body.js";
 test("リクエスト本文を読み込み中に上限で拒否する",async()=>{
  const request=new Request('https://example.test',{method:'POST',body:'12345'});assert.equal((await boundedBody(request,5)).byteLength,5);
  await assert.rejects(()=>boundedBody(new Request('https://example.test',{method:'POST',body:'123456'}),5),e=>e.status===413);
+});
+
+function attach(db,owner="alice",count=2){
+ const ids=Array.from({length:count},()=>crypto.randomUUID());
+ for(const id of ids)db.sql.prepare("INSERT INTO attachments(id,owner_id,object_key,mime_type,size,created_at) VALUES(?,?,?,?,?,?)").run(id,owner,"photos/"+id,"image/jpeg",10,"now");
+ return ids;
+}
+test("複数写真を順番どおり保存し、公開応答は配列と先頭写真だけを返す",async()=>{
+ const db=database(),ids=attach(db),r=await createRecord(db,"alice",input({photoIds:ids}));
+ assert.deepEqual(publicRecord(await getRecord(db,"alice",r.id)).photo_ids,ids);
+ assert.equal(publicRecord(r).photo_id,ids[0]);
+ const page=await listRecordPage(db,"alice",parseRecordQuery(new URLSearchParams()));
+ assert.deepEqual(page.records[0].photo_ids,ids);
+ for(const key of ["owner_id","create_key","photo_ids_json"])assert.equal(key in page.records[0],false);
+ assert.deepEqual((await listRecordPage(db,"bob",parseRecordQuery(new URLSearchParams()))).records,[]);
+ db.sql.close();
+});
+test("写真省略と旧クライアントの同じ先頭写真は複数写真を保持する",async()=>{
+ const db=database(),ids=attach(db),r=await createRecord(db,"alice",input({photoIds:ids}));
+ const omitted=await updateRecord(db,"alice",r.id,input({revision:1}));
+ assert.deepEqual(publicRecord(omitted).photo_ids,ids);
+ const legacy=await updateRecord(db,"alice",r.id,input({revision:2,photoId:ids[0]}));
+ assert.deepEqual(publicRecord(legacy).photo_ids,ids);
+ const replaced=await updateRecord(db,"alice",r.id,input({revision:3,photoId:ids[1]}));
+ assert.deepEqual(publicRecord(replaced).photo_ids,[ids[1]]);
+ const cleared=await updateRecord(db,"alice",r.id,input({revision:4,photoId:""}));
+ assert.deepEqual(publicRecord(cleared).photo_ids,[]);assert.equal(cleared.photo_id,"");
+ db.sql.close();
+});
+test("写真の並べ替えと明示解除を保存し、古い版の更新を拒否する",async()=>{
+ const db=database(),ids=attach(db),r=await createRecord(db,"alice",input({photoIds:ids}));
+ const reordered=await updateRecord(db,"alice",r.id,input({revision:1,photoIds:[...ids].reverse()}));
+ assert.deepEqual(publicRecord(reordered).photo_ids,[...ids].reverse());assert.equal(reordered.photo_id,ids[1]);
+ await assert.rejects(()=>updateRecord(db,"alice",r.id,input({revision:1,photoIds:ids})),e=>e.status===409);
+ assert.deepEqual(publicRecord(await getRecord(db,"alice",r.id)).photo_ids,[...ids].reverse());
+ const cleared=await updateRecord(db,"alice",r.id,input({revision:2,photoIds:[]}));
+ assert.deepEqual(publicRecord(cleared).photo_ids,[]);assert.equal(cleared.photo_id,"");db.sql.close();
+});
+test("写真配列の再送は重複せず、順番の変更は競合になる",async()=>{
+ const db=database(),ids=attach(db),value=input({photoIds:ids}),r=await createRecord(db,"alice",value);
+ assert.equal((await createRecord(db,"alice",value)).id,r.id);
+ await assert.rejects(()=>createRecord(db,"alice",{...value,photoIds:[...ids].reverse()}),e=>e.status===409);
+ assert.equal((await listRecords(db,"alice")).length,1);db.sql.close();
+});
+test("写真配列の各所有者と形式・重複・上限・旧先頭指定との一致を検証する",async()=>{
+ const db=database(),ids=attach(db),other=attach(db,"bob",1)[0],r=await createRecord(db,"alice",input({photoIds:ids}));
+ for(const photoIds of [[ids[0],other],[ids[0],crypto.randomUUID()]]){
+  await assert.rejects(()=>createRecord(db,"alice",input({photoIds})),e=>e.status===404);
+  await assert.rejects(()=>updateRecord(db,"alice",r.id,input({revision:1,photoIds})),e=>e.status===404);
+ }
+ for(const photoIds of [null,"bad",["bad"],[ids[0],ids[0]],Array.from({length:13},()=>crypto.randomUUID())])assert.throws(()=>parseRecord(input({photoIds})),e=>e.status===422);
+ assert.throws(()=>parseRecord(input({photoIds:ids,photoId:ids[1]})),e=>e.status===422);
+ assert.throws(()=>parseRecord(input({photoIds:[],photoId:ids[0]})),e=>e.status===422);
+ assert.deepEqual(parseRecord(input({photoIds:ids,photoId:ids[0]})).photoIds,ids);
+ const max=attach(db,"alice",12),full=await createRecord(db,"alice",input({photoIds:max}));assert.deepEqual(publicRecord(full).photo_ids,max);
+ assert.deepEqual(publicRecord(await getRecord(db,"alice",r.id)).photo_ids,ids);db.sql.close();
+});
+test("複数写真の移行は既存の写真と写真なし記録を保持する",()=>{
+ const sql=new DatabaseSync(":memory:"),id=crypto.randomUUID(),emptyId=crypto.randomUUID(),photo=crypto.randomUUID();
+ for(const file of readdirSync(new URL("../drizzle/",import.meta.url)).filter(f=>f.endsWith(".sql")&&f<"0005").sort())sql.exec(readFileSync(new URL("../drizzle/"+file,import.meta.url),"utf8"));
+ for(const [recordId,photoId] of [[id,photo],[emptyId,""]])sql.prepare("INSERT INTO records(id,owner_id,create_key,scene_text,haiku_text,record_date,status,photo_id,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?,?,?)").run(recordId,"alice",crypto.randomUUID(),"scene","one\ntwo\nthree","2026-10-17","completed",photoId,"now","now");
+ for(const file of ["0005_record_photo_ids.sql"])sql.exec(readFileSync(new URL("../drizzle/"+file,import.meta.url),"utf8"));
+ assert.deepEqual(publicRecord(sql.prepare("SELECT * FROM records WHERE id=?").get(id)).photo_ids,[photo]);
+ assert.deepEqual(publicRecord(sql.prepare("SELECT * FROM records WHERE id=?").get(emptyId)).photo_ids,[]);sql.close();
 });

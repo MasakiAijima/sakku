@@ -1,6 +1,7 @@
 'use client';
 
 import {useEffect,useRef,useState} from 'react';
+import HaikuView,{displayDate,inclusiveEnd} from './haiku-view';
 import {seasonalYear,type SeasonalOrbit} from '../shared/seasonal-orbit';
 import {watchSeasonalOrbit} from '../shared/seasonal-orbit-browser';
 import type {SeasonalArt} from '../shared/seasonal-art';
@@ -8,19 +9,30 @@ import {mountSeasonalArt,type SeasonalArtController} from '../shared/seasonal-ar
 
 type KouName={id:string;name:string;reading:string;sekki:string};
 const statusNames={upcoming:'未到来',current:'いまの候',visited:'訪問済み'};
-export default function SeasonalOrbitView({calendar,names,years,art}:{calendar:unknown;names:KouName[];years:number[];art:SeasonalArt|null}) {
-  const [view,setView]=useState({home:true,english:false});
+export default function SeasonalOrbitView({calendar,names,art}:{calendar:unknown;names:KouName[];years:number[];art:SeasonalArt|null}) {
+  const [view,setView]=useState({home:true,english:false,username:'',haikuLanguage:'English'});
+  const [mode,setMode]=useState<'orbit'|'haiku'>('orbit');
+  const [latestRequest,setLatestRequest]=useState(0);
   useEffect(()=>{
-    const refresh=()=>setView({home:document.documentElement.dataset.sakkuScreen==='home',english:document.documentElement.dataset.sakkuLanguage==='English'});
-    refresh();window.addEventListener('sakku-view-change',refresh);
+    const refresh=()=>setView({home:document.documentElement.dataset.sakkuScreen==='home',english:document.documentElement.dataset.sakkuLanguage==='English',username:document.documentElement.dataset.sakkuUsername??'',haikuLanguage:document.documentElement.dataset.sakkuHaikuLanguage??'English'});
+    refresh();window.addEventListener('sakku-view-change',refresh);window.dispatchEvent(new Event('sakku-home-ready'));
     return ()=>window.removeEventListener('sakku-view-change',refresh);
   },[]);
   const text=(ja:string,en:string)=>view.english?en:ja;
-  const status=(kind:keyof typeof statusNames)=>view.english?{upcoming:'Upcoming',current:'Current',visited:'Visited'}[kind]:statusNames[kind];
-  const [year,setYear]=useState('current');
+  const year='current';
   const [orbit,setOrbit]=useState<SeasonalOrbit|null>(null);
   const [selected,setSelected]=useState<string|null>(null);
   const svgRef=useRef<SVGSVGElement>(null);
+  const viewportRef=useRef<HTMLDivElement>(null);
+  const sceneRef=useRef<HTMLDivElement>(null);
+  const switchRef=useRef<HTMLElement>(null);
+  useEffect(()=>{
+    const element=switchRef.current;
+    if(!element)return;
+    const observer=new ResizeObserver(()=>element.parentElement?.style.setProperty('--home-switch-height',`${element.getBoundingClientRect().height}px`));
+    observer.observe(element);
+    return ()=>observer.disconnect();
+  },[]);
   const controller=useRef<SeasonalArtController|null>(null);
   const labels=useRef({names,english:view.english});
   useEffect(()=>{labels.current={names,english:view.english};},[names,view.english]);
@@ -80,25 +92,37 @@ export default function SeasonalOrbitView({calendar,names,years,art}:{calendar:u
     return ()=>{stop();window.removeEventListener('focus',refreshYear);window.removeEventListener('pageshow',refreshYear);document.removeEventListener('visibilitychange',refreshYear);};
   },[calendar,year]);
   const slots=orbit?.kind==='ready'?orbit.slots:[];
-  const details=slots.find(slot=>slot.id===selected);
-  const name=names.find(item=>item.id===selected);
-
-  return <section hidden={!view.home} className="seasonal-orbit" aria-labelledby="orbit-heading">
-    <div className="orbit-heading"><div><p className="eyebrow">SEASONAL ORBIT</p><h2 id="orbit-heading">{text('季節のめぐり','Seasonal orbit')}</h2></div>
-      <label>{text('季節年','Seasonal year')}<select aria-label={text('季節年','Seasonal year')} value={year} onChange={event=>setYear(event.target.value)}><option value="current">{text('現在の季節年','Current seasonal year')}</option>{years.map(value=><option key={value} value={value}>{value} · {text("立春から","from Risshun")}</option>)}</select></label></div>
-    <p className="hint">{text('訪れた候は、記録の有無にかかわらず色づきます。これからの候はアクセントのかけらで待っています。','Microseasons gain color as they arrive, whether you write or not. Upcoming ones wait as small accents.')}</p>
-    {offlineReady&&<p className="hint">{text('季節の表示をオフラインで利用できます。','Seasonal artwork is available offline.')}</p>}
-    {!orbit?<p role="status">{text('季節暦を読み込んでいます…','Loading the seasonal calendar…')}</p>:orbit.kind==='unavailable'?<p role="status">{text('この季節年の暦を利用できません。対応する年を選択してください。','Calendar unavailable for this seasonal year. Choose a supported year.')}</p>:<>
-      {artStatus&&artStatus!=='七十二候の画像を読み込みました。'&&<p role="status">{text(artStatus,'Some seasonal images are unavailable; showing available still artwork.')}</p>}
-      <p className="orbit-progress">{slots.filter(slot=>slot.completed).length} / 72 {text('候が到来','microseasons arrived')} · {text('いまの候','Current')}: {names.find(item=>item.id===slots.find(slot=>slot.kind==='current')?.id)?.name??'—'}</p>
-      {art?<svg ref={svgRef} className="orbit-svg" viewBox="0 0 700 700" role="group" aria-label={text(`${orbit.year}年の72候。候の選択には下の一覧も使えます。`,`${orbit.year}: 72 microseasons. You can also choose a microseason from the list below.`)}/>:<p role="status">{text('承認済みの季節画像を利用できません。','Approved seasonal artwork is unavailable.')}</p>}
-      <label className="orbit-select-label" htmlFor="orbit-selection">{text('候を選ぶ（一覧）','Choose a microseason (list)')}</label>
-      <select id="orbit-selection" value={selected??''} onChange={event=>setSelected(event.target.value||null)}><option value="">{text('72候から選択','Choose from 72 microseasons')}</option>{slots.map(slot=>{
-        const title=names.find(value=>value.id===slot.id);
-        return <option key={slot.id} value={slot.id}>{slot.order} · {title?.name}（{title?.reading}） · {status(slot.kind)}</option>;
-      })}</select>
-      <p role="status" className="orbit-detail" data-selected-id={details?.id??''}>{details&&name?`${name.name}（${name.reading}） · ${name.sekki} · ${details.startDate} → ${details.endDate} (${text("終了日を含まない","end excluded")}) · ${status(details.kind)}`:text('図または一覧から候を選ぶと、候名と期間を表示します。','Choose a microseason on the orbit or list to see its name and dates.')}</p>
-
-    </>}
+  const current=slots.find(slot=>slot.kind==='current');
+  const currentName=names.find(item=>item.id===current?.id);
+  const placement=art?.assets.find(item=>item.kouId===current?.id)?.placement;
+  useEffect(()=>{
+    const viewport=viewportRef.current,scene=sceneRef.current,svg=svgRef.current;
+    if(!viewport||!scene||!svg||!view.home||mode!=='orbit')return;
+    const center=()=>{
+      const width=viewport.clientWidth,height=viewport.clientHeight;
+      const scale=Math.max(width,height)/250;
+      scene.style.width=`${700*scale+width}px`;scene.style.height=`${700*scale+height}px`;
+      svg.style.width=`${700*scale}px`;svg.style.height=`${700*scale}px`;
+      svg.style.left=`${width/2}px`;svg.style.top=`${height/2}px`;
+      viewport.scrollLeft=(placement?.x??350)*scale;viewport.scrollTop=(placement?.y??350)*scale;
+    };
+    center();const observer=new ResizeObserver(center);observer.observe(viewport);
+    return ()=>observer.disconnect();
+  },[current?.id,placement?.x,placement?.y,mode,view.home,art]);
+  return <section hidden={!view.home} className="mobile-home" data-home-mode={mode} data-react-home="true">
+    <div hidden={mode!=='orbit'} className="orbit-view" aria-label="Orbit view">
+      {!orbit?<p className="home-status" role="status">{text('季節暦を読み込んでいます…','Loading the seasonal calendar…')}</p>:orbit.kind==='unavailable'?<p className="home-status" role="status">{text('現在の季節暦を利用できません。','The current seasonal calendar is unavailable.')}</p>:<>
+        <div ref={viewportRef} className="orbit-viewport" tabIndex={0} role="region" aria-label={text('72候の円をスクロール','Scroll the 72 microseasons orbit')}>
+          <div ref={sceneRef} className="orbit-scene" inert>
+          {art?<svg ref={svgRef} className="orbit-svg" viewBox="0 0 700 700" aria-hidden="true" preserveAspectRatio="xMidYMid slice" role="group" aria-label={text(`${orbit.year}年の72候。現在は${currentName?.name??''}。`,`${orbit.year}: 72 microseasons. Current: ${currentName?.name??''}.`)}/>:<p role="status">{text('季節画像を利用できません。','Seasonal artwork is unavailable.')}</p>}
+          </div>
+        </div>
+        {current&&currentName&&<div className="current-kou" data-current-kou={current.id}><h1><span>{currentName.sekki} {current.position===1?'初候':current.position===2?'次候':'末候'}</span>{currentName.name}</h1><p className="kou-reading">{currentName.reading}</p><p className="kou-period">{displayDate(current.startDate)} –<br/>{displayDate(inclusiveEnd(current.endDate))}</p></div>}
+        {artStatus&&artStatus!=='七十二候の画像を読み込みました。'&&<p className="art-status" role="status">{text(artStatus,'Some seasonal images are unavailable.')}</p>}
+      </>}
+    </div>
+    <div hidden={mode!=='haiku'}>{orbit?.kind==='ready'?<HaikuView slots={slots} names={names} art={art} english={view.english} username={view.username} latestRequest={latestRequest} active={mode==='haiku'&&view.home} haikuLanguage={view.haikuLanguage}/>:<p className="home-status" role="status">{!orbit?text('季節暦を読み込んでいます…','Loading the seasonal calendar…'):text('現在の季節暦を利用できません。','The current seasonal calendar is unavailable.')}</p>}</div>
+    {offlineReady&&<span className="sr-only">{text('季節の表示をオフラインで利用できます。','Seasonal artwork is available offline.')}</span>}
+    <nav ref={switchRef} className="home-switch" aria-label={text('表示切り替え','Switch view')}><button aria-label="Orbit view" aria-pressed={mode==='orbit'} onClick={()=>setMode('orbit')}><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" strokeWidth="1.5"/></svg></button><button aria-label="Haiku view" aria-pressed={mode==='haiku'} onClick={()=>{setMode('haiku');setLatestRequest(value=>value+1);}}><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" aria-hidden="true"><line x1="7" y1="6" x2="17" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="7" y1="18" x2="17" y2="18"/></svg></button></nav>
   </section>;
 }

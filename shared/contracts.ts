@@ -4,6 +4,7 @@ export type RecordInput = {
   sceneText: string; haikuText: string; recordDate: string; status: RecordStatus;
   eventText?: string; emotionText?: string;
   photoId?: string;
+  photoIds?: string[];
 };
 export type CreateRecordInput = RecordInput & {createKey: string};
 export type UpdateRecordInput = RecordInput & {revision: number};
@@ -11,7 +12,7 @@ export type UpdateRecordInput = RecordInput & {revision: number};
 export type RecordView = {
   id: string; scene_text: string; haiku_text: string; record_date: string;
   event_text: string; emotion_text: string; status: RecordStatus; revision: number;
-  photo_id: string;
+  photo_id: string; photo_ids: string[];
   generation_job_id: string | null; selected_candidate_index: number | null;
   created_at: string; updated_at: string;
 };

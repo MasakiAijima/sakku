@@ -1,9 +1,9 @@
 'use client';
 
 import {useEffect,useRef,useState} from 'react';
+import {browserAsset} from './browser-assets';
 import {z} from 'zod';
 import Image from 'next/image';
-import {browserAsset} from './browser-assets';
 import HaikuCard from './haiku-card';
 import type {OrbitSlot} from '../../shared/seasonal-orbit';
 import type {SeasonalArt} from '../../shared/seasonal-art';
@@ -13,13 +13,13 @@ const pageSchema=z.object({records:z.array(recordSchema),nextCursor:z.string().n
 type HaikuRecord=z.infer<typeof recordSchema>;
 type Query={kind:'loading'}|{kind:'error';message:string}|{kind:'ready';records:HaikuRecord[]};
 type Entry={key:string;slot:OrbitSlot;record:HaikuRecord|null};
-export type HomeCommand={kind:'settings'}|{kind:'resume'}|{kind:'compose';date:string}|{kind:'recompose';id:string};
+export type HomeCommand={kind:'settings'}|{kind:'compose';date:string}|{kind:'recompose';id:string};
 export function homeCommand(command:HomeCommand){window.dispatchEvent(new CustomEvent('sakku-home-command',{detail:command}));}
 export function todayInTokyo(){const parts=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Tokyo',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());return ['year','month','day'].map(type=>parts.find(part=>part.type===type)?.value??'').join('-');}
 export function inclusiveEnd(date:string){return new Date(Date.parse(`${date}T00:00:00Z`)-86400000).toISOString().slice(0,10);}
 export function displayDate(date:string){const instant=new Date(`${date}T00:00:00Z`);const day=instant.getUTCDate();const ending=day%100>=11&&day%100<=13?'th':day%10===1?'st':day%10===2?'nd':day%10===3?'rd':'th';return `${day}${ending}, ${new Intl.DateTimeFormat('en',{month:'long',timeZone:'UTC'}).format(instant)}, ${instant.getUTCFullYear()}`;}
 
-export default function HaikuView({slots,names,art,english,username,latestRequest,active,hasDraft}:{slots:OrbitSlot[];names:{id:string;name:string}[];art:SeasonalArt|null;english:boolean;username:string;latestRequest:number;active:boolean;hasDraft:boolean}){
+export default function HaikuView({slots,names,art,english,username,latestRequest,active,haikuLanguage}:{slots:OrbitSlot[];names:{id:string;name:string}[];art:SeasonalArt|null;english:boolean;username:string;latestRequest:number;active:boolean;haikuLanguage:string}){
   const [snapshot,setSnapshot]=useState<{request:string;result:Query}>({request:'',result:{kind:'loading'}});
   const [revision,setRevision]=useState(0);
   const [selection,setSelection]=useState<{key:string|null;request:number}>({key:null,request:latestRequest});
@@ -70,13 +70,12 @@ export default function HaikuView({slots,names,art,english,username,latestReques
       }}>{entries.map((value,index)=>{
         const name=names.find(item=>item.id===value.slot.id)?.name??value.slot.id;
         const asset=art?.assets.find(item=>item.kouId===value.slot.id);
-        return <button key={value.key} data-entry-index={index} data-kou-id={value.slot.id} data-record-id={value.record?.id??''} aria-pressed={value.key===entry?.key} aria-label={`${name}${value.record?` · ${value.record.record_date}`:text(' · Haikuなし',' · No haiku')}`} onClick={()=>select(value.key)}>{asset?<Image width={64} height={64} unoptimized src={browserAsset(`seasonal-assets/releases/${art?.version}/${asset.completed}`)} alt=""/>:<span aria-hidden="true">◯</span>}</button>;
+        return <button key={value.key} data-entry-index={index} data-kou-id={value.slot.id} data-record-id={value.record?.id??''} aria-pressed={value.key===entry?.key} aria-label={`${name} · ${value.record?.record_date??value.slot.startDate}${value.record?'':text(' · Haikuなし',' · No haiku')}`} onClick={()=>select(value.key)}>{asset?<Image width={64} height={64} unoptimized src={browserAsset(`seasonal-assets/releases/${art?.version}/${asset.completed}`)} alt=""/>:<span aria-hidden="true">◯</span>}<small className="timeline-date">{!value.record&&value.slot.kind==='current'?'today':new Intl.DateTimeFormat(english?'en':'ja',{month:english?'short':'numeric',day:'numeric',timeZone:'UTC'}).format(new Date(`${value.record?.record_date??value.slot.startDate}T00:00:00Z`))}</small></button>;
       })}</div>
       {entry&&<div className="haiku-page" key={entry.key}>
-        {entry.record?<HaikuCard key={JSON.stringify([entry.record.id,english,entry.record.haiku_text])} record={{...entry.record,photo_ids:entry.record.photo_ids??(entry.record.photo_id?[entry.record.photo_id]:[])}} english={english} username={username} date={displayDate(entry.record.record_date)} onRecompose={()=>entry.record&&homeCommand({kind:'recompose',id:entry.record.id})}/>:<button className="compose-empty" onClick={compose}><span aria-hidden="true">＋</span><span>tap to compose</span></button>}
+        {entry.record?<HaikuCard key={JSON.stringify([entry.record.id,english,entry.record.haiku_text])} record={{...entry.record,photo_ids:entry.record.photo_ids??(entry.record.photo_id?[entry.record.photo_id]:[])}} english={english} username={username} active={active} haikuLanguage={haikuLanguage} onRecompose={()=>entry.record&&homeCommand({kind:'recompose',id:entry.record.id})}/>:<button className="compose-empty" onClick={compose}><span aria-hidden="true">＋</span><span>tap to compose</span></button>}
       </div>}
       {entry&&<button className="compose-fab" aria-label={text('Haikuを書く','Compose a haiku')} onClick={compose}>＋</button>}
-      {hasDraft&&<button className="resume-draft secondary" onClick={()=>homeCommand({kind:'resume'})}>{text('書きかけを続ける','Resume draft')}</button>}
     </>}
   </section>;
 }

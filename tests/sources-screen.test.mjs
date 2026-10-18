@@ -14,7 +14,7 @@ await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
 const browser=await chromium.launch({headless:true,channel:process.env.BROWSER_CHANNEL || 'chrome'});
 try{
  const page=await browser.newPage({viewport:{width:320,height:900}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
- await page.goto('http://127.0.0.1:'+server.address().port);await page.locator('#period-kind').waitFor();
+ await page.goto('http://127.0.0.1:'+server.address().port);await page.waitForFunction(()=>document.documentElement.dataset.sakkuScreen==='home');
  await page.locator('nav [data-go=setting]').click();await page.locator('[data-go=sources]').click();
  const text=await page.locator('main').innerText();assert.match(text,/本朝七十二候・伊勢神宮略本暦準拠/);
  const years=manifest.coverage.calendarYears;assert.ok(text.includes(`暦年${years[0]}年〜${years.at(-1)}年`));assert.deepEqual(manifest.coverage.seasonalYears,years);

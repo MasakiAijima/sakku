@@ -35,12 +35,12 @@ await page.route('**/api/**',async route=>{
  await route.fulfill({json:data});
 });
 async function submit(){await page.locator('#period-form button[type=submit]').click();await page.waitForFunction(()=>!document.querySelector('#period-kind').disabled)}
-async function home(){await page.locator('nav [data-go=home]').click();await page.locator('#period-kind').waitFor()}
+async function home(){await page.locator('nav [data-go=setting]').click();await page.locator('[data-go=archive]').click();await page.locator('#period-kind').waitFor()}
 function luminance(hex){const values=hex.trim().replace('#','').match(/../g).map(x=>parseInt(x,16)/255).map(x=>x<=.04045?x/12.92:((x+.055)/1.055)**2.4);return values[0]*.2126+values[1]*.7152+values[2]*.0722}
 function contrast(a,b){const values=[luminance(a),luminance(b)].sort((a,b)=>a-b);return (values[1]+.05)/(values[0]+.05)}
 async function overflow(){assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>window.innerWidth),false,'page has horizontal overflow')}
 try{
- await page.goto(base);await page.locator('#period-kind').waitFor();
+ await page.goto(base+'/signin-with-chatgpt?return_to=%2F');await page.locator('.mobile-home').waitFor();await page.waitForFunction(()=>document.documentElement.dataset.sakkuScreen==='home');await home();
  const colors=await page.locator('body').evaluate(n=>Object.fromEntries(['muted','paper','soft','green'].map(k=>[k,getComputedStyle(n).getPropertyValue('--'+k)])));for(const bg of [colors.paper,colors.soft,'#fcfbf7'])assert.ok(contrast(colors.muted,bg)>=4.5,'muted text contrast');assert.ok(contrast('#ffffff',colors.green)>=4.5);
  const before=queries.length;
  await page.locator('#period-kind').selectOption('kou');
@@ -50,7 +50,7 @@ try{
  assert.equal(await page.locator('[data-detail]').count(),1);
  await page.locator('[data-detail]').first().click();await page.locator('#share-record').click();
  assert.equal(await page.locator('.share-card').innerText().then(x=>x.includes('Private')),false);
- await page.locator('#back-detail').click();await page.locator('main [data-go=home]').click();
+ await page.locator('#back-detail').click();await home();
  assert.equal(await page.locator('#period-kind').inputValue(),'kou');assert.equal(await page.locator('#period-from').inputValue(),'2024-02-29');
  await page.locator('#period-kind').selectOption('day');await page.locator('#period-date').fill('2024-02-29');await submit();
  assert.equal(queries.at(-1).searchParams.get('to'),'2024-03-01');
@@ -60,22 +60,26 @@ try{
  await page.locator('#period-kind').selectOption('sekki');await page.locator('#period-from').fill('2025-01-01');await page.locator('#period-to').fill('2025-02-01');await submit();
  assert.match(await page.locator('.empty').innerText(),/書かなかった日/);
  failArchive=true;await submit();assert.equal(await page.locator('.empty').count(),0);assert.match(await page.locator('main').innerText(),/Fixture archive failure/);failArchive=false;
- await page.locator('#new').click();assert.equal(await page.locator('.helper-inputs').getAttribute('open'),null);
- await page.locator('#scene').fill('My own scene');await page.locator('#date').fill('2024-03-02');await page.locator('.helper-inputs summary').click();await page.locator('#event').fill('private event');await page.locator('.helper-inputs summary').click();await page.locator('.helper-inputs summary').click();assert.equal(await page.locator('#event').inputValue(),'private event');
- await page.locator('#to-result').click();await page.locator('[data-candidate]').first().waitFor();await page.locator('[data-candidate="0"]').click();await page.waitForFunction(()=>!document.querySelector('#save').disabled);
- const edited='edited line\nsecond line\nthird line';await page.locator('#poem').fill(edited);
- await page.locator('[data-candidate="0"]').click();assert.equal(await page.locator('#poem').inputValue(),edited);
- await page.locator('[data-candidate="0"]').click();assert.equal(await page.locator('#poem').inputValue(),edited);
- failGeneration=true;await page.locator('#regenerate').click();await page.waitForFunction(()=>!document.querySelector('#regenerate').disabled);assert.equal(await page.locator('#poem').inputValue(),edited);failGeneration=false;
- await page.locator('main [data-go=edit]').click();await page.locator('#scene').fill('  My own scene  ');await page.locator('#to-result').click();assert.equal(await page.locator('#save').isDisabled(),false,'surrounding whitespace does not stale the selection');assert.equal(await page.locator('[data-candidate="0"]').isDisabled(),false);
- await page.locator('main [data-go=edit]').click();await page.locator('#scene').fill('Changed scene');await page.locator('#to-result').click();assert.equal(await page.locator('#save').isDisabled(),true);
- assert.equal(await page.locator('[data-candidate="0"]').isDisabled(),true);assert.equal(await page.locator('#poem').getAttribute('readonly'),'');assert.equal(await page.locator('#refine-send').isDisabled(),true);
- await page.locator('#draft-save').click();await page.waitForFunction(()=>!document.querySelector('#draft-save').disabled);assert.equal(saves.at(-1).status,'draft');assert.equal(saves.at(-1).generationJobId,'');assert.equal(saves.at(-1).haikuText,'','stale poem is not reintroduced when a draft is reopened');assert.equal(saves.at(-1).selectedCandidateIndex,undefined);assert.equal(await page.locator('#save').isDisabled(),true);
- await home();await page.locator('#period-kind').selectOption('all');await page.waitForFunction(()=>!document.querySelector('#period-kind').disabled);await page.locator('[data-detail="00000000-0000-4000-8000-000000000002"]').click();await page.locator('#to-result').click();await page.locator('[data-candidate="2"]').waitFor();assert.equal(await page.locator('#save').isDisabled(),true,'reopened stale draft requires a new candidate selection');await page.locator('[data-candidate="2"]').click();await page.waitForFunction(()=>!document.querySelector('#save').disabled);await page.locator('#poem').fill(edited);
- await page.locator('#save').click();await page.locator('#share-record').waitFor();assert.equal(saves.at(-1).status,'completed');assert.equal(saves.at(-1).haikuText,edited);assert.equal(saves.at(-1).selectedCandidateIndex,2);assert.equal(saves.at(-1).sceneText,'Changed scene');
- await page.locator('#edit-record').click();await page.locator('#to-result').click();await page.locator('#save').click();await page.locator('#share-record').waitFor();assert.equal(saves.at(-1).selectedCandidateIndex,2,'reopening a saved record preserves its original candidate index');assert.equal(saves.at(-1).generationJobId,'00000000-0000-4000-8000-000000000003');
+ await page.locator('#new').click();
+ await page.locator('#scene').fill('My own scene');assert.equal(await page.locator('#date').count(),0);
+ await page.locator('#draft-save').click();await page.waitForFunction(()=>!document.querySelector('#draft-save').disabled);
+ assert.equal(saves.at(-1).status,'draft');assert.equal(saves.at(-1).sceneText,'My own scene');
+ await page.locator('#to-result').click();await page.locator('[data-candidate="0"]').waitFor();
+ await page.locator('[data-candidate="0"]').click();await page.waitForFunction(()=>!document.querySelector('#save').disabled);
+ await page.getByRole('button',{name:'情景に戻る',exact:true}).click();
+ await page.locator('#scene').fill('  My own scene  ');await page.locator('#to-result').click();
+ assert.equal(await page.locator('#save').isDisabled(),false,'Surrounding whitespace keeps the selected candidate');
+ await page.getByRole('button',{name:'情景に戻る',exact:true}).click();await page.locator('#scene').fill('Changed scene');
+ failGeneration=true;await page.locator('#to-result').click();
+ await page.getByRole('alert').filter({hasText:'Fixture generation failure'}).waitFor();
+ assert.equal(await page.locator('#save').isDisabled(),true,'Old candidates cannot post a changed scene');
+ failGeneration=false;await page.locator('#regenerate').click();await page.locator('[data-candidate="2"]:not([disabled])').waitFor();
+ await page.locator('[data-candidate="2"]').click();await page.locator('#save').click();await page.locator('#share-record').waitFor();
+ assert.equal(saves.at(-1).status,'completed');assert.equal(saves.at(-1).haikuText,'line 2\nsecond\nthird');assert.equal(saves.at(-1).selectedCandidateIndex,2);assert.equal(saves.at(-1).sceneText,'Changed scene');
+ await page.locator('#edit-record').click();await page.locator('#to-result').click();await page.locator('#save').click();await page.locator('#share-record').waitFor();
+ assert.equal(saves.at(-1).selectedCandidateIndex,2,'Reopening preserves the original candidate index');assert.equal(saves.at(-1).generationJobId,'00000000-0000-4000-8000-000000000003');
  await home();await page.locator('#period-kind').selectOption('sekki');await page.locator('#period-from').fill('2025-01-01');await page.locator('#period-to').fill('2025-02-01');await submit();assert.equal(await page.locator('[data-detail]').count(),0,'out-of-range save must not appear in scoped archive');
- await page.locator('#period-kind').selectOption('kou');const unreadyQueries=queries.length;await page.locator('#new').click();await page.locator('#scene').fill('Unready period draft');await page.locator('#draft-save').click();await page.waitForFunction(()=>!document.querySelector('#draft-save').disabled);await home();assert.equal(queries.length,unreadyQueries);assert.equal(await page.locator('[data-detail]').count(),0);assert.equal(await page.locator('.empty').count(),0);
+ await page.locator('#period-kind').selectOption('kou');const archiveQueryCount=()=>queries.filter(url=>url.searchParams.get('from')==='2025-01-01'&&url.searchParams.get('to')==='2025-02-01').length;const unreadyQueries=archiveQueryCount();await page.locator('#new').click();await page.locator('#scene').fill('Unready period draft');await page.locator('#draft-save').click();await page.waitForFunction(()=>!document.querySelector('#draft-save').disabled);await home();assert.equal(archiveQueryCount(),unreadyQueries);assert.equal(await page.locator('[data-detail]').count(),0);assert.equal(await page.locator('.empty').count(),0);
  await page.locator('#period-kind').selectOption('all');await page.waitForFunction(()=>!document.querySelector('#period-kind').disabled);
  await page.locator('.visual-comparison summary').click();assert.equal(await page.locator('.visual-sample').count(),6);
  assert.equal(await page.locator('header').count(),1);await page.locator('#toast').waitFor({state:'hidden'});

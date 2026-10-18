@@ -1,9 +1,10 @@
 import {z} from 'zod';
+import {haikuParametersSchema} from '../lib/haiku-prompt';
 import type {RecordView} from '../shared/contracts';
 import type {HaikuCandidate} from '../shared/haiku';
 
 const recordSchema=z.object({id:z.string().uuid(),scene_text:z.string(),haiku_text:z.string(),record_date:z.string(),event_text:z.string(),emotion_text:z.string(),status:z.enum(['draft','completed']),revision:z.number().int(),photo_id:z.string(),photo_ids:z.array(z.string().uuid()),generation_job_id:z.string().nullable(),selected_candidate_index:z.number().nullable(),created_at:z.string(),updated_at:z.string()});
-const settingsSchema=z.object({name:z.string(),style:z.string(),expression:z.string(),appLanguage:z.enum(['日本語','English'])});
+const settingsSchema=z.object({name:z.string(),style:z.string(),expression:z.string(),appLanguage:z.enum(['日本語','English']),language:z.literal('English').default('English'),parameters:haikuParametersSchema.default({})});
 const candidateSchema=z.object({id:z.string(),title:z.string(),lines:z.tuple([z.string(),z.string(),z.string()])});
 const jobSchema=z.object({id:z.string(),requestKey:z.string(),status:z.literal('succeeded'),created_at:z.string(),provider:z.literal('demo'),model:z.literal('fixed-samples'),input:z.object({sceneText:z.string()}),output:z.object({candidates:z.array(candidateSchema)})});
 const stateSchema=z.object({version:z.literal(1),records:z.array(recordSchema),settings:settingsSchema,jobs:z.array(jobSchema),photos:z.record(z.string()),creates:z.record(z.string())});

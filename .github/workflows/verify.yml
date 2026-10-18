@@ -45,6 +45,8 @@ jobs:
         run: |
           npm install --prefix "$RUNNER_TEMP/browser-test" --package-lock=false --ignore-scripts playwright@1.64.0
           node "$RUNNER_TEMP/browser-test/node_modules/playwright/cli.js" install --with-deps chrome
+      - name: Apply local app migrations
+        run: pnpm db:local
       - name: Start local app
         run: |
           pnpm dev > "$RUNNER_TEMP/sakku-dev.log" 2>&1 &
@@ -66,9 +68,14 @@ jobs:
           pnpm test:screen
           node tests/sources-screen.test.mjs
           node tests/seasonal-home-live.test.mjs
+          node tests/card-home-live.test.mjs
+          node tests/compose-wf-live.test.mjs
+          node tests/haiku-settings-live.test.mjs
+          node tests/haiku-settings-integration-live.test.mjs
         env:
           PLAYWRIGHT_MODULE: ${{ runner.temp }}/browser-test/node_modules/playwright/index.mjs
           SCREENSHOT_DIR: .test-artifacts
+          TEST_BASE_URL: http://127.0.0.1:5173
       - name: Stop local app
         if: always()
         run: |
